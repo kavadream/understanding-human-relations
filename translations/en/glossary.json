@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "source_language": "zh-CN",
+  "source_commit": "9e1ee2e843b47506e252ce24b7296431242008de",
+  "status": "english-reader-editorial-working-glossary",
+  "note": "按当前中文正文整理的编辑性释义，不新增研究理论。英文仅供后续译者比较，未做目标语验收。相关章为代表位置，非穷尽索引。",
+  "terms": [
+    {
+      "id": "TERM-001",
+      "zh": "边界",
+      "definition_zh": "一个人在特定交往或任务中愿意、能够承担的范围，以及不接受哪些额外要求。",
+      "use_boundary_zh": "说明边界不取消真实承诺或共同责任，也不保证别人同意；不是替别人决定能否拒绝。",
+      "related_chapter_ids": [
+        9
+      ],
+      "english_candidates": [
+        "boundary",
+        "personal boundary"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "boundaries",
+      "translation_note": "Use a boundary in singular contexts; avoid turning a context-dependent limit into a fixed personality trait."
+    },
+    {
+      "id": "TERM-002",
+      "zh": "自尊",
+      "definition_zh": "对自己有价值的感受；面对具体意见时，不必把一次不足看成整个人都没有价值。",
+      "use_boundary_zh": "不等于永远正确、优越感或不能被批评；本书不据此作人格或临床诊断。",
+      "related_chapter_ids": [
+        2
+      ],
+      "english_candidates": [
+        "self-esteem"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "self-esteem",
+      "translation_note": "Use self-esteem for 自尊 as a psychological concept. Use dignity for 尊严 and self-worth for 自我价值; do not collapse these distinctions into self-respect."
+    },
+    {
+      "id": "TERM-003",
+      "zh": "关系期待",
+      "definition_zh": "一个人认为某段关系中应有怎样的关心、互助与参与方式。",
+      "use_boundary_zh": "期待不等于对方已经同意某项工作，不能用文化、技能或熟悉程度替本人答应。",
+      "related_chapter_ids": [
+        5
+      ],
+      "english_candidates": [
+        "relationship expectations",
+        "expectations within a relationship"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "relationship expectations",
+      "translation_note": "Use expectations within a relationship when a reader might otherwise understand relationship expectations as a desired outcome or dating preference. Expectations do not establish consent or an agreed duty."
+    },
+    {
+      "id": "TERM-004",
+      "zh": "公平",
+      "definition_zh": "对机会、资源和成本怎样分配才算合理的判断；需要说明采用的原则和实际条件。",
+      "use_boundary_zh": "不自动等于平均分配或先到先得；个人利益可能影响判断，但不同意见本身不能证明偏差。",
+      "related_chapter_ids": [
+        6
+      ],
+      "english_candidates": [
+        "fairness"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "fairness"
+    },
+    {
+      "id": "TERM-005",
+      "zh": "利益",
+      "definition_zh": "要求背后想维护的需要或条件，包括时间、资源、劳动、安排与合作目标。",
+      "use_boundary_zh": "不只指金钱或利润；理解利益不会凭空增加资源，也不表示必须满足一切要求。",
+      "related_chapter_ids": [
+        6,
+        8
+      ],
+      "english_candidates": [
+        "interests",
+        "underlying interests"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "interests",
+      "translation_note": "In negotiation contexts, interests means the needs or concerns behind a stated position, not just financial gain. Do not translate all occurrences as benefits."
+    },
+    {
+      "id": "TERM-006",
+      "zh": "承诺",
+      "definition_zh": "已经明确接受的任务或安排，应结合范围、时间和双方实际说过的话核对。",
+      "use_boundary_zh": "不能从感谢、关系身份、沉默或含混回答中暗增任务；确已答应的变更仍需处理影响。",
+      "related_chapter_ids": [
+        5,
+        9,
+        11
+      ],
+      "english_candidates": [
+        "commitment"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "commitment",
+      "translation_note": "Use commitment or what someone has agreed to do. Reserve promise for an explicit promise; do not make an ambiguous response stronger than the Chinese."
+    },
+    {
+      "id": "TERM-007",
+      "zh": "责任",
+      "definition_zh": "结合已经承担的任务和当时能做的事，说明具体失误、影响以及需要处理的后果。",
+      "use_boundary_zh": "理解原因不自动免除责任，也不能不问能力和条件就把全部后果归给一个人；并非法律责任判断。",
+      "related_chapter_ids": [
+        3,
+        4,
+        12,
+        13
+      ],
+      "english_candidates": [
+        "responsibility",
+        "accountability"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "responsibility",
+      "translation_note": "Use accountability when emphasizing answering for an action; do not imply legal liability."
+    },
+    {
+      "id": "TERM-008",
+      "zh": "信任",
+      "definition_zh": "在某项任务和风险下，愿意依赖对方的具体程度，需要结合善意、能力和实际进展判断。",
+      "use_boundary_zh": "不等于喜欢、原谅或全面恢复合作；可按任务缩小依赖，不作人格总评。",
+      "related_chapter_ids": [
+        11,
+        12
+      ],
+      "english_candidates": [
+        "trust"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "trust",
+      "translation_note": "Use trust in a specified person, task, or domain. Do not translate the book’s practical definition as if it were a validated scale or identical to every cited theoretical model."
+    },
+    {
+      "id": "TERM-009",
+      "zh": "事实",
+      "definition_zh": "能够具体核对的事件、行为或记录，需要与对动机和原因的猜想分开。",
+      "use_boundary_zh": "现有记录可能不完整；看到一个结果不等于知道全部原因，核对也不授权无限调查隐私。",
+      "related_chapter_ids": [
+        1,
+        3,
+        15
+      ],
+      "english_candidates": [
+        "facts",
+        "verifiable facts"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "facts"
+    },
+    {
+      "id": "TERM-010",
+      "zh": "猜测",
+      "definition_zh": "根据部分经过形成、尚需核对的想法，应允许后来查明的情况使自己重新考虑。",
+      "use_boundary_zh": "不是故意撒谎的同义词；承认尚未查清不等于否定情绪或放弃必要保护。",
+      "related_chapter_ids": [
+        3
+      ],
+      "english_candidates": [
+        "assumption",
+        "tentative interpretation"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "assumption",
+      "translation_note": "Use guess or tentative interpretation where assumption would imply certainty; do not equate uncertainty with deliberate deception."
+    },
+    {
+      "id": "TERM-011",
+      "zh": "自主",
+      "definition_zh": "在实际条件中知情地决定是否接受、拒绝、继续或停止一项交往和任务。",
+      "use_boundary_zh": "不等于没有共同责任或忽略权力差距；对方点头不自动证明选择充分自由。",
+      "related_chapter_ids": [
+        10
+      ],
+      "english_candidates": [
+        "autonomy",
+        "self-directed choice"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "autonomy",
+      "translation_note": "Use autonomy in conceptual passages and the ability or freedom to choose in everyday prose. Preserve power constraints and existing responsibilities; do not imply unrestricted individual freedom."
+    },
+    {
+      "id": "TERM-012",
+      "zh": "迁移",
+      "definition_zh": "遇到表面不同的新情境，比较关键条件，再调整已学到的判断、做法或目标。",
+      "use_boundary_zh": "不等于照搬熟悉话术；AI演练顺利或能复述概念不能单独证明现实迁移。",
+      "related_chapter_ids": [
+        15
+      ],
+      "english_candidates": [
+        "transfer of learning",
+        "transfer"
+      ],
+      "english_status": "editorial-working-choice-pending-human-review",
+      "english_working_choice": "transfer of learning",
+      "translation_note": "Use transfer of learning when naming the concept; use applying what one has learned in a new situation in ordinary prose. Avoid migration, and do not equate remembering a familiar answer with successful transfer."
+    }
+  ],
+  "human_target_language_review": "not-run",
+  "review_note": "English terminology reviewed editorially against the Chinese manuscript on 2026-11-02. This is AI-assisted editorial preparation, not human target-language approval or a completed translation."
+}

@@ -1,0 +1,147 @@
+{
+  "edition": "zh-CN-reader-1.0.0",
+  "title": "理解人性：关系、边界与合作",
+  "author": "KK",
+  "release_date": "2026-11-02",
+  "language": "zh-CN",
+  "source_revision": "9e1ee2e843b47506e252ce24b7296431242008de",
+  "reader_source_of_truth": "book.json plus the referenced chapter files and front/back matter",
+  "license": "CONTENT-LICENSE.md",
+  "english_status": "preparation-only in this release; no complete English edition claimed",
+  "chapters": [
+    {
+      "stable_id": "chapter-01",
+      "display_order": 1,
+      "title": "为什么明白道理仍然做不到",
+      "file": "manuscript/zh-CN/chapters/chapter-01.md",
+      "sha256": "c363d57c3ef50c9a14fb2b612707abc1dea30782d5712f9b95992987eec229ae"
+    },
+    {
+      "stable_id": "chapter-02",
+      "display_order": 2,
+      "title": "自尊怎样带来力量与防御",
+      "file": "manuscript/zh-CN/chapters/chapter-02.md",
+      "sha256": "89bc6d464b70e6517bc788cf6cc1c7147fd925018c025fb8a57ef8f892196982"
+    },
+    {
+      "stable_id": "chapter-03",
+      "display_order": 3,
+      "title": "我们怎样把猜测当作事实",
+      "file": "manuscript/zh-CN/chapters/chapter-03.md",
+      "sha256": "e412c3e600618827446d4d024b3780d53bdb304a1464755ef7e0ca8ad0f8a53f"
+    },
+    {
+      "stable_id": "chapter-04",
+      "display_order": 4,
+      "title": "同一个行为为什么有不同原因",
+      "file": "manuscript/zh-CN/chapters/chapter-04.md",
+      "sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771"
+    },
+    {
+      "stable_id": "chapter-05",
+      "display_order": 5,
+      "title": "关系、身份与文化怎样改变期待",
+      "file": "manuscript/zh-CN/chapters/chapter-05.md",
+      "sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6"
+    },
+    {
+      "stable_id": "chapter-06",
+      "display_order": 6,
+      "title": "利益、资源与规则怎样影响选择",
+      "file": "manuscript/zh-CN/chapters/chapter-06.md",
+      "sha256": "f2d418e61cc08e6a8fe42b5704328ceaddcebcda77316dad9accfeb074cb3583"
+    },
+    {
+      "stable_id": "chapter-16",
+      "display_order": 7,
+      "title": "为什么想帮忙，对方却觉得没有被听见",
+      "file": "manuscript/zh-CN/chapters/chapter-16.md",
+      "sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7"
+    },
+    {
+      "stable_id": "chapter-17",
+      "display_order": 8,
+      "title": "怎样表达关心、真诚认可并给予反馈",
+      "file": "manuscript/zh-CN/chapters/chapter-17.md",
+      "sha256": "ac41f5ad90fcc0fe22867d68c2ed3c5e65228db5d564284ca1a51db029c679d6"
+    },
+    {
+      "stable_id": "chapter-07",
+      "display_order": 9,
+      "title": "为什么有道理的话别人却听不进去",
+      "file": "manuscript/zh-CN/chapters/chapter-07.md",
+      "sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02"
+    },
+    {
+      "stable_id": "chapter-08",
+      "display_order": 10,
+      "title": "怎样表达不同意见并继续合作",
+      "file": "manuscript/zh-CN/chapters/chapter-08.md",
+      "sha256": "1da3e0aee2f06e74c1905d5cef606f059ac8ac92c51365c3e163f259c2a9886a"
+    },
+    {
+      "stable_id": "chapter-09",
+      "display_order": 11,
+      "title": "怎样拒绝并说明自己的边界",
+      "file": "manuscript/zh-CN/chapters/chapter-09.md",
+      "sha256": "4baea9efe2cfa00b602c3d2029bc3e33669dcbfc6d25037f1971e855de6725e6"
+    },
+    {
+      "stable_id": "chapter-10",
+      "display_order": 12,
+      "title": "怎样影响别人并审视自己受到的影响",
+      "file": "manuscript/zh-CN/chapters/chapter-10.md",
+      "sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64"
+    },
+    {
+      "stable_id": "chapter-11",
+      "display_order": 13,
+      "title": "善意失效以后怎样重新判断",
+      "file": "manuscript/zh-CN/chapters/chapter-11.md",
+      "sha256": "fe7e3283b8e4da78d457ac2b5ac4e86e484bd70ceeb321752db853b52b464db7"
+    },
+    {
+      "stable_id": "chapter-12",
+      "display_order": 14,
+      "title": "怎样承认错误并逐步修复信任",
+      "file": "manuscript/zh-CN/chapters/chapter-12.md",
+      "sha256": "9fbf731a02405543b6f8552a5a429adf3f7718125990e3efa941669d67e426d8"
+    },
+    {
+      "stable_id": "chapter-13",
+      "display_order": 15,
+      "title": "怎样理解原谅、责任与关系的未来",
+      "file": "manuscript/zh-CN/chapters/chapter-13.md",
+      "sha256": "00bec610c8dc0db83a8438972d75d2fcbe9fab9fbe4a01ffa271d3272347af76"
+    },
+    {
+      "stable_id": "chapter-14",
+      "display_order": 16,
+      "title": "怎样把知道变成持续行动",
+      "file": "manuscript/zh-CN/chapters/chapter-14.md",
+      "sha256": "80ef4302d145b9eea1f469cbf60d53e61b8fe5b416c0e167cf38c54aed634322"
+    },
+    {
+      "stable_id": "chapter-15",
+      "display_order": 17,
+      "title": "怎样在陌生情境中重新判断",
+      "file": "manuscript/zh-CN/chapters/chapter-15.md",
+      "sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b"
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "dist/理解人性_关系边界与合作_读者版.epub",
+      "sha256": "15f1372f8dcb7fee37ae3673bd37a7e2ad72e41a10aab6f3b3f131ff9cc26016",
+      "bytes": 1195708
+    },
+    {
+      "file": "dist/理解人性_关系边界与合作_读者版.pdf",
+      "sha256": "1afb5333e73f8f268063d72e4cf59f0d60d504627793770c2dc1df6711ede127",
+      "bytes": 1279950
+    }
+  ],
+  "revision": 2,
+  "revision_note": "Four author-requested sentences removed from the preface; chapters, copyright, and source notes unchanged.",
+  "preface_sha256": "3caf505c50ee6c475f9fa178aa105807a81fd1c582ee0cff29c024769a3d970b"
+}

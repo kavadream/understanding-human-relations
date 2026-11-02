@@ -1,0 +1,128 @@
+{
+  "title": "理解人性：关系、边界与合作",
+  "author": "KK",
+  "language": "zh-CN",
+  "date": "2026-11-02",
+  "edition": "中文读者版",
+  "chapters": [
+    {
+      "id": 1,
+      "display_order": 1,
+      "display_title": "为什么明白道理仍然做不到",
+      "part": "第一部 认识自己的反应",
+      "file": "manuscript/zh-CN/chapters/chapter-01.md"
+    },
+    {
+      "id": 2,
+      "display_order": 2,
+      "display_title": "自尊怎样带来力量与防御",
+      "part": "第一部 认识自己的反应",
+      "file": "manuscript/zh-CN/chapters/chapter-02.md"
+    },
+    {
+      "id": 3,
+      "display_order": 3,
+      "display_title": "我们怎样把猜测当作事实",
+      "part": "第一部 认识自己的反应",
+      "file": "manuscript/zh-CN/chapters/chapter-03.md"
+    },
+    {
+      "id": 4,
+      "display_order": 4,
+      "display_title": "同一个行为为什么有不同原因",
+      "part": "第二部 理解他人的处境",
+      "file": "manuscript/zh-CN/chapters/chapter-04.md"
+    },
+    {
+      "id": 5,
+      "display_order": 5,
+      "display_title": "关系、身份与文化怎样改变期待",
+      "part": "第二部 理解他人的处境",
+      "file": "manuscript/zh-CN/chapters/chapter-05.md"
+    },
+    {
+      "id": 6,
+      "display_order": 6,
+      "display_title": "利益、资源与规则怎样影响选择",
+      "part": "第二部 理解他人的处境",
+      "file": "manuscript/zh-CN/chapters/chapter-06.md"
+    },
+    {
+      "id": 16,
+      "display_order": 7,
+      "display_title": "为什么想帮忙，对方却觉得没有被听见",
+      "part": "第三部 让关心进入日常来往",
+      "file": "manuscript/zh-CN/chapters/chapter-16.md"
+    },
+    {
+      "id": 17,
+      "display_order": 8,
+      "display_title": "怎样表达关心、真诚认可并给予反馈",
+      "part": "第三部 让关心进入日常来往",
+      "file": "manuscript/zh-CN/chapters/chapter-17.md"
+    },
+    {
+      "id": 7,
+      "display_order": 9,
+      "display_title": "为什么有道理的话别人却听不进去",
+      "part": "第四部 开展对话与合作",
+      "file": "manuscript/zh-CN/chapters/chapter-07.md"
+    },
+    {
+      "id": 8,
+      "display_order": 10,
+      "display_title": "怎样表达不同意见并继续合作",
+      "part": "第四部 开展对话与合作",
+      "file": "manuscript/zh-CN/chapters/chapter-08.md"
+    },
+    {
+      "id": 9,
+      "display_order": 11,
+      "display_title": "怎样拒绝并说明自己的边界",
+      "part": "第四部 开展对话与合作",
+      "file": "manuscript/zh-CN/chapters/chapter-09.md"
+    },
+    {
+      "id": 10,
+      "display_order": 12,
+      "display_title": "怎样影响别人并审视自己受到的影响",
+      "part": "第四部 开展对话与合作",
+      "file": "manuscript/zh-CN/chapters/chapter-10.md"
+    },
+    {
+      "id": 11,
+      "display_order": 13,
+      "display_title": "善意失效以后怎样重新判断",
+      "part": "第五部 面对冲突与修复关系",
+      "file": "manuscript/zh-CN/chapters/chapter-11.md"
+    },
+    {
+      "id": 12,
+      "display_order": 14,
+      "display_title": "怎样承认错误并逐步修复信任",
+      "part": "第五部 面对冲突与修复关系",
+      "file": "manuscript/zh-CN/chapters/chapter-12.md"
+    },
+    {
+      "id": 13,
+      "display_order": 15,
+      "display_title": "怎样理解原谅、责任与关系的未来",
+      "part": "第五部 面对冲突与修复关系",
+      "file": "manuscript/zh-CN/chapters/chapter-13.md"
+    },
+    {
+      "id": 14,
+      "display_order": 16,
+      "display_title": "怎样把知道变成持续行动",
+      "part": "第六部 将所学变成能力",
+      "file": "manuscript/zh-CN/chapters/chapter-14.md"
+    },
+    {
+      "id": 15,
+      "display_order": 17,
+      "display_title": "怎样在陌生情境中重新判断",
+      "part": "第六部 将所学变成能力",
+      "file": "manuscript/zh-CN/chapters/chapter-15.md"
+    }
+  ]
+}
