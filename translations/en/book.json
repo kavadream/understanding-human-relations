@@ -1,0 +1,129 @@
+{
+  "title": "Understanding Human Nature: Relationships, Boundaries, and Cooperation",
+  "author": "KK",
+  "language": "en",
+  "date": "2026-11-02",
+  "edition": "English translation preview",
+  "human_target_language_review": "not-run",
+  "chapters": [
+    {
+      "id": 1,
+      "display_order": 1,
+      "display_title": "Why Knowing What to Do Is Not Enough",
+      "part": "Part I Understanding Our Own Reactions",
+      "file": "translations/en/chapters/chapter-01.md"
+    },
+    {
+      "id": 2,
+      "display_order": 2,
+      "display_title": "How Self-Esteem Can Motivate Us and Make Us Defensive",
+      "part": "Part I Understanding Our Own Reactions",
+      "file": "translations/en/chapters/chapter-02.md"
+    },
+    {
+      "id": 3,
+      "display_order": 3,
+      "display_title": "How We Mistake Assumptions for Facts",
+      "part": "Part I Understanding Our Own Reactions",
+      "file": "translations/en/chapters/chapter-03.md"
+    },
+    {
+      "id": 4,
+      "display_order": 4,
+      "display_title": "Why the Same Behavior Can Have Different Causes",
+      "part": "Part II Understanding Other People’s Circumstances",
+      "file": "translations/en/chapters/chapter-04.md"
+    },
+    {
+      "id": 5,
+      "display_order": 5,
+      "display_title": "How Relationships, Identity, and Culture Shape Expectations",
+      "part": "Part II Understanding Other People’s Circumstances",
+      "file": "translations/en/chapters/chapter-05.md"
+    },
+    {
+      "id": 6,
+      "display_order": 6,
+      "display_title": "How Interests, Resources, and Rules Shape Choices",
+      "part": "Part II Understanding Other People’s Circumstances",
+      "file": "translations/en/chapters/chapter-06.md"
+    },
+    {
+      "id": 16,
+      "display_order": 7,
+      "display_title": "Why Someone May Feel Unheard When We Try to Help",
+      "part": "Part III Showing Care in Everyday Life",
+      "file": "translations/en/chapters/chapter-16.md"
+    },
+    {
+      "id": 17,
+      "display_order": 8,
+      "display_title": "How to Show Care, Express Genuine Appreciation, and Give Feedback",
+      "part": "Part III Showing Care in Everyday Life",
+      "file": "translations/en/chapters/chapter-17.md"
+    },
+    {
+      "id": 7,
+      "display_order": 9,
+      "display_title": "Why Sound Arguments Sometimes Go Unheard",
+      "part": "Part IV Conversation and Cooperation",
+      "file": "translations/en/chapters/chapter-07.md"
+    },
+    {
+      "id": 8,
+      "display_order": 10,
+      "display_title": "How to Disagree and Continue Working Together",
+      "part": "Part IV Conversation and Cooperation",
+      "file": "translations/en/chapters/chapter-08.md"
+    },
+    {
+      "id": 9,
+      "display_order": 11,
+      "display_title": "How to Say No and Make Your Boundaries Clear",
+      "part": "Part IV Conversation and Cooperation",
+      "file": "translations/en/chapters/chapter-09.md"
+    },
+    {
+      "id": 10,
+      "display_order": 12,
+      "display_title": "How to Influence Others and Examine What Influences You",
+      "part": "Part IV Conversation and Cooperation",
+      "file": "translations/en/chapters/chapter-10.md"
+    },
+    {
+      "id": 11,
+      "display_order": 13,
+      "display_title": "How to Reassess a Situation When Goodwill Is Not Enough",
+      "part": "Part V Facing Conflict and Repairing Relationships",
+      "file": "translations/en/chapters/chapter-11.md"
+    },
+    {
+      "id": 12,
+      "display_order": 14,
+      "display_title": "How to Acknowledge Mistakes and Gradually Rebuild Trust",
+      "part": "Part V Facing Conflict and Repairing Relationships",
+      "file": "translations/en/chapters/chapter-12.md"
+    },
+    {
+      "id": 13,
+      "display_order": 15,
+      "display_title": "Understanding Forgiveness, Responsibility, and the Future of a Relationship",
+      "part": "Part V Facing Conflict and Repairing Relationships",
+      "file": "translations/en/chapters/chapter-13.md"
+    },
+    {
+      "id": 14,
+      "display_order": 16,
+      "display_title": "How to Turn Understanding into Sustained Action",
+      "part": "Part VI Turning Understanding into Ability",
+      "file": "translations/en/chapters/chapter-14.md"
+    },
+    {
+      "id": 15,
+      "display_order": 17,
+      "display_title": "How to Make Fresh Judgments in Unfamiliar Situations",
+      "part": "Part VI Turning Understanding into Ability",
+      "file": "translations/en/chapters/chapter-15.md"
+    }
+  ]
+}

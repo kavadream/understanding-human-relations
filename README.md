@@ -2,7 +2,7 @@
 
 **KK 著｜六部17章｜中文普通读者电子版**
 
-[English project introduction](README.en.md) · [下载 EPUB / PDF](https://github.com/kavadream/understanding-human-relations/releases) · [阅读中文源码](manuscript/zh-CN/book.md) · [反馈问题](https://github.com/kavadream/understanding-human-relations/issues)
+[English project introduction](README.en.md) · [Read the English preview](translations/en/book.md) · [下载 EPUB / PDF](https://github.com/kavadream/understanding-human-relations/releases) · [阅读中文源码](manuscript/zh-CN/book.md) · [反馈问题](https://github.com/kavadream/understanding-human-relations/issues)
 
 这本书讨论人为什么会这样反应，以及怎样处理关系、边界与合作。故事先让问题变得具体，分析区分研究发现、作者观点、本书解释和价值选择，再讨论在什么条件下可以怎样做。
 
@@ -12,7 +12,12 @@
 
 EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下载版本以 Releases 中标记的版本为准。
 
-英文版已开始准备目录、术语和编辑规则；完整英文正文尚未完成，未进行目标语人类试读。中英文保留在本仓库，章节使用稳定ID关联，不因目录展示位置不同而更改身份。
+英文完整17章翻译预览版已提供，包含前言、版权说明和参考文献；尚未进行目标语人类试读，不视为正式英文定稿。作者母语为中文，欢迎英语母语读者帮助校正忠实性和自然表达。中英文保留在本仓库，章节使用稳定ID关联，不因目录展示位置不同而更改身份。
+
+| 语言与阶段 | 下载 | 版本说明 |
+| --- | --- | --- |
+| 中文正式版 v1.0.0 | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.pdf) | [中文正式版本](https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0) |
+| English v0.1.0 translation preview | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.pdf) | [English preview](https://github.com/kavadream/understanding-human-relations/releases/tag/en-v0.1.0-preview) · [完整英文初译](translations/en/book.md) |
 
 ## 六部内容
 
@@ -43,6 +48,6 @@ EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下�
 
 ## 构建
 
-可编辑中文源码位于 `manuscript/zh-CN/book.md`，构建资源位于 `assets/`，构建说明与脚本位于 `tools/`。`dist/` 保存本次中文读者版。
+可编辑中文源码位于 `manuscript/zh-CN/book.md`，构建资源位于 `assets/`，构建说明与脚本位于 `tools/`。`dist/` 保存中文读者版，`dist/en/` 保存英文预览版；英文构建说明见 `tools/BUILD_EN.md`。
 
 本仓库只保存适合公开的读者源码、书目和构建资料，不包含私有制作档案或历史对话。版本身份与文件摘要见 `edition.json`。

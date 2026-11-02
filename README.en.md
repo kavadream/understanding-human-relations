@@ -4,7 +4,7 @@ By KK
 
 This book explores why people react as they do and how we can make better choices in relationships. It brings fictional stories into conversation with research and ideas about self-esteem, understanding others, cooperation, conflict, and learning.
 
-The Chinese manuscript contains 17 chapters in six parts. An English reader edition is in development. It will preserve the stories, distinctions, and limits of the Chinese source rather than replace the setting with a different culture. English material is currently limited to preparatory editorial work; the chapters have not yet been translated in full. No English edition has undergone human target-language review.
+The Chinese reader edition contains 17 chapters in six parts. The complete English translation is now available as an AI-assisted preview, preserving the stories, distinctions, settings, and research limits of the Chinese source. It has not yet undergone human target-language review and is not an approved final English edition.
 
 ## What kind of book is this?
 
@@ -23,7 +23,16 @@ Research notes identify the material actually consulted. Some sources were read 
 
 ## Read and download
 
-The source manuscript is Chinese. Reader editions omit AI-training instructions and production records while retaining ordinary reading content and source notes. Verified Chinese reader-edition files are published on the [Releases page](https://github.com/kavadream/understanding-human-relations/releases). This preview does not claim that an English edition is already available.
+The source manuscript is Chinese. Reader editions omit AI-training instructions and production records while retaining ordinary reading content and source notes. Verified Chinese reader-edition files are published on the [Releases page](https://github.com/kavadream/understanding-human-relations/releases). The English files are clearly labeled as a translation preview. Read the [complete English draft](translations/en/book.md), or download the preview EPUB and PDF from Releases.
+
+| Language and status | Downloads | Release |
+| --- | --- | --- |
+| Chinese reader edition v1.0.0 | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.pdf) | [Chinese stable release](https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0) |
+| English translation preview v0.1.0 | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.pdf) | [English pre-release](https://github.com/kavadream/understanding-human-relations/releases/tag/en-v0.1.0-preview) · [Complete draft](translations/en/book.md) |
+
+## A note from KK
+
+My native language is Chinese. I welcome corrections and suggestions from native English speakers to help make this English edition clearer and more natural while preserving its meaning.
 
 ## Corrections and contributions
 
@@ -39,6 +48,6 @@ Proposed revisions are reviewed by the maintainer before adoption. Inviting sugg
 
 ## English edition status
 
-The English edition is being prepared from Chinese source commit `9e1ee2e843b47506e252ce24b7296431242008de`. Stable chapter IDs differ from display order; translation files must retain that mapping. Initial terminology draws on the repository’s existing glossary and the current Chinese manuscript and remains subject to editorial and reader review. Working English chapter titles are provisional, not an approved translation.
+The English preview is based on Chinese source commit `9e1ee2e843b47506e252ce24b7296431242008de`. Stable chapter IDs differ from display order; translation files must retain that mapping. Initial terminology draws on the repository’s existing glossary and the current Chinese manuscript and remains subject to editorial and reader review. Working English chapter titles are provisional, not an approved translation.
 
-Full English chapter translation: **not yet started**. Human target-language review: **not yet performed**. Learning effectiveness: **not established**.
+Full English chapter translation: **complete preview, 17 chapters**. Human target-language review: **not yet performed**. Learning effectiveness: **not established**.

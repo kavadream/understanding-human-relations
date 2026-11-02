@@ -7,7 +7,7 @@
   "book_title_zh": "理解人性：关系、边界与合作",
   "book_title_en": "Understanding Human Nature: Relationships, Boundaries, and Cooperation",
   "human_target_language_review": "not-run",
-  "full_chapter_translation": "not-started",
+  "full_chapter_translation": "complete-draft-pending-human-review",
   "note": "Natural English working titles, not approved translations. Stable IDs are preserved independently of reader-facing order. The source stories and cultural settings are unchanged.",
   "chapters": [
     {
@@ -18,7 +18,7 @@
       "part_en": "Part I Understanding Our Own Reactions",
       "title_zh": "为什么明白道理仍然做不到",
       "title_en": "Why Knowing What to Do Is Not Enough",
-      "source_file": "manuscript/chapters/chapter-01.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-01.md"
     },
     {
       "stable_id": "chapter-02",
@@ -28,7 +28,7 @@
       "part_en": "Part I Understanding Our Own Reactions",
       "title_zh": "自尊怎样带来力量与防御",
       "title_en": "How Self-Esteem Can Motivate Us and Make Us Defensive",
-      "source_file": "manuscript/chapters/chapter-02.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-02.md"
     },
     {
       "stable_id": "chapter-03",
@@ -38,7 +38,7 @@
       "part_en": "Part I Understanding Our Own Reactions",
       "title_zh": "我们怎样把猜测当作事实",
       "title_en": "How We Mistake Assumptions for Facts",
-      "source_file": "manuscript/chapters/chapter-03.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-03.md"
     },
     {
       "stable_id": "chapter-04",
@@ -48,7 +48,7 @@
       "part_en": "Part II Understanding Other People’s Circumstances",
       "title_zh": "同一个行为为什么有不同原因",
       "title_en": "Why the Same Behavior Can Have Different Causes",
-      "source_file": "manuscript/chapters/chapter-04.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-04.md"
     },
     {
       "stable_id": "chapter-05",
@@ -58,7 +58,7 @@
       "part_en": "Part II Understanding Other People’s Circumstances",
       "title_zh": "关系、身份与文化怎样改变期待",
       "title_en": "How Relationships, Identity, and Culture Shape Expectations",
-      "source_file": "manuscript/chapters/chapter-05.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-05.md"
     },
     {
       "stable_id": "chapter-06",
@@ -68,7 +68,7 @@
       "part_en": "Part II Understanding Other People’s Circumstances",
       "title_zh": "利益、资源与规则怎样影响选择",
       "title_en": "How Interests, Resources, and Rules Shape Choices",
-      "source_file": "manuscript/chapters/chapter-06.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-06.md"
     },
     {
       "stable_id": "chapter-16",
@@ -78,7 +78,7 @@
       "part_en": "Part III Showing Care in Everyday Life",
       "title_zh": "为什么想帮忙，对方却觉得没有被听见",
       "title_en": "Why Someone May Feel Unheard When We Try to Help",
-      "source_file": "manuscript/chapters/chapter-16.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-16.md"
     },
     {
       "stable_id": "chapter-17",
@@ -88,7 +88,7 @@
       "part_en": "Part III Showing Care in Everyday Life",
       "title_zh": "怎样表达关心、真诚认可并给予反馈",
       "title_en": "How to Show Care, Express Genuine Appreciation, and Give Feedback",
-      "source_file": "manuscript/chapters/chapter-17.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-17.md"
     },
     {
       "stable_id": "chapter-07",
@@ -98,7 +98,7 @@
       "part_en": "Part IV Conversation and Cooperation",
       "title_zh": "为什么有道理的话别人却听不进去",
       "title_en": "Why Sound Arguments Sometimes Go Unheard",
-      "source_file": "manuscript/chapters/chapter-07.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-07.md"
     },
     {
       "stable_id": "chapter-08",
@@ -108,7 +108,7 @@
       "part_en": "Part IV Conversation and Cooperation",
       "title_zh": "怎样表达不同意见并继续合作",
       "title_en": "How to Disagree and Continue Working Together",
-      "source_file": "manuscript/chapters/chapter-08.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-08.md"
     },
     {
       "stable_id": "chapter-09",
@@ -118,7 +118,7 @@
       "part_en": "Part IV Conversation and Cooperation",
       "title_zh": "怎样拒绝并说明自己的边界",
       "title_en": "How to Say No and Make Your Boundaries Clear",
-      "source_file": "manuscript/chapters/chapter-09.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-09.md"
     },
     {
       "stable_id": "chapter-10",
@@ -128,7 +128,7 @@
       "part_en": "Part IV Conversation and Cooperation",
       "title_zh": "怎样影响别人并审视自己受到的影响",
       "title_en": "How to Influence Others and Examine What Influences You",
-      "source_file": "manuscript/chapters/chapter-10.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-10.md"
     },
     {
       "stable_id": "chapter-11",
@@ -138,7 +138,7 @@
       "part_en": "Part V Facing Conflict and Repairing Relationships",
       "title_zh": "善意失效以后怎样重新判断",
       "title_en": "How to Reassess a Situation When Goodwill Is Not Enough",
-      "source_file": "manuscript/chapters/chapter-11.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-11.md"
     },
     {
       "stable_id": "chapter-12",
@@ -148,7 +148,7 @@
       "part_en": "Part V Facing Conflict and Repairing Relationships",
       "title_zh": "怎样承认错误并逐步修复信任",
       "title_en": "How to Acknowledge Mistakes and Gradually Rebuild Trust",
-      "source_file": "manuscript/chapters/chapter-12.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-12.md"
     },
     {
       "stable_id": "chapter-13",
@@ -158,7 +158,7 @@
       "part_en": "Part V Facing Conflict and Repairing Relationships",
       "title_zh": "怎样理解原谅、责任与关系的未来",
       "title_en": "Understanding Forgiveness, Responsibility, and the Future of a Relationship",
-      "source_file": "manuscript/chapters/chapter-13.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-13.md"
     },
     {
       "stable_id": "chapter-14",
@@ -168,7 +168,7 @@
       "part_en": "Part VI Turning Understanding into Ability",
       "title_zh": "怎样把知道变成持续行动",
       "title_en": "How to Turn Understanding into Sustained Action",
-      "source_file": "manuscript/chapters/chapter-14.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-14.md"
     },
     {
       "stable_id": "chapter-15",
@@ -178,7 +178,7 @@
       "part_en": "Part VI Turning Understanding into Ability",
       "title_zh": "怎样在陌生情境中重新判断",
       "title_en": "How to Make Fresh Judgments in Unfamiliar Situations",
-      "source_file": "manuscript/chapters/chapter-15.zh-CN.md"
+      "source_file": "manuscript/zh-CN/chapters/chapter-15.md"
     }
   ]
 }
