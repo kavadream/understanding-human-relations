@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.2.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-01",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "general_guide_and_chapter_01_only_other_16_not_redesigned",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-01.md",
+    "sha256": "c363d57c3ef50c9a14fb2b612707abc1dea30782d5712f9b95992987eec229ae",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "周三下午：在这里作判断",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "source_line_spans": [
+        [
+          13,
+          15
+        ],
+        [
+          17,
+          21
+        ]
+      ],
+      "transformation": "据指定原文行提炼事实；省略第17行的规范性判断，保留人物顾虑。没有引入后续结果或建议。不是逐字节原文摘录。",
+      "fiction_notice": "人物、事件与对话为原书原创虚构；以下为新编决策截点事实卡。",
+      "facts": [
+        {
+          "id": "sizes",
+          "text": "周三下午，徐亦发现展览介绍卡有两处尺寸错误，重新制作需要一天。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "installation",
+          "text": "孟桥负责布展，已经排好周四安装。昨天他问徐亦是否核对完毕，得到的回答是“没问题”。",
+          "source_line_spans": [
+            [
+              13,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "message",
+          "text": "徐亦写下“尺寸出了点问题”后又删掉了。她担心现在改口会影响孟桥对她可靠性的看法。",
+          "source_line_spans": [
+            [
+              15,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "remake",
+          "text": "她已催制作方加急，询问能否明早赶上，此时仍在等回复。是否能按时送到尚未确定。",
+          "source_line_spans": [
+            [
+              19,
+              19
+            ]
+          ]
+        },
+        {
+          "id": "latest",
+          "text": "她继续对孟桥说：“按原计划准备。”",
+          "source_line_spans": [
+            [
+              21,
+              21
+            ]
+          ]
+        }
+      ],
+      "decision_time": "周三上述消息之后；此时不提供周四结果。",
+      "unknowns": [
+        "制作方能否按时送到。",
+        "原文在此截点没有交代的细节，不能自行补为事实。"
+      ],
+      "learner_prompt": "在这个时点，你怎样评价徐亦的选择？",
+      "facilitator_action": "只呈现本阶段事实与一个问题，然后等待；不要同时读取或展示 review。读者也可以先提出澄清或选择完整阅读。"
+    },
+    "discussion": {
+      "title": "围绕读者理由推进",
+      "source_line_spans": [
+        [
+          33,
+          47
+        ],
+        [
+          49,
+          63
+        ],
+        [
+          65,
+          77
+        ]
+      ],
+      "instructions": [
+        "先用一两句准确回应读者刚才的判断与理由，不把没有说过的动机、承诺或结论放进复述。",
+        "从其理由中只选择一个最有影响的分歧或未明条件追问；若观点已充分说明，可邀请读者选择下一步，不为凑题数继续问。",
+        "追问须随实际观点变化：关注后果时询问其判断依赖的当时信息；关注责任时核对谁有相应责任或决定权；关注困难时区分信息、能力、渠道和代价。每轮只取其中一项，不把这些角度当固定题单。",
+        "不要预先给本章结论或标准答案。合理分歧可以保留；如需原文对照，请读者选择 review。"
+      ]
+    },
+    "assumptions": {
+      "title": "处理假设而不纠缠枝节",
+      "source_line_spans": [
+        [
+          43,
+          47
+        ],
+        [
+          59,
+          63
+        ],
+        [
+          71,
+          71
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "会改变责任、信息可得性、资源或可行性的条件，先指出它怎样影响判断，再只澄清一个关键点；无法确定时列明两个分支，不逼读者猜唯一答案。"
+        },
+        {
+          "kind": "non_core",
+          "action": "不影响当前核心判断的细节，接受为暂定条件继续，不反复核问姓名、措辞等枝节。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "与事实卡矛盾的假设可另作变式，清楚标“新增分支”，保留原故事事实卡不改。"
+        },
+        {
+          "kind": "unknown",
+          "action": "原文没有交代的事保持未知；不要以教师偏好的答案补齐。"
+        }
+      ]
+    },
+    "roleplay": {
+      "title": "可选角色练习：周三的对话",
+      "source_line_spans": [
+        [
+          13,
+          21
+        ]
+      ],
+      "fiction_notice": "基于原书决策截点的新编可选练习。",
+      "learner_role": "徐亦；读者可拒绝角色或另选讨论。",
+      "ai_role": "孟桥，负责布展。",
+      "known_to_learner": [
+        "事实卡的全部信息。"
+      ],
+      "known_to_ai_role": [
+        "周四安装已排好。",
+        "徐亦昨天说核对没问题，最近说按原计划准备。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "尺寸错误。",
+        "制作方是否加急及其回复。",
+        "徐亦没有实际说出的私人顾虑。"
+      ],
+      "role_constraints": [
+        "不能假造徐亦先前保证过某个具体交期或另作承诺。",
+        "角色依据读者实际说出的信息更新；不无条件同意，也不让任何选择都失败。",
+        "无最低轮数；读者可随时要反馈、暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "installer_deadline",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "若读者同意增加难度：练习新增条件——安装人员需要在今天17点前确认能否改时。这不是原书已知事实或徐亦过去的承诺。"
+      },
+      "start": "先让读者决定是否开始及是否采用新增条件，再由读者发起一条消息；不要先给示范回答。"
+    },
+    "transfer": {
+      "title": "可选迁移：改变条件再判断",
+      "source_line_spans": [
+        [
+          43,
+          47
+        ],
+        [
+          59,
+          63
+        ],
+        [
+          71,
+          71
+        ]
+      ],
+      "selection_rule": "每次只选一个变式；独立的新虚构情境，没有预设唯一答案。",
+      "variants": {
+        "no_commitment": {
+          "title": "没有承诺的邻里请求",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：邻里",
+            "责任：没有承诺或代收义务",
+            "资源：当事人在外地且无法代办"
+          ],
+          "facts": [
+            "邻居临时发消息希望林安在家代收大件物品。",
+            "林安正在外地，从未答应代收，也没有门卫或受托人可安排。",
+            "物品尚未发出，邻居还可以选择其他地址。"
+          ],
+          "prompt": "在这些条件下，你认为林安对这件事承担什么责任？"
+        },
+        "blocked_resource": {
+          "title": "无法读取的项目资料",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "责任：有已接任务",
+            "资源：缺数据权限",
+            "约束：负责人暂时离线"
+          ],
+          "facts": [
+            "志愿者已答应周五交一份活动预算汇总。",
+            "周三发现需要的原始费用表没有给自己读取权限，只有负责人能授权。",
+            "负责人当天无法联系，另有可记录问题的共享任务板，但没有替代数据。"
+          ],
+          "prompt": "你会怎样评价志愿者此时能做与不能做的部分？"
+        },
+        "already_shared": {
+          "title": "负责人已经收到同一状态",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "信息：负责人已实际收到并确认",
+            "流程：自动记录已含已知与未知",
+            "责任：避免重复通知替代实际工作"
+          ],
+          "facts": [
+            "项目的缺件情况、可能影响和待确认到货时间已在自动状态记录中写明。",
+            "有决定权的负责人已回复确认，并要求工作人员继续核实供货。",
+            "工作人员尚未收到新的供货信息。"
+          ],
+          "prompt": "你认为此时还有哪些行动值得做，为什么？"
+        }
+      },
+      "feedback_rule": "比较其理由与改变的条件；不将原故事的某一句话当所有情境的唯一答案。"
+    },
+    "coverage": {
+      "title": "第一章覆盖清单模板",
+      "source_line_spans": [
+        [
+          33,
+          47
+        ],
+        [
+          49,
+          63
+        ],
+        [
+          65,
+          77
+        ],
+        [
+          81,
+          81
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "judgment_and_cost",
+          "label": "认可、愿望、行动与代价的区别",
+          "source_line_spans": [
+            [
+              33,
+              43
+            ]
+          ]
+        },
+        {
+          "id": "conditions",
+          "label": "信息、能力、意愿、渠道和处境条件",
+          "source_line_spans": [
+            [
+              43,
+              47
+            ],
+            [
+              63,
+              63
+            ]
+          ]
+        },
+        {
+          "id": "uncertainty",
+          "label": "已知、未知、责任与私人信息边界",
+          "source_line_spans": [
+            [
+              49,
+              59
+            ]
+          ]
+        },
+        {
+          "id": "motive_and_outcome",
+          "label": "动机、影响、责任与结果运气",
+          "source_line_spans": [
+            [
+              61,
+              63
+            ],
+            [
+              71,
+              71
+            ]
+          ]
+        },
+        {
+          "id": "next_action",
+          "label": "愿望与可执行选择、迁移的适用条件",
+          "source_line_spans": [
+            [
+              65,
+              77
+            ]
+          ]
+        },
+        {
+          "id": "evidence_boundary",
+          "label": "研究摘要、本书解释与虚构案例的区别",
+          "source_line_spans": [
+            [
+              81,
+              81
+            ]
+          ]
+        }
+      ],
+      "instruction": "这是空白模板，不是读者实际进度。仅依据读者当前对话，将有实际讨论证据的项目标已讨论；明确拒绝的标选择跳过，其余未讨论。工具全文读取不算讨论或掌握。记录留在读者当前对话中，不回传。",
+      "next_step": "向读者说明实际讨论范围，由其决定是否深入、练习、总结或结束；不自动宣称第一章完成。"
+    },
+    "review": {
+      "title": "读者主动选择的原文与反馈对照",
+      "source_line_spans": [
+        [
+          1,
+          81
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "仅在读者当前明确要对照或反馈时使用。请求本阶段的参数不独立证明其意愿。",
+        "先准确回应读者实际理由，再指出与原书解释相同、不同及依赖的条件；不要把参考判断当唯一裁决。",
+        "接口在本阶段提供完整未改原章及原教学包；它们可能含参考答案，并与本新编编排分别标注。",
+        "完整读取不等于学完；最后由读者决定下一步。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-01, both) 或本阶段接口附带原文件。",
+      "technical_limit": "AI 可以推断或另行读取原稿；分阶段读取是教学安排，不是答案保密或学习效果保证。"
+    }
+  }
+}

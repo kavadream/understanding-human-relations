@@ -19,6 +19,10 @@ EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下�
 | 中文正式版 v1.0.0 | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.pdf) | [中文正式版本](https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0) |
 | English v0.1.0 translation preview | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.pdf) | [English preview](https://github.com/kavadream/understanding-human-relations/releases/tag/en-v0.1.0-preview) · [完整英文初译](translations/en/book.md) |
 
+## 可选 AI 交互学习补充
+
+使用自己的 AI 学习时，可让它先读[给教学 AI 的指南](learning/README.md)，再按[第一章分阶段编排](learning/chapter-01.json)从决策截点开始。此为 `newly_authored` 新编教学补充，第一章试点；原17章正文、原始读者版文件及发行版本不变，不代表其余16章已重新编排或教学效果已验证。补充不包含私有原教学包或读者对话。
+
 ## 六部内容
 
 1. **认识自己的反应**：知行差距、自尊与防御、猜测和事实。

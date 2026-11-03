@@ -124,5 +124,13 @@
       "part": "第六部 将所学变成能力",
       "file": "manuscript/zh-CN/chapters/chapter-15.md"
     }
-  ]
+  ],
+  "teaching_supplement": {
+    "version": "teaching-orchestration-0.2.0",
+    "newly_authored": true,
+    "guide": "learning/README.md",
+    "unit_plan": "learning/chapter-01.json",
+    "scope": "chapter-01 pilot only",
+    "formal_reader_edition_modified": false
+  }
 }
