@@ -1,0 +1,2037 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.6.0",
+  "reading_contract_version": "direct-reading-1",
+  "book_id": "understanding-human-relations-zh",
+  "book_title": "理解人性：关系、边界与合作",
+  "default_chapter_when_unspecified": 1,
+  "max_part_utf16_units": 320,
+  "preferred_boundary": "sentence_or_paragraph_when_possible; exact substrings, no rewriting",
+  "source_text_is_not_modified": true,
+  "rules": [
+    "直接按用户指定展示章号读取，只有未指定才默认第一章；无需先取第一章、全书索引或原练习。",
+    "逐字呈现本块原文，不摘要、不添对白、不为好听改写；标签放在原文外。",
+    "短块返回完整不等于整章已呈现或实际口述完成；继续用next_request，不能跳块或重放末块后称全文完成。",
+    "只在客户端支持且读者继续阅读范围内预取；服务端不自行预取，不声称控制音频或客户端流式。",
+    "版本、章节或源SHA改变时，废弃旧缓存/续读状态；只缓存原文与通用规则，私人回答仅留当前对话。"
+  ],
+  "client_limits": {
+    "server_streaming": false,
+    "response_mode": "complete_json_rpc_payload",
+    "voice_frontend_control": false,
+    "audio_verbatim_guarantee": false,
+    "actual_audio_or_transcript_verification_required": true
+  },
+  "units": [
+    {
+      "unit_id": "chapter-01",
+      "display_order": 1,
+      "title": "为什么明白道理仍然做不到",
+      "source_path": "manuscript/zh-CN/chapters/chapter-01.md",
+      "source_sha256": "c363d57c3ef50c9a14fb2b612707abc1dea30782d5712f9b95992987eec229ae",
+      "source_bytes": 7202,
+      "parts": [
+        {
+          "part_id": "chapter-01:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 296,
+          "line_start": 1,
+          "line_end": 13,
+          "bytes": 848,
+          "sha256": "cdeb3319a102d628f6fc20c9140ac538c2758be630ce052d66aaab89a2e9b56c"
+        },
+        {
+          "part_id": "chapter-01:short:2",
+          "order": 2,
+          "char_start": 296,
+          "char_end": 593,
+          "line_start": 13,
+          "line_end": 24,
+          "bytes": 867,
+          "sha256": "93aca92c11dff63e88f4452931cbf8727ccbc43ef8c43be3a98e8d85bdbcf94e"
+        },
+        {
+          "part_id": "chapter-01:short:3",
+          "order": 3,
+          "char_start": 593,
+          "char_end": 901,
+          "line_start": 25,
+          "line_end": 37,
+          "bytes": 886,
+          "sha256": "57dbae371b3bc70196789a6bc56084f43a5625ebffa3944296c41f7255203400"
+        },
+        {
+          "part_id": "chapter-01:short:4",
+          "order": 4,
+          "char_start": 901,
+          "char_end": 1189,
+          "line_start": 37,
+          "line_end": 44,
+          "bytes": 818,
+          "sha256": "3751752d46e7b25d997e0bc8d338b7cf5a90c759893cf0b1886140b749f73bc6"
+        },
+        {
+          "part_id": "chapter-01:short:5",
+          "order": 5,
+          "char_start": 1189,
+          "char_end": 1508,
+          "line_start": 45,
+          "line_end": 55,
+          "bytes": 929,
+          "sha256": "fef7d0f5a26a134c36b91d1bd01391e51925f20ab6bfa9575f3f3e736604f61c"
+        },
+        {
+          "part_id": "chapter-01:short:6",
+          "order": 6,
+          "char_start": 1508,
+          "char_end": 1812,
+          "line_start": 55,
+          "line_end": 62,
+          "bytes": 896,
+          "sha256": "735ddc1a4167c3a235931326c4f1b30cb6971a13f60c13f65626b9d2b8e2a9c8"
+        },
+        {
+          "part_id": "chapter-01:short:7",
+          "order": 7,
+          "char_start": 1812,
+          "char_end": 2109,
+          "line_start": 63,
+          "line_end": 71,
+          "bytes": 863,
+          "sha256": "c8a77eb565d5662cce78e71a3210d20cdb51967093121dbf1d9f83c0ea13e38b"
+        },
+        {
+          "part_id": "chapter-01:short:8",
+          "order": 8,
+          "char_start": 2109,
+          "char_end": 2419,
+          "line_start": 71,
+          "line_end": 81,
+          "bytes": 758,
+          "sha256": "90eb84cb9676f6a545904b712310bcc83258220d5238caca739f9d9338634c49"
+        },
+        {
+          "part_id": "chapter-01:short:9",
+          "order": 9,
+          "char_start": 2419,
+          "char_end": 2542,
+          "line_start": 81,
+          "line_end": 81,
+          "bytes": 337,
+          "sha256": "079a0b1818363937f4a9c57c834ab25c9e001923422e36e8d43ce2464c807a5e"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-02",
+      "display_order": 2,
+      "title": "自尊怎样带来力量与防御",
+      "source_path": "manuscript/zh-CN/chapters/chapter-02.md",
+      "source_sha256": "89bc6d464b70e6517bc788cf6cc1c7147fd925018c025fb8a57ef8f892196982",
+      "source_bytes": 6905,
+      "parts": [
+        {
+          "part_id": "chapter-02:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 299,
+          "line_start": 1,
+          "line_end": 14,
+          "bytes": 845,
+          "sha256": "1b4b2f85b26559493586d7eec586e2f37cfc8a9e734caeffc330467742da9e4a"
+        },
+        {
+          "part_id": "chapter-02:short:2",
+          "order": 2,
+          "char_start": 299,
+          "char_end": 604,
+          "line_start": 15,
+          "line_end": 21,
+          "bytes": 869,
+          "sha256": "14f4501ec9c1e5d390c0d53b29c951fc68af7c21b071e1e6d5cbcd8a77fb803e"
+        },
+        {
+          "part_id": "chapter-02:short:3",
+          "order": 3,
+          "char_start": 604,
+          "char_end": 902,
+          "line_start": 21,
+          "line_end": 31,
+          "bytes": 866,
+          "sha256": "7b9aff670298a8db9fc2efe00a93fac15cabf6d8e8f1629782ce02e1e9367ad4"
+        },
+        {
+          "part_id": "chapter-02:short:4",
+          "order": 4,
+          "char_start": 902,
+          "char_end": 1200,
+          "line_start": 31,
+          "line_end": 39,
+          "bytes": 870,
+          "sha256": "7e63858abea8b4c824a6911b4f7938776e4a1f3297f0c70a5c339d5bf574e0a1"
+        },
+        {
+          "part_id": "chapter-02:short:5",
+          "order": 5,
+          "char_start": 1200,
+          "char_end": 1500,
+          "line_start": 39,
+          "line_end": 50,
+          "bytes": 870,
+          "sha256": "8c6598daa5b0de76e49719305b87b0791407d89c3d60ad6f26c2fa7e16775996"
+        },
+        {
+          "part_id": "chapter-02:short:6",
+          "order": 6,
+          "char_start": 1500,
+          "char_end": 1803,
+          "line_start": 51,
+          "line_end": 63,
+          "bytes": 885,
+          "sha256": "8f0e6c5451c3f9b593a5a0bddcc6906e9658edd6cebf19c99716a9677a4a2820"
+        },
+        {
+          "part_id": "chapter-02:short:7",
+          "order": 7,
+          "char_start": 1803,
+          "char_end": 2118,
+          "line_start": 63,
+          "line_end": 72,
+          "bytes": 919,
+          "sha256": "b48490190ba27d2231801461427b9b43404f80c2b1aa098a3f6a9727d11ce11b"
+        },
+        {
+          "part_id": "chapter-02:short:8",
+          "order": 8,
+          "char_start": 2118,
+          "char_end": 2425,
+          "line_start": 73,
+          "line_end": 77,
+          "bytes": 633,
+          "sha256": "9c6613350ff08d815e57319a7ef45e522a565cfe82385fdfaa0984373558fab9"
+        },
+        {
+          "part_id": "chapter-02:short:9",
+          "order": 9,
+          "char_start": 2425,
+          "char_end": 2485,
+          "line_start": 77,
+          "line_end": 77,
+          "bytes": 148,
+          "sha256": "e7675847669907fd18f59688b15e8eb93d8b0dda25d01caf46698ede82c1d26a"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-03",
+      "display_order": 3,
+      "title": "我们怎样把猜测当作事实",
+      "source_path": "manuscript/zh-CN/chapters/chapter-03.md",
+      "source_sha256": "e412c3e600618827446d4d024b3780d53bdb304a1464755ef7e0ca8ad0f8a53f",
+      "source_bytes": 6257,
+      "parts": [
+        {
+          "part_id": "chapter-03:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 318,
+          "line_start": 1,
+          "line_end": 13,
+          "bytes": 914,
+          "sha256": "5efd3c8bd1e9f00d2226b79ff78b6d3f2c2c6ff912aa3dd1d47d12286f2866cf"
+        },
+        {
+          "part_id": "chapter-03:short:2",
+          "order": 2,
+          "char_start": 318,
+          "char_end": 637,
+          "line_start": 13,
+          "line_end": 25,
+          "bytes": 933,
+          "sha256": "a0cea06689d7daa2cc1494924a1960aaecf93cb8e12b1c7a7e41869d4c518e76"
+        },
+        {
+          "part_id": "chapter-03:short:3",
+          "order": 3,
+          "char_start": 637,
+          "char_end": 944,
+          "line_start": 25,
+          "line_end": 34,
+          "bytes": 901,
+          "sha256": "e05ede52e4179cfe5e7e0d807377aa93193b172333723e6ad1dfe05562346014"
+        },
+        {
+          "part_id": "chapter-03:short:4",
+          "order": 4,
+          "char_start": 944,
+          "char_end": 1253,
+          "line_start": 35,
+          "line_end": 46,
+          "bytes": 887,
+          "sha256": "739057301fa45504524cf07999535dbc1668fb50421561bc68951136250ef1e7"
+        },
+        {
+          "part_id": "chapter-03:short:5",
+          "order": 5,
+          "char_start": 1253,
+          "char_end": 1565,
+          "line_start": 47,
+          "line_end": 58,
+          "bytes": 894,
+          "sha256": "46b38d73f16d9cad56daeabf4678f174bdaf2715312bdc6b0c3c875094cf0f5b"
+        },
+        {
+          "part_id": "chapter-03:short:6",
+          "order": 6,
+          "char_start": 1565,
+          "char_end": 1871,
+          "line_start": 59,
+          "line_end": 68,
+          "bytes": 892,
+          "sha256": "a9383333c13c2e94aee76ce04c936a81682cc05205262b7849ecffead422e1a4"
+        },
+        {
+          "part_id": "chapter-03:short:7",
+          "order": 7,
+          "char_start": 1871,
+          "char_end": 2191,
+          "line_start": 69,
+          "line_end": 73,
+          "bytes": 634,
+          "sha256": "c7f0c8fda6b386e0cff2706fcf3d74907262fc022a84dba084ceeb631d1bfdab"
+        },
+        {
+          "part_id": "chapter-03:short:8",
+          "order": 8,
+          "char_start": 2191,
+          "char_end": 2269,
+          "line_start": 73,
+          "line_end": 73,
+          "bytes": 202,
+          "sha256": "8ed294dd1fa0ad6de8b88e511e9d9573e9eb4529cbb1c4802b5c8f3a457fcd12"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-04",
+      "display_order": 4,
+      "title": "同一个行为为什么有不同原因",
+      "source_path": "manuscript/zh-CN/chapters/chapter-04.md",
+      "source_sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771",
+      "source_bytes": 10042,
+      "parts": [
+        {
+          "part_id": "chapter-04:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 305,
+          "line_start": 1,
+          "line_end": 10,
+          "bytes": 885,
+          "sha256": "54b6b35376aa7d6305c94c0b1aa75e268d1226e520d6295f849814c78479e495"
+        },
+        {
+          "part_id": "chapter-04:short:2",
+          "order": 2,
+          "char_start": 305,
+          "char_end": 608,
+          "line_start": 11,
+          "line_end": 28,
+          "bytes": 867,
+          "sha256": "e605e2567c211b1cad142f9ee72cdaee267184f9557476da3317850a5c43aa38"
+        },
+        {
+          "part_id": "chapter-04:short:3",
+          "order": 3,
+          "char_start": 608,
+          "char_end": 916,
+          "line_start": 29,
+          "line_end": 37,
+          "bytes": 866,
+          "sha256": "065a46c350d8e000b2df2ff458c84d4926a570a7daeab3fc1a33a0de92e4350d"
+        },
+        {
+          "part_id": "chapter-04:short:4",
+          "order": 4,
+          "char_start": 916,
+          "char_end": 1230,
+          "line_start": 37,
+          "line_end": 44,
+          "bytes": 888,
+          "sha256": "a4a3b2e6bd8b8d35a3a6d9762806b5b6ceb6206a4f9d50a55d978454a0758961"
+        },
+        {
+          "part_id": "chapter-04:short:5",
+          "order": 5,
+          "char_start": 1230,
+          "char_end": 1533,
+          "line_start": 45,
+          "line_end": 53,
+          "bytes": 885,
+          "sha256": "295d54f2429564b9ae18c9aa5e950d981d24196de3fd2837cd57c75c98ba7493"
+        },
+        {
+          "part_id": "chapter-04:short:6",
+          "order": 6,
+          "char_start": 1533,
+          "char_end": 1840,
+          "line_start": 53,
+          "line_end": 63,
+          "bytes": 893,
+          "sha256": "5d64d4d718094ec0b38053d6b43838ba3c2b34180b556871d3c7ba9d3e166fe9"
+        },
+        {
+          "part_id": "chapter-04:short:7",
+          "order": 7,
+          "char_start": 1840,
+          "char_end": 2152,
+          "line_start": 63,
+          "line_end": 75,
+          "bytes": 906,
+          "sha256": "766aac4d272d724829e191521c2122c6618074f149bc40395e4b356f9eec1772"
+        },
+        {
+          "part_id": "chapter-04:short:8",
+          "order": 8,
+          "char_start": 2152,
+          "char_end": 2464,
+          "line_start": 75,
+          "line_end": 84,
+          "bytes": 916,
+          "sha256": "0becbabd8740392d814d33b10618521f652369b1ce7373b63c322ac522dbdf5d"
+        },
+        {
+          "part_id": "chapter-04:short:9",
+          "order": 9,
+          "char_start": 2464,
+          "char_end": 2751,
+          "line_start": 85,
+          "line_end": 94,
+          "bytes": 835,
+          "sha256": "8ab55abaa8c53add26e979672ecef51991092aa9bbd00842ae7a46ada90d6c55"
+        },
+        {
+          "part_id": "chapter-04:short:10",
+          "order": 10,
+          "char_start": 2751,
+          "char_end": 3066,
+          "line_start": 95,
+          "line_end": 104,
+          "bytes": 919,
+          "sha256": "f33e0eedb7ee29ebc8fb73b3e827e018398d074d7045a8a95b50f135c8f45f54"
+        },
+        {
+          "part_id": "chapter-04:short:11",
+          "order": 11,
+          "char_start": 3066,
+          "char_end": 3369,
+          "line_start": 105,
+          "line_end": 109,
+          "bytes": 547,
+          "sha256": "d6b81630c0f4c29f2f8a20cceff6abc9d57638ea7c8d9cab73fa6f3a4a044eef"
+        },
+        {
+          "part_id": "chapter-04:short:12",
+          "order": 12,
+          "char_start": 3369,
+          "char_end": 3670,
+          "line_start": 109,
+          "line_end": 109,
+          "bytes": 583,
+          "sha256": "4be95c2849602c1004c2c089319a9a7dfd75129411f84c2f3ecc1aa6420e3df0"
+        },
+        {
+          "part_id": "chapter-04:short:13",
+          "order": 13,
+          "char_start": 3670,
+          "char_end": 3698,
+          "line_start": 109,
+          "line_end": 109,
+          "bytes": 52,
+          "sha256": "48bdf40461dcf62c06872724344bc02bbb82e9f09cdb8540532dd3ce2f2320bb"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-05",
+      "display_order": 5,
+      "title": "关系、身份与文化怎样改变期待",
+      "source_path": "manuscript/zh-CN/chapters/chapter-05.md",
+      "source_sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6",
+      "source_bytes": 10297,
+      "parts": [
+        {
+          "part_id": "chapter-05:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 296,
+          "line_start": 1,
+          "line_end": 10,
+          "bytes": 858,
+          "sha256": "b850ca360d76abdb5afbed3cd00b124e7cd253f1a93fe3e93eadb3e7f268d373"
+        },
+        {
+          "part_id": "chapter-05:short:2",
+          "order": 2,
+          "char_start": 296,
+          "char_end": 603,
+          "line_start": 11,
+          "line_end": 25,
+          "bytes": 887,
+          "sha256": "95f70dd49ad8cd956c6556000a87fab66eb10c7a92035e959a3e5deb54d1061a"
+        },
+        {
+          "part_id": "chapter-05:short:3",
+          "order": 3,
+          "char_start": 603,
+          "char_end": 914,
+          "line_start": 25,
+          "line_end": 35,
+          "bytes": 913,
+          "sha256": "da4bddf7edaa6ed9808a63268af94ba6b2f9c0429277e9db77ccf4b44da90fef"
+        },
+        {
+          "part_id": "chapter-05:short:4",
+          "order": 4,
+          "char_start": 914,
+          "char_end": 1224,
+          "line_start": 35,
+          "line_end": 45,
+          "bytes": 904,
+          "sha256": "dfa7f3bf13e7dea47098d07634a97846360117f0c1849aa628eb1e23e0493a8c"
+        },
+        {
+          "part_id": "chapter-05:short:5",
+          "order": 5,
+          "char_start": 1224,
+          "char_end": 1525,
+          "line_start": 45,
+          "line_end": 51,
+          "bytes": 869,
+          "sha256": "9dc17f5122e23efbaa784f6ac72bd5426135426071949d803fca53b51d65f1f1"
+        },
+        {
+          "part_id": "chapter-05:short:6",
+          "order": 6,
+          "char_start": 1525,
+          "char_end": 1828,
+          "line_start": 51,
+          "line_end": 60,
+          "bytes": 883,
+          "sha256": "ae3aacccbeda2b710fde3667141c759c70af9f49df995fcf5ad0c0662b7c87bd"
+        },
+        {
+          "part_id": "chapter-05:short:7",
+          "order": 7,
+          "char_start": 1828,
+          "char_end": 2121,
+          "line_start": 61,
+          "line_end": 67,
+          "bytes": 864,
+          "sha256": "486c32ac0eecdc6a68b33cd034db2ea9e4b48d7d3c2d903e69066d6156d6e832"
+        },
+        {
+          "part_id": "chapter-05:short:8",
+          "order": 8,
+          "char_start": 2121,
+          "char_end": 2430,
+          "line_start": 67,
+          "line_end": 75,
+          "bytes": 903,
+          "sha256": "67cc0d25ee9d1338952e1a5724f08bec998ffa0fbbf653e07ccaa3fc37491a32"
+        },
+        {
+          "part_id": "chapter-05:short:9",
+          "order": 9,
+          "char_start": 2430,
+          "char_end": 2739,
+          "line_start": 75,
+          "line_end": 84,
+          "bytes": 901,
+          "sha256": "a778f305eab5f6fcdd5873ffe7259364cc82c7f6815a4385f2abaf41561c2a1f"
+        },
+        {
+          "part_id": "chapter-05:short:10",
+          "order": 10,
+          "char_start": 2739,
+          "char_end": 3053,
+          "line_start": 85,
+          "line_end": 93,
+          "bytes": 926,
+          "sha256": "1c5aac70f27524745b681127ed691d7bffc762833c9431aa2f5ba496617dbb72"
+        },
+        {
+          "part_id": "chapter-05:short:11",
+          "order": 11,
+          "char_start": 3053,
+          "char_end": 3343,
+          "line_start": 93,
+          "line_end": 99,
+          "bytes": 478,
+          "sha256": "c528a508a555b8b2efe89ad21aee9e05e830db1043d24592ad911acc6f7a9ea3"
+        },
+        {
+          "part_id": "chapter-05:short:12",
+          "order": 12,
+          "char_start": 3343,
+          "char_end": 3597,
+          "line_start": 99,
+          "line_end": 99,
+          "bytes": 530,
+          "sha256": "bd27f3f45dbb04b3c86f1fa13be2a3bfc9ab1c7e5c7c9b5e9b6a3f1c5f4a1694"
+        },
+        {
+          "part_id": "chapter-05:short:13",
+          "order": 13,
+          "char_start": 3597,
+          "char_end": 3768,
+          "line_start": 99,
+          "line_end": 99,
+          "bytes": 381,
+          "sha256": "5697e8d1977c5b9383fcfe2ca307ec0f6aada2c5e6786716b3c16ec1b012f3aa"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-06",
+      "display_order": 6,
+      "title": "利益、资源与规则怎样影响选择",
+      "source_path": "manuscript/zh-CN/chapters/chapter-06.md",
+      "source_sha256": "f2d418e61cc08e6a8fe42b5704328ceaddcebcda77316dad9accfeb074cb3583",
+      "source_bytes": 12008,
+      "parts": [
+        {
+          "part_id": "chapter-06:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 303,
+          "line_start": 1,
+          "line_end": 10,
+          "bytes": 879,
+          "sha256": "a83041aac105ea5bbf86027113f1988fd542d01855b4e08ae626d34eef3557b3"
+        },
+        {
+          "part_id": "chapter-06:short:2",
+          "order": 2,
+          "char_start": 303,
+          "char_end": 603,
+          "line_start": 11,
+          "line_end": 21,
+          "bytes": 874,
+          "sha256": "f5bba3d5759a9e31e3b5827f6408ade5b0c20542b44681821cbc13408b480966"
+        },
+        {
+          "part_id": "chapter-06:short:3",
+          "order": 3,
+          "char_start": 603,
+          "char_end": 911,
+          "line_start": 21,
+          "line_end": 32,
+          "bytes": 900,
+          "sha256": "86968b7b277a03cae4a6fbd443659ba8483fad45e9a655809d38c00cb4523aa6"
+        },
+        {
+          "part_id": "chapter-06:short:4",
+          "order": 4,
+          "char_start": 911,
+          "char_end": 1229,
+          "line_start": 33,
+          "line_end": 42,
+          "bytes": 934,
+          "sha256": "a7b45817b7b974f4784773b985059612e72e597f6daf2d7248e6b50ed319a228"
+        },
+        {
+          "part_id": "chapter-06:short:5",
+          "order": 5,
+          "char_start": 1229,
+          "char_end": 1541,
+          "line_start": 43,
+          "line_end": 51,
+          "bytes": 900,
+          "sha256": "26f78ce4f6c7300983bda3d2584282f9052ad96f4fd317cb800eaac11a53974d"
+        },
+        {
+          "part_id": "chapter-06:short:6",
+          "order": 6,
+          "char_start": 1541,
+          "char_end": 1830,
+          "line_start": 51,
+          "line_end": 55,
+          "bytes": 857,
+          "sha256": "66f57e6c408c22d21c298098db7e928753cd7ee8368c11b26ee64cec86e131eb"
+        },
+        {
+          "part_id": "chapter-06:short:7",
+          "order": 7,
+          "char_start": 1830,
+          "char_end": 2121,
+          "line_start": 55,
+          "line_end": 63,
+          "bytes": 851,
+          "sha256": "f37d6e440932ffd92c071b92e0986370b9abd0d90ce6cbccec7931a7a97889da"
+        },
+        {
+          "part_id": "chapter-06:short:8",
+          "order": 8,
+          "char_start": 2121,
+          "char_end": 2435,
+          "line_start": 63,
+          "line_end": 68,
+          "bytes": 928,
+          "sha256": "194104ac6f43a0f81777b7c897f83929cd825bf863dda1b44e6aff1e02ad39ce"
+        },
+        {
+          "part_id": "chapter-06:short:9",
+          "order": 9,
+          "char_start": 2435,
+          "char_end": 2713,
+          "line_start": 69,
+          "line_end": 75,
+          "bytes": 782,
+          "sha256": "11744adbdd8d4b07607cc72d135ef5635bda610403909e0c0f64df83e03feae2"
+        },
+        {
+          "part_id": "chapter-06:short:10",
+          "order": 10,
+          "char_start": 2713,
+          "char_end": 3028,
+          "line_start": 75,
+          "line_end": 84,
+          "bytes": 889,
+          "sha256": "3631870a8fa618ce6b699acf002b110bfac5b8f71c6b45b766f2dbea3bd06d2a"
+        },
+        {
+          "part_id": "chapter-06:short:11",
+          "order": 11,
+          "char_start": 3028,
+          "char_end": 3328,
+          "line_start": 85,
+          "line_end": 91,
+          "bytes": 888,
+          "sha256": "8a8c30c31c9f272d26f0d502fbba91b6f7b8108da32f607c7705b02cc9dd435e"
+        },
+        {
+          "part_id": "chapter-06:short:12",
+          "order": 12,
+          "char_start": 3328,
+          "char_end": 3636,
+          "line_start": 91,
+          "line_end": 100,
+          "bytes": 898,
+          "sha256": "4b9b9dabc5d3b23010ce21906a87f29146a635acbe2eb87c40c290595e97a2e9"
+        },
+        {
+          "part_id": "chapter-06:short:13",
+          "order": 13,
+          "char_start": 3636,
+          "char_end": 3929,
+          "line_start": 101,
+          "line_end": 101,
+          "bytes": 511,
+          "sha256": "f2f194876ee1fddefc88ae68f68d94e5af3979b632f9aea038d5999c3d973026"
+        },
+        {
+          "part_id": "chapter-06:short:14",
+          "order": 14,
+          "char_start": 3929,
+          "char_end": 4249,
+          "line_start": 101,
+          "line_end": 101,
+          "bytes": 536,
+          "sha256": "b03a52093969f82197dee13d8b88ac6b529cacc21c8fc3fff5f085bd2f582f7e"
+        },
+        {
+          "part_id": "chapter-06:short:15",
+          "order": 15,
+          "char_start": 4249,
+          "char_end": 4474,
+          "line_start": 101,
+          "line_end": 101,
+          "bytes": 381,
+          "sha256": "ef3b8f1704f7dcf87e25b5a790a78c51422d1ca0dd344fba7369c8ce041c658f"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-16",
+      "display_order": 7,
+      "title": "为什么想帮忙，对方却觉得没有被听见",
+      "source_path": "manuscript/zh-CN/chapters/chapter-16.md",
+      "source_sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7",
+      "source_bytes": 7207,
+      "parts": [
+        {
+          "part_id": "chapter-16:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 320,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 916,
+          "sha256": "4fa0035da6c171a15b239ec9f7882d1e09d59993b9411c12a5941306ccf44224"
+        },
+        {
+          "part_id": "chapter-16:short:2",
+          "order": 2,
+          "char_start": 320,
+          "char_end": 615,
+          "line_start": 13,
+          "line_end": 19,
+          "bytes": 873,
+          "sha256": "255b14774a62e8bad41e7aa69c60e7d36177ef29d13a24bfe937f374f3103d9f"
+        },
+        {
+          "part_id": "chapter-16:short:3",
+          "order": 3,
+          "char_start": 615,
+          "char_end": 935,
+          "line_start": 19,
+          "line_end": 26,
+          "bytes": 942,
+          "sha256": "77c2df17bfcee6300f62b15998e73fab9feb6d013d073227530a524b2aea3881"
+        },
+        {
+          "part_id": "chapter-16:short:4",
+          "order": 4,
+          "char_start": 935,
+          "char_end": 1234,
+          "line_start": 27,
+          "line_end": 35,
+          "bytes": 875,
+          "sha256": "1c8ac0907f0466bd7f53898a639cf8e262256c6d4c4711b041dc591ab15cb901"
+        },
+        {
+          "part_id": "chapter-16:short:5",
+          "order": 5,
+          "char_start": 1234,
+          "char_end": 1547,
+          "line_start": 35,
+          "line_end": 43,
+          "bytes": 903,
+          "sha256": "a553521ae317cb874a35f7b98b3b3d160518a229d468192a4dde2d5a92e5703c"
+        },
+        {
+          "part_id": "chapter-16:short:6",
+          "order": 6,
+          "char_start": 1547,
+          "char_end": 1867,
+          "line_start": 43,
+          "line_end": 49,
+          "bytes": 948,
+          "sha256": "f75fe4c14e32968242d7d9d710f8f95d2ff1b662bba69a9cbcf6ea06803cb885"
+        },
+        {
+          "part_id": "chapter-16:short:7",
+          "order": 7,
+          "char_start": 1867,
+          "char_end": 2160,
+          "line_start": 49,
+          "line_end": 59,
+          "bytes": 853,
+          "sha256": "5a0d94450f0bcaf5850cb0330628bc798e308a12ce0a359a3deaeed624a42db4"
+        },
+        {
+          "part_id": "chapter-16:short:8",
+          "order": 8,
+          "char_start": 2160,
+          "char_end": 2386,
+          "line_start": 59,
+          "line_end": 63,
+          "bytes": 532,
+          "sha256": "608b3cb094f5f37029a17656bb396252c6882d4cc4d67bdb23978d1a7822e42a"
+        },
+        {
+          "part_id": "chapter-16:short:9",
+          "order": 9,
+          "char_start": 2386,
+          "char_end": 2595,
+          "line_start": 63,
+          "line_end": 63,
+          "bytes": 365,
+          "sha256": "a7603b2924fa6d658661dcf3c5a23ff57617ae6155ef94f0537564d696017bed"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-17",
+      "display_order": 8,
+      "title": "怎样表达关心、真诚认可并给予反馈",
+      "source_path": "manuscript/zh-CN/chapters/chapter-17.md",
+      "source_sha256": "ac41f5ad90fcc0fe22867d68c2ed3c5e65228db5d564284ca1a51db029c679d6",
+      "source_bytes": 7122,
+      "parts": [
+        {
+          "part_id": "chapter-17:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 300,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 856,
+          "sha256": "c5002ddf970acde27c588cf1e1ba0436575f8e9b6729de682912597eef960049"
+        },
+        {
+          "part_id": "chapter-17:short:2",
+          "order": 2,
+          "char_start": 300,
+          "char_end": 583,
+          "line_start": 13,
+          "line_end": 19,
+          "bytes": 837,
+          "sha256": "eea9c8c9ab610ba5a390a808337377b046df518c696e47e56046c5f946302834"
+        },
+        {
+          "part_id": "chapter-17:short:3",
+          "order": 3,
+          "char_start": 583,
+          "char_end": 871,
+          "line_start": 19,
+          "line_end": 27,
+          "bytes": 840,
+          "sha256": "d4b01db68cd85231e1bfa57bee1980a2ea702fc1027485c23b2121a318dda48c"
+        },
+        {
+          "part_id": "chapter-17:short:4",
+          "order": 4,
+          "char_start": 871,
+          "char_end": 1123,
+          "line_start": 27,
+          "line_end": 32,
+          "bytes": 744,
+          "sha256": "79e7e62ed1b5583e04225b2efb2f1e2ccdea493c281fda070b7b3d5200aa9ed5"
+        },
+        {
+          "part_id": "chapter-17:short:5",
+          "order": 5,
+          "char_start": 1123,
+          "char_end": 1436,
+          "line_start": 33,
+          "line_end": 40,
+          "bytes": 915,
+          "sha256": "7d55c0aa800ddf74f65ff58853b3fd5088000849b4ff07dc17a74ef68fd4a191"
+        },
+        {
+          "part_id": "chapter-17:short:6",
+          "order": 6,
+          "char_start": 1436,
+          "char_end": 1726,
+          "line_start": 41,
+          "line_end": 47,
+          "bytes": 858,
+          "sha256": "161d4c95a053d79c27af9b061e90e941dc7f2d9b04460892f5d81495276691f2"
+        },
+        {
+          "part_id": "chapter-17:short:7",
+          "order": 7,
+          "char_start": 1726,
+          "char_end": 2023,
+          "line_start": 47,
+          "line_end": 55,
+          "bytes": 869,
+          "sha256": "9fb38da8a231dd4bf445233e3680c51c83cec7e5a2cfd929d536d6612f9011fa"
+        },
+        {
+          "part_id": "chapter-17:short:8",
+          "order": 8,
+          "char_start": 2023,
+          "char_end": 2317,
+          "line_start": 55,
+          "line_end": 61,
+          "bytes": 698,
+          "sha256": "cd3757874affe1caa5c426543824a502d24ab82c7a4a794c1a010df50e773ad1"
+        },
+        {
+          "part_id": "chapter-17:short:9",
+          "order": 9,
+          "char_start": 2317,
+          "char_end": 2598,
+          "line_start": 61,
+          "line_end": 61,
+          "bytes": 505,
+          "sha256": "e4693cf31474ecfb9bff759fd1016ead96ab268f2e4db376fd48c616c3919d48"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-07",
+      "display_order": 9,
+      "title": "为什么有道理的话别人却听不进去",
+      "source_path": "manuscript/zh-CN/chapters/chapter-07.md",
+      "source_sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02",
+      "source_bytes": 8860,
+      "parts": [
+        {
+          "part_id": "chapter-07:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 307,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 877,
+          "sha256": "8a874b3e724fb8d74f0e6e1ec308e164dcfe9a46971cac4ff79b8e6ee62b121e"
+        },
+        {
+          "part_id": "chapter-07:short:2",
+          "order": 2,
+          "char_start": 307,
+          "char_end": 621,
+          "line_start": 13,
+          "line_end": 24,
+          "bytes": 918,
+          "sha256": "9e5867a44a1ee291568be528f1633f06fad995432ca3fba90979ab5efb646be7"
+        },
+        {
+          "part_id": "chapter-07:short:3",
+          "order": 3,
+          "char_start": 621,
+          "char_end": 924,
+          "line_start": 25,
+          "line_end": 35,
+          "bytes": 889,
+          "sha256": "e55d4e6df8bf275fa41eac4d743e323b62553d0fb53ce2f887e3adfd65298b15"
+        },
+        {
+          "part_id": "chapter-07:short:4",
+          "order": 4,
+          "char_start": 924,
+          "char_end": 1194,
+          "line_start": 35,
+          "line_end": 43,
+          "bytes": 788,
+          "sha256": "984444dc90f7992e44ff3685caf6b681c4ed232e29eb536dd45e81e2ed6b1879"
+        },
+        {
+          "part_id": "chapter-07:short:5",
+          "order": 5,
+          "char_start": 1194,
+          "char_end": 1510,
+          "line_start": 43,
+          "line_end": 49,
+          "bytes": 934,
+          "sha256": "204bd3973303aa90bdb930971bd00c27be3116fb95b0fe844a8f2b46e98ff534"
+        },
+        {
+          "part_id": "chapter-07:short:6",
+          "order": 6,
+          "char_start": 1510,
+          "char_end": 1801,
+          "line_start": 49,
+          "line_end": 56,
+          "bytes": 851,
+          "sha256": "f9bab263496e2faff1849d73ed99767607ee664cbb96f110556e4f7f53f65b42"
+        },
+        {
+          "part_id": "chapter-07:short:7",
+          "order": 7,
+          "char_start": 1801,
+          "char_end": 2093,
+          "line_start": 57,
+          "line_end": 61,
+          "bytes": 838,
+          "sha256": "485a92a644f6973425e8dd01324bb5646c1c2830c01185fb7bad51004ebfe8f7"
+        },
+        {
+          "part_id": "chapter-07:short:8",
+          "order": 8,
+          "char_start": 2093,
+          "char_end": 2412,
+          "line_start": 61,
+          "line_end": 69,
+          "bytes": 923,
+          "sha256": "296c65c235acf0b0c56318f13139032161afaf4994cbd178c3a6beae45a4f0fd"
+        },
+        {
+          "part_id": "chapter-07:short:9",
+          "order": 9,
+          "char_start": 2412,
+          "char_end": 2697,
+          "line_start": 69,
+          "line_end": 78,
+          "bytes": 827,
+          "sha256": "25a90506850fc86eefd0c9f379ec5629f25e6822b1e4eedebd3f6d3c5c4062ce"
+        },
+        {
+          "part_id": "chapter-07:short:10",
+          "order": 10,
+          "char_start": 2697,
+          "char_end": 3004,
+          "line_start": 79,
+          "line_end": 85,
+          "bytes": 641,
+          "sha256": "6912f7c2a3fbb79ff139c9b886f5162b7966bcb83f927743a22d15f0b3a68769"
+        },
+        {
+          "part_id": "chapter-07:short:11",
+          "order": 11,
+          "char_start": 3004,
+          "char_end": 3272,
+          "line_start": 85,
+          "line_end": 85,
+          "bytes": 374,
+          "sha256": "799417e668dc185d127a09eaa14b9c1d167bb96818747cdb4dc75dd781be4d4c"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-08",
+      "display_order": 10,
+      "title": "怎样表达不同意见并继续合作",
+      "source_path": "manuscript/zh-CN/chapters/chapter-08.md",
+      "source_sha256": "1da3e0aee2f06e74c1905d5cef606f059ac8ac92c51365c3e163f259c2a9886a",
+      "source_bytes": 11616,
+      "parts": [
+        {
+          "part_id": "chapter-08:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 309,
+          "line_start": 1,
+          "line_end": 9,
+          "bytes": 897,
+          "sha256": "4f6cc5f6e8297418fefda540cc95d6426b9a23d0c4fa4374ddc035d03898739d"
+        },
+        {
+          "part_id": "chapter-08:short:2",
+          "order": 2,
+          "char_start": 309,
+          "char_end": 615,
+          "line_start": 9,
+          "line_end": 22,
+          "bytes": 884,
+          "sha256": "61dda19e5fc7a236ccce7cab3b4fa48dcd4124f0edf61aa05fb56715c35a1e90"
+        },
+        {
+          "part_id": "chapter-08:short:3",
+          "order": 3,
+          "char_start": 615,
+          "char_end": 910,
+          "line_start": 23,
+          "line_end": 29,
+          "bytes": 873,
+          "sha256": "d7d525d8592f9daf03fe0b5062356a1cf635b12a3bdcea35739b2801e117c5b5"
+        },
+        {
+          "part_id": "chapter-08:short:4",
+          "order": 4,
+          "char_start": 910,
+          "char_end": 1218,
+          "line_start": 29,
+          "line_end": 33,
+          "bytes": 914,
+          "sha256": "975297c2a4a911b9c80ead499b0627b6c8b310afc259a5791f80dc9d8829ac0a"
+        },
+        {
+          "part_id": "chapter-08:short:5",
+          "order": 5,
+          "char_start": 1218,
+          "char_end": 1497,
+          "line_start": 33,
+          "line_end": 43,
+          "bytes": 811,
+          "sha256": "7b3cb07f8f9782c84a5a78e4242c43b04b2e155445ba785f259d21fa36a30567"
+        },
+        {
+          "part_id": "chapter-08:short:6",
+          "order": 6,
+          "char_start": 1497,
+          "char_end": 1768,
+          "line_start": 43,
+          "line_end": 51,
+          "bytes": 797,
+          "sha256": "9ec0d3aa9408fe7f3a9e3c5b939284bb5df01bc506f08c9e97df5d277356d1ca"
+        },
+        {
+          "part_id": "chapter-08:short:7",
+          "order": 7,
+          "char_start": 1768,
+          "char_end": 2066,
+          "line_start": 51,
+          "line_end": 55,
+          "bytes": 886,
+          "sha256": "5c58a6293f071b9e32792aa3234c9705ad24e0f1eb8c92d244098559219abd98"
+        },
+        {
+          "part_id": "chapter-08:short:8",
+          "order": 8,
+          "char_start": 2066,
+          "char_end": 2375,
+          "line_start": 55,
+          "line_end": 64,
+          "bytes": 899,
+          "sha256": "6b53383af14b9ddb60da8b297fb1ffb71809002e8c6ec5bb8eb9ebb1564f87c9"
+        },
+        {
+          "part_id": "chapter-08:short:9",
+          "order": 9,
+          "char_start": 2375,
+          "char_end": 2666,
+          "line_start": 65,
+          "line_end": 70,
+          "bytes": 851,
+          "sha256": "a2a3a3e9292e2f3db97a65f8a697e8b81ff1b41acd575f4b956cb1241c393eaf"
+        },
+        {
+          "part_id": "chapter-08:short:10",
+          "order": 10,
+          "char_start": 2666,
+          "char_end": 2955,
+          "line_start": 71,
+          "line_end": 79,
+          "bytes": 815,
+          "sha256": "e09087c9f2662524db07b62ef14f8955ed403a8c63f4fd7bb5826ddaa3a0ed5b"
+        },
+        {
+          "part_id": "chapter-08:short:11",
+          "order": 11,
+          "char_start": 2955,
+          "char_end": 3274,
+          "line_start": 79,
+          "line_end": 88,
+          "bytes": 937,
+          "sha256": "ba8a70df726217a2b69086f9fe09360b7440d6ecb8da823ccab7916bdb845337"
+        },
+        {
+          "part_id": "chapter-08:short:12",
+          "order": 12,
+          "char_start": 3274,
+          "char_end": 3585,
+          "line_start": 89,
+          "line_end": 98,
+          "bytes": 907,
+          "sha256": "317af2493823b971cb1cc3634a6d6235f0a7f603abb31c232e510c5713013dca"
+        },
+        {
+          "part_id": "chapter-08:short:13",
+          "order": 13,
+          "char_start": 3585,
+          "char_end": 3845,
+          "line_start": 99,
+          "line_end": 103,
+          "bytes": 586,
+          "sha256": "51d82af87b77f2c6bd6a170717f15c593d60571d9b7d888b9a6fb33d655c4f0d"
+        },
+        {
+          "part_id": "chapter-08:short:14",
+          "order": 14,
+          "char_start": 3845,
+          "char_end": 4120,
+          "line_start": 103,
+          "line_end": 103,
+          "bytes": 417,
+          "sha256": "3df8bb93044d39bb0f010db141a5a2112f6592c3ee3f6f26a4b2d7a4a77d0d5a"
+        },
+        {
+          "part_id": "chapter-08:short:15",
+          "order": 15,
+          "char_start": 4120,
+          "char_end": 4178,
+          "line_start": 103,
+          "line_end": 103,
+          "bytes": 142,
+          "sha256": "f7bbb8109ec7455ba7bf3ca28afa5a437460030cb26f4e1340ab83aa801346cf"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-09",
+      "display_order": 11,
+      "title": "怎样拒绝并说明自己的边界",
+      "source_path": "manuscript/zh-CN/chapters/chapter-09.md",
+      "source_sha256": "4baea9efe2cfa00b602c3d2029bc3e33669dcbfc6d25037f1971e855de6725e6",
+      "source_bytes": 9741,
+      "parts": [
+        {
+          "part_id": "chapter-09:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 309,
+          "line_start": 1,
+          "line_end": 10,
+          "bytes": 893,
+          "sha256": "4b00077434c1922b6e566ad60674ae0bc5e19c2087b7c6853c20bb3fc1882aab"
+        },
+        {
+          "part_id": "chapter-09:short:2",
+          "order": 2,
+          "char_start": 309,
+          "char_end": 615,
+          "line_start": 11,
+          "line_end": 24,
+          "bytes": 884,
+          "sha256": "fdf54a58ba04732fe8ccefaaa1fea61ba475f8fdfa6d0378766479677668be4a"
+        },
+        {
+          "part_id": "chapter-09:short:3",
+          "order": 3,
+          "char_start": 615,
+          "char_end": 931,
+          "line_start": 25,
+          "line_end": 35,
+          "bytes": 928,
+          "sha256": "6ac0e324cbcbef0ad030c4907b048364f089ea9e5b06126e277b79ecd576c7cb"
+        },
+        {
+          "part_id": "chapter-09:short:4",
+          "order": 4,
+          "char_start": 931,
+          "char_end": 1219,
+          "line_start": 35,
+          "line_end": 43,
+          "bytes": 842,
+          "sha256": "d642ab4a3af5915a5a747e2874bade9a397f2c743a25f0832127973a8ca85bac"
+        },
+        {
+          "part_id": "chapter-09:short:5",
+          "order": 5,
+          "char_start": 1219,
+          "char_end": 1531,
+          "line_start": 43,
+          "line_end": 52,
+          "bytes": 908,
+          "sha256": "c040a63466a262b4ce7e7ff2cfe0f485300fad3f5bdebdb4c4f946f235182e4e"
+        },
+        {
+          "part_id": "chapter-09:short:6",
+          "order": 6,
+          "char_start": 1531,
+          "char_end": 1847,
+          "line_start": 53,
+          "line_end": 60,
+          "bytes": 926,
+          "sha256": "28e43811360d2d6f8fc9e00560b0a4a2253e49a8722bd568771d2c8265b1d5e2"
+        },
+        {
+          "part_id": "chapter-09:short:7",
+          "order": 7,
+          "char_start": 1847,
+          "char_end": 2141,
+          "line_start": 61,
+          "line_end": 69,
+          "bytes": 852,
+          "sha256": "96cf78eb16d92674d7ce8356de5ba05ae97710e95a72671a74a607210a89f774"
+        },
+        {
+          "part_id": "chapter-09:short:8",
+          "order": 8,
+          "char_start": 2141,
+          "char_end": 2438,
+          "line_start": 69,
+          "line_end": 77,
+          "bytes": 869,
+          "sha256": "4c44515a7822d7caa4d44b0758a5aaa136471cadccac7891ab6542d5724d4a36"
+        },
+        {
+          "part_id": "chapter-09:short:9",
+          "order": 9,
+          "char_start": 2438,
+          "char_end": 2747,
+          "line_start": 77,
+          "line_end": 84,
+          "bytes": 911,
+          "sha256": "23df4db26a915f8a90d012c867b1d38b94419364670f86567742970a4bb4255e"
+        },
+        {
+          "part_id": "chapter-09:short:10",
+          "order": 10,
+          "char_start": 2747,
+          "char_end": 3052,
+          "line_start": 85,
+          "line_end": 93,
+          "bytes": 893,
+          "sha256": "f998044d6e4e8d7034950fcc35d2c6ae5f8270512bc37d884d6b1d614735986e"
+        },
+        {
+          "part_id": "chapter-09:short:11",
+          "order": 11,
+          "char_start": 3052,
+          "char_end": 3282,
+          "line_start": 93,
+          "line_end": 99,
+          "bytes": 548,
+          "sha256": "a1a0c31298c004ce6e292d5d7b050df8c63671044b780eb22f7c40820e6d93c1"
+        },
+        {
+          "part_id": "chapter-09:short:12",
+          "order": 12,
+          "char_start": 3282,
+          "char_end": 3443,
+          "line_start": 99,
+          "line_end": 99,
+          "bytes": 287,
+          "sha256": "48f892335124186349e3198ed8532e688f7cd1909b2457d1e67cd06bb90f0dc8"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-10",
+      "display_order": 12,
+      "title": "怎样影响别人并审视自己受到的影响",
+      "source_path": "manuscript/zh-CN/chapters/chapter-10.md",
+      "source_sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64",
+      "source_bytes": 9284,
+      "parts": [
+        {
+          "part_id": "chapter-10:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 320,
+          "line_start": 1,
+          "line_end": 9,
+          "bytes": 928,
+          "sha256": "527c8a4e991792a3d62395ca6ca79e3f0acdb9e8ccf6992bb52c3136e2d4f01a"
+        },
+        {
+          "part_id": "chapter-10:short:2",
+          "order": 2,
+          "char_start": 320,
+          "char_end": 638,
+          "line_start": 10,
+          "line_end": 24,
+          "bytes": 868,
+          "sha256": "5b188247d95295e6355df3544adad608ed66d72dafd42fbacde9cb1ec267f086"
+        },
+        {
+          "part_id": "chapter-10:short:3",
+          "order": 3,
+          "char_start": 638,
+          "char_end": 952,
+          "line_start": 25,
+          "line_end": 32,
+          "bytes": 898,
+          "sha256": "610c92bbfbcfe582583d1fdb5efe2acaf92283612d84a091e07726f90cf45603"
+        },
+        {
+          "part_id": "chapter-10:short:4",
+          "order": 4,
+          "char_start": 952,
+          "char_end": 1262,
+          "line_start": 33,
+          "line_end": 41,
+          "bytes": 906,
+          "sha256": "044579c6fe0928bd52a245246da0bbdbc3b9789ea650703131c3939e27175653"
+        },
+        {
+          "part_id": "chapter-10:short:5",
+          "order": 5,
+          "char_start": 1262,
+          "char_end": 1565,
+          "line_start": 41,
+          "line_end": 49,
+          "bytes": 885,
+          "sha256": "614738e503b03ce8afd372080bcaef05d4bf60b317714384a21da3d939ed7acd"
+        },
+        {
+          "part_id": "chapter-10:short:6",
+          "order": 6,
+          "char_start": 1565,
+          "char_end": 1870,
+          "line_start": 49,
+          "line_end": 55,
+          "bytes": 899,
+          "sha256": "3fa4a56e9ad81f6e6a248bf57eef487b298d538610c927bfb1bd77a795bda927"
+        },
+        {
+          "part_id": "chapter-10:short:7",
+          "order": 7,
+          "char_start": 1870,
+          "char_end": 2167,
+          "line_start": 55,
+          "line_end": 64,
+          "bytes": 857,
+          "sha256": "dff247bc50b9d2c00888176f0e539f7113a66f5a98f7a170b963dc32c460f8fc"
+        },
+        {
+          "part_id": "chapter-10:short:8",
+          "order": 8,
+          "char_start": 2167,
+          "char_end": 2485,
+          "line_start": 65,
+          "line_end": 70,
+          "bytes": 928,
+          "sha256": "9b59b3b7abe544c3d51abcecd8037902bb85aa1210da95ec37273646ec939256"
+        },
+        {
+          "part_id": "chapter-10:short:9",
+          "order": 9,
+          "char_start": 2485,
+          "char_end": 2786,
+          "line_start": 71,
+          "line_end": 81,
+          "bytes": 859,
+          "sha256": "a9603b0040de2717160ac12e7cf7e4d37a3ef8aad702fb0a163979762f753fb3"
+        },
+        {
+          "part_id": "chapter-10:short:10",
+          "order": 10,
+          "char_start": 2786,
+          "char_end": 2973,
+          "line_start": 81,
+          "line_end": 88,
+          "bytes": 539,
+          "sha256": "20084500c5a7ec94d0ca03e7de89909ccd4d15d161b82291df97a1026d98deca"
+        },
+        {
+          "part_id": "chapter-10:short:11",
+          "order": 11,
+          "char_start": 2973,
+          "char_end": 3271,
+          "line_start": 89,
+          "line_end": 89,
+          "bytes": 502,
+          "sha256": "a6d947abf24afe5b785946f6fad7c62a1617ee674506b12e3f0227a8382d1d37"
+        },
+        {
+          "part_id": "chapter-10:short:12",
+          "order": 12,
+          "char_start": 3271,
+          "char_end": 3408,
+          "line_start": 89,
+          "line_end": 89,
+          "bytes": 215,
+          "sha256": "5cc39b387355bb1df348d6eb65da9e3461467c7daf4c2b3295a55eb29bbd4d76"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-11",
+      "display_order": 13,
+      "title": "善意失效以后怎样重新判断",
+      "source_path": "manuscript/zh-CN/chapters/chapter-11.md",
+      "source_sha256": "fe7e3283b8e4da78d457ac2b5ac4e86e484bd70ceeb321752db853b52b464db7",
+      "source_bytes": 8453,
+      "parts": [
+        {
+          "part_id": "chapter-11:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 299,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 861,
+          "sha256": "3db5941ae49cd0b5acf1aafae139f6dcaee91a4b2e000f4bc9e796605490ec5f"
+        },
+        {
+          "part_id": "chapter-11:short:2",
+          "order": 2,
+          "char_start": 299,
+          "char_end": 611,
+          "line_start": 13,
+          "line_end": 20,
+          "bytes": 914,
+          "sha256": "2a5e7511655c3fc8cfe5903235ede10d873f6431081a363d21a1fa620d530744"
+        },
+        {
+          "part_id": "chapter-11:short:3",
+          "order": 3,
+          "char_start": 611,
+          "char_end": 925,
+          "line_start": 21,
+          "line_end": 30,
+          "bytes": 922,
+          "sha256": "2145116eef79a3334f02e1e2f606518b9df08c0efabcbd6e5c5a16bb61d2686d"
+        },
+        {
+          "part_id": "chapter-11:short:4",
+          "order": 4,
+          "char_start": 925,
+          "char_end": 1207,
+          "line_start": 31,
+          "line_end": 38,
+          "bytes": 824,
+          "sha256": "690a74918430d228834222c0b6cc6a1a4f664d227dd2411e387f784eed717f18"
+        },
+        {
+          "part_id": "chapter-11:short:5",
+          "order": 5,
+          "char_start": 1207,
+          "char_end": 1507,
+          "line_start": 39,
+          "line_end": 46,
+          "bytes": 876,
+          "sha256": "c4c8bc5af6a37bab6b41685cfdcd50c0adf6a2c3d2d2b757cc01bc7f7050102f"
+        },
+        {
+          "part_id": "chapter-11:short:6",
+          "order": 6,
+          "char_start": 1507,
+          "char_end": 1793,
+          "line_start": 47,
+          "line_end": 54,
+          "bytes": 842,
+          "sha256": "63d0de6ff68e24ab330ffa244a6abb3e738c5f6c5ab1434e659f4a8b99bc0fdf"
+        },
+        {
+          "part_id": "chapter-11:short:7",
+          "order": 7,
+          "char_start": 1793,
+          "char_end": 2113,
+          "line_start": 55,
+          "line_end": 63,
+          "bytes": 938,
+          "sha256": "0c1a899c50729022e5b3ec47cc3618272a8cba3d731d6fd7620a71b5a56b93bf"
+        },
+        {
+          "part_id": "chapter-11:short:8",
+          "order": 8,
+          "char_start": 2113,
+          "char_end": 2424,
+          "line_start": 63,
+          "line_end": 73,
+          "bytes": 907,
+          "sha256": "886f694203cd49915d64eb2f4d4de16695e3e884422b52cb6a422cb75f8ad334"
+        },
+        {
+          "part_id": "chapter-11:short:9",
+          "order": 9,
+          "char_start": 2424,
+          "char_end": 2720,
+          "line_start": 73,
+          "line_end": 82,
+          "bytes": 862,
+          "sha256": "79fd34ca0a84dca43e7cb07635966799a847eb31e8d2c70b78199ae89c9f03c3"
+        },
+        {
+          "part_id": "chapter-11:short:10",
+          "order": 10,
+          "char_start": 2720,
+          "char_end": 2947,
+          "line_start": 83,
+          "line_end": 85,
+          "bytes": 507,
+          "sha256": "0b563ae981ad99e7f5739fcbada75d8edcc567b6124790c2b4875b3caece9df4"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-12",
+      "display_order": 14,
+      "title": "怎样承认错误并逐步修复信任",
+      "source_path": "manuscript/zh-CN/chapters/chapter-12.md",
+      "source_sha256": "9fbf731a02405543b6f8552a5a429adf3f7718125990e3efa941669d67e426d8",
+      "source_bytes": 8141,
+      "parts": [
+        {
+          "part_id": "chapter-12:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 317,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 907,
+          "sha256": "c2554c0e6b99571650e8499098c9bb0c79d2c93c94a0827e425e2bbc5e6ee195"
+        },
+        {
+          "part_id": "chapter-12:short:2",
+          "order": 2,
+          "char_start": 317,
+          "char_end": 618,
+          "line_start": 13,
+          "line_end": 17,
+          "bytes": 895,
+          "sha256": "14c4925f352d51e2adac556e91701705e820482a3af46ed60f4542320de1cc78"
+        },
+        {
+          "part_id": "chapter-12:short:3",
+          "order": 3,
+          "char_start": 618,
+          "char_end": 904,
+          "line_start": 17,
+          "line_end": 23,
+          "bytes": 846,
+          "sha256": "8a77cb48a4602bfcc6c1095af674a4aa559d029f3f8b18cbefda94b36c29cac1"
+        },
+        {
+          "part_id": "chapter-12:short:4",
+          "order": 4,
+          "char_start": 904,
+          "char_end": 1220,
+          "line_start": 23,
+          "line_end": 32,
+          "bytes": 920,
+          "sha256": "c7ff7f5d25726e2906e938d8428875c3972ac91b4a272013ef7fe96634dd93a0"
+        },
+        {
+          "part_id": "chapter-12:short:5",
+          "order": 5,
+          "char_start": 1220,
+          "char_end": 1535,
+          "line_start": 33,
+          "line_end": 38,
+          "bytes": 933,
+          "sha256": "ac239aeeb88e6fff24fed7d2d54d5b1084a1bdeff80d2b49b90c50505497dc94"
+        },
+        {
+          "part_id": "chapter-12:short:6",
+          "order": 6,
+          "char_start": 1535,
+          "char_end": 1833,
+          "line_start": 39,
+          "line_end": 47,
+          "bytes": 872,
+          "sha256": "caa3fab5a0672746547377fc00076df60fca01dcbfb7d48c3584294ad1430d01"
+        },
+        {
+          "part_id": "chapter-12:short:7",
+          "order": 7,
+          "char_start": 1833,
+          "char_end": 2143,
+          "line_start": 47,
+          "line_end": 53,
+          "bytes": 916,
+          "sha256": "5fbac54542e1b914822a423168881867e84e9e71ca27d91393ab4c374f664730"
+        },
+        {
+          "part_id": "chapter-12:short:8",
+          "order": 8,
+          "char_start": 2143,
+          "char_end": 2453,
+          "line_start": 53,
+          "line_end": 63,
+          "bytes": 904,
+          "sha256": "6007b7caec49932a503ce8adf50172c97dda7eaf1c0d59f8101c75f7a0ca907c"
+        },
+        {
+          "part_id": "chapter-12:short:9",
+          "order": 9,
+          "char_start": 2453,
+          "char_end": 2695,
+          "line_start": 63,
+          "line_end": 67,
+          "bytes": 524,
+          "sha256": "77d0738d89ed70b1f5b0e485e0b9d3f36f4687070e1d5e2c12df637c5c1d9fba"
+        },
+        {
+          "part_id": "chapter-12:short:10",
+          "order": 10,
+          "char_start": 2695,
+          "char_end": 2903,
+          "line_start": 67,
+          "line_end": 69,
+          "bytes": 424,
+          "sha256": "857286157c38499d06ce39d841b062caf50e6da39d8ef5efbc49da44ee09b60e"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-13",
+      "display_order": 15,
+      "title": "怎样理解原谅、责任与关系的未来",
+      "source_path": "manuscript/zh-CN/chapters/chapter-13.md",
+      "source_sha256": "00bec610c8dc0db83a8438972d75d2fcbe9fab9fbe4a01ffa271d3272347af76",
+      "source_bytes": 7522,
+      "parts": [
+        {
+          "part_id": "chapter-13:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 309,
+          "line_start": 1,
+          "line_end": 10,
+          "bytes": 893,
+          "sha256": "245628dea19a8983e6aaf0eb787b4ddceef7aa4fede8b8199e8006833c3c1df3"
+        },
+        {
+          "part_id": "chapter-13:short:2",
+          "order": 2,
+          "char_start": 309,
+          "char_end": 604,
+          "line_start": 11,
+          "line_end": 19,
+          "bytes": 863,
+          "sha256": "c980e769a8a0751b6f9f3c4b869730ac2031f40b9457f133db33ef76d25b21ff"
+        },
+        {
+          "part_id": "chapter-13:short:3",
+          "order": 3,
+          "char_start": 604,
+          "char_end": 924,
+          "line_start": 19,
+          "line_end": 27,
+          "bytes": 936,
+          "sha256": "289de70e07747d630d2fec8993c8cafa6ff57797dbdcb19b33613b3c93dc93bb"
+        },
+        {
+          "part_id": "chapter-13:short:4",
+          "order": 4,
+          "char_start": 924,
+          "char_end": 1240,
+          "line_start": 27,
+          "line_end": 35,
+          "bytes": 932,
+          "sha256": "65e9d6fc2b2ba4f294e0cb7fdb3de6d22a62bf91db05a15a6b7409fad65aef46"
+        },
+        {
+          "part_id": "chapter-13:short:5",
+          "order": 5,
+          "char_start": 1240,
+          "char_end": 1541,
+          "line_start": 35,
+          "line_end": 43,
+          "bytes": 879,
+          "sha256": "077ce8774bfafd3de4054130395721c25324a7aca90fa8ab54acd987a7bcfbd8"
+        },
+        {
+          "part_id": "chapter-13:short:6",
+          "order": 6,
+          "char_start": 1541,
+          "char_end": 1848,
+          "line_start": 43,
+          "line_end": 49,
+          "bytes": 909,
+          "sha256": "e28026edf5594b7d1ddcf61b31e3f8406fab000e79c342130e0b64b8b99fa9e2"
+        },
+        {
+          "part_id": "chapter-13:short:7",
+          "order": 7,
+          "char_start": 1848,
+          "char_end": 2163,
+          "line_start": 49,
+          "line_end": 58,
+          "bytes": 919,
+          "sha256": "1fc9570f812917b0f3526788f25fbd3e10164c49c05b75867e576e0ccdb435d1"
+        },
+        {
+          "part_id": "chapter-13:short:8",
+          "order": 8,
+          "char_start": 2163,
+          "char_end": 2483,
+          "line_start": 59,
+          "line_end": 65,
+          "bytes": 712,
+          "sha256": "1893eb09d0dd4ed0c1afd4ea8f09a096a04e525ffffb363c1f1951f7f19d70bc"
+        },
+        {
+          "part_id": "chapter-13:short:9",
+          "order": 9,
+          "char_start": 2483,
+          "char_end": 2754,
+          "line_start": 65,
+          "line_end": 65,
+          "bytes": 479,
+          "sha256": "3cdf828e315a994cfe96f12e04632d5bd2fbf9166b3e50f2102e4d251e6c3f4c"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-14",
+      "display_order": 16,
+      "title": "怎样把知道变成持续行动",
+      "source_path": "manuscript/zh-CN/chapters/chapter-14.md",
+      "source_sha256": "80ef4302d145b9eea1f469cbf60d53e61b8fe5b416c0e167cf38c54aed634322",
+      "source_bytes": 7956,
+      "parts": [
+        {
+          "part_id": "chapter-14:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 311,
+          "line_start": 1,
+          "line_end": 12,
+          "bytes": 889,
+          "sha256": "4396c6438313bdf83e86d9ad95403b4cfa4c90c3177d883c9fa5bb21958f4e00"
+        },
+        {
+          "part_id": "chapter-14:short:2",
+          "order": 2,
+          "char_start": 311,
+          "char_end": 628,
+          "line_start": 13,
+          "line_end": 20,
+          "bytes": 935,
+          "sha256": "03eb0c6616ef3c1e575b5fba3fc71ca10366fe965f57a88d5a4d04e468c544a2"
+        },
+        {
+          "part_id": "chapter-14:short:3",
+          "order": 3,
+          "char_start": 628,
+          "char_end": 942,
+          "line_start": 21,
+          "line_end": 25,
+          "bytes": 892,
+          "sha256": "c208e4c67a6b0c133749513e7819159e2bfc72a49537e8784fde79e9b890afd2"
+        },
+        {
+          "part_id": "chapter-14:short:4",
+          "order": 4,
+          "char_start": 942,
+          "char_end": 1258,
+          "line_start": 25,
+          "line_end": 35,
+          "bytes": 922,
+          "sha256": "77f1cd0567311425b653b08614a5dff9e12d49f9d496adf7ad6f39a8385dec22"
+        },
+        {
+          "part_id": "chapter-14:short:5",
+          "order": 5,
+          "char_start": 1258,
+          "char_end": 1571,
+          "line_start": 35,
+          "line_end": 44,
+          "bytes": 911,
+          "sha256": "9e7f1fc3d6a4eedb0caaf2d9e1077146ae1a9483b69be12a4c34e9e57b2aef88"
+        },
+        {
+          "part_id": "chapter-14:short:6",
+          "order": 6,
+          "char_start": 1571,
+          "char_end": 1879,
+          "line_start": 45,
+          "line_end": 51,
+          "bytes": 912,
+          "sha256": "3605839084c27ff09aa6f14c5031e10f179e51b0cd4dda871ed551db27b338c3"
+        },
+        {
+          "part_id": "chapter-14:short:7",
+          "order": 7,
+          "char_start": 1879,
+          "char_end": 2173,
+          "line_start": 51,
+          "line_end": 59,
+          "bytes": 860,
+          "sha256": "3feaa6df51e9a3f2233738ef420d47b19848e0c33a4910e03ee0d5e67a373e39"
+        },
+        {
+          "part_id": "chapter-14:short:8",
+          "order": 8,
+          "char_start": 2173,
+          "char_end": 2384,
+          "line_start": 59,
+          "line_end": 66,
+          "bytes": 609,
+          "sha256": "14d55490449f615e7e6fabb35c6ec52466f6df4d29241114c3961aa8533eeaf2"
+        },
+        {
+          "part_id": "chapter-14:short:9",
+          "order": 9,
+          "char_start": 2384,
+          "char_end": 2704,
+          "line_start": 67,
+          "line_end": 67,
+          "bytes": 466,
+          "sha256": "03f60fa25fb3a12423e3c10d289a052984313321a17f20b01a968074ed79268e"
+        },
+        {
+          "part_id": "chapter-14:short:10",
+          "order": 10,
+          "char_start": 2704,
+          "char_end": 3008,
+          "line_start": 67,
+          "line_end": 69,
+          "bytes": 560,
+          "sha256": "78e026ab74465a3a19782e447f99a0f4fb9b134bd8990df5bbdc5af4308a5821"
+        }
+      ]
+    },
+    {
+      "unit_id": "chapter-15",
+      "display_order": 17,
+      "title": "怎样在陌生情境中重新判断",
+      "source_path": "manuscript/zh-CN/chapters/chapter-15.md",
+      "source_sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b",
+      "source_bytes": 7595,
+      "parts": [
+        {
+          "part_id": "chapter-15:short:1",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 304,
+          "line_start": 1,
+          "line_end": 11,
+          "bytes": 868,
+          "sha256": "4e09da3dbbe039346bdba8c67db1b9108a02359badb2b8aeb21a90ab556f2d72"
+        },
+        {
+          "part_id": "chapter-15:short:2",
+          "order": 2,
+          "char_start": 304,
+          "char_end": 584,
+          "line_start": 11,
+          "line_end": 18,
+          "bytes": 824,
+          "sha256": "7119b567d4debf96a44ab14fc816dd448504b677f708c76956c8f56d5392be5e"
+        },
+        {
+          "part_id": "chapter-15:short:3",
+          "order": 3,
+          "char_start": 584,
+          "char_end": 893,
+          "line_start": 19,
+          "line_end": 27,
+          "bytes": 865,
+          "sha256": "f13a87e1901338ff153c82d10ee8fbff30326794fd4706f1e076f153a50761ac"
+        },
+        {
+          "part_id": "chapter-15:short:4",
+          "order": 4,
+          "char_start": 893,
+          "char_end": 1165,
+          "line_start": 27,
+          "line_end": 32,
+          "bytes": 804,
+          "sha256": "395b1142f609ae74a000584c1cb3e17fc65b164aba3c627c9aead293e15152b0"
+        },
+        {
+          "part_id": "chapter-15:short:5",
+          "order": 5,
+          "char_start": 1165,
+          "char_end": 1483,
+          "line_start": 33,
+          "line_end": 40,
+          "bytes": 926,
+          "sha256": "cf7a114a9e35a0c295d9e31aea1864e525f1c085e01e52b71d7ebf87c7914c54"
+        },
+        {
+          "part_id": "chapter-15:short:6",
+          "order": 6,
+          "char_start": 1483,
+          "char_end": 1802,
+          "line_start": 41,
+          "line_end": 47,
+          "bytes": 941,
+          "sha256": "94e9a0a5b5a4ce90ac65eb2b57b3d4e051dcea4b01dbd8eb511f92272dd45b36"
+        },
+        {
+          "part_id": "chapter-15:short:7",
+          "order": 7,
+          "char_start": 1802,
+          "char_end": 2117,
+          "line_start": 47,
+          "line_end": 54,
+          "bytes": 883,
+          "sha256": "f7d5776407fdd96e5ec3d5bbbd19f0dbfe6ba824b092f0ec057f1ec79048a5ad"
+        },
+        {
+          "part_id": "chapter-15:short:8",
+          "order": 8,
+          "char_start": 2117,
+          "char_end": 2378,
+          "line_start": 55,
+          "line_end": 62,
+          "bytes": 761,
+          "sha256": "f69b7a7e814d40e2fdb169bc0c02dbdab99a3659479235ee2944be5be2421d61"
+        },
+        {
+          "part_id": "chapter-15:short:9",
+          "order": 9,
+          "char_start": 2378,
+          "char_end": 2698,
+          "line_start": 63,
+          "line_end": 63,
+          "bytes": 452,
+          "sha256": "0f50a501e6186679f41fe0739f7275de80b48dd9dd88464259cbfabff0912cd6"
+        },
+        {
+          "part_id": "chapter-15:short:10",
+          "order": 10,
+          "char_start": 2698,
+          "char_end": 2821,
+          "line_start": 63,
+          "line_end": 63,
+          "bytes": 271,
+          "sha256": "0df66fcb8afaad5d5e5d380b2887e99f74368e9dd8a753a3dfff9d57e01f98ea"
+        }
+      ]
+    }
+  ]
+}

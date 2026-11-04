@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.5.0",
+  "version": "teaching-orchestration-0.6.0",
   "book_id": "understanding-human-relations-zh",
   "newly_authored": true,
   "original_manuscript_modified": false,
@@ -46,6 +46,13 @@
           "unit_id": "chapter-01",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 1,
+          "part": 1
+        }
       }
     },
     {
@@ -87,6 +94,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-02",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 2,
+          "part": 1
         }
       }
     },
@@ -130,6 +144,13 @@
           "unit_id": "chapter-03",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 3,
+          "part": 1
+        }
       }
     },
     {
@@ -171,6 +192,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-04",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 4,
+          "part": 1
         }
       }
     },
@@ -214,6 +242,13 @@
           "unit_id": "chapter-05",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 5,
+          "part": 1
+        }
       }
     },
     {
@@ -255,6 +290,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-06",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 6,
+          "part": 1
         }
       }
     },
@@ -298,6 +340,13 @@
           "unit_id": "chapter-16",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 7,
+          "part": 1
+        }
       }
     },
     {
@@ -339,6 +388,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-17",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 8,
+          "part": 1
         }
       }
     },
@@ -382,6 +438,13 @@
           "unit_id": "chapter-07",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 9,
+          "part": 1
+        }
       }
     },
     {
@@ -423,6 +486,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-08",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 10,
+          "part": 1
         }
       }
     },
@@ -466,6 +536,13 @@
           "unit_id": "chapter-09",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 11,
+          "part": 1
+        }
       }
     },
     {
@@ -507,6 +584,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-10",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 12,
+          "part": 1
         }
       }
     },
@@ -550,6 +634,13 @@
           "unit_id": "chapter-11",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 13,
+          "part": 1
+        }
       }
     },
     {
@@ -591,6 +682,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-12",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 14,
+          "part": 1
         }
       }
     },
@@ -634,6 +732,13 @@
           "unit_id": "chapter-13",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 15,
+          "part": 1
+        }
       }
     },
     {
@@ -675,6 +780,13 @@
           "book_id": "understanding-human-relations-zh",
           "unit_id": "chapter-14",
           "stage": "coverage"
+        }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 16,
+          "part": 1
         }
       }
     },
@@ -718,11 +830,20 @@
           "unit_id": "chapter-15",
           "stage": "coverage"
         }
+      },
+      "direct_reading_call": {
+        "tool": "books_read_chapter",
+        "arguments": {
+          "chapter": 17,
+          "part": 1
+        }
       }
     }
   ],
   "progress_note": "材料可用不是已讨论或掌握；接口不保存实际学习记录。",
   "default_mode": "read_original",
   "reading_routes": "reading.json",
-  "practice_recap_rules": "mastery-recap.json"
+  "practice_recap_rules": "mastery-recap.json",
+  "preferred_reading_tool": "books_read_chapter",
+  "direct_reading": "direct-reading.json"
 }

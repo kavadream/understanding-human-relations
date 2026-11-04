@@ -126,7 +126,7 @@
     }
   ],
   "teaching_supplement": {
-    "version": "teaching-orchestration-0.5.0",
+    "version": "teaching-orchestration-0.6.0",
     "newly_authored": true,
     "guide": "learning/README.md",
     "unit_plan": "learning/chapter-01.json",
@@ -136,6 +136,7 @@
     "unit_count": 17,
     "default_mode": "read_original",
     "reading_routes": "learning/reading.json",
-    "practice_recap_rules": "learning/mastery-recap.json"
+    "practice_recap_rules": "learning/mastery-recap.json",
+    "direct_reading": "learning/direct-reading.json"
   }
 }
