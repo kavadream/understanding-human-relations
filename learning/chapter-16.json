@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.3.0",
+  "version": "teaching-orchestration-0.4.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-16",
   "display_order": 7,
@@ -24,7 +24,6 @@
     "initial_section": "故事决策截点（原节名简写，以免提前透露后续）"
   },
   "stage_order_is_optional": true,
-  "initial_stage": "story",
   "privacy": {
     "learner_records_accepted": false,
     "remote_progress": false,
@@ -82,18 +81,21 @@
           ]
         }
       ],
-      "decision_time": "汪澄尚未继续回应、指责尚未由朋友转发的时点；后来的回应与效果不提供。",
+      "decision_time": "复盘事实卡所列事件之后、后续行动之前的原故事时点；这是人物当时的信息范围，不是读者未知状态。",
       "unknowns": [
         "通知遗漏的经过、主管的动机。",
         "陈栩此刻最希望朋友怎样参与，尚未向汪澄说清。"
       ],
       "learner_prompt": "如果你是汪澄，此刻最想先回应陈栩的哪一部分？",
-      "facilitator_action": "等待读者说明其优先回应的部分及理由，不先把情绪、原因和行动划好答案；允许他先问一个实质澄清。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
       "newly_authored": true,
       "derived": true,
       "excerpt_only": true,
       "original_unit_complete": false,
-      "stage_complete": true
+      "stage_complete": true,
+      "mode": "optional_training_summary",
+      "transformation": "新编训练概述，复盘原故事过去的决策时点；不是完整原文。默认完整阅读保留全部作者分析与结论，读者可能已知后续情节；此处仅按人物当时信息复盘，不假装读者没读过，也不新增原案事实。",
+      "unknowns_scope": "人物在故事截点的信息，不代表读者没读后文。"
     },
     "discussion": {
       "title": "依据读者理由选择回应，而不是固定倾听流程",
@@ -112,7 +114,8 @@
         "若理由重在表明支持，可只追问其支持具体指向什么；若重在查通知，可只讨论查证与当下交流怎样衔接。根据实际回答择一，不逐项考问。",
         "若读者已指出请求未明，可接受这一判断继续，不强迫再说出固定的倾听句式。",
         "愿意深入时再比较书店告别、会议抱怨和明确求改面试材料这三个不同请求；不把其中一个故事的处理当全部场景的答案。"
-      ]
+      ],
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
     },
     "assumptions": {
       "title": "帮助方式的关键条件与未知",
@@ -430,7 +433,8 @@
       "is_learner_progress": false,
       "stored_on_server": false,
       "instruction": "材料可用只是本节有相应材料；子项的讨论状态默认未讨论。仅按当前实际对话证据在本地标为已讨论，读者明确跳过才标选择跳过；未有讨论或证据不足保留未讨论。读取全文、点头或答对一题不算覆盖完成。不得把状态上传到接口或仓库。",
-      "next_step": "先说明本轮确实讨论过的具体子项和仍未讨论的部分，让读者选择深入、练习、对照、总结或结束，不宣布本章已学完。"
+      "next_step": "先说明本轮确实讨论过的具体子项和仍未讨论的部分，让读者选择深入、练习、对照、总结或结束，不宣布本章已学完。",
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
     },
     "review": {
       "title": "读者主动要对照时再展开三种帮助",
@@ -446,8 +450,36 @@
         "没有真实回应就不说“你刚才忽视了感受”；允许对原书方法提出不同意见，不用角色同意证明掌握。"
       ],
       "requires_explicit_reader_choice": true,
-      "full_original_materials_via": "books_get_unit(book_id, chapter-16, both) 或本阶段接口附带原文件。",
-      "technical_limit": "AI可推断答案或自行读取完整原稿；分阶段是教学安排，不是答案保密或学习效果保证。"
+      "full_original_materials_via": "完整正式原文默认通过books_get_unit(material=chapter)读取；原练习及对照在用户选择后读取。",
+      "technical_limit": "AI可推断答案或自行读取完整原稿；分阶段是教学安排，不是答案保密或学习效果保证。",
+      "review_scope": "按用户选择给练习参考判断与具体反馈；正式原文、作者分析和结论不以review为阅读前提。",
+      "original_text_access": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-16",
+          "material": "chapter"
+        }
+      }
     }
-  }
+  },
+  "training_initial_stage": "story",
+  "default_entry": {
+    "mode": "read_original",
+    "tool": "books_get_unit",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-16",
+      "material": "chapter"
+    }
+  },
+  "reading_source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-16.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-16.md",
+    "sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7",
+    "bytes": 7207
+  },
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
 }

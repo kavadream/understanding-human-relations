@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.3.0",
+  "version": "teaching-orchestration-0.4.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-02",
   "display_order": 2,
@@ -17,7 +17,6 @@
     "edition": "zh-v1.0.0 revision 2"
   },
   "stage_order_is_optional": true,
-  "initial_stage": "story",
   "privacy": {
     "learner_records_accepted": false,
     "remote_progress": false,
@@ -36,7 +35,7 @@
       "excerpt_only": true,
       "original_unit_complete": false,
       "stage_complete": true,
-      "transformation": "依据公开原章指定行段重新编写事实卡，不是逐字摘录；只保留此时已发生的事实与明确的主观想法，不提供作者开篇结论、后续结果或示范方案。",
+      "transformation": "新编训练概述，复盘原故事过去的决策时点；不是完整原文。默认完整阅读保留全部作者分析与结论，读者可能已知后续情节；此处仅按人物当时信息复盘，不假装读者没读过，也不新增原案事实。",
       "fiction_notice": "原章人物和事件为作者原创虚构，本事实卡为新编派生决策截点。",
       "facts": [
         {
@@ -80,14 +79,14 @@
           ]
         }
       ],
-      "decision_time": "许铮发出这句回应之后；尚未提供温琪的后续回应或实际投影核验。",
+      "decision_time": "复盘事实卡所列事件之后、后续行动之前的原故事时点；这是人物当时的信息范围，不是读者未知状态。",
       "unknowns": [
         "原章在此时尚未展示照片，温琪对暗部和主题的判断还未在事实卡中得到独立核验。",
         "故事没有在此截点说明评选标准此前如何公告。",
         "许铮的街区经验与具体照片之间的联系尚未展开。"
       ],
       "learner_prompt": "你怎样评价许铮这句回应在当前争议中的作用？",
-      "facilitator_action": "只呈现本阶段事实和一个问题，然后等待读者；不要先追加作者结论、原练习答案或后来结果。读者可澄清、选择完整阅读、跳过或结束。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
       "readable_source": {
         "book_title": "理解人性：关系、边界与合作",
         "display_chapter": 2,
@@ -95,7 +94,9 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "故事（决策截点，节名作简短说明以免泄露后续）"
       },
-      "newly_authored": true
+      "newly_authored": true,
+      "mode": "optional_training_summary",
+      "unknowns_scope": "人物在故事截点的信息，不代表读者没读后文。"
     },
     "discussion": {
       "title": "作品意见、判断权与自我评价",
@@ -113,7 +114,7 @@
         "先准确复述读者实际提出的判断与理由；尚未收到观点时不要假定读者在想什么。",
         "如果读者强调本地经验，先回应这种经验可能带来的信息，再围绕它与某张照片的具体关系追问，不要求先否认它的价值。",
         "如果读者认为温琪完全正确，核对当前是否已有足够证据支持两项不同意见；如果读者认为她在羞辱人，先回到已经出现的原话，而不凭难受程度作裁决。",
-        "按实际理由区分审美分歧、可检查的呈现效果、评选规则与对整个人的评价；不先宣布本章结论。",
+        "按实际理由区分审美分歧、可检查的呈现效果、评选规则与对整个人的评价；可讨论已读的作者结论，不替读者作出本轮判断。",
         "每次只选择一个真正影响其判断的关键问题，等其回答后再决定推进；不按题号走流程，不为凑覆盖量追问。",
         "读者可以不同意、要求对照、练习、总结、跳过或结束；未获得讨论证据不称学完。"
       ],
@@ -124,7 +125,8 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "本章相关论述的讨论方向"
       },
-      "newly_authored": true
+      "newly_authored": true,
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
     },
     "assumptions": {
       "title": "哪些条件会改变对反馈的判断",
@@ -506,7 +508,8 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "本章主题与具体子项的空白覆盖清单"
       },
-      "newly_authored": true
+      "newly_authored": true,
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
     },
     "review": {
       "title": "按读者选择对照原章与原练习",
@@ -524,7 +527,7 @@
         "完整原稿与原练习由保留的只读接口按原字节提供；公开编排文件不包含私有原题或原参考答案。",
         "反馈一轮最多提出一个关键问题；是否总结、继续或结束由读者选择，不给人格诊断或掌握总分。"
       ],
-      "full_original_materials_via": "books_get_unit(book_id, chapter-02, both)",
+      "full_original_materials_via": "完整正式原文默认通过books_get_unit(material=chapter)读取；原练习及对照在用户选择后读取。",
       "technical_limit": "分阶段读取不能阻止AI推断答案或自行读取完整原稿，也不证明教学效果。",
       "readable_source": {
         "book_title": "理解人性：关系、边界与合作",
@@ -533,7 +536,35 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "完整原章与原练习的主动对照"
       },
-      "newly_authored": true
+      "newly_authored": true,
+      "review_scope": "按用户选择给练习参考判断与具体反馈；正式原文、作者分析和结论不以review为阅读前提。",
+      "original_text_access": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-02",
+          "material": "chapter"
+        }
+      }
     }
-  }
+  },
+  "training_initial_stage": "story",
+  "default_entry": {
+    "mode": "read_original",
+    "tool": "books_get_unit",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-02",
+      "material": "chapter"
+    }
+  },
+  "reading_source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-02.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-02.md",
+    "sha256": "89bc6d464b70e6517bc788cf6cc1c7147fd925018c025fb8a57ef8f892196982",
+    "bytes": 6905
+  },
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
 }

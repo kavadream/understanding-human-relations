@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.3.0",
+  "version": "teaching-orchestration-0.4.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-01",
   "newly_authored": true,
@@ -15,7 +15,6 @@
     "edition": "zh-v1.0.0 revision 2"
   },
   "stage_order_is_optional": true,
-  "initial_stage": "story",
   "privacy": {
     "learner_records_accepted": false,
     "remote_progress": false,
@@ -39,7 +38,7 @@
           21
         ]
       ],
-      "transformation": "据指定原文行提炼事实；省略第17行的规范性判断，保留人物顾虑。没有引入后续结果或建议。不是逐字节原文摘录。",
+      "transformation": "新编训练概述，复盘原故事过去的决策时点；不是完整原文。默认完整阅读保留全部作者分析与结论，读者可能已知后续情节；此处仅按人物当时信息复盘，不假装读者没读过，也不新增原案事实。",
       "fiction_notice": "人物、事件与对话为原书原创虚构；以下为新编决策截点事实卡。",
       "facts": [
         {
@@ -93,13 +92,15 @@
           ]
         }
       ],
-      "decision_time": "周三上述消息之后；此时不提供周四结果。",
+      "decision_time": "复盘事实卡所列事件之后、后续行动之前的原故事时点；这是人物当时的信息范围，不是读者未知状态。",
       "unknowns": [
         "制作方能否按时送到。",
         "原文在此截点没有交代的细节，不能自行补为事实。"
       ],
       "learner_prompt": "在这个时点，你怎样评价徐亦的选择？",
-      "facilitator_action": "只呈现本阶段事实与一个问题，然后等待；不要同时读取或展示 review。读者也可以先提出澄清或选择完整阅读。"
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
+      "mode": "optional_training_summary",
+      "unknowns_scope": "人物在故事截点的信息，不代表读者没读后文。"
     },
     "discussion": {
       "title": "围绕读者理由推进",
@@ -121,8 +122,9 @@
         "先用一两句准确回应读者刚才的判断与理由，不把没有说过的动机、承诺或结论放进复述。",
         "从其理由中只选择一个最有影响的分歧或未明条件追问；若观点已充分说明，可邀请读者选择下一步，不为凑题数继续问。",
         "追问须随实际观点变化：关注后果时询问其判断依赖的当时信息；关注责任时核对谁有相应责任或决定权；关注困难时区分信息、能力、渠道和代价。每轮只取其中一项，不把这些角度当固定题单。",
-        "不要预先给本章结论或标准答案。合理分歧可以保留；如需原文对照，请读者选择 review。"
-      ]
+        "允许引用、讨论或质疑已读过的作者分析与结论，不将原文锁在review；不要代答本次练习的新问题。练习参考判断和示范反馈按用户选择进入review。"
+      ],
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
     },
     "assumptions": {
       "title": "处理假设而不纠缠枝节",
@@ -535,7 +537,8 @@
       "instruction": "这是具体子项清单模板，材料可用不代表读者已讨论。只依据当前真实对话分别标已讨论、选择跳过或未讨论；一次讨论不自动覆盖同组全部子项，读工具不算学完。不要向本接口上传实际记录，由读者决定是否继续或总结。",
       "next_step": "向读者说明实际讨论范围，由其决定是否深入、练习、总结或结束；不自动宣称第一章完成。",
       "material_status": "available",
-      "discussion_status": "未讨论"
+      "discussion_status": "未讨论",
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
     },
     "review": {
       "title": "读者主动选择的原文与反馈对照",
@@ -552,10 +555,38 @@
         "接口在本阶段提供完整未改原章及原教学包；它们可能含参考答案，并与本新编编排分别标注。",
         "完整读取不等于学完；最后由读者决定下一步。"
       ],
-      "full_original_materials_via": "books_get_unit(book_id, chapter-01, both) 或本阶段接口附带原文件。",
-      "technical_limit": "AI 可以推断或另行读取原稿；分阶段读取是教学安排，不是答案保密或学习效果保证。"
+      "full_original_materials_via": "完整正式原文默认通过books_get_unit(material=chapter)读取；原练习及对照在用户选择后读取。",
+      "technical_limit": "AI 可以推断或另行读取原稿；分阶段读取是教学安排，不是答案保密或学习效果保证。",
+      "review_scope": "按用户选择给练习参考判断与具体反馈；正式原文、作者分析和结论不以review为阅读前提。",
+      "original_text_access": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-01",
+          "material": "chapter"
+        }
+      }
     }
   },
   "display_order": 1,
-  "title": "为什么明白道理仍然做不到"
+  "title": "为什么明白道理仍然做不到",
+  "training_initial_stage": "story",
+  "default_entry": {
+    "mode": "read_original",
+    "tool": "books_get_unit",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-01",
+      "material": "chapter"
+    }
+  },
+  "reading_source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-01.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-01.md",
+    "sha256": "c363d57c3ef50c9a14fb2b612707abc1dea30782d5712f9b95992987eec229ae",
+    "bytes": 7202
+  },
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.3.0",
+  "version": "teaching-orchestration-0.4.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-11",
   "display_order": 13,
@@ -17,7 +17,6 @@
     "edition": "zh-v1.0.0 revision 2"
   },
   "stage_order_is_optional": true,
-  "initial_stage": "story",
   "privacy": {
     "learner_records_accepted": false,
     "remote_progress": false,
@@ -94,13 +93,13 @@
           ]
         }
       ],
-      "decision_time": "何川说今晚再赶之后；引用第25行中已发生的试做事实，但不先给其后披露的容量或交接结果。",
+      "decision_time": "复盘事实卡所列事件之后、后续行动之前的原故事时点；这是人物当时的信息范围，不是读者未知状态。",
       "unknowns": [
         "何川截止前实际能投入多少小时，当前对话尚未核实。",
         "是否有可用备援及其容量、交接条件，在本截点没有确认。"
       ],
       "learner_prompt": "在这个时点，你愿意继续把这批任务依赖何川到什么范围？",
-      "facilitator_action": "先等待读者的判断依据，不预先提供后来的一小时、备援容量或分工答案；允许读者提出需确认的关键事实或选择减小依赖。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
       "source_context": {
         "book_title": "理解人性：关系、边界与合作",
         "display_chapter": 13,
@@ -108,7 +107,10 @@
         "section_label": "两段已交、四段仍缺：先决定依赖到哪里",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "mode": "optional_training_summary",
+      "transformation": "新编训练概述，复盘原故事过去的决策时点；不是完整原文。默认完整阅读保留全部作者分析与结论，读者可能已知后续情节；此处仅按人物当时信息复盘，不假装读者没读过，也不新增原案事实。",
+      "unknowns_scope": "人物在故事截点的信息，不代表读者没读后文。"
     },
     "discussion": {
       "title": "按读者依据区分善意、容量与具体依赖",
@@ -136,7 +138,8 @@
         "section_label": "按读者依据区分善意、容量与具体依赖",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
     },
     "assumptions": {
       "title": "条件会改变安排，不必先查清全部动机",
@@ -521,7 +524,8 @@
         "section_label": "本章具体覆盖子项：空白讨论清单",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
     },
     "review": {
       "title": "读者主动选择后的原文与反馈对照",
@@ -541,7 +545,7 @@
         "接口可在本阶段附完整未改原章和原教学包（可能有参考判断），与本新编层分别标识；公开编排本身不含旧题库答案。",
         "读者决定继续或结束；读到完整材料不等于本章所有子项已经讨论。"
       ],
-      "full_original_materials_via": "books_get_unit(book_id, chapter-11, both) 或本阶段接口附带原文件。",
+      "full_original_materials_via": "完整正式原文默认通过books_get_unit(material=chapter)读取；原练习及对照在用户选择后读取。",
       "technical_limit": "分阶段读取不能技术上阻止AI推断或另行读取答案；原文、协议与学习效果应分别验证。",
       "source_context": {
         "book_title": "理解人性：关系、边界与合作",
@@ -550,7 +554,35 @@
         "section_label": "读者主动选择后的原文与反馈对照",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      },
+      "review_scope": "按用户选择给练习参考判断与具体反馈；正式原文、作者分析和结论不以review为阅读前提。",
+      "original_text_access": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-11",
+          "material": "chapter"
+        }
       }
     }
-  }
+  },
+  "training_initial_stage": "story",
+  "default_entry": {
+    "mode": "read_original",
+    "tool": "books_get_unit",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-11",
+      "material": "chapter"
+    }
+  },
+  "reading_source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-11.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-11.md",
+    "sha256": "fe7e3283b8e4da78d457ac2b5ac4e86e484bd70ceeb321752db853b52b464db7",
+    "bytes": 8453
+  },
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
 }

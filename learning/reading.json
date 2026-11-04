@@ -1,0 +1,1135 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.4.0",
+  "book_id": "understanding-human-relations-zh",
+  "book_title": "理解人性：关系、边界与合作",
+  "default_mode": "read_original",
+  "default_unit_when_unspecified": "chapter-01",
+  "unit_count": 17,
+  "formal_edition": "zh-v1.0.0 revision 2",
+  "original_manuscript_modified": false,
+  "content_in_this_file": "routing_and_exact_segmentation_metadata_not_chapter_text",
+  "delivery_policy": {
+    "present_original_verbatim": true,
+    "include_author_analysis_and_conclusions": true,
+    "summary_is_not_original": true,
+    "parts_in_order_without_gaps_or_repeats": true,
+    "full_text_returned_by_existing_tool": true,
+    "part_labels_outside_original_text": true,
+    "all_parts_delivered_does_not_imply_reader_read_or_understood": true,
+    "reader_may_pause_skip_or_choose_training": true
+  },
+  "units": [
+    {
+      "unit_id": "chapter-01",
+      "display_order": 1,
+      "title": "为什么明白道理仍然做不到",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-01.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-01.md",
+        "sha256": "c363d57c3ef50c9a14fb2b612707abc1dea30782d5712f9b95992987eec229ae",
+        "bytes": 7202
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-01:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1541,
+          "line_start": 1,
+          "line_end": 56,
+          "bytes": 4443,
+          "sha256": "4725345cbc78ff9585416d6193b245bd4d3f32f55399117cdc86d7fd58e31f3c",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-01:original:02"
+        },
+        {
+          "part_id": "chapter-01:original:02",
+          "order": 2,
+          "char_start": 1541,
+          "char_end": 2542,
+          "line_start": 57,
+          "line_end": 81,
+          "bytes": 2759,
+          "sha256": "9bad2375d0ea41c27924f1778d796dd678a62afaa79437cb6484bed520e7a098",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-01",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-01",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-02",
+      "display_order": 2,
+      "title": "自尊怎样带来力量与防御",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-02.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-02.md",
+        "sha256": "89bc6d464b70e6517bc788cf6cc1c7147fd925018c025fb8a57ef8f892196982",
+        "bytes": 6905
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-02:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1586,
+          "line_start": 1,
+          "line_end": 54,
+          "bytes": 4570,
+          "sha256": "c823d515575ff8e7ce62004281b7baf24d301e52b389c647ec2c04db104c0486",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-02:original:02"
+        },
+        {
+          "part_id": "chapter-02:original:02",
+          "order": 2,
+          "char_start": 1586,
+          "char_end": 2485,
+          "line_start": 55,
+          "line_end": 77,
+          "bytes": 2335,
+          "sha256": "9f100ec44b4dbd8c82138ea978699202c289c3faaadcf48654d09b00013f8cc8",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-02",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-02",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-03",
+      "display_order": 3,
+      "title": "我们怎样把猜测当作事实",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-03.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-03.md",
+        "sha256": "e412c3e600618827446d4d024b3780d53bdb304a1464755ef7e0ca8ad0f8a53f",
+        "bytes": 6257
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-03:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1565,
+          "line_start": 1,
+          "line_end": 58,
+          "bytes": 4529,
+          "sha256": "8196e288d29e543bebaf88d06b4dd5efc6246bf2707376bca30256688fe995d6",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-03:original:02"
+        },
+        {
+          "part_id": "chapter-03:original:02",
+          "order": 2,
+          "char_start": 1565,
+          "char_end": 2269,
+          "line_start": 59,
+          "line_end": 73,
+          "bytes": 1728,
+          "sha256": "40140406603eb6270e5c45cddefcb0705f8c188d727118c9a439023b4d30005a",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-03",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-03",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-04",
+      "display_order": 4,
+      "title": "同一个行为为什么有不同原因",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-04.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-04.md",
+        "sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771",
+        "bytes": 10042
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-04:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1524,
+          "line_start": 1,
+          "line_end": 52,
+          "bytes": 4364,
+          "sha256": "b8ef61a3058047cd45ee1d8c6ebe128b330b9607b97aebef0aeb1fac7e93f66b",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-04:original:02"
+        },
+        {
+          "part_id": "chapter-04:original:02",
+          "order": 2,
+          "char_start": 1524,
+          "char_end": 3104,
+          "line_start": 53,
+          "line_end": 108,
+          "bytes": 4596,
+          "sha256": "79ddda71c6637e02b1cb865f7e392883c0ecdeed61849f50f27f9ab1a6263c64",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-04:original:03"
+        },
+        {
+          "part_id": "chapter-04:original:03",
+          "order": 3,
+          "char_start": 3104,
+          "char_end": 3698,
+          "line_start": 109,
+          "line_end": 109,
+          "bytes": 1082,
+          "sha256": "4310a1b89a96baa3583c2bfc80228ba701f62c5d5777ba9d122292eb8284b8fe",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-04",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-04",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-05",
+      "display_order": 5,
+      "title": "关系、身份与文化怎样改变期待",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-05.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-05.md",
+        "sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6",
+        "bytes": 10297
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-05:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1566,
+          "line_start": 1,
+          "line_end": 52,
+          "bytes": 4550,
+          "sha256": "3492dd985d2dbdb6ba2753d1697139ef428f474c7aa42144d74262ac2a5d441d",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-05:original:02"
+        },
+        {
+          "part_id": "chapter-05:original:02",
+          "order": 2,
+          "char_start": 1566,
+          "char_end": 3133,
+          "line_start": 53,
+          "line_end": 98,
+          "bytes": 4580,
+          "sha256": "848c93c3830e85a304037e2e4c97e2056687aef9bd688fe821c078830cdbf002",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-05:original:03"
+        },
+        {
+          "part_id": "chapter-05:original:03",
+          "order": 3,
+          "char_start": 3133,
+          "char_end": 3768,
+          "line_start": 99,
+          "line_end": 99,
+          "bytes": 1167,
+          "sha256": "b24571f8e57b3c7acd6d1e3e2a90f053b3f5296003c0766df52f50227ea77e0a",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-05",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-05",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-06",
+      "display_order": 6,
+      "title": "利益、资源与规则怎样影响选择",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-06.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-06.md",
+        "sha256": "f2d418e61cc08e6a8fe42b5704328ceaddcebcda77316dad9accfeb074cb3583",
+        "bytes": 12008
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-06:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1509,
+          "line_start": 1,
+          "line_end": 50,
+          "bytes": 4405,
+          "sha256": "d69aad1f3f1bd23ea338bc89a67f32af96566e85701acff8876519d296bb839b",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-06:original:02"
+        },
+        {
+          "part_id": "chapter-06:original:02",
+          "order": 2,
+          "char_start": 1509,
+          "char_end": 3085,
+          "line_start": 51,
+          "line_end": 86,
+          "bytes": 4556,
+          "sha256": "176f17484880b9497d698c124d4c490838bd8421b5068be2680dd5758c5e290f",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-06:original:03"
+        },
+        {
+          "part_id": "chapter-06:original:03",
+          "order": 3,
+          "char_start": 3085,
+          "char_end": 4474,
+          "line_start": 87,
+          "line_end": 101,
+          "bytes": 3047,
+          "sha256": "b8d7cb5c6044168fa9cc41c92676968c903cd69808534bb46352348860e7a5fa",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-06",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-06",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-16",
+      "display_order": 7,
+      "title": "为什么想帮忙，对方却觉得没有被听见",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-16.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-16.md",
+        "sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7",
+        "bytes": 7207
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-16:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1579,
+          "line_start": 1,
+          "line_end": 44,
+          "bytes": 4601,
+          "sha256": "b038b45e802a3c84696c0baca7810d56d43dab30bf49fe097060bcb254ed943c",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-16:original:02"
+        },
+        {
+          "part_id": "chapter-16:original:02",
+          "order": 2,
+          "char_start": 1579,
+          "char_end": 2595,
+          "line_start": 45,
+          "line_end": 63,
+          "bytes": 2606,
+          "sha256": "7208de2191e7375e9ab91b91dbba4a2ae334d911a4c65407ade89d89dc049529",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-16",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-16",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-17",
+      "display_order": 8,
+      "title": "怎样表达关心、真诚认可并给予反馈",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-17.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-17.md",
+        "sha256": "ac41f5ad90fcc0fe22867d68c2ed3c5e65228db5d564284ca1a51db029c679d6",
+        "bytes": 7122
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-17:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1499,
+          "line_start": 1,
+          "line_end": 42,
+          "bytes": 4377,
+          "sha256": "db58065b7f976cf360a7c3e25c7ddb2bf143cb7992ceed25165d6762b740ed97",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-17:original:02"
+        },
+        {
+          "part_id": "chapter-17:original:02",
+          "order": 2,
+          "char_start": 1499,
+          "char_end": 2598,
+          "line_start": 43,
+          "line_end": 61,
+          "bytes": 2745,
+          "sha256": "06f7f7af6bc59866ba7699285128ef78a06b6712d1cfc6e31ee2431aa9f67573",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-17",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-17",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-07",
+      "display_order": 9,
+      "title": "为什么有道理的话别人却听不进去",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-07.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-07.md",
+        "sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02",
+        "bytes": 8860
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-07:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1580,
+          "line_start": 1,
+          "line_end": 52,
+          "bytes": 4602,
+          "sha256": "d6a847040b6b95638805fc945167d23ae5c67f4692e942504be8f8f76f65f87d",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-07:original:02"
+        },
+        {
+          "part_id": "chapter-07:original:02",
+          "order": 2,
+          "char_start": 1580,
+          "char_end": 2821,
+          "line_start": 53,
+          "line_end": 84,
+          "bytes": 3597,
+          "sha256": "63d21efd88e77687ad173e57445fda1e283e26131d9b348ce7e4083df9661ac7",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-07:original:03"
+        },
+        {
+          "part_id": "chapter-07:original:03",
+          "order": 3,
+          "char_start": 2821,
+          "char_end": 3272,
+          "line_start": 85,
+          "line_end": 85,
+          "bytes": 661,
+          "sha256": "94c8017508e3d343ad629b1609934c429ac55de31ea8c914c202845c85b4c4fe",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-07",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-07",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-08",
+      "display_order": 10,
+      "title": "怎样表达不同意见并继续合作",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-08.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-08.md",
+        "sha256": "1da3e0aee2f06e74c1905d5cef606f059ac8ac92c51365c3e163f259c2a9886a",
+        "bytes": 11616
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-08:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1543,
+          "line_start": 1,
+          "line_end": 44,
+          "bytes": 4513,
+          "sha256": "513d2c4495087a0f6eb00fa8d9f489bba94b7f52ea6b94957f582c166ad3ef1b",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-08:original:02"
+        },
+        {
+          "part_id": "chapter-08:original:02",
+          "order": 2,
+          "char_start": 1543,
+          "char_end": 3141,
+          "line_start": 45,
+          "line_end": 84,
+          "bytes": 4660,
+          "sha256": "89f3f90e254ccce8e3c23256b86b0a9690d80309ebb69f0b1d2dad6619b624aa",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-08:original:03"
+        },
+        {
+          "part_id": "chapter-08:original:03",
+          "order": 3,
+          "char_start": 3141,
+          "char_end": 4178,
+          "line_start": 85,
+          "line_end": 103,
+          "bytes": 2443,
+          "sha256": "12b07d9e9b3c3e7cf60a89a757343607a1b8e7829ca1a5a8d9a9e5b0c161e27f",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-08",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-08",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-09",
+      "display_order": 11,
+      "title": "怎样拒绝并说明自己的边界",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-09.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-09.md",
+        "sha256": "4baea9efe2cfa00b602c3d2029bc3e33669dcbfc6d25037f1971e855de6725e6",
+        "bytes": 9741
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-09:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1531,
+          "line_start": 1,
+          "line_end": 52,
+          "bytes": 4455,
+          "sha256": "5bcf8d88a593f29a5d69f8682192dbaa466b3a6cc17990d8e8d8527e7f1c1efe",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-09:original:02"
+        },
+        {
+          "part_id": "chapter-09:original:02",
+          "order": 2,
+          "char_start": 1531,
+          "char_end": 3073,
+          "line_start": 53,
+          "line_end": 94,
+          "bytes": 4510,
+          "sha256": "2e87e062b7e9e38772734298724adbcc01bddf40abbbf000f5e225da0d1ca748",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-09:original:03"
+        },
+        {
+          "part_id": "chapter-09:original:03",
+          "order": 3,
+          "char_start": 3073,
+          "char_end": 3443,
+          "line_start": 95,
+          "line_end": 99,
+          "bytes": 776,
+          "sha256": "a25c06ec20ceae2b1939988ecd13567bd411222b0422428e96f211e376706f66",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-09",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-09",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-10",
+      "display_order": 12,
+      "title": "怎样影响别人并审视自己受到的影响",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-10.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-10.md",
+        "sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64",
+        "bytes": 9284
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-10:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1524,
+          "line_start": 1,
+          "line_end": 48,
+          "bytes": 4362,
+          "sha256": "2d5a0d61ce3fe1fb21dc32bf3d175fd2bab8038c7f8db5d2d9492f73857bee71",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-10:original:02"
+        },
+        {
+          "part_id": "chapter-10:original:02",
+          "order": 2,
+          "char_start": 1524,
+          "char_end": 2973,
+          "line_start": 49,
+          "line_end": 88,
+          "bytes": 4205,
+          "sha256": "3754ade192d8dbfb62c0f7cad708fa7025568926019ee92312b0a9cfd54afce0",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-10:original:03"
+        },
+        {
+          "part_id": "chapter-10:original:03",
+          "order": 3,
+          "char_start": 2973,
+          "char_end": 3408,
+          "line_start": 89,
+          "line_end": 89,
+          "bytes": 717,
+          "sha256": "15295ad36509e4faad9155ba9157e6de6a15253302d0b7fb82716c70daa1b842",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-10",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-10",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-11",
+      "display_order": 13,
+      "title": "善意失效以后怎样重新判断",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-11.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-11.md",
+        "sha256": "fe7e3283b8e4da78d457ac2b5ac4e86e484bd70ceeb321752db853b52b464db7",
+        "bytes": 8453
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-11:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1562,
+          "line_start": 1,
+          "line_end": 48,
+          "bytes": 4558,
+          "sha256": "56645d5c1324536fc3d4bb21b346ac4f2a04a8956006eea145c2be74b9c8ad76",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-11:original:02"
+        },
+        {
+          "part_id": "chapter-11:original:02",
+          "order": 2,
+          "char_start": 1562,
+          "char_end": 2947,
+          "line_start": 49,
+          "line_end": 85,
+          "bytes": 3895,
+          "sha256": "ab6ad85a52724a6dfddd7af4bc92da709207f31348f04e3ac09505623b3651db",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-11",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-11",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-12",
+      "display_order": 14,
+      "title": "怎样承认错误并逐步修复信任",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-12.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-12.md",
+        "sha256": "9fbf731a02405543b6f8552a5a429adf3f7718125990e3efa941669d67e426d8",
+        "bytes": 8141
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-12:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1535,
+          "line_start": 1,
+          "line_end": 38,
+          "bytes": 4501,
+          "sha256": "fd4f167143d22d9443f67225189ff3cf53112c68bac8c30d9282498cc6a31234",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-12:original:02"
+        },
+        {
+          "part_id": "chapter-12:original:02",
+          "order": 2,
+          "char_start": 1535,
+          "char_end": 2903,
+          "line_start": 39,
+          "line_end": 69,
+          "bytes": 3640,
+          "sha256": "3b4ed2b685074e964d5dbde07a54f41b6cfa79399340a41521f7bd244ea36b70",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-12",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-12",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-13",
+      "display_order": 15,
+      "title": "怎样理解原谅、责任与关系的未来",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-13.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-13.md",
+        "sha256": "00bec610c8dc0db83a8438972d75d2fcbe9fab9fbe4a01ffa271d3272347af76",
+        "bytes": 7522
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-13:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1533,
+          "line_start": 1,
+          "line_end": 42,
+          "bytes": 4479,
+          "sha256": "775d0171a1171b131c13fae37ada5de198e631093a1386d389194c081c8d6072",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-13:original:02"
+        },
+        {
+          "part_id": "chapter-13:original:02",
+          "order": 2,
+          "char_start": 1533,
+          "char_end": 2754,
+          "line_start": 43,
+          "line_end": 65,
+          "bytes": 3043,
+          "sha256": "a9ac878f897cd54410fe246c7481f853ec81d4bfc98f54f74a7622606e7ffb12",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-13",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-13",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-14",
+      "display_order": 16,
+      "title": "怎样把知道变成持续行动",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-14.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-14.md",
+        "sha256": "80ef4302d145b9eea1f469cbf60d53e61b8fe5b416c0e167cf38c54aed634322",
+        "bytes": 7956
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-14:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1571,
+          "line_start": 1,
+          "line_end": 44,
+          "bytes": 4549,
+          "sha256": "6e9b56c3cca4a6eb6d3a80cabcbd138822258c7a1941cbaa4bceea2202d097ec",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-14:original:02"
+        },
+        {
+          "part_id": "chapter-14:original:02",
+          "order": 2,
+          "char_start": 1571,
+          "char_end": 3008,
+          "line_start": 45,
+          "line_end": 69,
+          "bytes": 3407,
+          "sha256": "451ef6177bab776875794e7bcb7eb3435bf85ea7f76d578a8c5ac9c7c656891d",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-14",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-14",
+          "stage": "story"
+        }
+      }
+    },
+    {
+      "unit_id": "chapter-15",
+      "display_order": 17,
+      "title": "怎样在陌生情境中重新判断",
+      "material_identity": "完整正式原文；含作者分析、结论及来源说明",
+      "source": {
+        "repository": "https://github.com/kavadream/understanding-human-relations",
+        "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+        "path": "manuscript/zh-CN/chapters/chapter-15.md",
+        "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-15.md",
+        "sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b",
+        "bytes": 7595
+      },
+      "content_complete": true,
+      "parts_offset_unit": "utf16_code_unit",
+      "parts": [
+        {
+          "part_id": "chapter-15:original:01",
+          "order": 1,
+          "char_start": 0,
+          "char_end": 1587,
+          "line_start": 1,
+          "line_end": 42,
+          "bytes": 4595,
+          "sha256": "159bcf8221ead77773ae43c7c552bd223c2276d6a672cc02116ab9d25974cdac",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": "chapter-15:original:02"
+        },
+        {
+          "part_id": "chapter-15:original:02",
+          "order": 2,
+          "char_start": 1587,
+          "char_end": 2821,
+          "line_start": 43,
+          "line_end": 63,
+          "bytes": 3000,
+          "sha256": "f1fccd2badc02f95332f0cde26c30b56801f9525809d33b6e1a5d669a09ed89f",
+          "part_complete": true,
+          "chapter_complete_in_this_part": false,
+          "next_part_id": null
+        }
+      ],
+      "full_original_call": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-15",
+          "material": "chapter"
+        }
+      },
+      "optional_training_call": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-15",
+          "stage": "story"
+        }
+      }
+    }
+  ]
+}

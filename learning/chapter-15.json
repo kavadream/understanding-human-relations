@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.3.0",
+  "version": "teaching-orchestration-0.4.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-15",
   "display_order": 17,
@@ -22,7 +22,6 @@
     "edition": "zh-v1.0.0 revision 2"
   },
   "stage_order_is_optional": true,
-  "initial_stage": "story",
   "privacy": {
     "learner_records_accepted": false,
     "remote_progress": false,
@@ -89,7 +88,7 @@
           ]
         }
       ],
-      "decision_time": "核对名册及现有人员后、开放公告尚未发出；不提供原文后来选择。",
+      "decision_time": "复盘事实卡所列事件之后、后续行动之前的原故事时点；这是人物当时的信息范围，不是读者未知状态。",
       "unknowns": [
         "没有已落实的额外值守者。",
         "外部人手是否能找到尚未确定，不能把可能性记成承诺。"
@@ -101,15 +100,18 @@
       "original_unit_complete": false,
       "stage_complete": true,
       "fiction_notice": "本章人物和事件为原书原创虚构；这份事实卡是据公开正文新编的决策截点，不是完整原文。",
-      "facilitator_action": "先呈现本阶段全部事实卡与其中一个开放问题，然后等待读者。不要同时展示后续结局、作者解释或review；读者可澄清、保留分歧、选择完整阅读或结束。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
       "readable_source": {
         "book_title": "理解人性：关系、边界与合作",
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "开放公告发出前：现有人手能支持什么",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "mode": "optional_training_summary",
+      "transformation": "新编训练概述，复盘原故事过去的决策时点；不是完整原文。默认完整阅读保留全部作者分析与结论，读者可能已知后续情节；此处仅按人物当时信息复盘，不假装读者没读过，也不新增原案事实。",
+      "unknowns_scope": "人物在故事截点的信息，不代表读者没读后文。"
     },
     "discussion": {
       "title": "让会改变选择的事实进入判断",
@@ -139,9 +141,10 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "让会改变选择的事实进入判断",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
     },
     "assumptions": {
       "title": "原承诺、现实资源和未知条件",
@@ -183,7 +186,7 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "原承诺、现实资源和未知条件",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
       }
     },
@@ -229,7 +232,7 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "可选角色：协调花园本次开放",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
       }
     },
@@ -287,7 +290,7 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "新情境：外部变化与已确认对外承诺",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
       }
     },
@@ -525,9 +528,10 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "本章具体覆盖清单（空白模板）",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
     },
     "review": {
       "title": "读者主动选择的原文对照",
@@ -554,9 +558,38 @@
         "display_chapter": 17,
         "chapter_title": "怎样在陌生情境中重新判断",
         "section_label": "读者主动选择的原文对照",
-        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "review_scope": "按用户选择给练习参考判断与具体反馈；正式原文、作者分析和结论不以review为阅读前提。",
+      "original_text_access": {
+        "tool": "books_get_unit",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-15",
+          "material": "chapter"
+        }
+      },
+      "full_original_materials_via": "完整正式原文默认通过books_get_unit(material=chapter)读取；原练习及对照在用户选择后读取。"
     }
-  }
+  },
+  "training_initial_stage": "story",
+  "default_entry": {
+    "mode": "read_original",
+    "tool": "books_get_unit",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-15",
+      "material": "chapter"
+    }
+  },
+  "reading_source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-15.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-15.md",
+    "sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b",
+    "bytes": 7595
+  },
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
 }
