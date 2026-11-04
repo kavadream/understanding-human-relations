@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-14",
+  "display_order": 16,
+  "title": "怎样把知道变成持续行动",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-14.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-14.md",
+    "sha256": "80ef4302d145b9eea1f469cbf60d53e61b8fe5b416c0e167cf38c54aed634322",
+    "bytes": 7956,
+    "line_start": 1,
+    "line_end": 69,
+    "visibility": "public_formal_reader",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "芮晴的两次会议",
+      "source_line_spans": [
+        [
+          13,
+          15
+        ]
+      ],
+      "facts": [
+        {
+          "id": "note",
+          "text": "芮晴在笔记里写过“先了解情况，不急着反驳”。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "first_meeting",
+          "text": "周二项目会上，同事说审核太慢，芮晴立刻解释过去为什么需要这些步骤。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "afterward",
+          "text": "散会后她才想起笔记，并把那句话设成手机屏保。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "second_meeting",
+          "text": "第二天短会，手机还放在包里，她又出现了原来的反应。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        }
+      ],
+      "decision_time": "第二次短会之后；不提供她后来怎样改提醒、演练或实际使用。",
+      "unknowns": [
+        "她具体理解了笔记到什么程度、哪些动作需要练，尚未由这些事实充分证明。",
+        "本事实卡没有交代审核慢的真正瓶颈，不能推断就是人手少或流程全无价值。"
+      ],
+      "learner_prompt": "你会怎样理解芮晴这两次没有用上笔记的经过，并据此决定下一次先检查什么？",
+      "transformation": "第15行只提取手机仍在包里及旧反应出现的事实，不呈现随后自我发现的解释。",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "本章人物和事件为原书原创虚构；这份事实卡是据公开正文新编的决策截点，不是完整原文。",
+      "facilitator_action": "先呈现本阶段全部事实卡与其中一个开放问题，然后等待读者。不要同时展示后续结局、作者解释或review；读者可澄清、保留分歧、选择完整阅读或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "芮晴的两次会议",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "discussion": {
+      "title": "围绕实际卡点讨论，不把计划变成打卡",
+      "source_line_spans": [
+        [
+          13,
+          25
+        ],
+        [
+          29,
+          39
+        ],
+        [
+          43,
+          61
+        ]
+      ],
+      "instructions": [
+        "先复述读者从哪项经过判断卡点，保留其不确定性；不假装读者已经提出触发动作。",
+        "若读者归因为不自律，只选一个可观察的环节核对；若主张更换提醒方式，请其说明在什么实际机会看见或使用，不替其给出完整计划。",
+        "若读者关注问了仍没用，区分动作发生、是否听到新信息和最终问题是否解决；一次只深入其实际谈到的一个环节。",
+        "读者提出暂停或没有合适机会时，接受这一选择；不为完成练习制造分歧或要求继续追问已拒绝的人。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "围绕实际卡点讨论，不把计划变成打卡",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "assumptions": {
+      "title": "提醒、动作、资源与例外的分支",
+      "source_line_spans": [
+        [
+          23,
+          25
+        ],
+        [
+          31,
+          39
+        ],
+        [
+          49,
+          51
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否有相应机会、提醒能否进入场景、对方是否愿谈、是否有必须先处理事项，会改变起步动作；选择当前关键的一项澄清。"
+        },
+        {
+          "kind": "non_core",
+          "action": "屏保字体或笔记本品牌若不改变看见提醒的机会，不据此反复盘问或判定失败。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "第二天手机仍在包里，不能把它改成芮晴当时已看见提示又故意不做；可另作明确新条件轮比较。"
+        },
+        {
+          "kind": "unknown",
+          "action": "审核慢的瓶颈、同事的原因尚未查清；练习提问不能当成资源已经增加，也不能保证对方同意。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "提醒、动作、资源与例外的分支",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "roleplay": {
+      "title": "可选练习：准备一次具体起步",
+      "source_line_spans": [
+        [
+          13,
+          25
+        ]
+      ],
+      "fiction_notice": "从公开正文两次会议后的时点新编；不是私有会议角色轮或真实效果测试。",
+      "learner_role": "芮晴，或选择作为旁观者帮她设计一次准备。",
+      "ai_role": "芮晴的演练搭档。",
+      "known_to_learner": [
+        "两次会议和手机提醒的事实卡。"
+      ],
+      "known_to_ai_role": [
+        "相同事实卡；没有权利假定审核的实际原因。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "读者想选择的具体动作、触发机会及例外。"
+      ],
+      "role_constraints": [
+        "先听读者自选目标与起步方式，再就其实际理由反馈，不代写最佳计划。",
+        "一次练一个开头，不强制形成整段固定对白；若涉及同事，未知原因为未知。",
+        "不把一次流畅演练说成现实沟通能力已经形成。",
+        "无最低轮数；读者可暂停、修改目标、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "no_phone_access",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新编条件：下一次例会规定手机统一放在会场外，但允许纸面记录。这个会场规则不是原故事事实，先确认读者是否愿意比较。"
+      },
+      "start": "由读者先提出想准备的一个具体动作；搭档只围绕其实际选择追问一次，不先给示范句。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "可选练习：准备一次具体起步",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "transfer": {
+      "title": "新情境：没有对话对象与权限瓶颈",
+      "source_line_spans": [
+        [
+          25,
+          25
+        ],
+        [
+          39,
+          51
+        ],
+        [
+          55,
+          61
+        ]
+      ],
+      "selection_rule": "每次只选一个原创情境，检查哪些练习原则可用、哪些不能整套复制。",
+      "variants": {
+        "solo_packing": {
+          "title": "一个人封箱时遗漏标记",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "任务：独自操作而非对话",
+            "资源：没有搭档提醒，打印机不能用",
+            "可控制项：自己能安排标记出现的位置"
+          ],
+          "facts": [
+            "许乔准备搬家，两次在疲劳时把尚需使用的物品一起封箱。",
+            "她记过“封箱前检查”，但清单在已经收好的电脑里，现场只有胶带和纸笔。",
+            "这次没有合作者可询问，搬家公司时段已定，允许她调整自己的打包顺序。"
+          ],
+          "prompt": "你会怎样为许乔选择一个可检查的小动作，并判断下一次卡在什么地方？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        },
+        "access_not_skill": {
+          "title": "问清了账单，仍没有系统权限",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "瓶颈：系统读取权限而非措辞",
+            "责任：管理员控制授权",
+            "结果：提问发生不等于完成核对"
+          ],
+          "facts": [
+            "一个公益小组成员想练习先复述对方的问题，再核对账单。",
+            "他已经准确听完并复述了对方要核对的账目，但自己的账号没有读取那张表的权限。",
+            "管理员周一才能处理授权；当前可以记下缺口，但不能看到真实记录，也没有他人授权转发副本。"
+          ],
+          "prompt": "此时你会怎样复盘他的练习和任务进展，而不把权限缺口全算成沟通能力问题？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        }
+      },
+      "feedback_rule": "根据读者提出的具体动作、机会和实际条件反馈；不以完成次数、对方同意或问题立刻解决判定掌握。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "新情境：没有对话对象与权限瓶颈",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖清单（空白模板）",
+      "source_line_spans": [
+        [
+          11,
+          63
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "areas": [
+        {
+          "id": "retrieval_opportunity",
+          "label": "从知道到临场想起",
+          "source_line_spans": [
+            [
+              13,
+              25
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "recognize",
+              "label": "识别真实出现的机会，不把笼统目标当触发情境",
+              "source_line_spans": [
+                [
+                  13,
+                  23
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "cue",
+              "label": "检查提醒在现场是否真的可见或可用",
+              "source_line_spans": [
+                [
+                  13,
+                  21
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "small_action",
+              "label": "起步动作小到能实行，并保留现实例外",
+              "source_line_spans": [
+                [
+                  23,
+                  25
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "practice_flexibility",
+          "label": "熟练开头与尊重改变",
+          "source_line_spans": [
+            [
+              29,
+              39
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "not_script",
+              "label": "练熟开头不等于规定对方必须完成整段对话",
+              "source_line_spans": [
+                [
+                  29,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "pause",
+              "label": "对方已要求另约或没有机会时允许暂停，不制造任务",
+              "source_line_spans": [
+                [
+                  31,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "diagnose",
+          "label": "用经过定位而非贴标签",
+          "source_line_spans": [
+            [
+              43,
+              51
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "steps",
+              "label": "分别记录问出、听完、得到信息、解决问题的进展",
+              "source_line_spans": [
+                [
+                  43,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "bottleneck",
+              "label": "区分没理解、没想起、没做出、资源或条件不够",
+              "source_line_spans": [
+                [
+                  49,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "control",
+              "label": "区分自己可做的动作与别人决定的结果",
+              "source_line_spans": [
+                [
+                  51,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "recall_and_limits",
+          "label": "跨日回忆与证据边界",
+          "source_line_spans": [
+            [
+              55,
+              67
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "recall",
+              "label": "区分眼熟重读与合书后能用自己话说明",
+              "source_line_spans": [
+                [
+                  55,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "revise_goal",
+              "label": "按条件修改、暂停目标，不忠于最早打卡表",
+              "source_line_spans": [
+                [
+                  61,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "no_timetable",
+              "label": "习惯与学习技术研究不规定复杂沟通统一天数或保证效果",
+              "source_line_spans": [
+                [
+                  35,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "source_limit",
+              "label": "识别摘要、有限原文及方法评级介绍的实际范围",
+              "source_line_spans": [
+                [
+                  67,
+                  67
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "材料可用只说明相应内容存在。每个子项的讨论状态初始为未讨论；只有当前对话中有读者实际讨论证据才可在自己的对话内标已讨论，明确选择不谈才标选择跳过。工具读取、教师说完、答对一道题都不等于已讨论或掌握，不回传个人进度。",
+      "next_step": "准确说明当前实际讨论到哪些子项和哪些未讨论，由读者决定是否深入、迁移、对照、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "本章具体覆盖清单（空白模板）",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "review": {
+      "title": "读者主动选择的原文对照",
+      "source_line_spans": [
+        [
+          11,
+          63
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只在读者当前明确选择对照或反馈后读取；阶段参数不独立证明读者意愿。",
+        "先回应读者实际说出的理由，不补写不存在的回答，再对照本章各节的区分与适用条件。",
+        "完整原章、原私有教学包由已认证接口在review阶段另附；本公开新编排没有复制原私有题库或参考答案。",
+        "参考判断不代替读者选择，合理分歧可保留；列明已讨论、未讨论和选择跳过的具体子项，不宣布工具已使读者学完整章。"
+      ],
+      "technical_limit": "分阶段安排不能阻止AI自行推断或另读完整原稿，不是答案保密系统或教学效果证明。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 16,
+        "chapter_title": "怎样把知道变成持续行动",
+        "section_label": "读者主动选择的原文对照",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    }
+  }
+}

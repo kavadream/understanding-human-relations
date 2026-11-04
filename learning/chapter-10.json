@@ -1,0 +1,537 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-10",
+  "display_order": 12,
+  "title": "怎样影响别人并审视自己受到的影响",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-10.md",
+    "sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "体验结束的意向单：仍有条件未知",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ]
+      ],
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "周屿、课程、日期、人数和金额都是原书虚构设定；本事实卡为新编派生视图，不发生登记或付款。",
+      "facts": [
+        {
+          "id": "invitation",
+          "text": "周屿参加基础纸艺体验。结束时组织者赠送每人一份材料包，介绍后续课程，并展示往期学员合照。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "offer",
+          "text": "组织者称周屿刚才做得好、适合继续，说还有两个可申请名额，递来意向单和笔。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "response",
+          "text": "周屿原来只想体验一下，拿着材料包和递来的笔，觉得直接离开不自在，想到“先填一张表，应该也没什么”。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "schedule",
+          "text": "表上是11月6日、13日、20日三次课，每次19至21点，整期120元含材料。周屿希望三次都去，但13日排班要明天中午才知道。",
+          "source_line_spans": [
+            [
+              19,
+              19
+            ]
+          ]
+        },
+        {
+          "id": "current_time",
+          "text": "当时是11月2日17点。周屿问是否一定要现在填，组织者反问“你不是一直想学吗”，并担心采购临近，需要确认人数。",
+          "source_line_spans": [
+            [
+              21,
+              23
+            ]
+          ]
+        }
+      ],
+      "decision_time": "组织者回应现在是否要填的追问之后；尚未给出后来的具体截止、优先规则或赠品条件。",
+      "unknowns": [
+        "真实意向截止、是否先填优先、意向与付款的关系，还没有在这个截点核实。",
+        "材料包是否附报名条件、缺一次能否补，以及13日排班尚未确认；不得自动填成有或无。"
+      ],
+      "learner_prompt": "你会怎样决定此刻是否填写这张意向单？",
+      "facilitator_action": "只呈现截点与一个问题，等待读者按自己的目标、可接受代价与未知信息判断。不先给后来条款，也不将参加或拒绝定作唯一正确方向。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "体验结束的意向单：仍有条件未知",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "discussion": {
+      "title": "讨论使选择变化的是信息还是压力",
+      "source_line_spans": [
+        [
+          35,
+          55
+        ],
+        [
+          59,
+          77
+        ]
+      ],
+      "instructions": [
+        "先回应读者实际在意的课程目标、机会、赠品、人情或时间，而不是假定其已经被操纵或已经想报名。",
+        "若读者认为所有赠品都恶意，围绕本案证据只追问一个关键条件；若其愿意冒缺席风险，认真比较其目标与代价，不强迫必须等到所有信息确定。",
+        "每轮最多一个关键问题，不连问一套“如何识别话术”的明显题。",
+        "读者指出真实稀缺或采购期限时，承认它们可有实际意义；不因出现影响线索就要求反着选择。",
+        "邀请者角度也要讨论：说明优势与限制、接受不适合者离开；不把报名率或说服成功当学习得分。",
+        "对AI建议的讨论限于本书判断规则，不声称某模型已有特定发生率或效果。"
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "讨论使选择变化的是信息还是压力",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "assumptions": {
+      "title": "分开关键条款、偏好与未经核实的线索",
+      "source_line_spans": [
+        [
+          25,
+          31
+        ],
+        [
+          41,
+          55
+        ],
+        [
+          65,
+          77
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "截止是否早于排班确认、先填是否有实际优势、意向是否承担义务、补课是否可行，会改变选择；只澄清对读者理由最关键的一项，无法确认则明确分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "材料包颜色或合照人数细枝末节若不影响读者目标，可暂定；不要为了判断讲义是否漂亮无限追问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "把“可申请名额”改成已经保留席位、把拿笔改成已经付款，均是新增题设，不是原截点事实。"
+        },
+        {
+          "kind": "unknown",
+          "action": "不要根据合照推断完课率、满意度或课程适合读者；组织者是否故意施压也不能仅凭一句话被确认为事实。"
+        },
+        {
+          "kind": "reader_choice",
+          "action": "即使资料核清，读者仍可按自己的目标接受机会成本或放弃本期；不能用教师偏好替其决定。"
+        }
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "分开关键条款、偏好与未经核实的线索",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "roleplay": {
+      "title": "可选练习：询问与邀请都要有真实范围",
+      "source_line_spans": [
+        [
+          13,
+          31
+        ],
+        [
+          59,
+          69
+        ]
+      ],
+      "fiction_notice": "基于公开原故事的角色练习；后续条款有明确公开原文出处，不是原私有题库复制。",
+      "learner_role": "周屿；可选转成组织者视角讨论，先标明更换角色。",
+      "ai_role": "组织者，有采购与招到合适学员的任务，不替周屿决定。",
+      "known_to_learner": [
+        "story所示课程与个人排班未知状态。"
+      ],
+      "known_to_ai_role": [
+        "课程三次、120元含材料。",
+        "公开原文后续确认的条款：11月3日18点截止，之后统一处理；先填不优先也不保证获位，4日确认采购。",
+        "材料包无条件赠送，意向单不是付款承诺；本期无单次参加或补课。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "读者尚未表达的目标和可承担缺席代价，不能用其拿笔推断其已决定报名。"
+      ],
+      "role_constraints": [
+        "问到对应实际条款时直接如实答，不以礼貌程度拖延信息；不得靠新增折扣或倒计时逼一个结局。",
+        "不把意向改为报名或付款承诺，不发生真实登记，不询问真实身份或收款信息。",
+        "角色可以保留实际采购期限；读者也能接受错过，不保证双方无损。",
+        "无最低轮数，允许拒绝、转讨论、反馈或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "earlier_real_deadline",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选另起分支：真实采购方改要求今天17:15前确认人数，而排班仍到明天中午才知。新条件只用于比较等待的代价，不倒写成原故事的截止时间，也不假造自动保留名额。"
+      },
+      "start": "先由读者决定是否练习与是否采用新增截止分支，再提出自己的询问或选择；教师不先列完整最佳问法。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "可选练习：询问与邀请都要有真实范围",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "transfer": {
+      "title": "迁移：熟人推荐和流畅工具建议",
+      "source_line_spans": [
+        [
+          41,
+          55
+        ],
+        [
+          65,
+          77
+        ]
+      ],
+      "selection_rule": "任选一个新虚构场景，允许采纳、暂缓或不采纳，并讨论其实际依据。",
+      "variants": {
+        "community_purchase": {
+          "title": "朋友垫付的团购样品",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系从活动组织者变为有既往互助的朋友。",
+            "资源从课程席位变为家庭共用设备与费用。",
+            "影响线索包含亲自体验与朋友付出，但设备适配仍需另核。"
+          ],
+          "facts": [
+            "朋友自费拿来一台净水壶让何珊试用一周，并邀请她加入团购。",
+            "何珊确实觉得样品方便；家里的可放置空间、后续滤芯开支还没量算。",
+            "团购周日统一提交，现为周四；朋友并未说不参团就必须购买样品，也没有替何珊下单的权限。"
+          ],
+          "prompt": "你会怎样区分这次推荐中值得采纳的信息与仍应由何珊作的决定？"
+        },
+        "ai_tool_rental": {
+          "title": "AI建议直接包月租设备",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "建议者变为没有行动权限的AI工具。",
+            "约束从排班变为使用频率与预算。",
+            "语言流畅不代表掌握输入未提供的具体条件。"
+          ],
+          "facts": [
+            "一位虚构使用者只告诉AI“最近想拍一些短片”，AI便推荐某种设备包月租赁，称“这样肯定最划算”。",
+            "现有材料只列日租和月租价格，没有使用天数、已有设备或预算。",
+            "AI没有订租、付款或读取个人日程的权限，使用者也没有要求它代办。"
+          ],
+          "prompt": "你会怎样处理这个建议与自己尚未作出的选择？"
+        }
+      },
+      "feedback_rule": "依据读者实际使用的证据、目标与权限判断反馈；不把拒绝AI、拒绝朋友或一概不受影响作为固定成功条件。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "迁移：熟人推荐和流畅工具建议",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖子项：空白讨论清单",
+      "source_line_spans": [
+        [
+          13,
+          89
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "reciprocity",
+          "label": "感谢与新承诺",
+          "source_line_spans": [
+            [
+              13,
+              43
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "favor_vs_request",
+              "label": "收到帮助与答应下一请求能分别判断",
+              "source_line_spans": [
+                [
+                  35,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "hidden_conditions",
+              "label": "赠品事先约定与事后追加欠账不同",
+              "source_line_spans": [
+                [
+                  41,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "commitment_steps",
+              "label": "拿笔、填意向、报名与付款不能自动连成同一承诺",
+              "source_line_spans": [
+                [
+                  25,
+                  31
+                ],
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "cue_and_fit",
+          "label": "线索提供什么、不能证明什么",
+          "source_line_spans": [
+            [
+              47,
+              55
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "authority_domain",
+              "label": "经验或名气需对应具体课程与目标",
+              "source_line_spans": [
+                [
+                  49,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "photo_limits",
+              "label": "合照中的在场、完课、满意与适合不是同一断言",
+              "source_line_spans": [
+                [
+                  49,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "real_scarcity",
+              "label": "真名额与真期限有意义，但不改变个人排班和适配",
+              "source_line_spans": [
+                [
+                  51,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "timing_branch",
+              "label": "截止与关键未知何时确认决定可比较的取舍",
+              "source_line_spans": [
+                [
+                  19,
+                  29
+                ],
+                [
+                  65,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "inviter_and_ai",
+          "label": "双向自主与证据范围",
+          "source_line_spans": [
+            [
+              59,
+              89
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "truthful_offer",
+              "label": "邀请中同时交代真实优势、限制和实际承诺",
+              "source_line_spans": [
+                [
+                  59,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "refusal_afterward",
+              "label": "口头可拒绝还须看拒绝后的行为，不能羞辱或暗改条件",
+              "source_line_spans": [
+                [
+                  67,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "ai_assumptions",
+              "label": "AI流畅建议仍须核对输入、假设与来源支持范围",
+              "source_line_spans": [
+                [
+                  73,
+                  75
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "ai_authority",
+              "label": "不同意或结束AI对话不授予其代承诺及访问信息的权力",
+              "source_line_spans": [
+                [
+                  77,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "evidence_identity",
+              "label": "实验有限段落、方法分类与本书价值选择分别识别",
+              "source_line_spans": [
+                [
+                  89,
+                  89
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "每个子项的材料可用状态与读者讨论状态分别呈现。这里默认未讨论，不表示真实进度；只依据当前对话中实际说过的内容标已讨论，明确略过才标选择跳过，其余保留未讨论。工具读取、礼貌同意或做过一道题不等于学完。记录不回传。",
+      "next_step": "按实际已谈范围告诉读者还有哪些子项，由读者选择深入、练习、原文对照、总结或结束。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "本章具体覆盖子项：空白讨论清单",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "review": {
+      "title": "读者主动选择后的原文与反馈对照",
+      "source_line_spans": [
+        [
+          1,
+          89
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确要对照或反馈时使用；调用参数不独立证明其意愿。",
+        "先复述读者确实表达过的判断与依据，不能假称其已选某方案；再比较以下阅读角度，不按措辞接近参考判断评分。",
+        "比较读者的选择依据、期望目标与承担条件，不把识别了影响线索自动等同于必须拒绝。",
+        "原故事后来确认的条款是特定条件；截止早于排班的新分支不得用原故事等待顺序直接裁决。",
+        "分别对照邀请者责任与接受者自主，AI建议也须检查资料与权限。",
+        "接口可在本阶段附完整未改原章和原教学包（可能有参考判断），与本新编层分别标识；公开编排本身不含旧题库答案。",
+        "读者决定继续或结束；读到完整材料不等于本章所有子项已经讨论。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-10, both) 或本阶段接口附带原文件。",
+      "technical_limit": "分阶段读取不能技术上阻止AI推断或另行读取答案；原文、协议与学习效果应分别验证。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 12,
+        "chapter_title": "怎样影响别人并审视自己受到的影响",
+        "section_label": "读者主动选择后的原文与反馈对照",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    }
+  }
+}

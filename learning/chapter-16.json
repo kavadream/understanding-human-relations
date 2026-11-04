@@ -1,0 +1,453 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-16",
+  "display_order": 7,
+  "title": "为什么想帮忙，对方却觉得没有被听见",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-16.md",
+    "sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "readable_source": {
+    "book_title": "理解人性：关系、边界与合作",
+    "display_chapter": 7,
+    "chapter_title": "为什么想帮忙，对方却觉得没有被听见",
+    "material_identity": "根据公开正式正文新编的分阶段教学材料；不是完整原稿",
+    "initial_section": "故事决策截点（原节名简写，以免提前透露后续）"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "朋友准备把指责发进工作群之前",
+      "source_line_spans": [
+        [
+          29,
+          31
+        ]
+      ],
+      "fiction_notice": "以下是公开原书的虚构会议通知故事派生截点，不是读者经历。",
+      "facts": [
+        {
+          "id": "preparation",
+          "text": "陈栩为项目汇报准备了两个晚上。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "missed_meeting",
+          "text": "陈栩临时得知会议已经提前，自己没有收到更新通知。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "interpretation",
+          "text": "陈栩认为主管故意让自己难堪，想把一段指责发进工作群。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "friend_position",
+          "text": "朋友汪澄很想表明站在陈栩这一边。两人此时还不知道通知在哪一步遗漏。",
+          "source_line_spans": [
+            [
+              31,
+              31
+            ]
+          ]
+        }
+      ],
+      "decision_time": "汪澄尚未继续回应、指责尚未由朋友转发的时点；后来的回应与效果不提供。",
+      "unknowns": [
+        "通知遗漏的经过、主管的动机。",
+        "陈栩此刻最希望朋友怎样参与，尚未向汪澄说清。"
+      ],
+      "learner_prompt": "如果你是汪澄，此刻最想先回应陈栩的哪一部分？",
+      "facilitator_action": "等待读者说明其优先回应的部分及理由，不先把情绪、原因和行动划好答案；允许他先问一个实质澄清。",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true
+    },
+    "discussion": {
+      "title": "依据读者理由选择回应，而不是固定倾听流程",
+      "source_line_spans": [
+        [
+          13,
+          25
+        ],
+        [
+          29,
+          51
+        ]
+      ],
+      "instructions": [
+        "先准确接住读者实际选择要回应的内容，不因他主张建议就直接判成不关心。",
+        "若理由重在表明支持，可只追问其支持具体指向什么；若重在查通知，可只讨论查证与当下交流怎样衔接。根据实际回答择一，不逐项考问。",
+        "若读者已指出请求未明，可接受这一判断继续，不强迫再说出固定的倾听句式。",
+        "愿意深入时再比较书店告别、会议抱怨和明确求改面试材料这三个不同请求；不把其中一个故事的处理当全部场景的答案。"
+      ]
+    },
+    "assumptions": {
+      "title": "帮助方式的关键条件与未知",
+      "source_line_spans": [
+        [
+          25,
+          39
+        ],
+        [
+          43,
+          51
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "请求已明确、时间紧迫或有必须立即处理的事情，会改变帮助的次序；一次只澄清最影响当前选择的一项。"
+        },
+        {
+          "kind": "non_core",
+          "action": "主管姓名、汇报主题等不影响是否有动机证据时，接受为暂定细节，不据此反复加难。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "已查明主管恶意、朋友掌握内部通知记录等不是此截点事实；可作为明确新分支，不能倒写成两人原本就知道。"
+        },
+        {
+          "kind": "unknown",
+          "action": "不把陈栩的失望推定为某种人格或隐秘需求；理解有误时让当事人纠正，未说的请求仍是未知。"
+        }
+      ]
+    },
+    "roleplay": {
+      "title": "可选对话：作为朋友怎样接住这一件事",
+      "source_line_spans": [
+        [
+          29,
+          39
+        ]
+      ],
+      "fiction_notice": "基于公开会议故事的新编练习，不使用原私有书店角色脚本。",
+      "learner_role": "汪澄，陈栩的朋友；不是主管，也无权替工作群作决定。",
+      "ai_role": "陈栩；只根据实际对话透露自己愿意谈的内容。",
+      "known_to_learner": [
+        "事实卡所示两晚准备、未收到通知、动机未核实和发群想法。"
+      ],
+      "known_to_ai_role": [
+        "自己准备及错过汇报的经过，自己当前的想法。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "汪澄尚未说出的立场、能力或承诺；汪澄是否愿意转发。"
+      ],
+      "role_constraints": [
+        "陈栩可以失望、纠正朋友的概括或暂不想谈，不必须因为一句体谅就情绪好转。",
+        "双方都不知道主管动机，不用角色台词把猜测升级为事实。",
+        "不默认汪澄答应转发，不增主管惩罚或隐藏阴谋；无最低轮数，可停止。"
+      ],
+      "optional_new_condition": {
+        "id": "explicit_pause_request",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "练习新增条件：陈栩明确说自己想先停十分钟，再决定是否继续谈。此为可选分支，不是原书已经说过的话。"
+      },
+      "start": "确认读者愿意练习后，让其先回应事实卡；AI只按已知信息作一个相关反应，不先输出示范话术。"
+    },
+    "transfer": {
+      "title": "新的任务时点与帮助责任",
+      "source_line_spans": [
+        [
+          43,
+          51
+        ],
+        [
+          55,
+          57
+        ]
+      ],
+      "selection_rule": "只取一个原创新场景，讨论实际请求和现实限制如何改变帮助。",
+      "variants": {
+        "bounded_technical_help": {
+          "title": "临近提交时的一项有限核查",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "请求：对方已明确要技术核查而非情绪谈话",
+            "资源：帮助者只有十分钟且无法验证全部数据",
+            "责任：决定提交的人仍是求助者"
+          ],
+          "facts": [
+            "朋友准备提交社团活动预算，请你用十分钟核对三行加总。",
+            "你只能看到汇总表，看不到原始票据，不能保证支出真实性。",
+            "对方说现在不想谈自己为什么紧张，只希望知道加总有没有算错。"
+          ],
+          "prompt": "你会如何界定此时能够提供的帮助？"
+        },
+        "urgent_shared_task": {
+          "title": "共同活动现场的通道",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "责任：你同时负责现场通行",
+            "约束：人群很快需要经过",
+            "请求：同伴想谈刚才遭遇的冷场"
+          ],
+          "facts": [
+            "一场小型社区展览即将散场，你和同伴负责保持出口通道畅通。",
+            "几只空纸箱正挡住通道，两分钟后观众会经过。",
+            "同伴此刻想向你讲刚才无人参加讲解的失落；没有人受伤，也没有其他工作人员可立即接手。"
+          ],
+          "prompt": "你会怎样安排此刻的回应与共同任务？"
+        }
+      },
+      "feedback_rule": "比较新请求、时点、可提供资源及既有责任，不机械套用一直听或立刻给办法，也不把对方开心当成功。"
+    },
+    "coverage": {
+      "title": "本章覆盖：帮助请求、理解与行动边界",
+      "source_line_spans": [
+        [
+          13,
+          63
+        ]
+      ],
+      "areas": [
+        {
+          "id": "request",
+          "label": "这一次要的帮助",
+          "source_line_spans": [
+            [
+              13,
+              25
+            ],
+            [
+              43,
+              49
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "closure",
+              "label": "理解告别与挽救经营不是同一个请求",
+              "source_line_spans": [
+                [
+                  13,
+                  23
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "practical",
+              "label": "对方明确要实际协助时，不强行改成倾诉",
+              "source_line_spans": [
+                [
+                  43,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "layers",
+          "label": "感受、原因与行动",
+          "source_line_spans": [
+            [
+              29,
+              39
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "feeling",
+              "label": "承认具体失望，不以证明恶意为前提",
+              "source_line_spans": [
+                [
+                  29,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "cause",
+              "label": "通知遗漏和主管动机仍未知，不用认同证明亲近",
+              "source_line_spans": [
+                [
+                  31,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "action",
+              "label": "是否转发或公开指责需要另行判断",
+              "source_line_spans": [
+                [
+                  29,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "limits",
+          "label": "理解可纠正且帮助有边界",
+          "source_line_spans": [
+            [
+              39,
+              51
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "correction",
+              "label": "允许对方修正对感受或需要的概括",
+              "source_line_spans": [
+                [
+                  39,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "time",
+              "label": "说明可用时间和能提供的协助，而非无限承诺",
+              "source_line_spans": [
+                [
+                  19,
+                  21
+                ],
+                [
+                  45,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "refusal",
+              "label": "尊重暂不谈或拒绝某种帮助的选择",
+              "source_line_spans": [
+                [
+                  49,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "evaluation",
+          "label": "观察范围与证据",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ],
+            [
+              55,
+              63
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "specific_response",
+              "label": "跟住具体经历，不以反复复述或马上好转判断效果",
+              "source_line_spans": [
+                [
+                  55,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "evidence",
+              "label": "积极倾听的被理解感、满意度与长期效果不可混称",
+              "source_line_spans": [
+                [
+                  25,
+                  25
+                ],
+                [
+                  63,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "instruction": "材料可用只是本节有相应材料；子项的讨论状态默认未讨论。仅按当前实际对话证据在本地标为已讨论，读者明确跳过才标选择跳过；未有讨论或证据不足保留未讨论。读取全文、点头或答对一题不算覆盖完成。不得把状态上传到接口或仓库。",
+      "next_step": "先说明本轮确实讨论过的具体子项和仍未讨论的部分，让读者选择深入、练习、对照、总结或结束，不宣布本章已学完。"
+    },
+    "review": {
+      "title": "读者主动要对照时再展开三种帮助",
+      "source_line_spans": [
+        [
+          13,
+          63
+        ]
+      ],
+      "instructions": [
+        "明确选择对照后再给原书后续回应，以及书店、会议和面试三个场景的区别。",
+        "针对读者实际理由，说明哪些条件支持或限制其选择，不把倾听永远置于建议之上。",
+        "没有真实回应就不说“你刚才忽视了感受”；允许对原书方法提出不同意见，不用角色同意证明掌握。"
+      ],
+      "requires_explicit_reader_choice": true,
+      "full_original_materials_via": "books_get_unit(book_id, chapter-16, both) 或本阶段接口附带原文件。",
+      "technical_limit": "AI可推断答案或自行读取完整原稿；分阶段是教学安排，不是答案保密或学习效果保证。"
+    }
+  }
+}

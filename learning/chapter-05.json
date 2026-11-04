@@ -1,0 +1,586 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-05",
+  "display_order": 5,
+  "title": "关系、身份与文化怎样改变期待",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-05.md",
+    "sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "活动门口的一项额外请求",
+      "source_line_spans": [
+        [
+          13,
+          17
+        ],
+        [
+          21,
+          23
+        ]
+      ],
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "transformation": "依据公开原章指定行段重新编写事实卡，不是逐字摘录；省略作者开篇结论、此时之后的结果及示范解法。主观解释保持为人物当时的想法。",
+      "fiction_notice": "原章人物、事件为作者原创虚构；以下是新编派生决策截点。",
+      "facts": [
+        {
+          "id": "agreement",
+          "text": "阿敏邀请邻居雅南检查旧物交换日的双语指示牌。雅南答应活动前看一次译文，十点已把修改文件发给阿敏。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "plans",
+          "text": "雅南准备去参加自己另有安排的聚会。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "request",
+          "text": "阿敏叫住她，说现场还需要翻译，大家以为她会留下，因为她熟悉两种语言。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "pressure",
+          "text": "入口已有参加者，有些说明需要逐一确认。阿敏眼下找不到其他双语帮手，希望雅南至少留到下午两点。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "exchange",
+          "text": "雅南说自己只答应检查指示牌；另一位组织者说：“都是自己人，别分得这么清楚。”",
+          "source_line_spans": [
+            [
+              21,
+              23
+            ]
+          ]
+        }
+      ],
+      "decision_time": "组织者说完这句话、雅南尚未作出下一步回应或离场时。",
+      "unknowns": [
+        "原章没有在此截点说明雅南曾答应现场翻译或全程在场。",
+        "双方过去怎样临时补位、当下还有何种替代安排，尚未展开。",
+        "聚会具体私人内容未给出，也不把它当作需要查验的事实。"
+      ],
+      "learner_prompt": "面对眼前的缺人和原先的约定，你会怎样权衡雅南此刻的参与选择？",
+      "facilitator_action": "只呈现本事实卡及一个开放问题，等待读者自己的判断。不要先给作者结论或参考答案；可以澄清、选择完整阅读、跳过或结束。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "一、故事（仅决策截点，节名简写）"
+      }
+    },
+    "discussion": {
+      "title": "关系期待与这次安排怎样同时进入讨论",
+      "source_line_spans": [
+        [
+          41,
+          67
+        ],
+        [
+          71,
+          95
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者实际提出的判断和理由；没有收到观点时不得假装读者已犯错、同意或改进。",
+        "如果读者重视紧急互助，先回应活动确实需要人的理由，再讨论这份需要与已经答应的工作如何关联；不把重视关系直接判为施压。",
+        "如果读者强调原约定，先回应其依据，再讨论怎样理解另一方仍可能失望；不要假定读者冷漠，也不把解释失望当作额外工作已经成立。",
+        "若读者借文化或身份解释，选一个需要向当事人核对的具体期待，不用国籍、口音或心理类型替人物作答。",
+        "可以保留双方仍不满意或尚缺人的结果；讨论不以让角色同意为掌握证明。",
+        "每轮只选一个与其理由相关的关键问题；按回答推进，不机械按题号穷追。",
+        "是否继续讨论、做角色练习、迁移、对照、总结或结束，由读者选择。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章论述（按读者理由选择讨论）"
+      }
+    },
+    "assumptions": {
+      "title": "哪些变化会改变这次责任",
+      "source_line_spans": [
+        [
+          53,
+          67
+        ],
+        [
+          73,
+          89
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否另有明确在场承诺、是否已有具体时段请求并得到答复，会改变责任；只澄清一项关键事实，无法确认则列分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "聚会的内容、参与者身份等私人细节，不必为判断这次工作范围而核实；可接受读者暂定条件继续。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "原章只约定译文检查。若新设全程在场承诺或排班名单，必须清楚标为变式，不能倒写原故事。"
+        },
+        {
+          "kind": "unknown",
+          "action": "人物国籍、成长地及历次互助情况原文未给；不以文化标签补齐，替代人手是否存在也不可编造。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章条件与事实边界"
+      }
+    },
+    "roleplay": {
+      "title": "可选角色：阿敏与雅南的门口对话",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ],
+        [
+          43,
+          67
+        ]
+      ],
+      "fiction_notice": "依据公开原章截点新编。后续分析只提供角色可能关切的材料，不作已收到读者回答或唯一心理诊断。",
+      "learner_role": "雅南（可选择改为阿敏或只讨论）",
+      "ai_role": "阿敏",
+      "known_to_learner": [
+        "自己答应文字检查、十点已交文件，也有原定聚会。",
+        "阿敏此刻提出留下到下午两点的请求。"
+      ],
+      "known_to_ai_role": [
+        "活动眼下有语言协助需要，还未找到其他双语人手。",
+        "最初邀请的是文字检查，原章没有雅南答应额外现场时段的事实。",
+        "自己看重邻里遇到困难时愿意支持，仍需要听到雅南实际回应。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "雅南聚会的私人细节。",
+        "不存在于原章或实际对话的全天承诺、反复拒绝史。"
+      ],
+      "role_constraints": [
+        "不把眼下缺人自动说成对方已经违约，也不因一句客气话立刻消除真实缺口。",
+        "读者如扮演阿敏，雅南可以保留时间限制；读者如扮演雅南，阿敏可以仍感失望并继续寻找安排。",
+        "无最低轮数，不要求双方最后一致；可暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "paid_remote_help",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新增：一位远程翻译愿意在线协助，但需要组织者决定是否动用活动预算。这不是原故事已经有的资源，不把联系或出资责任偷偷交给雅南。"
+      },
+      "start": "确认角色及可选新条件后让读者先回应；AI不先给边界表达范文或默认读者会拒绝。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "基于原章截点的新编可选角色练习"
+      }
+    },
+    "transfer": {
+      "title": "不同关系和承诺下怎样判断期待",
+      "source_line_spans": [
+        [
+          53,
+          67
+        ],
+        [
+          81,
+          91
+        ]
+      ],
+      "selection_rule": "可选，每次只取一个新虚构独立情境，不是原故事的后续。先交代改变的条件，再让读者作判断。",
+      "variants": {
+        "accepted_shift_change": {
+          "title": "已经接受的值班与临时变化",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：有排班制度的合作组织",
+            "责任：明确接受了一个完整时段",
+            "约束：情况改变，需要讨论交接而非原本无承诺"
+          ],
+          "facts": [
+            "慈善仓库志愿者沈安明确答应周六下午的一整个分拣时段，其他人已据此安排岗位。",
+            "周五晚她发现家中出现一项必须本人处理的事务，预计周六只能来前半段。",
+            "组织者希望维持安排，但排班允许寻找接替者；目前还未找到人。"
+          ],
+          "prompt": "你会怎样权衡这次参与范围与已经形成的安排？"
+        },
+        "friend_professional_request": {
+          "title": "朋友间的专业协助邀请",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：朋友，不是共同活动的固定岗位",
+            "资源：专业服务有持续成本",
+            "同意范围：只答应一次沟通，尚未接受后续职责"
+          ],
+          "facts": [
+            "朋友请建筑师陆禾听一听家里空间调整的想法，陆禾答应周末聊半小时。",
+            "会面后朋友希望陆禾继续对接施工队，每晚检查新发来的图，并说熟人合作更放心。",
+            "陆禾愿意继续做朋友，但近期有正式项目，不能持续承担施工协作；双方尚未讨论具体工作和费用。"
+          ],
+          "prompt": "你认为怎样理解并回应这份继续协作的期待？"
+        }
+      },
+      "feedback_rule": "只依据读者实际回答比较理由、代价及适用条件；不预设唯一答案，也不将原故事的一个方案强加到新条件。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "新编独立虚构迁移情境"
+      }
+    },
+    "coverage": {
+      "title": "第五章材料可用性与具体讨论项（空白模板）",
+      "source_line_spans": [
+        [
+          39,
+          95
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "material_status_meaning": "原文与本次新编材料已备齐，不表示实际已讨论。",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "signals",
+          "label": "帮助和拒绝怎样被理解",
+          "source_line_spans": [
+            [
+              41,
+              53
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "signals_1",
+              "label": "区分完成一项任务与对关系仍有多少关心的判断。",
+              "source_line_spans": [
+                [
+                  41,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "signals_2",
+              "label": "看见阿敏的现实缺人和关系期待，而不只把她当占便宜者。",
+              "source_line_spans": [
+                [
+                  43,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "signals_3",
+              "label": "雅南说明时间范围，不必然表示只接受等价交易。",
+              "source_line_spans": [
+                [
+                  51,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "signals_4",
+              "label": "希望对方主动关心与已经获得同意是两项不同判断。",
+              "source_line_spans": [
+                [
+                  53,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "roles",
+          "label": "技能、身份与参与方式",
+          "source_line_spans": [
+            [
+              57,
+              67
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "roles_1",
+              "label": "一项双语技能为何可能被默认为持续职责。",
+              "source_line_spans": [
+                [
+                  57,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "roles_2",
+              "label": "一个人还有其他归属与时间安排，不能只按眼前有用身份决定。",
+              "source_line_spans": [
+                [
+                  59,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "roles_3",
+              "label": "每次到场都可能带来额外任务，怎样影响今后参与。",
+              "source_line_spans": [
+                [
+                  63,
+                  67
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "culture",
+          "label": "文化背景的用途与边界",
+          "source_line_spans": [
+            [
+              71,
+              77
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "culture_1",
+              "label": "背景材料可以提示要核对的习惯，不能替本人回答。",
+              "source_line_spans": [
+                [
+                  71,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "culture_2",
+              "label": "不按姓名、国籍或口音把人物定为某种文化性格。",
+              "source_line_spans": [
+                [
+                  73,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "agreement",
+          "label": "关心、范围与已有承诺",
+          "source_line_spans": [
+            [
+              81,
+              95
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "agreement_1",
+              "label": "怎样同时讨论关系在意与这次能承担的范围，不强迫接受新任务。",
+              "source_line_spans": [
+                [
+                  81,
+                  87
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "agreement_2",
+              "label": "不要求公开私人安排来证明拒绝有资格。",
+              "source_line_spans": [
+                [
+                  85,
+                  85
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "agreement_3",
+              "label": "明确承诺全程在场的变式为何改变责任，但不能倒写成原故事事实。",
+              "source_line_spans": [
+                [
+                  89,
+                  89
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "agreement_4",
+              "label": "对方持续施压或不满意时，仍可决定是否继续参与关系。",
+              "source_line_spans": [
+                [
+                  91,
+                  95
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "label": "材料身份与效果",
+          "source_line_spans": [
+            [
+              99,
+              99
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "evidence_1",
+              "label": "关系实验、哲学书介、历史分析和本书虚构解释各有什么支持边界。",
+              "source_line_spans": [
+                [
+                  99,
+                  99
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "默认未讨论只是空白模板，不是服务器已有读者记录。只根据当前真实对话更新具体子项；读到材料并不算讨论。明确放弃某项才标选择跳过，记录留在读者自己的对话中，不上传。",
+      "next_step": "列明实际触及与未触及的子项，让读者选择深入、练习、对照、总结或结束。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章具体主题的空白覆盖清单"
+      }
+    },
+    "review": {
+      "title": "按读者选择对照原章与原练习",
+      "source_line_spans": [
+        [
+          1,
+          99
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确选择原文对照或反馈，才请求此阶段完整材料；参数本身不证明读者意愿。",
+        "先确认读者实际说出的理由；如尚无回答，只说明可如何对照，不能假称读者已经忽略、学会或改进了什么。",
+        "对照时特别分清原章的不同故事、已有责任与新增变式；没有在读者发言中出现的观点，不替其补成已讨论。",
+        "分别说明原书论述、本次新编情境及读者新增假设，比较理由和适用条件，不把原练习参考判断当所有情形的唯一答案。",
+        "完整原稿与原练习由保留的只读接口按原字节提供；公开编排文件不包含私有原题或原参考答案。",
+        "反馈一轮最多提出一个关键问题；是否总结、继续或结束由读者选择，不给人格诊断或掌握总分。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-05, both)",
+      "technical_limit": "分阶段读取不能阻止AI推断答案或自行读取完整原稿，也不证明教学效果。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 5,
+        "chapter_title": "关系、身份与文化怎样改变期待",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "完整原章与原练习的主动对照"
+      },
+      "newly_authored": true
+    }
+  }
+}

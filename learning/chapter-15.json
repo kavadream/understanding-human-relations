@@ -1,0 +1,562 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-15",
+  "display_order": 17,
+  "title": "怎样在陌生情境中重新判断",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-15.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-15.md",
+    "sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b",
+    "bytes": 7595,
+    "line_start": 1,
+    "line_end": 63,
+    "visibility": "public_formal_reader",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "开放公告发出前：现有人手能支持什么",
+      "source_line_spans": [
+        [
+          25,
+          27
+        ]
+      ],
+      "facts": [
+        {
+          "id": "goal",
+          "text": "李泉计划共享花园周六九点到十二点开放。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "watering",
+          "text": "柏荫只答应每周一、三各浇水约二十分钟，周六上午已有安排，不接受周六值守。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "confirmed_staff",
+          "text": "李泉当天不在本地；季云只确认九点到十点半能来，其他成员不能补班，外部人手尚未落实。",
+          "source_line_spans": [
+            [
+              27,
+              27
+            ]
+          ]
+        },
+        {
+          "id": "public_state",
+          "text": "公告还没发，没有访客预约。",
+          "source_line_spans": [
+            [
+              27,
+              27
+            ]
+          ]
+        },
+        {
+          "id": "rules",
+          "text": "小组允许缩短或延期，但开放时必须有人明确答应值守。",
+          "source_line_spans": [
+            [
+              27,
+              27
+            ]
+          ]
+        }
+      ],
+      "decision_time": "核对名册及现有人员后、开放公告尚未发出；不提供原文后来选择。",
+      "unknowns": [
+        "没有已落实的额外值守者。",
+        "外部人手是否能找到尚未确定，不能把可能性记成承诺。"
+      ],
+      "learner_prompt": "如果你是李泉，此时会怎样安排这次开放，并以什么为判断依据？",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "本章人物和事件为原书原创虚构；这份事实卡是据公开正文新编的决策截点，不是完整原文。",
+      "facilitator_action": "先呈现本阶段全部事实卡与其中一个开放问题，然后等待读者。不要同时展示后续结局、作者解释或review；读者可澄清、保留分歧、选择完整阅读或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "开放公告发出前：现有人手能支持什么",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "discussion": {
+      "title": "让会改变选择的事实进入判断",
+      "source_line_spans": [
+        [
+          11,
+          21
+        ],
+        [
+          25,
+          35
+        ],
+        [
+          39,
+          59
+        ]
+      ],
+      "instructions": [
+        "先准确复述读者希望保留的目标和给出的依据，不预设其已选择缩短或延期。",
+        "若读者援引别处经验，只选择一项会改变本案做法的相同或不同条件比较，不能要求把全书术语全说完。",
+        "若提出寻找新资源，区分已落实与准备核实；若提出缩小目标，讨论现有承诺和公告状态，不直接把一个方案当唯一答案。",
+        "若讨论AI给出的完整安排，追问其中一项事实或同意来自哪里；不把本书虚构AI表格当真实模型实测。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "让会改变选择的事实进入判断",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "assumptions": {
+      "title": "原承诺、现实资源和未知条件",
+      "source_line_spans": [
+        [
+          13,
+          17
+        ],
+        [
+          27,
+          35
+        ],
+        [
+          41,
+          47
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否已有对外预约、另有人明确答应、规则是否允许改期，会改变安排；一次澄清最相关的一项或显式分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "花园名称、公告颜色等若不影响人员同意和开放规则，可接受为背景，不把它变成无尽追问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "当前没有访客预约，柏荫也未答应周六；若比较已经承诺给访客的版本，先标为另一个新情境，不能覆盖原事实。"
+        },
+        {
+          "kind": "unknown",
+          "action": "未落实的外部人手、工具草拟表里的名字，不等于真实承诺；对专业场地或安全要求缺资料时保留待核，不由故事替现实保证。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "原承诺、现实资源和未知条件",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "roleplay": {
+      "title": "可选角色：协调花园本次开放",
+      "source_line_spans": [
+        [
+          25,
+          35
+        ]
+      ],
+      "fiction_notice": "根据公开花园决策截点新编，未使用私有学习包的校友讲座卡。",
+      "learner_role": "李泉；也可改为比较方案的旁观者。",
+      "ai_role": "季云或柏荫，由读者在开始前选择，角色不得混换。",
+      "known_to_learner": [
+        "本阶段全部事实卡。"
+      ],
+      "known_to_ai_role": [
+        "小组原定三小时开放，公告未发。",
+        "柏荫只承担一、三浇水，季云只确认九点至十点半。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "李泉实际打算提交的方案。",
+        "其他未落实人选的答复，不得由角色临时编出。"
+      ],
+      "role_constraints": [
+        "若扮柏荫，不把周一、三浇水同意扩成周六义务；若扮季云，不把已确认一小时半延长成三小时。",
+        "可回应实际提出的方案并保留分歧，不因客气就扩展承诺，也不无理由否认既定可选规则。",
+        "不假造免费值守者或已经答应的访客。",
+        "无最低轮数，读者可保留未知、暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "visitor_request",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新编条件：在公告前收到一位访客询问十一点能否来，但尚未得到确认。这只是新增请求，不是原故事已有预约。"
+      },
+      "start": "确认角色和是否采用新增条件后，让读者先提出一项安排或一个核实问题，不先公布原文结局。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "可选角色：协调花园本次开放",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "transfer": {
+      "title": "新情境：外部变化与已确认对外承诺",
+      "source_line_spans": [
+        [
+          31,
+          35
+        ],
+        [
+          45,
+          55
+        ]
+      ],
+      "selection_rule": "每次只选一个未在原书出现的原创情境；列清条件后让读者先判断。",
+      "variants": {
+        "external_closure": {
+          "title": "路线临时封闭后的远足安排",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "变化来源：外部条件，不是伙伴反对",
+            "既有承诺：已约定路线但未同意涉水绕行",
+            "证据：AI支路建议未经实地或官方核对"
+          ],
+          "facts": [
+            "领队已答应带八位成年人走一段五公里路线，大家已买来回交通票。",
+            "出发前正式公告确认原路段临时封闭，领队没有该路段开放权限。",
+            "AI建议一条绕行支路，但路况、许可和耗时均未核实，没有成员答应涉水绕行；领队可以提出改期或其他已核实方案。"
+          ],
+          "prompt": "你会怎样重新界定这次需要解决的问题，并说明哪些新事实足以改变原计划？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        },
+        "published_schedule": {
+          "title": "已向参赛队确认的棋赛时程",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "承诺：十二队已收到确认，不同于公告未发",
+            "资源：裁判时间减少",
+            "规则：现有赛制不能由AI表格自行改变"
+          ],
+          "facts": [
+            "社区棋赛已经向十二队确认全天赛程。",
+            "一位裁判临时只能工作半天，剩余裁判无法覆盖原来的全部场次。",
+            "AI排了一张把每局时间减半的完整表，但现行章程不允许这个改动；主办可以提出改期并通知队伍，是否有其他合格裁判仍待核实。"
+          ],
+          "prompt": "你会怎样比较继续核实、调整活动和处理已有承诺，而不把花园案的安排整套照搬？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        }
+      },
+      "feedback_rule": "先比较读者实际依据；指出哪项条件真的改变了责任、资源或目标，也允许核对后保留原判断。不要以记住原文结局或跟随工具表格判定迁移通过。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "新情境：外部变化与已确认对外承诺",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖清单（空白模板）",
+      "source_line_spans": [
+        [
+          9,
+          59
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "areas": [
+        {
+          "id": "real_agreements",
+          "label": "承诺的实际范围",
+          "source_line_spans": [
+            [
+              11,
+              21
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "purpose",
+              "label": "区分原先内部交流与后来增加的公开用途",
+              "source_line_spans": [
+                [
+                  11,
+                  17
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "cost",
+              "label": "真实返工成本不能替他人形成新同意",
+              "source_line_spans": [
+                [
+                  17,
+                  21
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "resource_and_goal",
+          "label": "资源与目标可以一起重审",
+          "source_line_spans": [
+            [
+              25,
+              35
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "task_scope",
+              "label": "浇水名册不等于周六值守承诺",
+              "source_line_spans": [
+                [
+                  25,
+                  27
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "confirmed_resource",
+              "label": "区分已确认时段与尚未落实人手",
+              "source_line_spans": [
+                [
+                  27,
+                  29
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "public_commitment",
+              "label": "公告和预约状态会改变缩小目标时要处理的影响",
+              "source_line_spans": [
+                [
+                  27,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "different_action",
+              "label": "共同原则不要求采访与花园采取同一套动作",
+              "source_line_spans": [
+                [
+                  31,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "tool_conditions",
+          "label": "工具输出中的条件核对",
+          "source_line_spans": [
+            [
+              39,
+              49
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "consent",
+              "label": "区分算术完整与每笔出资实际获得同意",
+              "source_line_spans": [
+                [
+                  39,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "feasible_options",
+              "label": "比较可行资源与任务需求，不默认协调者补全部缺口",
+              "source_line_spans": [
+                [
+                  41,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "privacy",
+              "label": "虚构或适当处理输入，保留未知，不替真实的人决定",
+              "source_line_spans": [
+                [
+                  45,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "function_effect",
+              "label": "持续对话功能不等于理解、记忆或迁移效果证据",
+              "source_line_spans": [
+                [
+                  49,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "genuine_transfer",
+          "label": "陌生迁移与诚实保留",
+          "source_line_spans": [
+            [
+              53,
+              63
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "not_repetition",
+              "label": "已知结局的复述只算复习，不当首次陌生迁移",
+              "source_line_spans": [
+                [
+                  53,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "update_or_keep",
+              "label": "依据新事实改变或保留判断，不为显示灵活硬改答案",
+              "source_line_spans": [
+                [
+                  55,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "source_limit",
+              "label": "摘要、报告分节与虚构应用分别标识，不作实测或专业结论",
+              "source_line_spans": [
+                [
+                  63,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "材料可用只说明相应内容存在。每个子项的讨论状态初始为未讨论；只有当前对话中有读者实际讨论证据才可在自己的对话内标已讨论，明确选择不谈才标选择跳过。工具读取、教师说完、答对一道题都不等于已讨论或掌握，不回传个人进度。",
+      "next_step": "准确说明当前实际讨论到哪些子项和哪些未讨论，由读者决定是否深入、迁移、对照、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "本章具体覆盖清单（空白模板）",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "review": {
+      "title": "读者主动选择的原文对照",
+      "source_line_spans": [
+        [
+          9,
+          59
+        ],
+        [
+          63,
+          63
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只在读者当前明确选择对照或反馈后读取；阶段参数不独立证明读者意愿。",
+        "先回应读者实际说出的理由，不补写不存在的回答，再对照本章各节的区分与适用条件。",
+        "完整原章、原私有教学包由已认证接口在review阶段另附；本公开新编排没有复制原私有题库或参考答案。",
+        "参考判断不代替读者选择，合理分歧可保留；列明已讨论、未讨论和选择跳过的具体子项，不宣布工具已使读者学完整章。"
+      ],
+      "technical_limit": "分阶段安排不能阻止AI自行推断或另读完整原稿，不是答案保密系统或教学效果证明。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 17,
+        "chapter_title": "怎样在陌生情境中重新判断",
+        "section_label": "读者主动选择的原文对照",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    }
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-13",
+  "display_order": 15,
+  "title": "怎样理解原谅、责任与关系的未来",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-13.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-13.md",
+    "sha256": "00bec610c8dc0db83a8438972d75d2fcbe9fab9fbe4a01ffa271d3272347af76",
+    "bytes": 7522,
+    "line_start": 1,
+    "line_end": 65,
+    "visibility": "public_formal_reader",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "更正记录之后：一份新的合写邀请",
+      "source_line_spans": [
+        [
+          13,
+          15
+        ]
+      ],
+      "facts": [
+        {
+          "id": "shared_work",
+          "text": "周如和宁舟曾共同编写社区短剧，公开演出时宁舟称主要创作为自己完成，节目单没有周如的名字。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "earlier_response",
+          "text": "周如当年提出异议时，宁舟让她别计较。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "three_years",
+          "text": "三年后，宁舟承认故意省略共同署名，更正活动记录并道歉，希望邀请周如写下一部。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "current_choice",
+          "text": "周如看过更正，认为它有意义；她不想再为旧节目单争吵，但还没有答应新项目。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "hesitation",
+          "text": "她不愿再把下一部作品交给两个人共同决定。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        }
+      ],
+      "decision_time": "更正与道歉发生以后，新作品尚未获得周如同意；不提供两人后续解释。",
+      "unknowns": [
+        "她以后是否可能接受小范围合作或改变决定，尚未确定。",
+        "本截点不替任何人决定已经完全释怀或永远不再信任。"
+      ],
+      "learner_prompt": "如果你参与这次谈话，你会怎样理解并回应两人的不同期待？",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "本章人物和事件为原书原创虚构；这份事实卡是据公开正文新编的决策截点，不是完整原文。",
+      "facilitator_action": "先呈现本阶段全部事实卡与其中一个开放问题，然后等待读者。不要同时展示后续结局、作者解释或review；读者可澄清、保留分歧、选择完整阅读或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "更正记录之后：一份新的合写邀请",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "discussion": {
+      "title": "从读者所说的“向前看”具体谈起",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ],
+        [
+          27,
+          39
+        ],
+        [
+          43,
+          61
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者对两人期待的理解，不把接受更正、原谅或亲近的含义替读者预填。",
+        "若读者用“重新开始”，一次只请其说明当前所指的一项安排；若读者直接主张不再合作，围绕其理由与适用范围谈，不要求证明持续愤怒。",
+        "读者若从旁观者立场看聚会或合作便利，回应其便利理由，再选一个由谁承担未来风险的问题深入。",
+        "谈到不得不继续处理事务时，区分现在已有的义务和新的私人往来；不要把别的家庭或合租案例补成署名案事实。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "从读者所说的“向前看”具体谈起",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "assumptions": {
+      "title": "关系变化与现实条件的分支",
+      "source_line_spans": [
+        [
+          21,
+          23
+        ],
+        [
+          43,
+          55
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否有尚未完成的共同事务、是否出现正在发生的威胁、谁掌握安排权，可能改变接触方式；澄清一个相关条件或明确列分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "新短剧题材、道歉用了哪个近义词，若不改变同意范围与风险，不反复追问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "当前只有旧署名更正，没有周如答应新作品；若假设已有新合同，明确另起新情境，不能用它覆盖原截点。"
+        },
+        {
+          "kind": "unknown",
+          "action": "原文不证明谁的情绪已彻底平复，也不保证有独立协调者；未知不填成原谅或恶意。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "关系变化与现实条件的分支",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "roleplay": {
+      "title": "可选角色：讨论是否接新作品",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ]
+      ],
+      "fiction_notice": "据公开署名故事新编的可选对话；不采用私有学习包的完整角色卡。",
+      "learner_role": "可选周如或宁舟；先由读者选择，另一角色由AI扮演。",
+      "ai_role": "另一位共同创作者。",
+      "known_to_learner": [
+        "事实卡全部事实。"
+      ],
+      "known_to_ai_role": [
+        "署名曾被故意省略，当前活动记录已更正。",
+        "宁舟希望写新作品，周如尚未答应。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "对方当前没有说出的情绪。",
+        "对方是否愿意考虑新的有限合作条件。"
+      ],
+      "role_constraints": [
+        "不把周如不再争吵改写成答应新项目。",
+        "宁舟可以失望，周如可以保留不同期待，双方不必在本轮达到和解。",
+        "不新造过去的合同、道歉交换条件或共同朋友支持，除非明确另开变式。",
+        "无最低轮数，读者可随时请求对照、暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "small_task_offer",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "若读者选择变式：新编条件——社区提出一项一次性、小范围的资料核对任务，双方都可拒绝。这不是原故事已经给出的新承诺。"
+      },
+      "start": "确认角色与变式选择后，读者先说当前愿意讨论哪一项安排；不代写和解表态。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "可选角色：讨论是否接新作品",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "transfer": {
+      "title": "新情境：退出交接与资格决定",
+      "source_line_spans": [
+        [
+          23,
+          23
+        ],
+        [
+          43,
+          55
+        ]
+      ],
+      "selection_rule": "只取一个原创虚构情境；过去处理、既有事务和新要求分别判断。",
+      "variants": {
+        "team_exit": {
+          "title": "竞赛队的器材交接",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "责任：已有公共器材归还任务",
+            "关系：退出训练但仍须交接",
+            "权限：重新报名由本人和组织分别决定"
+          ],
+          "facts": [
+            "一支竞赛队的前队长曾公开队员联系方式，现已删除名单并确认停止该做法。",
+            "一位队员决定暂不回训练，但报名时已答应共同完成赛后器材归还。",
+            "队长希望交接当天一起拍“已经和好”的合照；器材管理方只需要核对清单，不要求合照。"
+          ],
+          "prompt": "你会怎样安排这次交接，同时理解各方尚未作出的关系选择？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        },
+        "independent_selection": {
+          "title": "新岗位申请与私人会面",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "权力：前任希望影响申请支持",
+            "程序：新负责人可独立遴选",
+            "关系：愿参加社团但不愿单独见前任"
+          ],
+          "facts": [
+            "社团前负责人曾作失实批评，现已公开更正并道歉。",
+            "新负责人主持一项独立岗位遴选，受影响成员愿申请，但不愿与前任单独喝咖啡谈和好。",
+            "前任希望成员先参加私人会面，再说愿否提供个人推荐；岗位规则本身不要求前任推荐。"
+          ],
+          "prompt": "在这个情境中，你会怎样判断申请、推荐和私人会面分别应由谁决定？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        }
+      },
+      "feedback_rule": "回应读者实际理由，比较既定任务、独立资格与私人关系；不以是否接受邀请或说出原谅作为唯一答案。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "新情境：退出交接与资格决定",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖清单（空白模板）",
+      "source_line_spans": [
+        [
+          11,
+          61
+        ],
+        [
+          65,
+          65
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "areas": [
+        {
+          "id": "separate_decisions",
+          "label": "过去与未来不是同一项决定",
+          "source_line_spans": [
+            [
+              13,
+              23
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "correction",
+              "label": "识别署名更正本身的意义，不将其贬为全无价值",
+              "source_line_spans": [
+                [
+                  13,
+                  19
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "future_agreement",
+              "label": "区分接收道歉、不再争论与接受下一部合作",
+              "source_line_spans": [
+                [
+                  15,
+                  23
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "emotion",
+              "label": "不规定必须完全释怀或持续愤怒才能作选择",
+              "source_line_spans": [
+                [
+                  19,
+                  23
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "bystander_cost",
+          "label": "旁观者的便利与当事人的代价",
+          "source_line_spans": [
+            [
+              27,
+              39
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "different_costs",
+              "label": "比较聚会尴尬与重新接触风险分别由谁承担",
+              "source_line_spans": [
+                [
+                  29,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "own_help",
+              "label": "识别旁观者能安排的时间和解释，而非替人答应",
+              "source_line_spans": [
+                [
+                  33,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "limited_contact",
+          "label": "有限共处与安全条件",
+          "source_line_spans": [
+            [
+              43,
+              55
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "existing_duties",
+              "label": "区分四周已答应的分担与私人亲近、新承诺",
+              "source_line_spans": [
+                [
+                  43,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "interests",
+              "label": "辨认有自己住宿利益的传话者不等于独立裁判",
+              "source_line_spans": [
+                [
+                  47,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "changed_safety",
+              "label": "出现威胁或持续侵扰时重新考虑接触和支持",
+              "source_line_spans": [
+                [
+                  53,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "future_options",
+          "label": "未来范围与证据边界",
+          "source_line_spans": [
+            [
+              57,
+              65
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "options",
+              "label": "分别考虑亲近、有限往来和有序结束事务",
+              "source_line_spans": [
+                [
+                  57,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "concepts",
+              "label": "区分伦理概念论述、历史材料与个体义务或疗效证据",
+              "source_line_spans": [
+                [
+                  21,
+                  21
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "source_range",
+              "label": "说清有限分节和出版介绍的读取范围",
+              "source_line_spans": [
+                [
+                  65,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "材料可用只说明相应内容存在。每个子项的讨论状态初始为未讨论；只有当前对话中有读者实际讨论证据才可在自己的对话内标已讨论，明确选择不谈才标选择跳过。工具读取、教师说完、答对一道题都不等于已讨论或掌握，不回传个人进度。",
+      "next_step": "准确说明当前实际讨论到哪些子项和哪些未讨论，由读者决定是否深入、迁移、对照、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "本章具体覆盖清单（空白模板）",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "review": {
+      "title": "读者主动选择的原文对照",
+      "source_line_spans": [
+        [
+          11,
+          61
+        ],
+        [
+          65,
+          65
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只在读者当前明确选择对照或反馈后读取；阶段参数不独立证明读者意愿。",
+        "先回应读者实际说出的理由，不补写不存在的回答，再对照本章各节的区分与适用条件。",
+        "完整原章、原私有教学包由已认证接口在review阶段另附；本公开新编排没有复制原私有题库或参考答案。",
+        "参考判断不代替读者选择，合理分歧可保留；列明已讨论、未讨论和选择跳过的具体子项，不宣布工具已使读者学完整章。"
+      ],
+      "technical_limit": "分阶段安排不能阻止AI自行推断或另读完整原稿，不是答案保密系统或教学效果证明。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 15,
+        "chapter_title": "怎样理解原谅、责任与关系的未来",
+        "section_label": "读者主动选择的原文对照",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    }
+  }
+}

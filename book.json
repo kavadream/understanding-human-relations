@@ -126,11 +126,13 @@
     }
   ],
   "teaching_supplement": {
-    "version": "teaching-orchestration-0.2.0",
+    "version": "teaching-orchestration-0.3.0",
     "newly_authored": true,
     "guide": "learning/README.md",
     "unit_plan": "learning/chapter-01.json",
-    "scope": "chapter-01 pilot only",
-    "formal_reader_edition_modified": false
+    "scope": "all_17_chapters",
+    "formal_reader_edition_modified": false,
+    "index": "learning/index.json",
+    "unit_count": 17
   }
 }

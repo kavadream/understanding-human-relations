@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-07",
+  "display_order": 9,
+  "title": "为什么有道理的话别人却听不进去",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-07.md",
+    "sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "readable_source": {
+    "book_title": "理解人性：关系、边界与合作",
+    "display_chapter": 9,
+    "chapter_title": "为什么有道理的话别人却听不进去",
+    "material_identity": "根据公开正式正文新编的分阶段教学材料；不是完整原稿",
+    "initial_section": "故事决策截点（原节名简写，以免提前透露后续）"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "仓库重新谈话前：已看见什么",
+      "source_line_spans": [
+        [
+          13,
+          25
+        ]
+      ],
+      "fiction_notice": "原书虚构仓库故事的派生决策截点，停在经理后续回应与协商之前。",
+      "facts": [
+        {
+          "id": "adoption",
+          "text": "经理周一宣布仓库从次日起使用新库存系统，提出减少错单、方便财务核对的理由。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "meeting",
+          "text": "老陈问旧办法一直能用为何必须换。经理提高声音，说别人能适应、他总有意见；老陈低头答“好，听安排”。",
+          "source_line_spans": [
+            [
+              15,
+              19
+            ]
+          ]
+        },
+        {
+          "id": "records",
+          "text": "三天后，新系统仍有大量空白记录。经理再次到仓库，看见员工把同批货又记进旧表。",
+          "source_line_spans": [
+            [
+              21,
+              23
+            ]
+          ]
+        },
+        {
+          "id": "old_requirement",
+          "text": "旧表仍是财务要求的交接依据，停用需要另行确认。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "implementation",
+          "text": "新系统与旧表都要记；晚班没有可用电脑。培训讲过基本操作，但没有带晚班走完整流程。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        }
+      ],
+      "decision_time": "经理刚问到旧表并听见上述条件之后；尚未给出其后续回应、分工或实施重排。",
+      "unknowns": [
+        "旧表停用是否会获财务批准、可协调到的设备和时间。",
+        "各项空白分别由什么导致，哪些已具条件而未完成。",
+        "老陈在会议上的简短答复代表多少理解、认同和执行把握。"
+      ],
+      "learner_prompt": "此时你会把下一轮谈话的重点放在哪里，为什么？",
+      "facilitator_action": "先等待读者判断，容许其维护系统目标、追问责任或先查资源；不把经理后续道歉与协商方案先给出。",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true
+    },
+    "discussion": {
+      "title": "让理由进入实际执行条件",
+      "source_line_spans": [
+        [
+          39,
+          73
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者实际要维护的目标和其理由，不把支持业务要求解释为只要服从，也不把指出困难解释为反对采用。",
+        "针对其理由选择一个关键追问：其判断眼下缺的是理解、方案理由、资源条件还是具体履责证据；不要一次列出所有角度变成题单。",
+        "若其选择已回应当前条件，可以继续谈决定范围或责任，不要求重复作者句子。",
+        "保留对方案本身的合理异议，不能预先保证软件正确或所有执行问题都会因客气表达消失。"
+      ]
+    },
+    "assumptions": {
+      "title": "方向、条件和报告渠道的分支",
+      "source_line_spans": [
+        [
+          49,
+          73
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "已确定的决定范围、设备训练是否可用、是否存在方案本身缺陷会改变下一步；只澄清关键一项，未知时保留分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "软件品牌、货物名称等不改变同批双录和晚班缺设备时，可暂定而不反复纠缠。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "财务已批准停表、设备已经到齐或老陈故意破坏都非已知事实；若练习改条件，显式标明新分支，不能倒写成原承诺。"
+        },
+        {
+          "kind": "unknown",
+          "action": "空白记录不能单独证明态度；提出困难也不能证明所有具体缺项都免责。是否有报复风险和有效渠道，按信息判断不假定安全。"
+        }
+      ]
+    },
+    "roleplay": {
+      "title": "可选仓库谈话：要求与信息怎样衔接",
+      "source_line_spans": [
+        [
+          13,
+          37
+        ],
+        [
+          61,
+          73
+        ]
+      ],
+      "fiction_notice": "以公开原书仓库事实新编角色练习，不复制旧私有台词或题目。",
+      "learner_role": "经理；能够协调实施，但不能替财务宣布旧表已停。",
+      "ai_role": "老陈；按实际经历说明工作条件及尚未完成部分。",
+      "known_to_learner": [
+        "初始事实卡全部事实；双方正在重新谈实际执行。"
+      ],
+      "known_to_ai_role": [
+        "新旧双录、夜班电脑和训练的实际条件；自己会上被说成总有意见的经历。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "经理能落实哪些资源、与财务确认的结果、今后安排怎样变化。"
+      ],
+      "role_constraints": [
+        "不因客气话立即保证全部记录完成，也不以否定系统方向作为唯一结局。",
+        "若问报告缺项，应按公开原书说明后来未及时报出缺项的事实，不把人物改成完全无责。",
+        "双方可对期限或方案有分歧，不临时添无穷困难；无最低轮数，可随时退出。"
+      ],
+      "optional_new_condition": {
+        "id": "written_finance_response",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "练习新增条件：财务刚书面回复旧表至少还需并行一周。这不是原书已给的回复，只有读者愿意采用才进入这一分支。"
+      },
+      "start": "读者先用自己的方式开口；AI按当前角色事实回应一个主要问题，不替读者先写完整管理话术。"
+    },
+    "transfer": {
+      "title": "换决定权和现实约束后判断",
+      "source_line_spans": [
+        [
+          49,
+          73
+        ]
+      ],
+      "selection_rule": "每次只选一个原创新虚构场景；由读者选择是否练习。",
+      "variants": {
+        "peer_choice": {
+          "title": "平等合作者选择展示工具",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "权力：没有经理能够单方决定",
+            "责任：两人共同对交付负责",
+            "资源：方案价值与学习时间同时要比较"
+          ],
+          "facts": [
+            "两名独立创作者共同准备一周后的公开展示。",
+            "一人想换成新展示软件，能呈现更多互动；另一人会旧软件，但还没有用新工具做成完整演示。",
+            "两人没有雇佣关系，展示可用两种工具完成，也没有约定由谁决定工具。"
+          ],
+          "prompt": "你会怎样安排这一次工具选择的讨论？"
+        },
+        "constrained_dispatch": {
+          "title": "明确要求下的有限调度",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "权力：安全调度要求已确定",
+            "资源：人手有限但部分工作可重排",
+            "责任：执行者仍需报告无法完成部分"
+          ],
+          "facts": [
+            "一处小型场馆已确定今晚闭馆前必须清点所有借出设备。",
+            "值班人员理解清点方法，但一人临时离岗，其余两人还要处理归还队列。",
+            "负责人可暂停一个非必要展示区，不能让未训练者独立签收，也不能假造清点记录。"
+          ],
+          "prompt": "你会怎样判断并说明今晚可以重排的部分？"
+        }
+      },
+      "feedback_rule": "比较决定权、资源与事实责任的改变，允许不采用新工具或提出条件；不以更响亮的保证或角色服从当成功。"
+    },
+    "coverage": {
+      "title": "本章覆盖：理解、异议、执行和权力",
+      "source_line_spans": [
+        [
+          39,
+          85
+        ]
+      ],
+      "areas": [
+        {
+          "id": "interpretation",
+          "label": "听到什么与推断什么",
+          "source_line_spans": [
+            [
+              39,
+              47
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "silence",
+              "label": "“听安排”和沉默不能直接证明理解或具备条件",
+              "source_line_spans": [
+                [
+                  45,
+                  45
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "status",
+              "label": "讨论方案可能转向维护经验或地位，不能据此诊断动机",
+              "source_line_spans": [
+                [
+                  41,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "obstacle",
+          "label": "分别判断不同障碍",
+          "source_line_spans": [
+            [
+              51,
+              59
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "understanding",
+              "label": "未理解具体步骤需要针对那一步解释或训练",
+              "source_line_spans": [
+                [
+                  53,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "disagreement",
+              "label": "不同意方案时核对理由而非重复宣传好处",
+              "source_line_spans": [
+                [
+                  53,
+                  57
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "capacity",
+              "label": "认可方向但缺设备、时间、流程的限制须处理安排",
+              "source_line_spans": [
+                [
+                  53,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "authority",
+          "label": "要求范围与可改变部分",
+          "source_line_spans": [
+            [
+              49,
+              73
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "direction",
+              "label": "承认表达或安排问题不自动取消合法业务目标",
+              "source_line_spans": [
+                [
+                  49,
+                  49
+                ],
+                [
+                  65,
+                  67
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "permission",
+              "label": "真实邀请、确定要求及财务决定权限要分开",
+              "source_line_spans": [
+                [
+                  61,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "report_channel",
+              "label": "紧急行动与报告困难渠道各有条件，不能假定私下即安全",
+              "source_line_spans": [
+                [
+                  71,
+                  73
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "responsibility",
+          "label": "落实与证据边界",
+          "source_line_spans": [
+            [
+              35,
+              37
+            ],
+            [
+              55,
+              55
+            ],
+            [
+              77,
+              85
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "specific_duty",
+              "label": "管理者协调与执行者及时报告缺项分别承担",
+              "source_line_spans": [
+                [
+                  35,
+                  37
+                ],
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "progress",
+              "label": "具体缺项和责任人是有限进展，不等于切换或学习成功",
+              "source_line_spans": [
+                [
+                  77,
+                  81
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "evidence",
+              "label": "心理抗拒摘要、谈判方法与本书解释不是对人物的确诊",
+              "source_line_spans": [
+                [
+                  43,
+                  43
+                ],
+                [
+                  85,
+                  85
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "instruction": "材料可用只是本节有相应材料；子项的讨论状态默认未讨论。仅按当前实际对话证据在本地标为已讨论，读者明确跳过才标选择跳过；未有讨论或证据不足保留未讨论。读取全文、点头或答对一题不算覆盖完成。不得把状态上传到接口或仓库。",
+      "next_step": "先说明本轮确实讨论过的具体子项和仍未讨论的部分，让读者选择深入、练习、对照、总结或结束，不宣布本章已学完。"
+    },
+    "review": {
+      "title": "读者主动对照后查看原文后续",
+      "source_line_spans": [
+        [
+          31,
+          85
+        ]
+      ],
+      "instructions": [
+        "仅在读者选择时展开经理后来怎样回应、双方如何分工以及作者解释，不把它写成已收到用户回答。",
+        "引用真实理由，分开其是否理解业务目标、核对条件、说明决定范围、处理实际责任；允许提出更合适的方案。",
+        "原书建议不保证配合，尊重也不等于取消全部要求；反馈不凭角色最后是否说同意评分。"
+      ],
+      "requires_explicit_reader_choice": true,
+      "full_original_materials_via": "books_get_unit(book_id, chapter-07, both) 或本阶段接口附带原文件。",
+      "technical_limit": "AI可推断答案或自行读取完整原稿；分阶段是教学安排，不是答案保密或学习效果保证。"
+    }
+  }
+}

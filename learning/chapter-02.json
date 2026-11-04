@@ -1,0 +1,539 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-02",
+  "display_order": 2,
+  "title": "自尊怎样带来力量与防御",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-02.md",
+    "sha256": "89bc6d464b70e6517bc788cf6cc1c7147fd925018c025fb8a57ef8f892196982",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "四张入选之后的一句回应",
+      "source_line_spans": [
+        [
+          43,
+          47
+        ]
+      ],
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "transformation": "依据公开原章指定行段重新编写事实卡，不是逐字摘录；只保留此时已发生的事实与明确的主观想法，不提供作者开篇结论、后续结果或示范方案。",
+      "fiction_notice": "原章人物和事件为作者原创虚构，本事实卡为新编派生决策截点。",
+      "facts": [
+        {
+          "id": "selection",
+          "text": "社区摄影展收到许铮的六张照片。策展人温琪选了四张，退回两张；她给出的意见分别是人物边缘过暗、与展览主题联系不清。",
+          "source_line_spans": [
+            [
+              43,
+              43
+            ]
+          ]
+        },
+        {
+          "id": "recognition",
+          "text": "上次活动海报称许铮为“最懂这片街区的人”，他曾为此高兴。",
+          "source_line_spans": [
+            [
+              45,
+              45
+            ]
+          ]
+        },
+        {
+          "id": "felt_meaning",
+          "text": "现在他觉得，自己熟悉街区的眼光也被否定了；这是他此刻赋予退稿的含义。",
+          "source_line_spans": [
+            [
+              45,
+              45
+            ]
+          ]
+        },
+        {
+          "id": "reply",
+          "text": "他对温琪回复：“你没有在这里住过，不知道什么才是真实生活。”",
+          "source_line_spans": [
+            [
+              47,
+              47
+            ]
+          ]
+        }
+      ],
+      "decision_time": "许铮发出这句回应之后；尚未提供温琪的后续回应或实际投影核验。",
+      "unknowns": [
+        "原章在此时尚未展示照片，温琪对暗部和主题的判断还未在事实卡中得到独立核验。",
+        "故事没有在此截点说明评选标准此前如何公告。",
+        "许铮的街区经验与具体照片之间的联系尚未展开。"
+      ],
+      "learner_prompt": "你怎样评价许铮这句回应在当前争议中的作用？",
+      "facilitator_action": "只呈现本阶段事实和一个问题，然后等待读者；不要先追加作者结论、原练习答案或后来结果。读者可澄清、选择完整阅读、跳过或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "故事（决策截点，节名作简短说明以免泄露后续）"
+      },
+      "newly_authored": true
+    },
+    "discussion": {
+      "title": "作品意见、判断权与自我评价",
+      "source_line_spans": [
+        [
+          15,
+          39
+        ],
+        [
+          43,
+          73
+        ]
+      ],
+      "instructions": [
+        "先准确复述读者实际提出的判断与理由；尚未收到观点时不要假定读者在想什么。",
+        "如果读者强调本地经验，先回应这种经验可能带来的信息，再围绕它与某张照片的具体关系追问，不要求先否认它的价值。",
+        "如果读者认为温琪完全正确，核对当前是否已有足够证据支持两项不同意见；如果读者认为她在羞辱人，先回到已经出现的原话，而不凭难受程度作裁决。",
+        "按实际理由区分审美分歧、可检查的呈现效果、评选规则与对整个人的评价；不先宣布本章结论。",
+        "每次只选择一个真正影响其判断的关键问题，等其回答后再决定推进；不按题号走流程，不为凑覆盖量追问。",
+        "读者可以不同意、要求对照、练习、总结、跳过或结束；未获得讨论证据不称学完。"
+      ],
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章相关论述的讨论方向"
+      },
+      "newly_authored": true
+    },
+    "assumptions": {
+      "title": "哪些条件会改变对反馈的判断",
+      "source_line_spans": [
+        [
+          29,
+          39
+        ],
+        [
+          67,
+          73
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否实际看过投影、标准是否事先公布、反馈是否含群体贬低，会改变判断；只就当前最关键的一项澄清，无法确定时分别讨论。"
+        },
+        {
+          "kind": "non_core",
+          "action": "照片拍摄的确切日期等细节若不影响此轮争议，可暂按读者假设，不反复核问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "原截点只有退回两张的具体意见，没有温琪贬低街坊的原话；可另设贬低变式，但不得把后文假设写成她已经说过。"
+        },
+        {
+          "kind": "unknown",
+          "action": "没有照片像素或完整评选记录时，不替策展人或作者宣判两张作品的质量。"
+        }
+      ],
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章的条件与事实边界"
+      },
+      "newly_authored": true
+    },
+    "roleplay": {
+      "title": "可选角色：围绕退回照片继续谈",
+      "source_line_spans": [
+        [
+          43,
+          49
+        ]
+      ],
+      "fiction_notice": "依据原章截点新编的可选练习，不包含原章后续示范回应。",
+      "learner_role": "许铮（也可选择只讨论，不扮演）",
+      "ai_role": "温琪",
+      "known_to_learner": [
+        "送出六张、入选四张、退回两张及对应意见。",
+        "自己的街区经验与对认可的在意。"
+      ],
+      "known_to_ai_role": [
+        "自己作出的两项作品意见及入选决定。",
+        "许铮刚质疑自己没有居住经验。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "许铮没有实际表达过的私人感受。",
+        "没有在练习中提供的照片细节或历史背景。"
+      ],
+      "role_constraints": [
+        "不得因客气立刻让六张全部入选，也不把任何异议都当成不懂艺术。",
+        "只按实际对话和已给材料更新事实；照片效果还未核验时不得编造已证实的缺陷。",
+        "无最低轮数；可保留主题分歧，读者可随时暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "same_evening_deadline",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "若读者愿意增加限制：本轮新设当天晚上需锁定印刷名单。此期限不是原故事已知条件，不能拿它追究许铮先前的责任。"
+      },
+      "start": "确认是否开始及是否采用新增期限，再让读者先发一条回应；AI不给示范回答。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "基于原章事实的新编可选角色练习"
+      },
+      "newly_authored": true
+    },
+    "transfer": {
+      "title": "在不同权力与判断条件下接收反馈",
+      "source_line_spans": [
+        [
+          29,
+          39
+        ],
+        [
+          67,
+          73
+        ]
+      ],
+      "selection_rule": "可选；每次只选一个新虚构情境，先说明改变的条件，再等待读者判断。不是原故事后来发生的事。",
+      "variants": {
+        "public_workplace_remark": {
+          "title": "交接前的工作意见与当众贬低",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系和权力：主管掌握排班评价权",
+            "责任：报告缺项可能影响当天交接",
+            "表达：存在明确学历贬低"
+          ],
+          "facts": [
+            "实验室值班报告确实少记了一个采样时间，后续人员当天要据此交接。",
+            "主管在同事面前说“夜校出来的人做事就这样”，并要求补齐报告。",
+            "工作人员可以补记可核对的信息，但正式投诉需整理经过，未必能在交接前处理完。"
+          ],
+          "prompt": "你会怎样安排此时值得处理的事情及先后？"
+        },
+        "uncertain_metric": {
+          "title": "跑团里一条尚未核实的训练评价",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：朋友自愿互相反馈，没有评选决定权",
+            "证据：手表记录有缺段，评价依据不完整",
+            "目标：读者可以决定是否继续采用对方建议"
+          ],
+          "facts": [
+            "跑团伙伴据手表数据说林遥最近训练不认真。",
+            "林遥知道手表有两次未成功记录，但本人也未整理完整训练情况。",
+            "双方没有比赛资格或奖项需要当天决定；伙伴愿意一起看数据，但林遥不必公开所有生活安排。"
+          ],
+          "prompt": "你认为林遥在这次反馈中值得保留或重新考虑什么判断？"
+        }
+      },
+      "feedback_rule": "根据读者真实理由比较哪些条件改变了选择；没有预设唯一标准答案，不能把原故事的建议不加区分地搬过来。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "新编独立虚构情境"
+      },
+      "newly_authored": true
+    },
+    "coverage": {
+      "title": "本章可讨论的具体内容清单（空白模板）",
+      "source_line_spans": [
+        [
+          1,
+          77
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "material_status_meaning": "该子项的原文和新编讨论材料已备齐，不表示读者已讨论。",
+      "areas": [
+        {
+          "id": "meaning",
+          "label": "一条意见被赋予了什么含义",
+          "source_line_spans": [
+            [
+              15,
+              23
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "meaning_1",
+              "label": "区分对某项表现的意见与对整个人价值的推断。",
+              "source_line_spans": [
+                [
+                  17,
+                  19
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "meaning_2",
+              "label": "辨认重视能力带来的投入与每次必须证明自己的压力。",
+              "source_line_spans": [
+                [
+                  15,
+                  17
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "meaning_3",
+              "label": "讨论辩护资格怎样改变了作品信息的获得。",
+              "source_line_spans": [
+                [
+                  21,
+                  21
+                ],
+                [
+                  47,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "separate",
+          "label": "分别判断不同意见",
+          "source_line_spans": [
+            [
+              29,
+              39
+            ],
+            [
+              67,
+              69
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "separate_1",
+              "label": "两条意见是否各有证据，不能因其中一项成立就默认全部成立。",
+              "source_line_spans": [
+                [
+                  29,
+                  31
+                ],
+                [
+                  67,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "separate_2",
+              "label": "能否承认一项具体问题，同时保留另一项有理由的分歧。",
+              "source_line_spans": [
+                [
+                  29,
+                  29
+                ],
+                [
+                  59,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "separate_3",
+              "label": "不把自己难受直接当作他人羞辱的充分证据。",
+              "source_line_spans": [
+                [
+                  39,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "fairness",
+          "label": "尊严、表达与规则",
+          "source_line_spans": [
+            [
+              35,
+              39
+            ],
+            [
+              71,
+              73
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "fairness_1",
+              "label": "识别从作品评价转向身份或群体贬低的表达。",
+              "source_line_spans": [
+                [
+                  35,
+                  35
+                ],
+                [
+                  71,
+                  71
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "fairness_2",
+              "label": "评选规则改变或执行不一时需要哪些可核对信息。",
+              "source_line_spans": [
+                [
+                  37,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "fairness_3",
+              "label": "讨论决定权、申诉或退出的现实代价，不强迫继续证明自己。",
+              "source_line_spans": [
+                [
+                  37,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "label": "解释与证据边界",
+          "source_line_spans": [
+            [
+              77,
+              77
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "evidence_1",
+              "label": "理论摘要能支持怎样的解释，不能据此诊断故事人物或读者。",
+              "source_line_spans": [
+                [
+                  77,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "evidence_2",
+              "label": "虚构照片故事与练习顺利不等于方法已证明有效。",
+              "source_line_spans": [
+                [
+                  77,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "清单提供的是材料可用性与默认未讨论状态。AI只根据当前对话真实讨论过的内容更新读者自己的临时清单；明确选择不做的标选择跳过。读取本工具、同意AI或一次答对都不算已讨论或学完。不得把本模板写回服务器。",
+      "next_step": "准确说明已讨论的具体子项、未讨论或选择跳过项，由读者决定深入、练习、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章主题与具体子项的空白覆盖清单"
+      },
+      "newly_authored": true
+    },
+    "review": {
+      "title": "按读者选择对照原章与原练习",
+      "source_line_spans": [
+        [
+          1,
+          77
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确选择原文对照或反馈，才请求此阶段完整材料；参数本身不证明读者意愿。",
+        "先确认读者实际说出的理由；如尚无回答，只说明可如何对照，不能假称读者已经忽略、学会或改进了什么。",
+        "分别说明原书论述、本次新编情境及读者新增假设，比较理由和适用条件，不把原练习参考判断当所有情形的唯一答案。",
+        "完整原稿与原练习由保留的只读接口按原字节提供；公开编排文件不包含私有原题或原参考答案。",
+        "反馈一轮最多提出一个关键问题；是否总结、继续或结束由读者选择，不给人格诊断或掌握总分。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-02, both)",
+      "technical_limit": "分阶段读取不能阻止AI推断答案或自行读取完整原稿，也不证明教学效果。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 2,
+        "chapter_title": "自尊怎样带来力量与防御",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "完整原章与原练习的主动对照"
+      },
+      "newly_authored": true
+    }
+  }
+}

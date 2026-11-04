@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "newly_authored": true,
+  "original_manuscript_modified": false,
+  "unit_count": 17,
+  "units": [
+    {
+      "unit_id": "chapter-01",
+      "display_order": 1,
+      "title": "为什么明白道理仍然做不到",
+      "path": "chapter-01.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第1章《为什么明白道理仍然做不到》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 14
+    },
+    {
+      "unit_id": "chapter-02",
+      "display_order": 2,
+      "title": "自尊怎样带来力量与防御",
+      "path": "chapter-02.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第2章《自尊怎样带来力量与防御》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-03",
+      "display_order": 3,
+      "title": "我们怎样把猜测当作事实",
+      "path": "chapter-03.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第3章《我们怎样把猜测当作事实》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-04",
+      "display_order": 4,
+      "title": "同一个行为为什么有不同原因",
+      "path": "chapter-04.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第4章《同一个行为为什么有不同原因》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 12
+    },
+    {
+      "unit_id": "chapter-05",
+      "display_order": 5,
+      "title": "关系、身份与文化怎样改变期待",
+      "path": "chapter-05.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第5章《关系、身份与文化怎样改变期待》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 14
+    },
+    {
+      "unit_id": "chapter-06",
+      "display_order": 6,
+      "title": "利益、资源与规则怎样影响选择",
+      "path": "chapter-06.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第6章《利益、资源与规则怎样影响选择》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-16",
+      "display_order": 7,
+      "title": "为什么想帮忙，对方却觉得没有被听见",
+      "path": "chapter-16.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第7章《为什么想帮忙，对方却觉得没有被听见》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 10
+    },
+    {
+      "unit_id": "chapter-17",
+      "display_order": 8,
+      "title": "怎样表达关心、真诚认可并给予反馈",
+      "path": "chapter-17.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第8章《怎样表达关心、真诚认可并给予反馈》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 10
+    },
+    {
+      "unit_id": "chapter-07",
+      "display_order": 9,
+      "title": "为什么有道理的话别人却听不进去",
+      "path": "chapter-07.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第9章《为什么有道理的话别人却听不进去》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-08",
+      "display_order": 10,
+      "title": "怎样表达不同意见并继续合作",
+      "path": "chapter-08.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第10章《怎样表达不同意见并继续合作》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-09",
+      "display_order": 11,
+      "title": "怎样拒绝并说明自己的边界",
+      "path": "chapter-09.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第11章《怎样拒绝并说明自己的边界》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 13
+    },
+    {
+      "unit_id": "chapter-10",
+      "display_order": 12,
+      "title": "怎样影响别人并审视自己受到的影响",
+      "path": "chapter-10.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第12章《怎样影响别人并审视自己受到的影响》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 12
+    },
+    {
+      "unit_id": "chapter-11",
+      "display_order": 13,
+      "title": "善意失效以后怎样重新判断",
+      "path": "chapter-11.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第13章《善意失效以后怎样重新判断》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 13
+    },
+    {
+      "unit_id": "chapter-12",
+      "display_order": 14,
+      "title": "怎样承认错误并逐步修复信任",
+      "path": "chapter-12.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第14章《怎样承认错误并逐步修复信任》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-13",
+      "display_order": 15,
+      "title": "怎样理解原谅、责任与关系的未来",
+      "path": "chapter-13.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第15章《怎样理解原谅、责任与关系的未来》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 11
+    },
+    {
+      "unit_id": "chapter-14",
+      "display_order": 16,
+      "title": "怎样把知道变成持续行动",
+      "path": "chapter-14.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第16章《怎样把知道变成持续行动》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 12
+    },
+    {
+      "unit_id": "chapter-15",
+      "display_order": 17,
+      "title": "怎样在陌生情境中重新判断",
+      "path": "chapter-15.json",
+      "reader_label": "《理解人性：关系、边界与合作》·第17章《怎样在陌生情境中重新判断》·新编教学编排",
+      "material_status": "available",
+      "stage_names": [
+        "story",
+        "discussion",
+        "assumptions",
+        "roleplay",
+        "transfer",
+        "coverage",
+        "review"
+      ],
+      "coverage_subitems": 13
+    }
+  ],
+  "progress_note": "材料可用不是已讨论或掌握；接口不保存实际学习记录。"
+}

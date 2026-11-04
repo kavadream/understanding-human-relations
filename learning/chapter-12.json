@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-12",
+  "display_order": 14,
+  "title": "怎样承认错误并逐步修复信任",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-12.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-12.md",
+    "sha256": "9fbf731a02405543b6f8552a5a429adf3f7718125990e3efa941669d67e426d8",
+    "bytes": 8141,
+    "line_start": 1,
+    "line_end": 69,
+    "visibility": "public_formal_reader",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "周五交货以后：海报差错待处理",
+      "source_line_spans": [
+        [
+          29,
+          29
+        ]
+      ],
+      "facts": [
+        {
+          "id": "order",
+          "text": "顾航接了一场周日活动的海报，客户确认稿写的是下午两点。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "old_copy",
+          "text": "顾航发往印厂的是旧稿，旧稿上写上午十点。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "discovery",
+          "text": "海报周五交货后，客户发现了时间差错。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        },
+        {
+          "id": "circulation",
+          "text": "两处合作商已经收到海报，电子版在顾航管理的页面上。",
+          "source_line_spans": [
+            [
+              29,
+              29
+            ]
+          ]
+        }
+      ],
+      "decision_time": "周五客户发现差错后；暂不提供顾航后来怎样查记录和处理。",
+      "unknowns": [
+        "印厂能否在活动前重印及需要的时间尚未提供。",
+        "合作商手中海报是否已经张贴、客户当前最需要什么，原文在此截点尚未说明。"
+      ],
+      "learner_prompt": "顾航此时应先作哪些判断，才能决定如何处理这次差错？",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "本章人物和事件为原书原创虚构；这份事实卡是据公开正文新编的决策截点，不是完整原文。",
+      "facilitator_action": "先呈现本阶段全部事实卡与其中一个开放问题，然后等待读者。不要同时展示后续结局、作者解释或review；读者可澄清、保留分歧、选择完整阅读或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "周五交货以后：海报差错待处理",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "discussion": {
+      "title": "回应读者对责任与处理顺序的理由",
+      "source_line_spans": [
+        [
+          13,
+          25
+        ],
+        [
+          29,
+          41
+        ],
+        [
+          45,
+          63
+        ]
+      ],
+      "instructions": [
+        "先复述读者实际认为应优先处理的事及其理由，不预设读者已同意归责或任何方案。",
+        "若理由围绕谁造成错误，核对确认稿、发出副本和控制范围；若理由围绕先等客户，讨论当前哪些选择需要客户决定、哪些信息可由顾航核实。每轮只取一个真实分歧。",
+        "读者若关注顾航好意或自责，先承认其理由，再围绕具体行为与整体自我评价的关系追问；不要求他先贬低自己才算负责。",
+        "若读者认为补救后应恢复关系，先确认他所说的恢复具体指什么；原文相机案可在其选择对照后加入，不把它倒写成海报案既有条件。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "回应读者对责任与处理顺序的理由",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "assumptions": {
+      "title": "哪些新条件会改变海报处理",
+      "source_line_spans": [
+        [
+          29,
+          41
+        ],
+        [
+          53,
+          55
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "重印能否赶上、电子页面由谁控制、海报已到谁手中，会改变当前可做的事；只澄清当前最关键的一项，不能凭希望填成已完成。"
+        },
+        {
+          "kind": "non_core",
+          "action": "海报配色、店面大小等若不改变时间错误与处理权限，接受为暂定背景，不反复追问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "客户确认稿已经是下午两点，不能偷偷改成客户曾确认旧时间；可以另起明确标记的新条件轮。"
+        },
+        {
+          "kind": "unknown",
+          "action": "赔偿规则、重印专业可行性或客户是否接受某方案，原文此处没有保证；保留待核，不把虚构练习当法律或印刷建议。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "哪些新条件会改变海报处理",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "roleplay": {
+      "title": "可选角色：顾航向客户说明目前情况",
+      "source_line_spans": [
+        [
+          29,
+          41
+        ]
+      ],
+      "fiction_notice": "根据海报决策截点新编，未采用私有学习包的草图角色轮。",
+      "learner_role": "顾航；也可选择只讨论。",
+      "ai_role": "发现海报时间错误的客户。",
+      "known_to_learner": [
+        "确认稿、旧副本、交货日期及两处合作商和页面的事实卡。"
+      ],
+      "known_to_ai_role": [
+        "自己确认的是下午两点，已收到写上午十点的海报。",
+        "活动在周日，当前是周五。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "顾航是否已核实重印时间。",
+        "顾航向两处合作商联系后的实际回复。"
+      ],
+      "role_constraints": [
+        "按读者实际说出的已知情况回应；没核实的回复不得当完成。",
+        "不能虚构客户曾答应所有更正方式，或顾航承诺了原文没有的赔偿额度。",
+        "客户可以仍着急、比较方案，不因礼貌立即原谅，也不无理由拒绝所有办法。",
+        "无最低轮数，读者可要求反馈、暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "reprint_slot",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "仅经读者选择后另加练习条件：印厂回复可在周六上午十一点重印完成；客户尚未确认这一时间能否满足活动安排。这不是原截点已知事实。"
+      },
+      "start": "先确认读者是否愿意练习及是否采用新增条件，再由读者发起说明；不提供示范道歉稿。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "可选角色：顾航向客户说明目前情况",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "transfer": {
+      "title": "新情境：权力与不可恢复的机会",
+      "source_line_spans": [
+        [
+          37,
+          41
+        ],
+        [
+          49,
+          55
+        ]
+      ],
+      "selection_rule": "每次只选一个原创虚构场景；改变了责任或资源，不预置唯一结局。",
+      "variants": {
+        "manager_schedule": {
+          "title": "排班负责人改错了已批准的休假",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "权力：犯错者掌握后续排班",
+            "资源：报销需另一负责人批准",
+            "关系：员工可能担心拒绝影响班次"
+          ],
+          "facts": [
+            "排班负责人误删了程清已获批准的休假，程清已因临时补班产生交通支出。",
+            "休假记录和排班可以由负责人纠正，交通报销需要另一负责人审核。",
+            "程清愿意确认更正，但不愿在组会上表示已经完全谅解；下周班次尚待安排。"
+          ],
+          "prompt": "这位负责人怎样区分自己可立即处理、需继续核实和应由程清选择的事情？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        },
+        "missed_round": {
+          "title": "错漏通知后不能重办同一轮",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "后果：一次活动机会已过去",
+            "权限：补位名额由第三方掌握",
+            "未来：受影响队伍可以不再参加"
+          ],
+          "facts": [
+            "社区活动组织者漏发一队的签到通知，这一轮活动已结束，无法原样补办。",
+            "组织者可以核对和说明漏发经过，但下一轮备用名额由独立协调组分配，尚未答应。",
+            "该队暂未决定是否愿意再参加，组织者也没有权限直接发给它一个名额。"
+          ],
+          "prompt": "如果你是组织者，你会怎样提出有依据的补救而不替任何一方作尚未作出的决定？",
+          "answer_policy": "没有预置唯一答案；比较依据、责任及条件，不以是否猜中教师偏好判断掌握。"
+        }
+      },
+      "feedback_rule": "先回应读者实际依据，再比较权限、可核实进展及未来选择；不把认错、补救与获得谅解合并评分。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "新情境：权力与不可恢复的机会",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖清单（空白模板）",
+      "source_line_spans": [
+        [
+          11,
+          63
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "areas": [
+        {
+          "id": "specific_responsibility",
+          "label": "具体责任与自我评价",
+          "source_line_spans": [
+            [
+              13,
+              25
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "act",
+              "label": "区分未经询问发布等具体决定与整个人的价值",
+              "source_line_spans": [
+                [
+                  13,
+                  25
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "defense",
+              "label": "看解释是否澄清经过，或要求受影响者先安慰自己",
+              "source_line_spans": [
+                [
+                  15,
+                  25
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "repair_scope",
+          "label": "补救的控制范围与核实状态",
+          "source_line_spans": [
+            [
+              29,
+              41
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "own_steps",
+              "label": "区分可由自己处理的事项与须对方选择的安排",
+              "source_line_spans": [
+                [
+                  29,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "verified",
+              "label": "分别报告已确认、未回复与仍待核实的进展",
+              "source_line_spans": [
+                [
+                  33,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "causal_detail",
+              "label": "用具体遗漏说明原因，不以忙碌替代步骤核对",
+              "source_line_spans": [
+                [
+                  31,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "privacy",
+              "label": "补救与公开更正不额外暴露对方私人信息",
+              "source_line_spans": [
+                [
+                  41,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "future_trust",
+          "label": "补救、权限与权力",
+          "source_line_spans": [
+            [
+              45,
+              63
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "new_permission",
+              "label": "区分完成维修与再次借用的独立决定",
+              "source_line_spans": [
+                [
+                  45,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "power",
+              "label": "掌握资格或资源者不能要求公开谅解交换参与",
+              "source_line_spans": [
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "partial_progress",
+              "label": "承认已做补救，同时保留未处理部分和当前范围",
+              "source_line_spans": [
+                [
+                  59,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "label": "研究与故事边界",
+          "source_line_spans": [
+            [
+              23,
+              23
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "research_limit",
+              "label": "区分书面道歉和情境评价、长期真实关系修复的证据",
+              "source_line_spans": [
+                [
+                  23,
+                  23
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "limited_reading",
+              "label": "识别有限原文及摘要范围，不声称流程已验证",
+              "source_line_spans": [
+                [
+                  67,
+                  67
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "材料可用只说明相应内容存在。每个子项的讨论状态初始为未讨论；只有当前对话中有读者实际讨论证据才可在自己的对话内标已讨论，明确选择不谈才标选择跳过。工具读取、教师说完、答对一道题都不等于已讨论或掌握，不回传个人进度。",
+      "next_step": "准确说明当前实际讨论到哪些子项和哪些未讨论，由读者决定是否深入、迁移、对照、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "本章具体覆盖清单（空白模板）",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    },
+    "review": {
+      "title": "读者主动选择的原文对照",
+      "source_line_spans": [
+        [
+          11,
+          63
+        ],
+        [
+          67,
+          67
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只在读者当前明确选择对照或反馈后读取；阶段参数不独立证明读者意愿。",
+        "先回应读者实际说出的理由，不补写不存在的回答，再对照本章各节的区分与适用条件。",
+        "完整原章、原私有教学包由已认证接口在review阶段另附；本公开新编排没有复制原私有题库或参考答案。",
+        "参考判断不代替读者选择，合理分歧可保留；列明已讨论、未讨论和选择跳过的具体子项，不宣布工具已使读者学完整章。"
+      ],
+      "technical_limit": "分阶段安排不能阻止AI自行推断或另读完整原稿，不是答案保密系统或教学效果证明。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 14,
+        "chapter_title": "怎样承认错误并逐步修复信任",
+        "section_label": "读者主动选择的原文对照",
+        "identity": "据公开正文新编的教学材料（newly_authored）；原文须另选完整阅读",
+        "section_label_is_teaching_label": true
+      }
+    }
+  }
+}

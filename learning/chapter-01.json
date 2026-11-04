@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.2.0",
+  "version": "teaching-orchestration-0.3.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-01",
   "newly_authored": true,
   "derived": true,
   "original_manuscript_modified": false,
-  "scope": "general_guide_and_chapter_01_only_other_16_not_redesigned",
+  "scope": "all_17_chapters",
   "source": {
     "repository": "https://github.com/kavadream/understanding-human-relations",
     "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
@@ -292,76 +292,250 @@
       "default_status": "未讨论",
       "areas": [
         {
-          "id": "judgment_and_cost",
-          "label": "认可、愿望、行动与代价的区别",
+          "id": "choices",
+          "label": "愿望、选择与代价",
           "source_line_spans": [
             [
-              33,
+              35,
               43
             ]
+          ],
+          "subitems": [
+            {
+              "id": "values_actions",
+              "label": "分清认可道理、想做和实际行动",
+              "source_line_spans": [
+                [
+                  41,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "competing_needs",
+              "label": "说出想补救和想维持可靠形象两种需要",
+              "source_line_spans": [
+                [
+                  35,
+                  37
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "whose_cost",
+              "label": "比较眼前难堪与合作方失去调整余地的代价",
+              "source_line_spans": [
+                [
+                  37,
+                  39
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         },
         {
-          "id": "conditions",
-          "label": "信息、能力、意愿、渠道和处境条件",
+          "id": "obstacles",
+          "label": "障碍与可行条件",
           "source_line_spans": [
             [
               43,
-              47
-            ],
-            [
-              63,
               63
             ]
+          ],
+          "subitems": [
+            {
+              "id": "skills",
+              "label": "区分不会组织消息和不愿承受难堪",
+              "source_line_spans": [
+                [
+                  43,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "channels",
+              "label": "核对是否真有联系渠道及可控范围",
+              "source_line_spans": [
+                [
+                  45,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "team_cost",
+              "label": "讨论报错会遭羞辱时个人与团队条件",
+              "source_line_spans": [
+                [
+                  63,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         },
         {
-          "id": "uncertainty",
-          "label": "已知、未知、责任与私人信息边界",
+          "id": "information",
+          "label": "不确定性与共同安排",
           "source_line_spans": [
             [
-              49,
+              51,
               59
             ]
+          ],
+          "subitems": [
+            {
+              "id": "known_unknown",
+              "label": "区分已知尺寸问题与未知补做交期",
+              "source_line_spans": [
+                [
+                  51,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "relevance",
+              "label": "判断哪些信息影响对方安排而非泛泛焦虑",
+              "source_line_spans": [
+                [
+                  57,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "privacy",
+              "label": "区分任务相关信息与私人或保密资料",
+              "source_line_spans": [
+                [
+                  59,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         },
         {
-          "id": "motive_and_outcome",
-          "label": "动机、影响、责任与结果运气",
+          "id": "judgment",
+          "label": "动机、责任与结果",
           "source_line_spans": [
             [
               61,
-              63
-            ],
-            [
-              71,
               71
             ]
+          ],
+          "subitems": [
+            {
+              "id": "motive",
+              "label": "理解顾虑与承担已造成影响分别讨论",
+              "source_line_spans": [
+                [
+                  61,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "luck",
+              "label": "假如最终赶上，如何评价当时可得信息和责任",
+              "source_line_spans": [
+                [
+                  71,
+                  71
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         },
         {
-          "id": "next_action",
-          "label": "愿望与可执行选择、迁移的适用条件",
+          "id": "next",
+          "label": "下一次可执行的选择",
           "source_line_spans": [
             [
-              65,
-              77
+              43,
+              69
             ]
+          ],
+          "subitems": [
+            {
+              "id": "action",
+              "label": "比较完美愿望与有条件可执行的动作",
+              "source_line_spans": [
+                [
+                  65,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "transfer",
+              "label": "迁移到无承诺或资源不可得的新情境时说明责任变化",
+              "source_line_spans": [
+                [
+                  43,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         },
         {
-          "id": "evidence_boundary",
-          "label": "研究摘要、本书解释与虚构案例的区别",
+          "id": "evidence",
+          "label": "本章依据的边界",
           "source_line_spans": [
             [
               81,
               81
             ]
+          ],
+          "subitems": [
+            {
+              "id": "scope",
+              "label": "研究摘要、本书解释、价值判断与虚构案例分别识别",
+              "source_line_spans": [
+                [
+                  81,
+                  81
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
           ]
         }
       ],
-      "instruction": "这是空白模板，不是读者实际进度。仅依据读者当前对话，将有实际讨论证据的项目标已讨论；明确拒绝的标选择跳过，其余未讨论。工具全文读取不算讨论或掌握。记录留在读者当前对话中，不回传。",
-      "next_step": "向读者说明实际讨论范围，由其决定是否深入、练习、总结或结束；不自动宣称第一章完成。"
+      "instruction": "这是具体子项清单模板，材料可用不代表读者已讨论。只依据当前真实对话分别标已讨论、选择跳过或未讨论；一次讨论不自动覆盖同组全部子项，读工具不算学完。不要向本接口上传实际记录，由读者决定是否继续或总结。",
+      "next_step": "向读者说明实际讨论范围，由其决定是否深入、练习、总结或结束；不自动宣称第一章完成。",
+      "material_status": "available",
+      "discussion_status": "未讨论"
     },
     "review": {
       "title": "读者主动选择的原文与反馈对照",
@@ -381,5 +555,7 @@
       "full_original_materials_via": "books_get_unit(book_id, chapter-01, both) 或本阶段接口附带原文件。",
       "technical_limit": "AI 可以推断或另行读取原稿；分阶段读取是教学安排，不是答案保密或学习效果保证。"
     }
-  }
+  },
+  "display_order": 1,
+  "title": "为什么明白道理仍然做不到"
 }

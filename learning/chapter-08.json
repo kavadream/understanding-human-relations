@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-08",
+  "display_order": 10,
+  "title": "怎样表达不同意见并继续合作",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-08.md",
+    "sha256": "1da3e0aee2f06e74c1905d5cef606f059ac8ac92c51365c3e163f259c2a9886a",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "洗衣店提出延时：先停在双方各有代价的时点",
+      "source_line_spans": [
+        [
+          39,
+          45
+        ]
+      ],
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "陈婧、裴航和洗衣店均来自原书虚构故事；此为新编决策截点事实卡。",
+      "facts": [
+        {
+          "id": "proposal",
+          "text": "洗衣店通常晚上八点关门。店主陈婧提出改到十点，员工裴航不同意。",
+          "source_line_spans": [
+            [
+              39,
+              39
+            ]
+          ]
+        },
+        {
+          "id": "business_pressure",
+          "text": "上周有四位顾客询问能否晚一点取衣，附近新开了洗衣店；陈婧担心生意受到影响。",
+          "source_line_spans": [
+            [
+              41,
+              41
+            ]
+          ]
+        },
+        {
+          "id": "travel_and_hours",
+          "text": "裴航的末班直达公交八点半发车；原先谈好的工作到八点结束，延长的两小时还没有安排清楚。",
+          "source_line_spans": [
+            [
+              43,
+              43
+            ]
+          ]
+        },
+        {
+          "id": "interpretations",
+          "text": "陈婧把反对理解为不愿与店里共进退；裴航则把延时理解成让自己多干活。",
+          "source_line_spans": [
+            [
+              45,
+              45
+            ]
+          ]
+        }
+      ],
+      "decision_time": "延时提议刚引发分歧，尚未进入后续核实与安排。",
+      "unknowns": [
+        "晚取询问发生在什么时间、频率如何，当前材料还没有给出。",
+        "谁留下、交通与报酬怎样安排，尚未谈妥；不能自行补成已经决定无偿加班或已有接送。"
+      ],
+      "learner_prompt": "如果你是裴航，你最希望这次谈话先认真处理哪件事？",
+      "facilitator_action": "呈现事实和一个开放问题后等待读者。先理解其把什么代价或责任放在前面，不预先宣布查需求、谈条件或拒绝中的某条是唯一答案。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "洗衣店提出延时：先停在双方各有代价的时点",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "discussion": {
+      "title": "回应读者究竟在反对什么",
+      "source_line_spans": [
+        [
+          27,
+          35
+        ],
+        [
+          53,
+          73
+        ],
+        [
+          85,
+          91
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者实际强调的是通勤、既有工作安排、经营压力、被冒犯感还是其他依据，不能把所有反对都改写成面子问题。",
+        "初始故事中两人的看法只说明其当时理解；若读者把它当作对方真实动机的证据，先回应其依据，再区分已知行为与动机解释。",
+        "若读者认为已经无偿加班，先区分原文已知与其推测；若其理由已清楚，不强迫再回答一串澄清题。",
+        "每轮只选一个影响判断最大的角度追问，例如某项安排是否已被接受，或某项代价由谁承担；不要把多个角度合成连环问题。",
+        "讨论搬家或记录故事时另给相关事实卡并标明换场景；不得把其他故事中的错误或拒绝当作裴航已经发生的经历。",
+        "不把店主接受或合作持续当作掌握证明。原文解释和后来结果等读者主动选择review再对照。"
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "回应读者究竟在反对什么",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "assumptions": {
+      "title": "哪些条件会真正改变这次分歧",
+      "source_line_spans": [
+        [
+          47,
+          59
+        ],
+        [
+          69,
+          89
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "需求已经充分核实，或出现一份具体新排班、交通及报酬方案，会把讨论从是否需要延时转向谁愿意承担什么；先澄清其中一个真正影响读者判断的点。"
+        },
+        {
+          "kind": "non_core",
+          "action": "洗衣店名称、顾客穿什么等不影响当前时间与工作安排的细节可暂定，不用来拖延讨论。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "若读者假设裴航早已同意十点下班，要标为另一个新增分支，不能倒填为原故事承诺。"
+        },
+        {
+          "kind": "unknown",
+          "action": "陈婧是否已决定不付报酬、具体晚间客流或隐藏人手没有在截点确认，不能替人物补齐。"
+        },
+        {
+          "kind": "risk",
+          "action": "若练习新增雇佣报复或威胁，先标新条件，再讨论安全渠道和依赖关系，不要求当众对抗证明沟通能力。"
+        }
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "哪些条件会真正改变这次分歧",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "roleplay": {
+      "title": "可选角色练习：员工与店主的具体分歧",
+      "source_line_spans": [
+        [
+          39,
+          59
+        ]
+      ],
+      "fiction_notice": "根据公开洗衣店故事新编的角色练习，不是原学习包复制。",
+      "learner_role": "裴航，也可选择只讨论不扮演。",
+      "ai_role": "陈婧；有经营顾虑，但无权替读者作额外承诺。",
+      "known_to_learner": [
+        "story事实卡已呈现的信息。"
+      ],
+      "known_to_ai_role": [
+        "通常八点关门，自己提出十点。",
+        "四位顾客曾询问晚取，附近出现竞争者；尚未核实频率。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "读者在实际对话中尚未说出的个人取舍，不得自行读心。"
+      ],
+      "role_constraints": [
+        "原文未明确陈婧此前是否听过交通细节；不要捏造她明知故犯。本轮只根据读者实际披露更新双方对话信息。",
+        "不因感谢或理解经营压力就把裴航记为已经同意延时。",
+        "不能临时添出可用员工、交通补贴或大量已确认客流以保证达成一致。",
+        "无最低轮数，允许暂停、转讨论、拒绝和结束。"
+      ],
+      "optional_new_condition": {
+        "id": "one_evening_verified",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新增条件：后续调查确认晚取询问集中在每周四，其他天暂未发现。这是练习新增事实，采用后另起这一分支，不改原故事。"
+      },
+      "start": "读者先选择是否练习，再由其发起异议；角色按其具体内容回应，不先给示范说法。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "可选角色练习：员工与店主的具体分歧",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "transfer": {
+      "title": "迁移：共同决定与代表身份",
+      "source_line_spans": [
+        [
+          53,
+          73
+        ],
+        [
+          85,
+          91
+        ]
+      ],
+      "selection_rule": "每次只取一个独立新情境，不预设唯一妥协方案。",
+      "variants": {
+        "shared_budget": {
+          "title": "院落照明的两种改造",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系由雇佣改为共同承担费用的住户。",
+            "资源为一次性共同预算，非员工额外工时。",
+            "决定须按住户约定程序，任何一户都不能替所有人答应。"
+          ],
+          "facts": [
+            "院落有一笔已确认的公共维修预算，可选更亮的全天灯或加装定时灯，当前预算不足以两项都做。",
+            "夜班住户希望凌晨回家时明亮；临窗住户担心整夜照明影响睡眠。",
+            "两种设备的具体维护费用尚未查明，尚未投票。"
+          ],
+          "prompt": "你会怎样组织下一步讨论，让各方能判断自己愿意承担的安排？"
+        },
+        "representative_voice": {
+          "title": "读者社群的代表发言",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "责任变为代表他人发言，而非只表达个人工作安排。",
+            "成员同为伙伴，无店主式经营决定权。",
+            "存在个人立场与代表范围的区分。"
+          ],
+          "facts": [
+            "六人读者社群委托一位代表在明天的联席会上发言。",
+            "四人已经表示赞成更换活动场地，两人尚未回应；代表本人也赞成。",
+            "会前还有一次可发送补充意见的机会，材料没有说明两位未回应者为何沉默。"
+          ],
+          "prompt": "你会怎样确定这次发言可以代表到什么范围？"
+        }
+      },
+      "feedback_rule": "从读者实际理由比较决定权、已知信息和真实代价；不强迫其复述洗衣店的处理顺序。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "迁移：共同决定与代表身份",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖子项：空白讨论清单",
+      "source_line_spans": [
+        [
+          13,
+          103
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "choice_and_person",
+          "label": "反对选择与评价一个人",
+          "source_line_spans": [
+            [
+              13,
+              35
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "specific_object",
+              "label": "能指出一项具体安排与全盘否定的区别",
+              "source_line_spans": [
+                [
+                  15,
+                  27
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "real_contribution",
+              "label": "承认真实贡献与用夸奖包装批评的区别",
+              "source_line_spans": [
+                [
+                  27,
+                  31
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "receiver_duty",
+              "label": "听取反对者也须核对问题，而非以付出取消事实",
+              "source_line_spans": [
+                [
+                  33,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "cost_and_agreement",
+          "label": "真实代价和承诺范围",
+          "source_line_spans": [
+            [
+              39,
+              73
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "competing_costs",
+              "label": "区分经营需求、通勤、工时等实际代价与动机猜测",
+              "source_line_spans": [
+                [
+                  39,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "missing_or_tradeoff",
+              "label": "分清缺需求信息与已清楚但利益不同两种情况",
+              "source_line_spans": [
+                [
+                  47,
+                  59
+                ],
+                [
+                  65,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "understand_not_accept",
+              "label": "理解对方理由不等于答应额外任务",
+              "source_line_spans": [
+                [
+                  59,
+                  59
+                ],
+                [
+                  73,
+                  73
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "scope_without_full_plan",
+              "label": "反对者可说明能接哪部分，不必先包办完整替代方案",
+              "source_line_spans": [
+                [
+                  65,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "limits_and_evidence",
+          "label": "不能合作的边界与依据",
+          "source_line_spans": [
+            [
+              77,
+              103
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "truthfulness",
+              "label": "区分已到账与认捐，识别事实不能靠动机替换",
+              "source_line_spans": [
+                [
+                  77,
+                  87
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "safe_disagreement",
+              "label": "有依赖、威胁或羞辱时选择沟通渠道与停止范围",
+              "source_line_spans": [
+                [
+                  89,
+                  91
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "outcomes",
+              "label": "方案调整、局部合作、停止都可作为真实结果讨论",
+              "source_line_spans": [
+                [
+                  95,
+                  99
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "source_limits",
+              "label": "区分摘要、方法介绍、本书解释与虚构案例的证据身份",
+              "source_line_spans": [
+                [
+                  103,
+                  103
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "每个子项的材料可用状态与读者讨论状态分别呈现。这里默认未讨论，不表示真实进度；只依据当前对话中实际说过的内容标已讨论，明确略过才标选择跳过，其余保留未讨论。工具读取、礼貌同意或做过一道题不等于学完。记录不回传。",
+      "next_step": "按实际已谈范围告诉读者还有哪些子项，由读者选择深入、练习、原文对照、总结或结束。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "本章具体覆盖子项：空白讨论清单",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "review": {
+      "title": "读者主动选择后的原文与反馈对照",
+      "source_line_spans": [
+        [
+          1,
+          103
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确要对照或反馈时使用；调用参数不独立证明其意愿。",
+        "先复述读者确实表达过的判断与依据，不能假称其已选某方案；再比较以下阅读角度，不按措辞接近参考判断评分。",
+        "比较不同意见指向的事项、双方代价与已经作出的承诺，不把一方的动机猜测当事实。",
+        "如读者选择其他两故事，分别讨论贡献与事实、诚实与合作边界，不能将三个故事压成礼貌公式。",
+        "接口可在本阶段附完整未改原章和原教学包（可能有参考判断），与本新编层分别标识；公开编排本身不含旧题库答案。",
+        "读者决定继续或结束；读到完整材料不等于本章所有子项已经讨论。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-08, both) 或本阶段接口附带原文件。",
+      "technical_limit": "分阶段读取不能技术上阻止AI推断或另行读取答案；原文、协议与学习效果应分别验证。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 10,
+        "chapter_title": "怎样表达不同意见并继续合作",
+        "section_label": "读者主动选择后的原文与反馈对照",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    }
+  }
+}

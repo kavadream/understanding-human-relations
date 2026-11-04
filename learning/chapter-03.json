@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-03",
+  "display_order": 3,
+  "title": "我们怎样把猜测当作事实",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-03.md",
+    "sha256": "e412c3e600618827446d4d024b3780d53bdb304a1464755ef7e0ca8ad0f8a53f",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "中午仍未恢复的包装机",
+      "source_line_spans": [
+        [
+          13,
+          21
+        ]
+      ],
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "transformation": "依据公开原章指定行段重新编写事实卡，不是逐字摘录；只保留此时已发生的事实与明确的主观想法，不提供作者开篇结论、后续结果或示范方案。",
+      "fiction_notice": "原章人物和事件为作者原创虚构，本事实卡为新编派生决策截点。",
+      "facts": [
+        {
+          "id": "agreement",
+          "text": "早上八点，陆岩把停着的包装机交给程越维修。程越估计要四小时，双方约好中午修好。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "dependence",
+          "text": "客户订单下午要装车，陆岩已按包装机午前恢复安排后续打包。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "seen",
+          "text": "中午机器仍停着。程越在工作台旁看维修单，单上只有“八点开始”，没有其他进展。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "accusation",
+          "text": "陆岩说后面的人都在等，并认为程越不着急。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "claim",
+          "text": "程越说自己刚从装车区回来，那里的传送带停了；陆岩把这句话听成推责任。上午的具体经过此时尚未核实。",
+          "source_line_spans": [
+            [
+              19,
+              21
+            ]
+          ]
+        }
+      ],
+      "decision_time": "中午这段对话之后、后续调查发生之前。",
+      "unknowns": [
+        "程越上午具体在哪些时段做了哪些工作，尚未核实。",
+        "程越为何去装车区、涉及的安排与时段，尚未查明。",
+        "包装机剩余工作量与下午能如何调整，尚未确认。"
+      ],
+      "learner_prompt": "此刻，你认为陆岩有足够依据作出哪些决定？",
+      "facilitator_action": "只呈现本阶段事实和一个问题，然后等待读者；不要先追加作者结论、原练习答案或后来结果。读者可澄清、选择完整阅读、跳过或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "故事（决策截点，节名作简短说明以免泄露后续）"
+      },
+      "newly_authored": true
+    },
+    "discussion": {
+      "title": "在安排工作与判断原因之间",
+      "source_line_spans": [
+        [
+          35,
+          63
+        ]
+      ],
+      "instructions": [
+        "先准确复述读者实际提出的判断与理由；尚未收到观点时不要假定读者在想什么。",
+        "若读者主张先处理装车，围绕必须知道的机器状态与剩余工作量讨论，不要求先证明某个人动机。",
+        "若读者主张追责，先回应约定未实现带来的影响，再就其责任判断依赖的具体上午安排追问；不要替程越预先开脱。",
+        "若读者提出其他任务的解释，区分“提出可能”与“已经核实”，并让其说明什么信息会改变判断。",
+        "每次只选择一个真正影响其判断的关键问题，等其回答后再决定推进；不按题号走流程，不为凑覆盖量追问。",
+        "读者可以不同意、要求对照、练习、总结、跳过或结束；未获得讨论证据不称学完。"
+      ],
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章相关论述的讨论方向"
+      },
+      "newly_authored": true
+    },
+    "assumptions": {
+      "title": "任务经过中的关键条件与未知",
+      "source_line_spans": [
+        [
+          45,
+          55
+        ],
+        [
+          59,
+          63
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "实际任务时段、谁有权调配程越、陆岩是否已获通知会改变责任分配；只澄清当前判断最依赖的一项，未知时分支讨论。"
+        },
+        {
+          "kind": "non_core",
+          "action": "维修单纸张样式等不影响任务安排的细节可接受为暂定，不纠缠。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "原故事并没有陆岩事先批准延期、程越整上午休息或有人故意陷害的事实；这些只能明确列为新分支。"
+        },
+        {
+          "kind": "unknown",
+          "action": "未核实的另一任务、剩余时间不能假装已证明；角色可提供原章已写明的事实，但不临时补新反转。"
+        }
+      ],
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章的条件与事实边界"
+      },
+      "newly_authored": true
+    },
+    "roleplay": {
+      "title": "可选角色：查清上午安排",
+      "source_line_spans": [
+        [
+          13,
+          31
+        ]
+      ],
+      "fiction_notice": "以原故事中午为起点的新编练习。后续核验事实只有读者选择继续角色练习后按相关提问提供，不提前塞入story。",
+      "learner_role": "陆岩（可改选程越，先确认）",
+      "ai_role": "程越",
+      "known_to_learner": [
+        "中午前应修好包装机的约定、当前未恢复及原单缺进展。",
+        "程越刚说自己从装车区回来。"
+      ],
+      "known_to_ai_role": [
+        "上午十点被装车组班长叫去修传送带，到中午结束，另一张维修单有记录。",
+        "没有请两位负责人对齐先后，也没有及时把包装机延期与原单进展通知陆岩。",
+        "此时估计包装机仍约需两小时，不是保证原装车计划还能实现。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "陆岩没有说出的客户压力细节。",
+        "任何原文未给的恶意、额外故障或新承诺。"
+      ],
+      "role_constraints": [
+        "读者问到时段、安排人、记录或剩余工作时，按原章对应事实作答，不要求特定口令才披露。",
+        "解释实际急修不抹掉漏报和协调问题，也不把迟修全部说成态度。",
+        "无最低轮数；可以先处理安排、再核对责任，读者可暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "warehouse_choice_window",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "若读者同意：练习新增仓库需在十五分钟内选定另一条打包线的条件。此时间窗不是原书事实，不能倒写成陆岩先前已告知的期限。"
+      },
+      "start": "确认角色与可选条件后由读者发起；不要先写完整调查或道歉范文。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "基于原章事实的新编可选角色练习"
+      },
+      "newly_authored": true
+    },
+    "transfer": {
+      "title": "在其他信息与责任结构下查原因",
+      "source_line_spans": [
+        [
+          49,
+          63
+        ]
+      ],
+      "selection_rule": "可选；每次只选一个新虚构情境，先说明改变的条件，再等待读者判断。不是原故事后来发生的事。",
+      "variants": {
+        "peer_shared_data": {
+          "title": "共同汇总的一份数据迟交",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：平等合作，没有主管处分权",
+            "资源：外部服务影响资料获取",
+            "责任：需要区分个人可控与共同依赖"
+          ],
+          "facts": [
+            "两位社团成员约定当天完成活动支出汇总，其中一人午前尚未交出自己部分。",
+            "他留言说费用系统正在维护；另一人尚未看到维护公告，也不知道哪些资料已经备份。",
+            "活动预算必须当天报出，但可以明确标记未核对条目；没有人能单独恢复系统。"
+          ],
+          "prompt": "你认为此时怎样判断对方的解释与接下来的共同安排？"
+        },
+        "service_privacy": {
+          "title": "服务窗口后的十分钟",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：公共服务人员与等候者",
+            "信息约束：可能涉及其他服务对象隐私",
+            "责任：解释服务状态不等于公开他人细节"
+          ],
+          "facts": [
+            "图书馆窗口暂时没有人，几位读者等了十分钟。",
+            "一位读者看见工作人员从侧门出来，手里拿着电话，便说她在躲着服务。",
+            "工作人员说刚处理馆内一项需要保密的读者协助，但没有公开那位读者的情况。",
+            "等候者需要知道何时恢复服务，不拥有调阅他人服务记录的权限。"
+          ],
+          "prompt": "在不要求他人私人记录的条件下，你认为哪些判断与请求是有依据的？"
+        }
+      },
+      "feedback_rule": "根据读者真实理由比较哪些条件改变了选择；没有预设唯一标准答案，不能把原故事的建议不加区分地搬过来。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "新编独立虚构情境"
+      },
+      "newly_authored": true
+    },
+    "coverage": {
+      "title": "本章可讨论的具体内容清单（空白模板）",
+      "source_line_spans": [
+        [
+          1,
+          73
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "material_status": "available",
+      "material_status_meaning": "该子项的原文和新编讨论材料已备齐，不表示读者已讨论。",
+      "areas": [
+        {
+          "id": "observed",
+          "label": "观察与解释分别是什么",
+          "source_line_spans": [
+            [
+              39,
+              43
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "observed_1",
+              "label": "机器未恢复和单据缺记录是可确认事项；“不上心”需要另外依据。",
+              "source_line_spans": [
+                [
+                  39,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "observed_2",
+              "label": "是否把解释和沉默都当成同一负面判断的证据。",
+              "source_line_spans": [
+                [
+                  43,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "observed_3",
+              "label": "另一种解释只是待查可能，不能直接变成免责结论。",
+              "source_line_spans": [
+                [
+                  45,
+                  45
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "checkable",
+          "label": "怎样取得可核对的信息",
+          "source_line_spans": [
+            [
+              45,
+              55
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "checkable_1",
+              "label": "按实际时段、任务与安排人核对上午发生的事。",
+              "source_line_spans": [
+                [
+                  45,
+                  51
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "checkable_2",
+              "label": "被质疑的一方如何说明已做的工作及自己漏报部分。",
+              "source_line_spans": [
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "checkable_3",
+              "label": "区分机器状态、剩余工时与对动机的判断。",
+              "source_line_spans": [
+                [
+                  51,
+                  53
+                ],
+                [
+                  31,
+                  31
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "responsibility",
+          "label": "查明经过后的分工责任",
+          "source_line_spans": [
+            [
+              59,
+              63
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "responsibility_1",
+              "label": "实际做了另一项工作，不等于整上午磨蹭，也不取消漏报责任。",
+              "source_line_spans": [
+                [
+                  59,
+                  59
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "responsibility_2",
+              "label": "两位负责人如何处理同一个人的冲突安排，而非只要求更积极。",
+              "source_line_spans": [
+                [
+                  61,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "responsibility_3",
+              "label": "把补记录、调次序与影响处理落实到具体可控步骤。",
+              "source_line_spans": [
+                [
+                  63,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "boundary",
+          "label": "紧急处置和证据范围",
+          "source_line_spans": [
+            [
+              67,
+              73
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "boundary_1",
+              "label": "需要重排工作时可先依据已知影响行动，不必先定人格或恶意。",
+              "source_line_spans": [
+                [
+                  67,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "boundary_2",
+              "label": "实验摘要、方法指南与本书具体建议的证据身份不同。",
+              "source_line_spans": [
+                [
+                  73,
+                  73
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "清单提供的是材料可用性与默认未讨论状态。AI只根据当前对话真实讨论过的内容更新读者自己的临时清单；明确选择不做的标选择跳过。读取本工具、同意AI或一次答对都不算已讨论或学完。不得把本模板写回服务器。",
+      "next_step": "准确说明已讨论的具体子项、未讨论或选择跳过项，由读者决定深入、练习、总结或结束。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章主题与具体子项的空白覆盖清单"
+      },
+      "newly_authored": true
+    },
+    "review": {
+      "title": "按读者选择对照原章与原练习",
+      "source_line_spans": [
+        [
+          1,
+          73
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确选择原文对照或反馈，才请求此阶段完整材料；参数本身不证明读者意愿。",
+        "先确认读者实际说出的理由；如尚无回答，只说明可如何对照，不能假称读者已经忽略、学会或改进了什么。",
+        "分别说明原书论述、本次新编情境及读者新增假设，比较理由和适用条件，不把原练习参考判断当所有情形的唯一答案。",
+        "完整原稿与原练习由保留的只读接口按原字节提供；公开编排文件不包含私有原题或原参考答案。",
+        "反馈一轮最多提出一个关键问题；是否总结、继续或结束由读者选择，不给人格诊断或掌握总分。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-03, both)",
+      "technical_limit": "分阶段读取不能阻止AI推断答案或自行读取完整原稿，也不证明教学效果。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 3,
+        "chapter_title": "我们怎样把猜测当作事实",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "完整原章与原练习的主动对照"
+      },
+      "newly_authored": true
+    }
+  }
+}

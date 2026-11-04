@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-09",
+  "display_order": 11,
+  "title": "怎样拒绝并说明自己的边界",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-09.md",
+    "sha256": "4baea9efe2cfa00b602c3d2029bc3e33669dcbfc6d25037f1971e855de6725e6",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "“我尽量”刚发出：责任还要怎样判断",
+      "source_line_spans": [
+        [
+          13,
+          17
+        ]
+      ],
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "乔宁和周岚是原书虚构人物；事实卡为本轮公开正文派生编排。",
+      "facts": [
+        {
+          "id": "new_request",
+          "text": "周五下午四点半，周岚发来十五页演示文件，请乔宁今晚重新排版，客户明天要看。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "own_work",
+          "text": "乔宁自己的核对报告还差两小时，她五点半要离开；她原先准备先处理自己的报告，余下部分再按原安排完成。原文此处未说明报告其余安排的细节。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "past_help",
+          "text": "周岚上个月帮过乔宁，乔宁想到那次支持，不太愿意立刻说接不了。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "reply",
+          "text": "乔宁回复：“我尽量。”此时事实卡没有给出另一份已经明确接受整份交付的记录。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        }
+      ],
+      "decision_time": "这三个字刚发出，尚未呈现当晚后来发生的追问和回应。",
+      "unknowns": [
+        "周岚如何理解这句话，尚未通过双方对话确认。",
+        "十五页具体需要多少工时、能否分拆，本截点没有确认；不能因“你做得快”自行算成几分钟。",
+        "乔宁报告的原后续安排不明确，不能把原故事改成两项工作都必须在五点半交。"
+      ],
+      "learner_prompt": "在这个时点，你会怎样界定乔宁已经接下的责任？",
+      "facilitator_action": "等待读者判断其理解的承诺与依据；允许合理的语言歧义讨论，不先宣布这句话等于完整承诺或完全无责任。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "“我尽量”刚发出：责任还要怎样判断",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "discussion": {
+      "title": "沿着读者理解的承诺范围深入",
+      "source_line_spans": [
+        [
+          19,
+          35
+        ],
+        [
+          39,
+          71
+        ],
+        [
+          75,
+          95
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者对“尽量”的理解及其依据，不把自己的解释说成读者已经认同的结论。",
+        "若读者认为从未答应因而没有任何影响，可只追问一句其判断如何考虑对方安排；若读者认为已保证十五页，先核对其依赖的是原话还是新增记录。",
+        "每轮最多一个关键问题；无须反复追问下班后的私人活动，不能用哪个人更忙来替代责任与容量判断。",
+        "出现已有承诺或主管调度的分支时，明确已经换条件，不能把主管权力倒填给普通同事。",
+        "区分清楚拒绝、含混造成的预期和已经接受的职责；不以周岚高兴或读者讲出完美句式判断掌握。"
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "沿着读者理解的承诺范围深入",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "assumptions": {
+      "title": "核承诺、容量与权力，枝节可暂定",
+      "source_line_spans": [
+        [
+          51,
+          57
+        ],
+        [
+          63,
+          83
+        ],
+        [
+          89,
+          91
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "若有明确接单记录、实际共同职责、真正缩小的工作范围或期限改变，先说明它会改变哪项责任，再澄清一个关键条件。"
+        },
+        {
+          "kind": "non_core",
+          "action": "私人离开原因、文件配色等不改变本轮责任与容量时接受为暂定，不要求读者证明私人事项更重要。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "若假设昨天已答应整份交付，要清楚标新增分支并保留原截点只有“我尽量”的事实；不能悄悄把它当原承诺。"
+        },
+        {
+          "kind": "unknown",
+          "action": "“你做得快”未给工时；未说明的职位权力、处罚或可用帮手保持未知。"
+        },
+        {
+          "kind": "power_or_risk",
+          "action": "若新条件为有权排序的主管或有现实报复风险，转为容量、排序与安全渠道讨论，不把普通同事的拒绝台词直接套用。"
+        }
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "核承诺、容量与权力，枝节可暂定",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "roleplay": {
+      "title": "可选练习：让同一条消息的承担范围可辨认",
+      "source_line_spans": [
+        [
+          13,
+          35
+        ],
+        [
+          61,
+          71
+        ]
+      ],
+      "fiction_notice": "根据公开原故事新编；从“我尽量”之后继续，不预演结局。",
+      "learner_role": "乔宁，可不扮演而继续讨论。",
+      "ai_role": "周岚，希望演示能供次日客户查看。",
+      "known_to_learner": [
+        "story已公开事实；其余事实仍按原文限定，不自造可用时间。"
+      ],
+      "known_to_ai_role": [
+        "自己发出十五页今晚排版的请求，收到“我尽量”。",
+        "上个月曾帮助乔宁，当前需要另一个人支持。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "读者尚未实际表达的可承担范围和个人取舍。"
+      ],
+      "role_constraints": [
+        "可以问一次实际承担范围，不能把客气、感谢或讨论细节自动算作完整交付承诺。",
+        "角色未被赋予主管权力，不得临时加上领导命令或惩罚。",
+        "若读者拒绝，允许角色失望；不能无限索要私人理由来拖住对话。",
+        "不要求拒绝者附送另一项劳动，无最低轮数或指定和好结局。"
+      ],
+      "optional_new_condition": {
+        "id": "single_verified_check",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新增条件：周岚另找人接手整份文件，只剩一个已经标明位置的数字希望乔宁核对，双方已确认这一小项不超过五分钟。是否愿意及能否承担仍由读者判断；这不是原故事已发生的缩小请求。"
+      },
+      "start": "先让读者选择是否进入练习，再由其发一条消息，AI针对实际内容回应，不先给标准拒绝句。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "可选练习：让同一条消息的承担范围可辨认",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "transfer": {
+      "title": "迁移：共同义务与已承诺的服务",
+      "source_line_spans": [
+        [
+          51,
+          57
+        ],
+        [
+          69,
+          83
+        ]
+      ],
+      "selection_rule": "一次一个新虚构情境，先辨认责任和决定权的变化。",
+      "variants": {
+        "shared_household_duty": {
+          "title": "已轮到自己的共用厨房清洁",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系从临时同事求助变为共同生活的轮值义务。",
+            "责任已有明确轮值约定，不能只当全新请求。",
+            "资源限制可通过交接或调整安排处理，但没有已确认代班者。"
+          ],
+          "facts": [
+            "三位合住者此前共同同意轮流清洁厨房，本周轮到吴芊。",
+            "吴芊临时出差，周六才回来，按原轮值周四应完成。",
+            "其他两人各有安排，还没有人答应代班；厨房仍需正常使用。"
+          ],
+          "prompt": "你会怎样判断吴芊这次需要交代和承担到哪里？"
+        },
+        "external_service_failure": {
+          "title": "已经约好的现场字幕服务遇到设备故障",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系从同事临时求助变为对外活动已经接受的具体服务承诺。",
+            "资源限制从个人工时变为现场字幕设备故障及本人不具备维修能力。",
+            "本人没有更改活动日期的权力，活动安排和替代资源由主办方决定，不能以私人边界单方面取消既有责任。"
+          ],
+          "facts": [
+            "志愿者孟洵此前明确答应，为周六一场社区讲座提供现场字幕，并已整理好讲座术语表。",
+            "周五测试时，借来的字幕设备无法启动；孟洵不会维修，也没有已经确认可用的备用设备。",
+            "活动日期已向参与者公布，是否调整流程由主办方决定；孟洵可以提供故障情况和术语表，但还没有人接下替代服务。"
+          ],
+          "prompt": "在这些条件下，你会把孟洵眼下的责任界定到哪里？"
+        }
+      },
+      "feedback_rule": "依据读者实际考虑的旧约定、容量、权力与后果讨论，不把“边界”或“应该帮忙”当免检结论。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "迁移：共同义务与已承诺的服务",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖子项：空白讨论清单",
+      "source_line_spans": [
+        [
+          13,
+          99
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "pressure",
+          "label": "眼前压力与实际容量",
+          "source_line_spans": [
+            [
+              13,
+              47
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "timing_cost",
+              "label": "区分拒绝的当下社会压力与以后实际工时",
+              "source_line_spans": [
+                [
+                  15,
+                  19
+                ],
+                [
+                  39,
+                  45
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "interpretation_gap",
+              "label": "识别含混话语可能造成不同预期，不把任何委婉等同逃避",
+              "source_line_spans": [
+                [
+                  21,
+                  35
+                ],
+                [
+                  41,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "real_threat",
+              "label": "区分担心失望与已有威胁或惩罚",
+              "source_line_spans": [
+                [
+                  45,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "responsibility",
+          "label": "承担范围的三种不同来源",
+          "source_line_spans": [
+            [
+              51,
+              71
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "new_request",
+              "label": "辨认新请求与已经明确接受的任务",
+              "source_line_spans": [
+                [
+                  51,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "past_favor",
+              "label": "过去支持不自动生成未说明的新义务",
+              "source_line_spans": [
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "common_duty",
+              "label": "边界不能抹除共同义务和分担公平",
+              "source_line_spans": [
+                [
+                  57,
+                  57
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "true_scope",
+              "label": "整份、有限意见和不承担要按真实容量分别说明",
+              "source_line_spans": [
+                [
+                  61,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "private_reason",
+              "label": "交代承担结果不等于公开所有私人理由",
+              "source_line_spans": [
+                [
+                  69,
+                  69
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "changed_facts",
+              "label": "真缩小范围、期限变化与单纯催促不同",
+              "source_line_spans": [
+                [
+                  71,
+                  71
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "power_and_afterward",
+          "label": "权力、后果与证据边界",
+          "source_line_spans": [
+            [
+              75,
+              99
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "priority",
+              "label": "主管调度须连同旧期限后果、交接和排序一起判断",
+              "source_line_spans": [
+                [
+                  75,
+                  79
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "support",
+              "label": "长期超量和报复风险需要资源或安全支持，不是仅改措辞",
+              "source_line_spans": [
+                [
+                  81,
+                  91
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "disappointment",
+              "label": "说清后仍可失望，不能以所有人开心证明成功",
+              "source_line_spans": [
+                [
+                  87,
+                  95
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "method_evidence",
+              "label": "研究摘要和请求方法不替代实际职责或法律判断",
+              "source_line_spans": [
+                [
+                  83,
+                  83
+                ],
+                [
+                  99,
+                  99
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "每个子项的材料可用状态与读者讨论状态分别呈现。这里默认未讨论，不表示真实进度；只依据当前对话中实际说过的内容标已讨论，明确略过才标选择跳过，其余保留未讨论。工具读取、礼貌同意或做过一道题不等于学完。记录不回传。",
+      "next_step": "按实际已谈范围告诉读者还有哪些子项，由读者选择深入、练习、原文对照、总结或结束。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "本章具体覆盖子项：空白讨论清单",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "review": {
+      "title": "读者主动选择后的原文与反馈对照",
+      "source_line_spans": [
+        [
+          1,
+          99
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确要对照或反馈时使用；调用参数不独立证明其意愿。",
+        "先复述读者确实表达过的判断与依据，不能假称其已选某方案；再比较以下阅读角度，不按措辞接近参考判断评分。",
+        "比较含混造成的影响、明确承诺和共同职责，保留它们承担责任的区别。",
+        "检查读者有没有把新增主管或明确承诺分支倒写进原案；不是以对方满意或拒绝彻底免责作为唯一结果。",
+        "接口可在本阶段附完整未改原章和原教学包（可能有参考判断），与本新编层分别标识；公开编排本身不含旧题库答案。",
+        "读者决定继续或结束；读到完整材料不等于本章所有子项已经讨论。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-09, both) 或本阶段接口附带原文件。",
+      "technical_limit": "分阶段读取不能技术上阻止AI推断或另行读取答案；原文、协议与学习效果应分别验证。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 11,
+        "chapter_title": "怎样拒绝并说明自己的边界",
+        "section_label": "读者主动选择后的原文与反馈对照",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    }
+  }
+}

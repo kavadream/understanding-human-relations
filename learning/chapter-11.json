@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-11",
+  "display_order": 13,
+  "title": "善意失效以后怎样重新判断",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-11.md",
+    "sha256": "fe7e3283b8e4da78d457ac2b5ac4e86e484bd70ceeb321752db853b52b464db7",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "两段已交、四段仍缺：先决定依赖到哪里",
+      "source_line_spans": [
+        [
+          13,
+          21
+        ],
+        [
+          25,
+          25
+        ]
+      ],
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "fiction_notice": "明悦、何川及录音展览为原书虚构案例；此处为新编决策截点事实卡。",
+      "facts": [
+        {
+          "id": "history",
+          "text": "何川帮明悦整理访谈录音。第一次晚交两天，称低估长度；第二次按时交却漏了几段，明悦补完后没有认真谈下一次怎样避免。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "past_support",
+          "text": "何川曾帮活动搬桌子、接老人到采访地点。明悦第三批仍交给他，并强调后面排版没有多少补救时间；何川答应“一定弄好”。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "current_progress",
+          "text": "11月3日17点，次日中午要交稿。六段录音每段十分钟，只交来两段，明悦确认这两段可用，仍缺四段。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "known_speed",
+          "text": "两人之前试做过，同等难度的十分钟录音整理并校对要一小时。这是既有试做结果，不是后来补造的加速保证。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "current_response",
+          "text": "明悦感到急迫，何川说自己不是不想帮忙，今晚会再赶。此截点尚未核实他截止前实际可用的时间。",
+          "source_line_spans": [
+            [
+              19,
+              21
+            ]
+          ]
+        }
+      ],
+      "decision_time": "何川说今晚再赶之后；引用第25行中已发生的试做事实，但不先给其后披露的容量或交接结果。",
+      "unknowns": [
+        "何川截止前实际能投入多少小时，当前对话尚未核实。",
+        "是否有可用备援及其容量、交接条件，在本截点没有确认。"
+      ],
+      "learner_prompt": "在这个时点，你愿意继续把这批任务依赖何川到什么范围？",
+      "facilitator_action": "先等待读者的判断依据，不预先提供后来的一小时、备援容量或分工答案；允许读者提出需确认的关键事实或选择减小依赖。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "两段已交、四段仍缺：先决定依赖到哪里",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "discussion": {
+      "title": "按读者依据区分善意、容量与具体依赖",
+      "source_line_spans": [
+        [
+          35,
+          55
+        ],
+        [
+          59,
+          79
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者实际信任或不信任何川的理由：已做好的事、既往记录、明示承诺或当前容量；不能假称其已经选择原书分工。",
+        "如果读者依赖热心，围绕该任务需要的条件只问一个关键问题；如果读者把一次任务扩大为全人格结论，先请其说明这个结论的证据范围。",
+        "讨论容量时尊重原有试做基准，不靠鼓励提高速度或新增时间；缺少资料时先说明分支，不假造一个恰能成功的计划。",
+        "承认减少往来或不再提供机会也是承担风险者可考虑的选择，不强迫以和解、再信一次或完全切断为唯一正确结局。",
+        "每轮最多一个关键追问，无最低轮数；不要求披露何川所有私人安排才允许重作工作决定。"
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "按读者依据区分善意、容量与具体依赖",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "assumptions": {
+      "title": "条件会改变安排，不必先查清全部动机",
+      "source_line_spans": [
+        [
+          23,
+          27
+        ],
+        [
+          43,
+          55
+        ],
+        [
+          59,
+          77
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "已确认可用工时、可交成果、同等质量的试做速度、备援或交接成本都会改变可行性；先核读者理由最依赖的一项，不能把“今晚再赶”当具体容量。"
+        },
+        {
+          "kind": "non_core",
+          "action": "何川此后每项私人安排的细节不必全部知道；若只需确认可用时段，就不纠缠他为什么没有更多时间。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "已核两段可用不能中途改成无效；试做速度、已经作出的交付承诺若变化，必须明说新增分支，不修补成保证成功。"
+        },
+        {
+          "kind": "unknown",
+          "action": "不从何川热心推定录音能力，也不从失约推定对所有人不真诚；未知备援、返工概率保持未知。"
+        },
+        {
+          "kind": "risk",
+          "action": "若新增阻止取回文件或骚扰，标清新条件，重点转向保护材料和可用支持，不继续把它当感谢语气训练。"
+        }
+      ],
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "条件会改变安排，不必先查清全部动机",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "roleplay": {
+      "title": "可选练习：查询进度并面对交接",
+      "source_line_spans": [
+        [
+          13,
+          31
+        ],
+        [
+          53,
+          55
+        ]
+      ],
+      "fiction_notice": "从公开录音案例新编的角色练习，原事实保持，不复制原私有学习包。",
+      "learner_role": "明悦，决定眼下依赖范围。",
+      "ai_role": "何川，愿意帮忙但已承诺超出自己可用时间。",
+      "known_to_learner": [
+        "story中的工作量、已核成果、试做速度和期限。"
+      ],
+      "known_to_ai_role": [
+        "自己到截止前只剩11月3日17至18点这一小时可用。",
+        "自己只交了两段，四段仍未完成；原文已给的试做速度不能由鼓励改变。",
+        "担心工作被分走是否意味着关系也被否定。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "明悦尚未实际说出的后续关系决定，不能预先断言她永不往来。"
+      ],
+      "role_constraints": [
+        "问到可用时间或完成量，按公开原文事实直接答，不靠情绪谈话拖延必要信息。",
+        "不能因读者表达感谢就提高工时或宣布整批可交；也不能把已确认可用两段改坏。",
+        "备援信息只有在另行核实或按原文对照公开给出后才可纳入安排，不能临时召来未确认人手。",
+        "不强迫读者安慰到角色满意才可交接，无最低轮数，允许停止角色、要反馈或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "coupled_recording",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选另起分支：其中两段录音的说话人标注必须由同一人连续核对，拆分会新增半小时交接校验。这是本轮新增流程条件，不是原故事已知事实；采用后重新判断安排。"
+      },
+      "start": "由读者决定是否练习，再提出自己的一条询问或安排；AI不先把完整分工写给读者。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "可选练习：查询进度并面对交接",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "transfer": {
+      "title": "迁移：能力领域与不可控资源变化",
+      "source_line_spans": [
+        [
+          35,
+          55
+        ],
+        [
+          59,
+          77
+        ]
+      ],
+      "selection_rule": "一次一个新虚构情境；选择不同依赖范围，不要求给某人的总体品格打分。",
+      "variants": {
+        "different_skill_domain": {
+          "title": "热心接待者愿意翻译参观手册",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "任务从录音整理变为不同能力领域的书面翻译。",
+            "时间有十天，尚未出现迫近截止后的零余量局面。",
+            "对方口语接待经验不自动证明书面核对能力，依赖可先限定。"
+          ],
+          "facts": [
+            "朋友许衡多次帮助社区接待外来参观者，现场沟通顺畅，热心可靠。",
+            "社区现在需要翻译三页展馆手册，十天后印刷；许衡主动说可以做。",
+            "目前没有他的同类书面译稿或试做记录，也没有确认好的审校者。"
+          ],
+          "prompt": "你会怎样决定这次委托可以依赖许衡到哪里？"
+        },
+        "reported_transport_loss": {
+          "title": "志愿者无法到场的及时报告",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "任务由可远程拆分的整理变为必须到场的搬运。",
+            "障碍来自新发生的交通停运且已及时报告，不是隐瞒容量。",
+            "不能简单用重新承诺换得交通资源。"
+          ],
+          "facts": [
+            "一位志愿者过去四次按约到场，答应周六上午搬运图书。",
+            "周五交通运营方宣布其居住区当天停运，他立即告知组织者无法按原方式抵达。",
+            "现场仍需搬运，但尚未确认接送、替代交通或其他志愿者；他没有虚称已找到办法。"
+          ],
+          "prompt": "你会怎样调整这次安排和对以后依赖的判断？"
+        }
+      },
+      "feedback_rule": "比较新情境中的能力证据、报告及时性与可控资源，不因没发生原案那种失约就套同样关系结论，也不假设一定能找人补位。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "迁移：能力领域与不可控资源变化",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "coverage": {
+      "title": "本章具体覆盖子项：空白讨论清单",
+      "source_line_spans": [
+        [
+          13,
+          85
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "trust_parts",
+          "label": "具体信任依据的不同部分",
+          "source_line_spans": [
+            [
+              13,
+              43
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "goodwill",
+              "label": "善意、具体能力、可用时间和已作承诺分别判断",
+              "source_line_spans": [
+                [
+                  35,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "task_domain",
+              "label": "某领域可靠不能自动外推其他领域",
+              "source_line_spans": [
+                [
+                  39,
+                  41
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "usable_work",
+              "label": "承认已做好的两段与追究未交部分可同时成立",
+              "source_line_spans": [
+                [
+                  17,
+                  17
+                ],
+                [
+                  41,
+                  43
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "capacity",
+          "label": "眼下安排的可行条件",
+          "source_line_spans": [
+            [
+              23,
+              55
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "quantity",
+              "label": "能分清完成量、余量、试做速度与名义所需工时",
+              "source_line_spans": [
+                [
+                  17,
+                  27
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "actual_time",
+              "label": "一句“再赶”或理解重要性不等于实际工时",
+              "source_line_spans": [
+                [
+                  47,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "handoff_margin",
+              "label": "交接可行仍须考虑校验、返工和零余量风险",
+              "source_line_spans": [
+                [
+                  25,
+                  27
+                ],
+                [
+                  77,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "necessary_info",
+              "label": "核实应服务安排，不必审查所有私人行程",
+              "source_line_spans": [
+                [
+                  53,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "future_and_emotion",
+          "label": "结论、关系与后续依赖",
+          "source_line_spans": [
+            [
+              59,
+              79
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "conclusion_scope",
+              "label": "具体任务记录与全人格不真诚有不同证据范围",
+              "source_line_spans": [
+                [
+                  59,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "opportunity_choice",
+              "label": "再给机会、缩小依赖或减少往来由承担风险者决定",
+              "source_line_spans": [
+                [
+                  61,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "thanks_not_credit",
+              "label": "感谢已发生帮助不等于预支下一次信任",
+              "source_line_spans": [
+                [
+                  69,
+                  71
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "past_cost",
+              "label": "过去已投入的补稿和鼓励不能单独决定继续等待",
+              "source_line_spans": [
+                [
+                  73,
+                  73
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "coercion",
+              "label": "阻止交接或骚扰需改变处理重点，不只修饰感谢",
+              "source_line_spans": [
+                [
+                  75,
+                  75
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "model_limit",
+              "label": "组织信任模型为理论区分，不是给朋友的量表或实证效果承诺",
+              "source_line_spans": [
+                [
+                  39,
+                  39
+                ],
+                [
+                  83,
+                  85
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "每个子项的材料可用状态与读者讨论状态分别呈现。这里默认未讨论，不表示真实进度；只依据当前对话中实际说过的内容标已讨论，明确略过才标选择跳过，其余保留未讨论。工具读取、礼貌同意或做过一道题不等于学完。记录不回传。",
+      "next_step": "按实际已谈范围告诉读者还有哪些子项，由读者选择深入、练习、原文对照、总结或结束。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "本章具体覆盖子项：空白讨论清单",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    },
+    "review": {
+      "title": "读者主动选择后的原文与反馈对照",
+      "source_line_spans": [
+        [
+          1,
+          85
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确要对照或反馈时使用；调用参数不独立证明其意愿。",
+        "先复述读者确实表达过的判断与依据，不能假称其已选某方案；再比较以下阅读角度，不按措辞接近参考判断评分。",
+        "先对照读者判断依据的范围：善意、能力、容量、及时报告与已作承诺并非同一件事。",
+        "原文的分配建立在特定试做、可拆分与容量条件上，名义赶上不等于无返工风险；新流程分支不能机械照搬。",
+        "关系选择可有多种范围，既不把感谢当继续依赖承诺，也不把减少往来当全人格诊断。",
+        "接口可在本阶段附完整未改原章和原教学包（可能有参考判断），与本新编层分别标识；公开编排本身不含旧题库答案。",
+        "读者决定继续或结束；读到完整材料不等于本章所有子项已经讨论。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-11, both) 或本阶段接口附带原文件。",
+      "technical_limit": "分阶段读取不能技术上阻止AI推断或另行读取答案；原文、协议与学习效果应分别验证。",
+      "source_context": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 13,
+        "chapter_title": "善意失效以后怎样重新判断",
+        "section_label": "读者主动选择后的原文与反馈对照",
+        "section_label_is_abbreviated": true,
+        "material_identity": "新编教学编排；依据公开正文，非完整原文"
+      }
+    }
+  }
+}

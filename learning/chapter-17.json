@@ -1,0 +1,450 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-17",
+  "display_order": 8,
+  "title": "怎样表达关心、真诚认可并给予反馈",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-17.md",
+    "sha256": "ac41f5ad90fcc0fe22867d68c2ed3c5e65228db5d564284ca1a51db029c679d6",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "readable_source": {
+    "book_title": "理解人性：关系、边界与合作",
+    "display_chapter": 8,
+    "chapter_title": "怎样表达关心、真诚认可并给予反馈",
+    "material_identity": "根据公开正式正文新编的分阶段教学材料；不是完整原稿",
+    "initial_section": "故事决策截点（原节名简写，以免提前透露后续）"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "合唱团群里的一句话",
+      "source_line_spans": [
+        [
+          25,
+          27
+        ]
+      ],
+      "fiction_notice": "公开原书合唱团故事的新编判断截点；后续核对结果与修正办法暂不提供。",
+      "facts": [
+        {
+          "id": "group",
+          "text": "一个二十四人的业余合唱团，六周后参加社区演出。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "contribution",
+          "text": "陆凝连续三个晚上、每晚约一小时，整理带页码和开始位置的排练录音。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "discrepancy",
+          "text": "指挥程筝发现录音第二段仍用旧版材料。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
+        {
+          "id": "public_words",
+          "text": "程筝已在大群说陆凝“又用错了”，让做材料的人仔细一点。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        }
+      ],
+      "decision_time": "群内责备已发出、程筝尚未核对版本发送记录的派生截点；不把核对后才查明的事提前当作人物已知。",
+      "unknowns": [
+        "新版发给了谁、陆凝当时掌握什么版本。",
+        "“又”是否有已确认的同类错误作依据。",
+        "具体修改范围、对排练的影响及谁有时间处理。"
+      ],
+      "learner_prompt": "你会怎样安排程筝接下来的一次沟通？",
+      "facilitator_action": "让读者先说明沟通重点和理由，不先揭晓漏发原因、纠正步骤或提供标准感谢加反馈话术。",
+      "newly_authored": true,
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true
+    },
+    "discussion": {
+      "title": "围绕实际表述核对感谢、差错与新请求",
+      "source_line_spans": [
+        [
+          13,
+          35
+        ],
+        [
+          39,
+          55
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者认为应先处理的事项及理由，不预设其一定先公开道歉、私下沟通或感谢。",
+        "若其建议仍是笼统赞美或责备，只追问这会让对方知道哪一件具体事；若已具体，就沿事实责任或传播范围选一个关键点继续。",
+        "读者提出先核对版本时可以推进，不必重复诱导其承认作者判断。",
+        "愿意拓展时再比较真实感谢、任务反馈与新增请求各自面向什么，不用固定“夸—批—夸”流程。"
+      ]
+    },
+    "assumptions": {
+      "title": "责任与表达场合的条件",
+      "source_line_spans": [
+        [
+          27,
+          35
+        ],
+        [
+          41,
+          49
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "是否实际收到新版、错误传播给谁、距离下一次使用还有多久，会实质改变责任和动作顺序；一次只澄清最关键条件或明确两支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "歌曲名称、排练地点等不改变版本收到与否时，不用枝节不断延迟判断。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "过去多次犯错、已付费买断全部志愿劳动等不是既有事实；若读者要讨论，明示新变式，不倒写为陆凝旧承诺。"
+        },
+        {
+          "kind": "unknown",
+          "action": "未核对时不能认定陆凝不认真，也不能认定指挥故意羞辱；他人能否接受感谢或愿接新工作须保留未知。"
+        }
+      ]
+    },
+    "roleplay": {
+      "title": "可选角色对话：让事实随核对出现",
+      "source_line_spans": [
+        [
+          25,
+          29
+        ],
+        [
+          35,
+          35
+        ]
+      ],
+      "fiction_notice": "新编角色轮，仅以公开合唱团事实为背景；不是完整原练习。",
+      "learner_role": "程筝；负责表明当前问题并核对自己掌握的版本事实。",
+      "ai_role": "陆凝；按公开原文已收到的材料及实际时间作答，不替指挥找理由。",
+      "known_to_learner": [
+        "初始事实卡的团体期限、整理付出、第二段旧版与已发群消息。"
+      ],
+      "known_to_ai_role": [
+        "原书公开后续事实：自己未收到小群新版；第二段最后四十秒需要修改，星期六晚上有时间处理。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "指挥准备怎样处理已经发出的群消息，以及提出哪些新的协助请求。"
+      ],
+      "role_constraints": [
+        "收到材料的事实只在对话需要核对时如实说明，不用无限隐藏制造难度；对方也可直接选择对照。",
+        "不替陆凝认领长期疏忽或额外录音，不把感谢当新的任务承诺。",
+        "陆凝可接受某项安排但仍不舒服，不必说原谅；无最低轮数，可随时暂停或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "public_recognition_preference",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "练习新增条件：陆凝表示不愿被公开郑重表扬，只愿公开消息聚焦材料版本。是否采用由读者选择，这不是原书已经说过的偏好。"
+      },
+      "start": "确认角色后读者先开口；AI按核对到的信息回应，不先给完整修正话术。"
+    },
+    "transfer": {
+      "title": "表达认可时，改变任务与关系",
+      "source_line_spans": [
+        [
+          21,
+          35
+        ],
+        [
+          47,
+          55
+        ]
+      ],
+      "selection_rule": "每次一个原创场景，任务责任或表达目的已改变，不能照搬合唱团的公开更正顺序。",
+      "variants": {
+        "paid_deliverable": {
+          "title": "正式工作中的已约定交付",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "关系：主管与受薪员工",
+            "责任：修改在已约定职责内",
+            "资源：时间和正确资料已明确"
+          ],
+          "facts": [
+            "一家小公司员工按职责做月度报表，主管想感谢其中清晰的图例。",
+            "一项汇总公式有可核对的错误，正确源表双方都收到，修正属于本次已约定交付。",
+            "员工今天还有半小时可处理，若需更多时间必须重新安排其他任务。"
+          ],
+          "prompt": "你会怎样说明这次认可与修正要求各自的内容？"
+        },
+        "thanks_without_task": {
+          "title": "只表达一项帮助",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "目的：没有差错或未来工作要处理",
+            "关系：平等邻里",
+            "表达：对方不喜欢公开被点名"
+          ],
+          "facts": [
+            "邻居曾用自己的工具帮你修好书架，工具已归还，费用也已按先前约定处理。",
+            "你后来发现修好的书架让房间更好使用，想把这项具体帮助告诉他。",
+            "此刻没有新的维修请求；他以前明确说过不喜欢在邻里群被点名感谢。"
+          ],
+          "prompt": "你会选择怎样表达这次感谢？"
+        }
+      },
+      "feedback_rule": "看读者是否按已确定责任、真实表达目的和对方偏好提出理由；不硬塞公开道歉、泛夸或新请求，也不要求同等回报。"
+    },
+    "coverage": {
+      "title": "本章覆盖：具体认可、事实反馈与未来同意",
+      "source_line_spans": [
+        [
+          13,
+          61
+        ]
+      ],
+      "areas": [
+        {
+          "id": "gratitude",
+          "label": "真实帮助如何被收到",
+          "source_line_spans": [
+            [
+              13,
+              21
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "specific_help",
+              "label": "感谢具体付出及它怎样帮到自己，而非无误人格",
+              "source_line_spans": [
+                [
+                  13,
+                  17
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "expression",
+              "label": "担心措辞生硬不等于对方不愿听，场合仍需合适",
+              "source_line_spans": [
+                [
+                  19,
+                  21
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "feedback",
+          "label": "差错、标准与责任",
+          "source_line_spans": [
+            [
+              25,
+              35
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "version",
+              "label": "核对正确材料是否到达再判断责任",
+              "source_line_spans": [
+                [
+                  25,
+                  29
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "repeated_claim",
+              "label": "“又”及笼统人格评价需要事实依据",
+              "source_line_spans": [
+                [
+                  27,
+                  31
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "task_detail",
+              "label": "把修正对象、范围、资料和可用时间说具体",
+              "source_line_spans": [
+                [
+                  29,
+                  35
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "new_request",
+          "label": "感谢不预支劳动",
+          "source_line_spans": [
+            [
+              39,
+              49
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "past_future",
+              "label": "既有帮助与下次请求分开，过去贡献不因拒绝新事而失效",
+              "source_line_spans": [
+                [
+                  39,
+                  47
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "authority",
+              "label": "职位、荣誉与认可不能代替报酬、资源和任务安排",
+              "source_line_spans": [
+                [
+                  49,
+                  49
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "everyday",
+          "label": "实际来往与评估边界",
+          "source_line_spans": [
+            [
+              53,
+              61
+            ]
+          ],
+          "subitems": [
+            {
+              "id": "no_sandwich",
+              "label": "只感谢时可以到此结束，反馈不必伪装赞美",
+              "source_line_spans": [
+                [
+                  53,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "privacy",
+              "label": "关心不产生公开私人感受或同等回报的义务",
+              "source_line_spans": [
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "evidence",
+              "label": "感谢信研究、反馈理论和本书原创判断的适用范围分开",
+              "source_line_spans": [
+                [
+                  19,
+                  19
+                ],
+                [
+                  33,
+                  33
+                ],
+                [
+                  61,
+                  61
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "material_status": "available",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "instruction": "材料可用只是本节有相应材料；子项的讨论状态默认未讨论。仅按当前实际对话证据在本地标为已讨论，读者明确跳过才标选择跳过；未有讨论或证据不足保留未讨论。读取全文、点头或答对一题不算覆盖完成。不得把状态上传到接口或仓库。",
+      "next_step": "先说明本轮确实讨论过的具体子项和仍未讨论的部分，让读者选择深入、练习、对照、总结或结束，不宣布本章已学完。"
+    },
+    "review": {
+      "title": "选择对照后再看原文核对和修改",
+      "source_line_spans": [
+        [
+          13,
+          61
+        ]
+      ],
+      "instructions": [
+        "原书版本遗漏和后续修改只在读者选择对照后揭晓；不要把这视为其先前一定答错。",
+        "反馈引用实际提出的理由，分别比较贡献、具体差错、责任与新增请求，不补造读者已经表达过的内容。",
+        "区分公开错误传播、公开责任更正和私人感受，不将一种处理顺序说成普遍话术；读者决定下一步。"
+      ],
+      "requires_explicit_reader_choice": true,
+      "full_original_materials_via": "books_get_unit(book_id, chapter-17, both) 或本阶段接口附带原文件。",
+      "technical_limit": "AI可推断答案或自行读取完整原稿；分阶段是教学安排，不是答案保密或学习效果保证。"
+    }
+  }
+}

@@ -1,0 +1,556 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.3.0",
+  "book_id": "understanding-human-relations-zh",
+  "unit_id": "chapter-04",
+  "display_order": 4,
+  "title": "同一个行为为什么有不同原因",
+  "newly_authored": true,
+  "derived": true,
+  "original_manuscript_modified": false,
+  "scope": "all_17_chapters",
+  "source": {
+    "repository": "https://github.com/kavadream/understanding-human-relations",
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "path": "manuscript/zh-CN/chapters/chapter-04.md",
+    "sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771",
+    "edition": "zh-v1.0.0 revision 2"
+  },
+  "stage_order_is_optional": true,
+  "initial_stage": "story",
+  "privacy": {
+    "learner_records_accepted": false,
+    "remote_progress": false,
+    "private_original_teaching_included": false
+  },
+  "stages": {
+    "story": {
+      "title": "市集上三次借刀之后",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ]
+      ],
+      "derived": true,
+      "excerpt_only": true,
+      "original_unit_complete": false,
+      "stage_complete": true,
+      "transformation": "依据公开原章指定行段重新编写事实卡，不是逐字摘录；省略作者开篇结论、此时之后的结果及示范解法。主观解释保持为人物当时的想法。",
+      "fiction_notice": "原章人物、事件为作者原创虚构；以下是新编派生决策截点。",
+      "facts": [
+        {
+          "id": "need",
+          "text": "市集布置当天，志愿者阿乔发现少了一把裁纸刀，去附近摊位借用。",
+          "source_line_spans": [
+            [
+              13,
+              13
+            ]
+          ]
+        },
+        {
+          "id": "in_use",
+          "text": "第一位摊主说只有这一把，自己正在用，并把手里的展签举给他看。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
+          "id": "damaged",
+          "text": "第二位指着刀的破损处，说怕借出去伤手。",
+          "source_line_spans": [
+            [
+              17,
+              17
+            ]
+          ]
+        },
+        {
+          "id": "no_lending",
+          "text": "第三位说以前工具借出去到收摊还找不到，因此不再外借。",
+          "source_line_spans": [
+            [
+              19,
+              19
+            ]
+          ]
+        },
+        {
+          "id": "reaction",
+          "text": "阿乔空手回来，向朋友说这里的人都太小气。朋友问他准备怎么办。",
+          "source_line_spans": [
+            [
+              21,
+              23
+            ]
+          ]
+        }
+      ],
+      "decision_time": "朋友发问之后；不提供阿乔后来想到的分别处理方案。",
+      "unknowns": [
+        "阿乔布置工作还有多少时间，原文未给出。",
+        "第一位何时用完、是否愿意之后借出，尚未确认。",
+        "是否有其他工具或做法，尚未查明；不能先当作一定有替代品。"
+      ],
+      "learner_prompt": "你会怎样决定阿乔接下来该投入哪一种尝试？",
+      "facilitator_action": "只呈现本事实卡及一个开放问题，等待读者自己的判断。不要先给作者结论或参考答案；可以澄清、选择完整阅读、跳过或结束。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "一、故事（仅决策截点，节名简写）"
+      }
+    },
+    "discussion": {
+      "title": "原因怎样进入下一步安排",
+      "source_line_spans": [
+        [
+          31,
+          65
+        ],
+        [
+          85,
+          105
+        ]
+      ],
+      "instructions": [
+        "先准确回应读者实际提出的判断和理由；没有收到观点时不得假装读者已犯错、同意或改进。",
+        "如果读者建议继续请求，回应其看重完成布置的理由，再就该尝试能否改变相应限制追问；不把坚持直接判为不尊重。",
+        "如果读者主张马上放弃，核对其选择依赖的时间与替代资源，而不是先给出一个标准借用办法。",
+        "读者若仍统称小气，选其中一位已说明的原因讨论它是否改变原评价；不要求证明三人全部善意。",
+        "读者愿意扩展时，再分别讨论撤展通知故事中的已有责任，不能把两类关系混成一个义务。",
+        "每轮只选一个与其理由相关的关键问题；按回答推进，不机械按题号穷追。",
+        "是否继续讨论、做角色练习、迁移、对照、总结或结束，由读者选择。"
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章论述（按读者理由选择讨论）"
+      }
+    },
+    "assumptions": {
+      "title": "工具、时间与承诺条件",
+      "source_line_spans": [
+        [
+          51,
+          65
+        ],
+        [
+          89,
+          97
+        ]
+      ],
+      "rules": [
+        {
+          "kind": "core_changing",
+          "action": "剩余布置期限、工具是否安全、对方是否有权外借、是否已经明确承诺，会改变安排；澄清最关键的一项或明确分支。"
+        },
+        {
+          "kind": "non_core",
+          "action": "展签颜色等与当前选择无关的细节，可暂定接受，不反复追问。"
+        },
+        {
+          "kind": "contradicts_source",
+          "action": "不能把普通借用写成摊主事先承诺，也不能把原章未给的具体分钟期限当旧事实；另设时要标新增条件。"
+        },
+        {
+          "kind": "unknown",
+          "action": "不要求第三位讲全丢物经过，也不替其断定真正动机；维持不外借仍是一种可能结果。"
+        }
+      ],
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章条件与事实边界"
+      }
+    },
+    "roleplay": {
+      "title": "可选角色：向一位摊主继续请求",
+      "source_line_spans": [
+        [
+          13,
+          23
+        ],
+        [
+          51,
+          65
+        ]
+      ],
+      "fiction_notice": "依据原章已公开借刀事实新编，开局只选一位摊主，不能中途换成另一个原因。",
+      "learner_role": "阿乔",
+      "ai_role": "由读者选择第一位、第二位或第三位摊主；未选择时先确认，不叠加三种障碍。",
+      "known_to_learner": [
+        "所选摊主在事实卡中已经给出的原因。",
+        "摊主没有在原章承诺一定借给阿乔。"
+      ],
+      "known_to_ai_role": [
+        "只保持所选一位的原章原因，不另外编造私人故事。",
+        "第一位尚未给出用完时间；第二位刀有破损；第三位可维持不外借。"
+      ],
+      "not_known_to_ai_role_until_disclosed": [
+        "阿乔没有实际告知的布置期限。",
+        "未提供的替代工具、信任关系或既往借用承诺。"
+      ],
+      "role_constraints": [
+        "不要求读者猜中某句礼貌口令，不因客气自动同意。",
+        "原文未知事项若需要具体值，应先作为新条件征得读者选择，不能偷偷改成原章事实。",
+        "读者可停止借用或另作安排，无最低轮数，可暂停、跳过或结束。"
+      ],
+      "optional_new_condition": {
+        "id": "organizer_shared_tools",
+        "new_condition": true,
+        "not_original_story": true,
+        "reader_can_decline": true,
+        "text": "可选新增：组织者现在说明公共工具箱在另一栋楼，但取回会占用一段时间。这不是原章已经存在的替代方案；先由读者决定是否加入。"
+      },
+      "start": "确认哪一位摊主及是否采用新增资源后，让读者先请求；不先展示分别处理的示范解法。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "基于原章截点的新编可选角色练习"
+      }
+    },
+    "transfer": {
+      "title": "请求与已有责任受到不同限制时",
+      "source_line_spans": [
+        [
+          51,
+          65
+        ],
+        [
+          89,
+          103
+        ]
+      ],
+      "selection_rule": "可选，每次只取一个新虚构独立情境，不是原故事的后续。先交代改变的条件，再让读者作判断。",
+      "variants": {
+        "permission_limit": {
+          "title": "愿意配合但没有系统权限",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "限制：操作权限而非物品占用",
+            "关系：同事间一次普通协助请求",
+            "资源：另有授权流程但耗时"
+          ],
+          "facts": [
+            "一位同事请资料整理员直接修改共享系统中一条旧登记。",
+            "整理员说自己愿意协助核对，但账户只有读取权限，无法保存修改。",
+            "申请更正要由资料负责人确认，负责人今天下午才能处理；同事希望午前拿到版本。"
+          ],
+          "prompt": "你会怎样评价整理员的回应，并决定这件事接下来怎样推进？"
+        },
+        "promised_collection": {
+          "title": "已经答应的接送遇到交通中断",
+          "new_fiction": true,
+          "changed_dimensions": [
+            "责任：已经明确承诺的接送",
+            "限制：外部交通与费用",
+            "关系：亲友合作，有人已经依赖原安排"
+          ],
+          "facts": [
+            "顾宁已答应下午接家人去一项预约。",
+            "当天前往接人的公共交通停运，顾宁手边没有车。",
+            "付费车辆还有空位，但费用明显高于顾宁当天能承受的金额；预约能否改期尚未确认。",
+            "家人仍按原时间等候，顾宁尚未告知交通变化。"
+          ],
+          "prompt": "你认为此时哪些要求和选择有现实依据？"
+        }
+      },
+      "feedback_rule": "只依据读者实际回答比较理由、代价及适用条件；不预设唯一答案，也不将原故事的一个方案强加到新条件。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "新编独立虚构迁移情境"
+      }
+    },
+    "coverage": {
+      "title": "第四章材料可用性与具体讨论项（空白模板）",
+      "source_line_spans": [
+        [
+          29,
+          105
+        ]
+      ],
+      "is_learner_progress": false,
+      "stored_on_server": false,
+      "material_status": "available",
+      "material_status_meaning": "对应材料已经备齐，不代表读者已经讨论或掌握。",
+      "allowed_statuses": [
+        "已讨论",
+        "未讨论",
+        "选择跳过"
+      ],
+      "default_status": "未讨论",
+      "areas": [
+        {
+          "id": "reasons",
+          "label": "看见拒绝之后怎样处理原因",
+          "source_line_spans": [
+            [
+              31,
+              47
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "reasons_1",
+              "label": "区分看不到背景与已经听见理由却未用于判断。",
+              "source_line_spans": [
+                [
+                  33,
+                  45
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "reasons_2",
+              "label": "正在用、工具破损、不愿再外借分别改变了什么可行选择。",
+              "source_line_spans": [
+                [
+                  15,
+                  19
+                ],
+                [
+                  47,
+                  53
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "reasons_3",
+              "label": "记住一个心理学解释不等于已经核实某个人的实际原因。",
+              "source_line_spans": [
+                [
+                  35,
+                  45
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "request",
+          "label": "普通请求及必要信息",
+          "source_line_spans": [
+            [
+              51,
+              65
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "request_1",
+              "label": "对方未承诺借用时，拒绝并不自动构成失信。",
+              "source_line_spans": [
+                [
+                  61,
+                  63
+                ],
+                [
+                  89,
+                  89
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "request_2",
+              "label": "提问是否只涉及能借、可用时间与归还安排，而不索取私人经历证明。",
+              "source_line_spans": [
+                [
+                  57,
+                  63
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "request_3",
+              "label": "原因后来变化或不完整时，能否修正判断并允许停止请求。",
+              "source_line_spans": [
+                [
+                  55,
+                  55
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "request_4",
+              "label": "一次借用成功为何不能证明找到了唯一动机或通用说服法。",
+              "source_line_spans": [
+                [
+                  65,
+                  65
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "commitment",
+          "label": "另一个故事中的既有通知责任",
+          "source_line_spans": [
+            [
+              71,
+              97
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "commitment_1",
+              "label": "区分未及时看到通知与明知变更却不转发的不同事实。",
+              "source_line_spans": [
+                [
+                  71,
+                  77
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "commitment_2",
+              "label": "家庭急事的解释与已发生的两小时等待分别需要怎样回应。",
+              "source_line_spans": [
+                [
+                  75,
+                  83
+                ],
+                [
+                  89,
+                  93
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "commitment_3",
+              "label": "按当时联系条件与决定权判断可控责任，不要求不可能的实时在线。",
+              "source_line_spans": [
+                [
+                  91,
+                  97
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            },
+            {
+              "id": "commitment_4",
+              "label": "备用联系人和可查看安排属于流程改进，不能抹去原有影响。",
+              "source_line_spans": [
+                [
+                  79,
+                  83
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        },
+        {
+          "id": "evidence",
+          "label": "证据与解释的身份",
+          "source_line_spans": [
+            [
+              109,
+              109
+            ]
+          ],
+          "material_status": "available",
+          "discussion_status": "未讨论",
+          "subitems": [
+            {
+              "id": "evidence_1",
+              "label": "综述、有界实验阅读、本书价值选择与虚构故事不能混为已证明的规律。",
+              "source_line_spans": [
+                [
+                  109,
+                  109
+                ]
+              ],
+              "material_status": "available",
+              "discussion_status": "未讨论"
+            }
+          ]
+        }
+      ],
+      "instruction": "以上状态是空白模板。材料可用与实际讨论分开：只有当前真实对话涉及某个具体子项，才在读者自己的临时清单改为已讨论；明确不做才标选择跳过。工具读取本身不算讨论，不上传作答或清单。",
+      "next_step": "如实列出本轮触及和未触及的内容，让读者决定深入、练习、总结或结束。",
+      "newly_authored": true,
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "本章具体主题的空白覆盖清单"
+      }
+    },
+    "review": {
+      "title": "按读者选择对照原章与原练习",
+      "source_line_spans": [
+        [
+          1,
+          109
+        ]
+      ],
+      "requires_explicit_reader_choice": true,
+      "instructions": [
+        "只有读者在当前对话明确选择原文对照或反馈，才请求此阶段完整材料；参数本身不证明读者意愿。",
+        "先确认读者实际说出的理由；如尚无回答，只说明可如何对照，不能假称读者已经忽略、学会或改进了什么。",
+        "对照时特别分清原章的不同故事、已有责任与新增变式；没有在读者发言中出现的观点，不替其补成已讨论。",
+        "分别说明原书论述、本次新编情境及读者新增假设，比较理由和适用条件，不把原练习参考判断当所有情形的唯一答案。",
+        "完整原稿与原练习由保留的只读接口按原字节提供；公开编排文件不包含私有原题或原参考答案。",
+        "反馈一轮最多提出一个关键问题；是否总结、继续或结束由读者选择，不给人格诊断或掌握总分。"
+      ],
+      "full_original_materials_via": "books_get_unit(book_id, chapter-04, both)",
+      "technical_limit": "分阶段读取不能阻止AI推断答案或自行读取完整原稿，也不证明教学效果。",
+      "readable_source": {
+        "book_title": "理解人性：关系、边界与合作",
+        "display_chapter": 4,
+        "chapter_title": "同一个行为为什么有不同原因",
+        "material_identity": "新编教学编排；依据原章指定行段",
+        "section_label": "完整原章与原练习的主动对照"
+      },
+      "newly_authored": true
+    }
+  }
+}
