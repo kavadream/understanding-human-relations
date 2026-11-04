@@ -7,13 +7,17 @@ No connection to a source repository, AI service or private materials is require
 from pathlib import Path
 import json,re,html,hashlib,subprocess,zipfile,shutil,os,sys
 from xml.etree import ElementTree as ET
-from weasyprint import HTML
 import fitz
 ROOT=Path(__file__).resolve().parents[1]
-OUT=ROOT/'dist'; BUILD=OUT/'build'; FONT=ROOT/'assets/fonts'
-for p in [OUT,BUILD]: p.mkdir(exist_ok=True)
+book=json.loads((ROOT/'book.json').read_text())
+VERSION=book.get('formal_version','zh-v1.0.0')
+OUT=ROOT/'dist'/VERSION; BUILD=OUT/'build'; FONT=ROOT/'assets/fonts'
+for p in [OUT,BUILD]: p.mkdir(exist_ok=True,parents=True)
+os.environ['XDG_CACHE_HOME']=str(BUILD/'cache')
+(BUILD/'cache').mkdir(exist_ok=True)
+from weasyprint import HTML
 shutil.copytree(FONT,OUT/'fonts',dirs_exist_ok=True)
-book=json.loads((ROOT/'book.json').read_text()); TITLE=book['title']; DATE=book['date']; STEM='理解人性_关系边界与合作_读者版'
+TITLE=book['title']; DATE=book['date']; STEM='理解人性_关系边界与合作_读者版'
 CN=['','一','二','三','四','五','六','七','八','九','十','十一','十二','十三','十四','十五','十六','十七']
 chapters=sorted(book['chapters'],key=lambda c:c['display_order'])
 PART_IDS={p:f'{n:02}' for n,p in enumerate(dict.fromkeys(c['part'] for c in chapters),1)}
@@ -27,7 +31,11 @@ text=rights+preface+refs+''.join(t for c,t in clean)
 missing=sorted({x for x in text if not x.isspace() and ord(x) not in cmap})
 if missing: raise RuntimeError('Embedded fonts need updating for these characters: '+''.join(missing))
 def mdhtml(t):
- return subprocess.run(['pandoc','--from=markdown','--to=html5','--wrap=none'],input=t,text=True,capture_output=True,check=True).stdout
+ pandoc=shutil.which('pandoc')
+ if not pandoc:
+  import pypandoc
+  pandoc=pypandoc.get_pandoc_path()
+ return subprocess.run([pandoc,'--from=markdown','--to=html5','--wrap=none'],input=t,text=True,capture_output=True,check=True).stdout
 
 def reference_html(text):
  fragment=mdhtml(text)
@@ -54,7 +62,7 @@ def annotate_notes(fragment,cid):
 
 css=(ROOT/'assets/reader.css').read_text()
 (BUILD/'reader.css').write_text(css)
-cover='<section class="cover"><p class="eyebrow">关系 · 判断 · 日常选择</p><h1>理解人性</h1><h2>关系、边界与合作</h2><p class="author">KK</p><p class="edition">中文读者版 · 2026</p></section>'
+cover='<section class="cover"><p class="eyebrow">关系 · 判断 · 日常选择</p><h1>理解人性</h1><h2>关系、边界与合作</h2><p class="author">KK</p><p class="edition">中文读者版 · 2026 · '+VERSION+'</p></section>'
 nav=['<h1>目录</h1><ul>','<li><a href="#copyright">版权与阅读说明</a></li>','<li><a href="#preface">前言</a></li>']; last=None
 for c in chapters:
  if last!=c['part']:
@@ -112,14 +120,14 @@ manifest += [('css','style.css','text/css',None),('cover-image','cover.png','ima
 ncx='<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1"><head><meta name="dtb:uid" content="urn:uuid:98cfc03c-6583-4656-95a2-2572dd937ca5"/></head><docTitle><text>'+TITLE+'</text></docTitle><navMap>'
 for n,(ident,name,media,prop) in enumerate([m for m in manifest if m[2]=='application/xhtml+xml'],1): ncx+=f'<navPoint id="np{n}" playOrder="{n}"><navLabel><text>{html.escape(ET.parse(EPUB/'OEBPS'/name).find('{http://www.w3.org/1999/xhtml}head/{http://www.w3.org/1999/xhtml}title').text)}</text></navLabel><content src="{name}"/></navPoint>'
 ncx+='</navMap></ncx>'; (EPUB/'OEBPS/toc.ncx').write_text(ncx); manifest.append(('ncx','toc.ncx','application/x-dtbncx+xml',None))
-opf='<?xml version="1.0" encoding="utf-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="book-id" xml:lang="zh-CN"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="book-id">urn:uuid:98cfc03c-6583-4656-95a2-2572dd937ca5</dc:identifier><dc:title>'+TITLE+'</dc:title><dc:creator>KK</dc:creator><dc:language>zh-CN</dc:language><dc:date>'+DATE+'</dc:date><dc:rights>© 2026 KK（限依法享有权利部分）。免费阅读；允许完整未改动文件非商业转发；其他权利保留。</dc:rights><meta property="dcterms:modified">2026-11-02T00:00:00Z</meta><meta name="cover" content="cover-image"/><meta property="schema:accessMode">textual</meta><meta property="schema:accessibilityFeature">tableOfContents</meta></metadata><manifest>'
+opf='<?xml version="1.0" encoding="utf-8"?><package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="book-id" xml:lang="zh-CN"><metadata xmlns:dc="http://purl.org/dc/elements/1.1/"><dc:identifier id="book-id">urn:uuid:98cfc03c-6583-4656-95a2-2572dd937ca5</dc:identifier><dc:title>'+TITLE+'</dc:title><dc:creator>KK</dc:creator><dc:language>zh-CN</dc:language><dc:date>'+DATE+'</dc:date><dc:rights>© 2026 KK（限依法享有权利部分）。免费阅读；允许完整未改动文件非商业转发；其他权利保留。</dc:rights><meta property="dcterms:modified">'+DATE+'T00:00:00Z</meta><meta name="cover" content="cover-image"/><meta property="schema:accessMode">textual</meta><meta property="schema:accessibilityFeature">tableOfContents</meta></metadata><manifest>'
 for ident,name,media,prop in manifest: opf+=f'<item id="{ident}" href="{name}" media-type="{media}"'+(f' properties="{prop}"' if prop else '')+'/>'
 opf+='</manifest><spine toc="ncx">'+''.join(f'<itemref idref="{i}"/>' for i in spine)+'</spine></package>'; (EPUB/'OEBPS/package.opf').write_text(opf)
 with zipfile.ZipFile(OUT/(STEM+'.epub'),'w') as z:
- zi=zipfile.ZipInfo('mimetype',(2026,11,2,0,0,0)); z.writestr(zi,'application/epub+zip',compress_type=zipfile.ZIP_STORED)
+ zi=zipfile.ZipInfo('mimetype',tuple(map(int,DATE.split("-")))+(0,0,0)); z.writestr(zi,'application/epub+zip',compress_type=zipfile.ZIP_STORED)
  for f in sorted(EPUB.rglob('*')):
   if f.is_file() and f.name!='mimetype':
-   zi=zipfile.ZipInfo(str(f.relative_to(EPUB)),(2026,11,2,0,0,0)); z.writestr(zi,f.read_bytes(),compress_type=zipfile.ZIP_DEFLATED)
+   zi=zipfile.ZipInfo(str(f.relative_to(EPUB)),tuple(map(int,DATE.split("-")))+(0,0,0)); z.writestr(zi,f.read_bytes(),compress_type=zipfile.ZIP_DEFLATED)
 
 print('Created:')
 for ext in ['epub','pdf']:

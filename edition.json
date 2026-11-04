@@ -1,13 +1,13 @@
 {
-  "edition": "zh-CN-reader-1.0.0",
+  "edition": "zh-CN-reader-1.0.1",
   "title": "理解人性：关系、边界与合作",
   "author": "KK",
-  "release_date": "2026-11-02",
+  "release_date": "2026-11-04",
   "language": "zh-CN",
   "source_revision": "9e1ee2e843b47506e252ce24b7296431242008de",
   "reader_source_of_truth": "book.json plus the referenced chapter files and front/back matter",
   "license": "CONTENT-LICENSE.md",
-  "english_status": "preparation-only in this release; no complete English edition claimed",
+  "english_status": "Existing English translation preview retained; not synchronized to this Chinese context revision.",
   "chapters": [
     {
       "stable_id": "chapter-01",
@@ -42,35 +42,35 @@
       "display_order": 5,
       "title": "关系、身份与文化怎样改变期待",
       "file": "manuscript/zh-CN/chapters/chapter-05.md",
-      "sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6"
+      "sha256": "849480f54c10d3e87baa69dc0d5399b8aa9300da9f40ba8961da965df005db1c"
     },
     {
       "stable_id": "chapter-06",
       "display_order": 6,
       "title": "利益、资源与规则怎样影响选择",
       "file": "manuscript/zh-CN/chapters/chapter-06.md",
-      "sha256": "f2d418e61cc08e6a8fe42b5704328ceaddcebcda77316dad9accfeb074cb3583"
+      "sha256": "056089bae8064d1892eebc8cb1e4209f48d23fccdd99feeb2d7dcccb695cba3d"
     },
     {
       "stable_id": "chapter-16",
       "display_order": 7,
       "title": "为什么想帮忙，对方却觉得没有被听见",
       "file": "manuscript/zh-CN/chapters/chapter-16.md",
-      "sha256": "47dbd0ca67380fb909447eff39aa270a9d119108ddc121f292b740c8ac12adf7"
+      "sha256": "25d033bffb5ef9aaebcda64706375b896bf7acaf366a55bb77c0209d2e1e2081"
     },
     {
       "stable_id": "chapter-17",
       "display_order": 8,
       "title": "怎样表达关心、真诚认可并给予反馈",
       "file": "manuscript/zh-CN/chapters/chapter-17.md",
-      "sha256": "ac41f5ad90fcc0fe22867d68c2ed3c5e65228db5d564284ca1a51db029c679d6"
+      "sha256": "dfd03accbfd622c98ccedb4a8017d7d33fc83a149e954fee47045fcd65713488"
     },
     {
       "stable_id": "chapter-07",
       "display_order": 9,
       "title": "为什么有道理的话别人却听不进去",
       "file": "manuscript/zh-CN/chapters/chapter-07.md",
-      "sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02"
+      "sha256": "4218c62092d4477bab17ade67241b45a1c885ac9dd08f81f4a988d2bd8d8eb38"
     },
     {
       "stable_id": "chapter-08",
@@ -84,14 +84,14 @@
       "display_order": 11,
       "title": "怎样拒绝并说明自己的边界",
       "file": "manuscript/zh-CN/chapters/chapter-09.md",
-      "sha256": "4baea9efe2cfa00b602c3d2029bc3e33669dcbfc6d25037f1971e855de6725e6"
+      "sha256": "7a13662d836a72dede696bcd141247cf3299320c39a30c56aeee4e54c68a55e6"
     },
     {
       "stable_id": "chapter-10",
       "display_order": 12,
       "title": "怎样影响别人并审视自己受到的影响",
       "file": "manuscript/zh-CN/chapters/chapter-10.md",
-      "sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64"
+      "sha256": "ca055e60e74e0f6fb25a0ce43666c1d52cf4083fce6c71a7fdb36409c645b8bf"
     },
     {
       "stable_id": "chapter-11",
@@ -105,7 +105,7 @@
       "display_order": 14,
       "title": "怎样承认错误并逐步修复信任",
       "file": "manuscript/zh-CN/chapters/chapter-12.md",
-      "sha256": "9fbf731a02405543b6f8552a5a429adf3f7718125990e3efa941669d67e426d8"
+      "sha256": "87006ea44997ffc273de2c5888f148552ae3edf6ec0b8263e12cdc6faf3a46ab"
     },
     {
       "stable_id": "chapter-13",
@@ -119,29 +119,36 @@
       "display_order": 16,
       "title": "怎样把知道变成持续行动",
       "file": "manuscript/zh-CN/chapters/chapter-14.md",
-      "sha256": "80ef4302d145b9eea1f469cbf60d53e61b8fe5b416c0e167cf38c54aed634322"
+      "sha256": "62743a43b0036ea9ab9375e9222c2a82a44b12a51c8ed0b4ab46e078ea2437a6"
     },
     {
       "stable_id": "chapter-15",
       "display_order": 17,
       "title": "怎样在陌生情境中重新判断",
       "file": "manuscript/zh-CN/chapters/chapter-15.md",
-      "sha256": "21ee9f69bb891ae3e82d400321f7adcbffadab55bc7bd0f0f3593931f2bf314b"
+      "sha256": "ff761c72b671d86da886bae3a1730df71a8d198dd3bb6a680220f650009d1596"
     }
   ],
   "artifacts": [
     {
-      "file": "dist/理解人性_关系边界与合作_读者版.epub",
-      "sha256": "15f1372f8dcb7fee37ae3673bd37a7e2ad72e41a10aab6f3b3f131ff9cc26016",
-      "bytes": 1195708
+      "file": "dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.epub",
+      "bytes": 1196697,
+      "sha256": "5ce1af198fdae4d55157c6023f9b7220ef1296ad71c443e13cc85c03deb9ba6f"
     },
     {
-      "file": "dist/理解人性_关系边界与合作_读者版.pdf",
-      "sha256": "1afb5333e73f8f268063d72e4cf59f0d60d504627793770c2dc1df6711ede127",
-      "bytes": 1279950
+      "file": "dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.pdf",
+      "bytes": 1280479,
+      "sha256": "c00914e45b82b9321c60c972ac7afd468c15fb92329602191bd0cfa55fdd602a"
     }
   ],
-  "revision": 2,
-  "revision_note": "Four author-requested sentences removed from the preface; chapters, copyright, and source notes unchanged.",
-  "preface_sha256": "3caf505c50ee6c475f9fa178aa105807a81fd1c582ee0cff29c024769a3d970b"
+  "revision": 1,
+  "revision_note": "Author-authorized minimal fictional story context and message-timeline corrections in ten chapters; arguments, source notes, preface and original exercises preserved.",
+  "preface_sha256": "3caf505c50ee6c475f9fa178aa105807a81fd1c582ee0cff29c024769a3d970b",
+  "previous_edition": {
+    "edition": "zh-CN-reader-1.0.0",
+    "revision": 2,
+    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "release_url": "https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0"
+  },
+  "reader_source_parent_commit": "9beaa0830a6fae98d218e53a6846a427f2505838"
 }

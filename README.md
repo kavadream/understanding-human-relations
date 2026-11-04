@@ -16,12 +16,13 @@ EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下�
 
 | 语言与阶段 | 下载 | 版本说明 |
 | --- | --- | --- |
-| 中文正式版 v1.0.0 | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.pdf) | [中文正式版本](https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0) |
+| 中文旧版 v1.0.0（保留） | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/zh-v1.0.0/understanding-human-relations_zh-CN_v1.0.0.pdf) | [中文正式版本](https://github.com/kavadream/understanding-human-relations/releases/tag/zh-v1.0.0) |
+| 中文修订版 v1.0.1 | [完整Markdown](manuscript/zh-CN/book.md) · [EPUB](dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.epub) · [PDF](dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.pdf) | [修订说明](RELEASE-NOTES-zh-v1.0.1.md)，故事背景最小补充；原版保留 |
 | English v0.1.0 translation preview | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.pdf) | [English preview](https://github.com/kavadream/understanding-human-relations/releases/tag/en-v0.1.0-preview) · [完整英文初译](translations/en/book.md) |
 
 ## 可选 AI 交互学习补充
 
-使用自己的 AI 学习时，先读[阅读与训练指南](learning/README.md)，按[完整阅读路由](learning/reading.json)获取所选章完整正式原文，保留作者分析、结论和来源说明；长文用[章节直达短块](learning/direct-reading.json)真实逐段获取、按序接续；正式正文不为语音改写或补对白。后台不能保证实时音频逐字，口述需另行验收。原文已提供不代表用户确认读完或理解。之后由读者选择讨论或[17章可选训练](learning/index.json)，训练可概述原文，不能把切片冒称完整章节。本版新编教学补充为 `teaching-orchestration-0.6.0`；原正文、PDF/EPUB及旧私有练习未改，未保存用户试学聊天或进度。 有意义练习后可依[证据回顾规则](learning/mastery-recap.json)作简短回顾；接口只给空白模板，实际证据与提示轨迹由当前AI留在对话中，不评分或推定现实能力。
+使用自己的 AI 学习时，先读[阅读与训练指南](learning/README.md)，按[完整阅读路由](learning/reading.json)获取所选章完整正式原文，保留作者分析、结论和来源说明；长文用[章节直达短块](learning/direct-reading.json)真实逐段获取、按序接续；正式正文不为语音改写或补对白。后台不能保证实时音频逐字，口述需另行验收。原文已提供不代表用户确认读完或理解。之后由读者选择讨论或[17章可选训练](learning/index.json)，训练可概述原文，不能把切片冒称完整章节。本版新编教学补充为 `teaching-orchestration-0.6.0`；中文正文和新下载文件仅按[背景修订说明](RELEASE-NOTES-zh-v1.0.1.md)更新，旧版本与原私有练习保留，未保存用户试学聊天或进度。 有意义练习后可依[证据回顾规则](learning/mastery-recap.json)作简短回顾；接口只给空白模板，实际证据与提示轨迹由当前AI留在对话中，不评分或推定现实能力。
 
 ## 六部内容
 
@@ -52,6 +53,6 @@ EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下�
 
 ## 构建
 
-可编辑中文源码位于 `manuscript/zh-CN/book.md`，构建资源位于 `assets/`，构建说明与脚本位于 `tools/`。`dist/` 保存中文读者版，`dist/en/` 保存英文预览版；英文构建说明见 `tools/BUILD_EN.md`。
+可编辑中文源码位于 `manuscript/zh-CN/book.md`，构建资源位于 `assets/`，构建说明与脚本位于 `tools/`。`dist/zh-v1.0.1/` 保存本次中文修订版，`dist/`根目录保存旧中文读者版，`dist/en/` 保存英文预览版；英文构建说明见 `tools/BUILD_EN.md`。
 
 本仓库只保存适合公开的读者源码、书目和构建资料，不包含私有制作档案或历史对话。版本身份与文件摘要见 `edition.json`。

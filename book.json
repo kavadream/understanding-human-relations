@@ -2,7 +2,7 @@
   "title": "理解人性：关系、边界与合作",
   "author": "KK",
   "language": "zh-CN",
-  "date": "2026-11-02",
+  "date": "2026-11-04",
   "edition": "中文读者版",
   "chapters": [
     {
@@ -138,5 +138,6 @@
     "reading_routes": "learning/reading.json",
     "practice_recap_rules": "learning/mastery-recap.json",
     "direct_reading": "learning/direct-reading.json"
-  }
+  },
+  "formal_version": "zh-v1.0.1"
 }

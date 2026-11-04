@@ -6,7 +6,7 @@ import json,sys,posixpath,re
 from urllib.parse import urlsplit,unquote
 from xml.etree import ElementTree as ET
 import fitz
-ROOT=Path(__file__).resolve().parents[1]; DIST=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'dist'
+ROOT=Path(__file__).resolve().parents[1]; DIST=Path(sys.argv[1]) if len(sys.argv)>1 else ROOT/'dist'/json.loads((ROOT/'book.json').read_text()).get('formal_version','zh-v1.0.0')
 epub=next(DIST.glob('*读者版.epub')); pdf=next(DIST.glob('*读者版.pdf'))
 errors=[]; checks={};ns={'o':'http://www.idpf.org/2007/opf','x':'http://www.w3.org/1999/xhtml','c':'urn:oasis:names:tc:opendocument:xmlns:container'}
 with ZipFile(epub) as z:
