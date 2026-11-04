@@ -695,11 +695,13 @@
   },
   "reading_source": {
     "repository": "https://github.com/kavadream/understanding-human-relations",
-    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-04.md",
-    "url": "https://github.com/kavadream/understanding-human-relations/blob/e2af1b10e0e7eb426756ae93395a491b0714c4b9/manuscript/zh-CN/chapters/chapter-04.md",
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e99afdf5d40f551bdb2fa11331e59d652ad61783/manuscript/zh-CN/chapters/chapter-04.md",
     "sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771",
-    "bytes": 10042
+    "bytes": 10042,
+    "line_start": 1,
+    "line_end": 109
   },
   "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。",
   "after_practice": {
