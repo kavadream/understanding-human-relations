@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import crypto from 'node:crypto';
-const root=new URL('../',import.meta.url),hash=s=>crypto.createHash('sha256').update(s).digest('hex'),version='teaching-orchestration-0.4.0';
+const root=new URL('../',import.meta.url),hash=s=>crypto.createHash('sha256').update(s).digest('hex'),version='teaching-orchestration-0.5.0';
 const book=JSON.parse(await fs.readFile(new URL('book.json',root),'utf8')),units=[];
 for(const chapter of [...book.chapters].sort((a,b)=>a.display_order-b.display_order)){
  const text=await fs.readFile(new URL(chapter.file,root),'utf8'),parts=[];let start=0;

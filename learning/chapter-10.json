@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.4.0",
+  "version": "teaching-orchestration-0.5.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-10",
   "display_order": 12,
@@ -506,7 +506,92 @@
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
       },
-      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。",
+      "practice_recap": {
+        "version": "teaching-orchestration-0.5.0",
+        "newly_authored": true,
+        "template_only": true,
+        "filled": false,
+        "actual_learner_evidence_included": false,
+        "rules_ref": "mastery-recap.json",
+        "is_learner_progress": false,
+        "stored_on_server": false,
+        "focus_selection": "仅选本轮有意义练习涉及的项；未涉及项标未观察，不强凑全部维度或题数。",
+        "blank_form": {
+          "understanding_evidence": [],
+          "needs_practice": [],
+          "one_suggestion": null,
+          "unobserved": []
+        },
+        "skills": [
+          {
+            "skill_id": "reciprocity",
+            "label": "感谢与新承诺",
+            "source_line_spans": [
+              [
+                13,
+                43
+              ]
+            ],
+            "related_coverage_subitems": [
+              "favor_vs_request",
+              "hidden_conditions",
+              "commitment_steps"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          },
+          {
+            "skill_id": "cue_and_fit",
+            "label": "线索提供什么、不能证明什么",
+            "source_line_spans": [
+              [
+                47,
+                55
+              ]
+            ],
+            "related_coverage_subitems": [
+              "authority_domain",
+              "photo_limits",
+              "real_scarcity",
+              "timing_branch"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          },
+          {
+            "skill_id": "inviter_and_ai",
+            "label": "双向自主与证据范围",
+            "source_line_spans": [
+              [
+                59,
+                89
+              ]
+            ],
+            "related_coverage_subitems": [
+              "truthful_offer",
+              "refusal_afterward",
+              "ai_assumptions",
+              "ai_authority",
+              "evidence_identity"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          }
+        ]
+      }
     },
     "review": {
       "title": "读者主动选择后的原文与反馈对照",
@@ -544,6 +629,14 @@
           "unit_id": "chapter-10",
           "material": "chapter"
         }
+      },
+      "after_practice_recap": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-10",
+          "stage": "coverage"
+        }
       }
     }
   },
@@ -565,5 +658,17 @@
     "sha256": "15219c450adefe6117c70e82cf188bcaef97e53fc0a58e5b03f8eb77ac855a64",
     "bytes": 9284
   },
-  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。",
+  "after_practice": {
+    "requires_meaningful_practice": true,
+    "do_not_force_when_paused": true,
+    "template_only": true,
+    "tool": "books_teaching_stage",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-10",
+      "stage": "coverage"
+    },
+    "filled_by": "当前AI依据本轮真实回答，仅在当前对话填写，不上传。"
+  }
 }

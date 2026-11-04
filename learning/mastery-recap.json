@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "version": "teaching-orchestration-0.5.0",
+  "newly_authored": true,
+  "template_only": true,
+  "actual_learner_evidence_included": false,
+  "purpose": "当前AI在有意义练习结束后，依据本轮实际对话给简短证据式掌握回顾；接口仅给空白模板和规则，不评判用户。",
+  "when_to_offer": {
+    "meaningful_practice_required": true,
+    "actual_relevant_response_required": true,
+    "not_every_turn": true,
+    "no_minimum_question_count": true,
+    "reader_may_decline": true,
+    "on_pause_or_stop": "尊重暂停/结束，不强推回顾或继续答题；用户主动索要时才按实际已有证据简短回顾。",
+    "reading_only_or_agreement_only": "不能据此判掌握；没有练习回答就保留未观察，不虚构表现或强行补题。"
+  },
+  "evidence_states": [
+    "需引导",
+    "独立解释",
+    "迁移应用",
+    "未观察"
+  ],
+  "state_definitions": {
+    "需引导": {
+      "meaning": "本能力点的相关回答依赖本轮关键提示、示范或答案性支持；说明获得了什么帮助，不掩盖提示轨迹。",
+      "support_history_must_be_noted": true,
+      "not_a_personality_or_failure_label": true
+    },
+    "独立解释": {
+      "meaning": "本轮能用自己的理由解释相关区别，当前尝试未获得关键答案性提示；阅读过原文不自动排除，也不自动构成证据。",
+      "actual_reasoned_response_required": true,
+      "no_key_answer_hint_for_this_attempt": true,
+      "if_prompted_then_rephrased": "保留受助历史，不把复述或提示后重讲包装为独立首答；可描述后来能如何自行说明。"
+    },
+    "迁移应用": {
+      "meaning": "实际回答过改变责任、关系、资源或约束的新情境，并说明原判断怎样保留、调整或不适用。",
+      "actual_new_scenario_response_required": true,
+      "changed_conditions_must_be_identified": true,
+      "parroting_example_or_original_role_success_is_not_transfer": true,
+      "if_transfer_needed_key_hints": "记录在新情境下经提示应用，保留需引导及帮助证据，不冒称独立迁移。"
+    },
+    "未观察": {
+      "meaning": "本轮没有相关实际回答、缺少理由或无法区分提示影响；表示证据不足，不等于不会。",
+      "absence_is_not_inability": true
+    }
+  },
+  "rules": [
+    "先引用或准确概述当前对话中的一处实际回答/行为，再说明它支持什么；没有证据不补写用户表现。",
+    "逐项区分提示引导、独立解释与实际迁移，不拿同意、礼貌、读过全文、角色扮演对方同意或完成题数作掌握证据。",
+    "状态是本轮证据类别，不是精确测量分数、能力排名、永久等级或对现实人格/能力的诊断；不给总分、百分比或自动升级。",
+    "只挑本轮真正涉及的能力点简短回顾，不要求每章所有维度全填，不为凑证据机械追加题目。",
+    "回顾含理解证据、待练习、一项建议、未观察项；建议只给一个对应实际缺口的可选下一步，没有足够依据时可留空说明。",
+    "模拟中表现仅说明该模拟和本轮回答，不推定现实沟通、工作或关系中的能力；迁移也不等于现实效果已验证。"
+  ],
+  "privacy": {
+    "filled_by": "current_ai_using_current_conversation_only",
+    "send_answers_to_backend": false,
+    "send_answers_to_repository_or_site": false,
+    "persistent_progress": false,
+    "template_is_not_user_state": true
+  },
+  "blank_form": {
+    "understanding_evidence": [],
+    "needs_practice": [],
+    "one_suggestion": null,
+    "unobserved": []
+  },
+  "rendering_note": "把内部证据转换为简短自然语言，必要显示需引导/独立解释/迁移应用/未观察；不要把空模板或JSON当用户实际回顾，也不把材料可用/已讨论等同掌握。"
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.4.0",
+  "version": "teaching-orchestration-0.5.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-04",
   "display_order": 4,
@@ -525,7 +525,110 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "本章具体主题的空白覆盖清单"
       },
-      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。"
+      "reading_completion_note": "原文数据已提供不等于读者已确认阅读、理解或已讨论；状态只依据当前真实对话，不回传。",
+      "practice_recap": {
+        "version": "teaching-orchestration-0.5.0",
+        "newly_authored": true,
+        "template_only": true,
+        "filled": false,
+        "actual_learner_evidence_included": false,
+        "rules_ref": "mastery-recap.json",
+        "is_learner_progress": false,
+        "stored_on_server": false,
+        "focus_selection": "仅选本轮有意义练习涉及的项；未涉及项标未观察，不强凑全部维度或题数。",
+        "blank_form": {
+          "understanding_evidence": [],
+          "needs_practice": [],
+          "one_suggestion": null,
+          "unobserved": []
+        },
+        "skills": [
+          {
+            "skill_id": "reasons",
+            "label": "看见拒绝之后怎样处理原因",
+            "source_line_spans": [
+              [
+                31,
+                47
+              ]
+            ],
+            "related_coverage_subitems": [
+              "reasons_1",
+              "reasons_2",
+              "reasons_3"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          },
+          {
+            "skill_id": "request",
+            "label": "普通请求及必要信息",
+            "source_line_spans": [
+              [
+                51,
+                65
+              ]
+            ],
+            "related_coverage_subitems": [
+              "request_1",
+              "request_2",
+              "request_3",
+              "request_4"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          },
+          {
+            "skill_id": "commitment",
+            "label": "另一个故事中的既有通知责任",
+            "source_line_spans": [
+              [
+                71,
+                97
+              ]
+            ],
+            "related_coverage_subitems": [
+              "commitment_1",
+              "commitment_2",
+              "commitment_3",
+              "commitment_4"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          },
+          {
+            "skill_id": "evidence",
+            "label": "证据与解释的身份",
+            "source_line_spans": [
+              [
+                109,
+                109
+              ]
+            ],
+            "related_coverage_subitems": [
+              "evidence_1"
+            ],
+            "evidence_state": "未观察",
+            "evidence": null,
+            "support_used": null,
+            "reason": null,
+            "new_scenario_response": null,
+            "scope": "仅当前对话证据；不是现实能力测量"
+          }
+        ]
+      }
     },
     "review": {
       "title": "按读者选择对照原章与原练习",
@@ -562,6 +665,14 @@
           "unit_id": "chapter-04",
           "material": "chapter"
         }
+      },
+      "after_practice_recap": {
+        "tool": "books_teaching_stage",
+        "arguments": {
+          "book_id": "understanding-human-relations-zh",
+          "unit_id": "chapter-04",
+          "stage": "coverage"
+        }
       }
     }
   },
@@ -583,5 +694,17 @@
     "sha256": "de111f8cc89765135544ae60125ac62a0491873771984eb582750ca0c46c9771",
     "bytes": 10042
   },
-  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。"
+  "reader_completion": "原文已提供不代表读者确认读完、理解或掌握；可暂停、跳过、转训练或结束。",
+  "after_practice": {
+    "requires_meaningful_practice": true,
+    "do_not_force_when_paused": true,
+    "template_only": true,
+    "tool": "books_teaching_stage",
+    "arguments": {
+      "book_id": "understanding-human-relations-zh",
+      "unit_id": "chapter-04",
+      "stage": "coverage"
+    },
+    "filled_by": "当前AI依据本轮真实回答，仅在当前对话填写，不上传。"
+  }
 }
