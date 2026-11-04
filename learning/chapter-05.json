@@ -14,7 +14,11 @@
     "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-05.md",
     "sha256": "849480f54c10d3e87baa69dc0d5399b8aa9300da9f40ba8961da965df005db1c",
-    "edition": "zh-v1.0.1 revision 1"
+    "edition": "zh-v1.0.1 revision 1",
+    "bytes": 10342,
+    "line_start": 1,
+    "line_end": 99,
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e99afdf5d40f551bdb2fa11331e59d652ad61783/manuscript/zh-CN/chapters/chapter-05.md"
   },
   "stage_order_is_optional": true,
   "privacy": {

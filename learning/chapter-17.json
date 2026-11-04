@@ -14,7 +14,11 @@
     "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-17.md",
     "sha256": "dfd03accbfd622c98ccedb4a8017d7d33fc83a149e954fee47045fcd65713488",
-    "edition": "zh-v1.0.1 revision 1"
+    "edition": "zh-v1.0.1 revision 1",
+    "bytes": 7128,
+    "line_start": 1,
+    "line_end": 61,
+    "url": "https://github.com/kavadream/understanding-human-relations/blob/e99afdf5d40f551bdb2fa11331e59d652ad61783/manuscript/zh-CN/chapters/chapter-17.md"
   },
   "readable_source": {
     "book_title": "理解人性：关系、边界与合作",
