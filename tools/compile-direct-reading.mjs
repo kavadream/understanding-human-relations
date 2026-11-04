@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';import crypto from 'node:crypto';
-const root=new URL('../',import.meta.url),hash=s=>crypto.createHash('sha256').update(s).digest('hex'),book=JSON.parse(await fs.readFile(new URL('book.json',root),'utf8')),version='teaching-orchestration-0.6.0',units=[];
+const root=new URL('../',import.meta.url),hash=s=>crypto.createHash('sha256').update(s).digest('hex'),book=JSON.parse(await fs.readFile(new URL('book.json',root),'utf8')),version='teaching-orchestration-0.7.0',units=[];
 for(const c of [...book.chapters].sort((a,b)=>a.display_order-b.display_order)){
  const text=await fs.readFile(new URL(c.file,root),'utf8'),parts=[];let start=0;
  while(start<text.length){let end=Math.min(start+320,text.length);if(end<text.length){const window=text.slice(start,end),boundaries=[...window.matchAll(/[。！？!?](?:[”’」』])?|\n\n|\n/g)];const boundary=boundaries.filter(m=>m.index+m[0].length>=170).at(-1);if(boundary)end=start+boundary.index+boundary[0].length;}

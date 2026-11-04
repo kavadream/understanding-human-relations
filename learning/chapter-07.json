@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.5.0",
+  "version": "teaching-orchestration-0.7.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-07",
   "display_order": 9,
   "title": "为什么有道理的话别人却听不进去",
   "newly_authored": true,
   "derived": true,
-  "original_manuscript_modified": false,
+  "original_manuscript_modified": true,
   "scope": "all_17_chapters",
   "source": {
     "repository": "https://github.com/kavadream/understanding-human-relations",
-    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-07.md",
-    "sha256": "b837f9ccd986d6aeac0bfc62145f2028a45dd201900c0cc1022051aa9d06fc02",
-    "edition": "zh-v1.0.0 revision 2"
+    "sha256": "4218c62092d4477bab17ade67241b45a1c885ac9dd08f81f4a988d2bd8d8eb38",
+    "edition": "zh-v1.0.1 revision 1"
   },
   "readable_source": {
     "book_title": "理解人性：关系、边界与合作",
@@ -35,14 +35,18 @@
       "source_line_spans": [
         [
           13,
-          25
+          13
+        ],
+        [
+          15,
+          27
         ]
       ],
       "fiction_notice": "原书虚构仓库故事的派生决策截点，停在经理后续回应与协商之前。",
       "facts": [
         {
-          "id": "adoption",
-          "text": "经理周一宣布仓库从次日起使用新库存系统，提出减少错单、方便财务核对的理由。",
+          "id": "work_context",
+          "text": "老陈在公司仓库工作，与同事记录货物进出；经理推进库存系统切换。",
           "source_line_spans": [
             [
               13,
@@ -51,12 +55,22 @@
           ]
         },
         {
+          "id": "adoption",
+          "text": "经理周一宣布仓库从次日起使用新库存系统，提出减少错单、方便财务核对的理由。",
+          "source_line_spans": [
+            [
+              15,
+              15
+            ]
+          ]
+        },
+        {
           "id": "meeting",
           "text": "老陈问旧办法一直能用为何必须换。经理提高声音，说别人能适应、他总有意见；老陈低头答“好，听安排”。",
           "source_line_spans": [
             [
-              15,
-              19
+              17,
+              21
             ]
           ]
         },
@@ -65,8 +79,8 @@
           "text": "三天后，新系统仍有大量空白记录。经理再次到仓库，看见员工把同批货又记进旧表。",
           "source_line_spans": [
             [
-              21,
-              23
+              23,
+              25
             ]
           ]
         },
@@ -75,8 +89,8 @@
           "text": "旧表仍是财务要求的交接依据，停用需要另行确认。",
           "source_line_spans": [
             [
-              25,
-              25
+              27,
+              27
             ]
           ]
         },
@@ -85,8 +99,8 @@
           "text": "新系统与旧表都要记；晚班没有可用电脑。培训讲过基本操作，但没有带晚班走完整流程。",
           "source_line_spans": [
             [
-              25,
-              25
+              27,
+              27
             ]
           ]
         }
@@ -98,7 +112,7 @@
         "老陈在会议上的简短答复代表多少理解、认同和执行把握。"
       ],
       "learner_prompt": "此时你会把下一轮谈话的重点放在哪里，为什么？",
-      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。 收到实质回答后先指出有依据的判断及其理由，重要推断跳跃及时纠正；只在能增加理解时再追问，不必每轮问。理解充分即可小结并让读者选择应用、回顾或结束。",
       "newly_authored": true,
       "derived": true,
       "excerpt_only": true,
@@ -112,24 +126,27 @@
       "title": "让理由进入实际执行条件",
       "source_line_spans": [
         [
-          39,
-          73
+          41,
+          75
         ]
       ],
       "instructions": [
+        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
+        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
         "先准确回应读者实际要维护的目标和其理由，不把支持业务要求解释为只要服从，也不把指出困难解释为反对采用。",
         "针对其理由选择一个关键追问：其判断眼下缺的是理解、方案理由、资源条件还是具体履责证据；不要一次列出所有角度变成题单。",
         "若其选择已回应当前条件，可以继续谈决定范围或责任，不要求重复作者句子。",
         "保留对方案本身的合理异议，不能预先保证软件正确或所有执行问题都会因客气表达消失。"
       ],
-      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。",
+      "response_feedback_policy": "response-feedback-1"
     },
     "assumptions": {
       "title": "方向、条件和报告渠道的分支",
       "source_line_spans": [
         [
-          49,
-          73
+          51,
+          75
         ]
       ],
       "rules": [
@@ -155,12 +172,12 @@
       "title": "可选仓库谈话：要求与信息怎样衔接",
       "source_line_spans": [
         [
-          13,
-          37
+          15,
+          39
         ],
         [
-          61,
-          73
+          63,
+          75
         ]
       ],
       "fiction_notice": "以公开原书仓库事实新编角色练习，不复制旧私有台词或题目。",
@@ -193,8 +210,8 @@
       "title": "换决定权和现实约束后判断",
       "source_line_spans": [
         [
-          49,
-          73
+          51,
+          75
         ]
       ],
       "selection_rule": "每次只选一个原创新虚构场景；由读者选择是否练习。",
@@ -236,8 +253,8 @@
       "title": "本章覆盖：理解、异议、执行和权力",
       "source_line_spans": [
         [
-          39,
-          85
+          41,
+          87
         ]
       ],
       "areas": [
@@ -246,8 +263,8 @@
           "label": "听到什么与推断什么",
           "source_line_spans": [
             [
-              39,
-              47
+              41,
+              49
             ]
           ],
           "subitems": [
@@ -256,8 +273,8 @@
               "label": "“听安排”和沉默不能直接证明理解或具备条件",
               "source_line_spans": [
                 [
-                  45,
-                  45
+                  47,
+                  47
                 ]
               ],
               "material_status": "available",
@@ -268,8 +285,8 @@
               "label": "讨论方案可能转向维护经验或地位，不能据此诊断动机",
               "source_line_spans": [
                 [
-                  41,
-                  47
+                  43,
+                  49
                 ]
               ],
               "material_status": "available",
@@ -282,8 +299,8 @@
           "label": "分别判断不同障碍",
           "source_line_spans": [
             [
-              51,
-              59
+              53,
+              61
             ]
           ],
           "subitems": [
@@ -292,8 +309,8 @@
               "label": "未理解具体步骤需要针对那一步解释或训练",
               "source_line_spans": [
                 [
-                  53,
-                  55
+                  55,
+                  57
                 ]
               ],
               "material_status": "available",
@@ -304,8 +321,8 @@
               "label": "不同意方案时核对理由而非重复宣传好处",
               "source_line_spans": [
                 [
-                  53,
-                  57
+                  55,
+                  59
                 ]
               ],
               "material_status": "available",
@@ -316,8 +333,8 @@
               "label": "认可方向但缺设备、时间、流程的限制须处理安排",
               "source_line_spans": [
                 [
-                  53,
-                  59
+                  55,
+                  61
                 ]
               ],
               "material_status": "available",
@@ -330,8 +347,8 @@
           "label": "要求范围与可改变部分",
           "source_line_spans": [
             [
-              49,
-              73
+              51,
+              75
             ]
           ],
           "subitems": [
@@ -340,12 +357,12 @@
               "label": "承认表达或安排问题不自动取消合法业务目标",
               "source_line_spans": [
                 [
-                  49,
-                  49
+                  51,
+                  51
                 ],
                 [
-                  65,
-                  67
+                  67,
+                  69
                 ]
               ],
               "material_status": "available",
@@ -356,8 +373,8 @@
               "label": "真实邀请、确定要求及财务决定权限要分开",
               "source_line_spans": [
                 [
-                  61,
-                  69
+                  63,
+                  71
                 ]
               ],
               "material_status": "available",
@@ -368,8 +385,8 @@
               "label": "紧急行动与报告困难渠道各有条件，不能假定私下即安全",
               "source_line_spans": [
                 [
-                  71,
-                  73
+                  73,
+                  75
                 ]
               ],
               "material_status": "available",
@@ -382,16 +399,16 @@
           "label": "落实与证据边界",
           "source_line_spans": [
             [
-              35,
-              37
+              37,
+              39
             ],
             [
-              55,
-              55
+              57,
+              57
             ],
             [
-              77,
-              85
+              79,
+              87
             ]
           ],
           "subitems": [
@@ -400,12 +417,12 @@
               "label": "管理者协调与执行者及时报告缺项分别承担",
               "source_line_spans": [
                 [
-                  35,
-                  37
+                  37,
+                  39
                 ],
                 [
-                  55,
-                  55
+                  57,
+                  57
                 ]
               ],
               "material_status": "available",
@@ -416,8 +433,8 @@
               "label": "具体缺项和责任人是有限进展，不等于切换或学习成功",
               "source_line_spans": [
                 [
-                  77,
-                  81
+                  79,
+                  83
                 ]
               ],
               "material_status": "available",
@@ -428,12 +445,12 @@
               "label": "心理抗拒摘要、谈判方法与本书解释不是对人物的确诊",
               "source_line_spans": [
                 [
-                  43,
-                  43
+                  45,
+                  45
                 ],
                 [
-                  85,
-                  85
+                  87,
+                  87
                 ]
               ],
               "material_status": "available",
@@ -476,8 +493,8 @@
             "label": "听到什么与推断什么",
             "source_line_spans": [
               [
-                39,
-                47
+                41,
+                49
               ]
             ],
             "related_coverage_subitems": [
@@ -496,8 +513,8 @@
             "label": "分别判断不同障碍",
             "source_line_spans": [
               [
-                51,
-                59
+                53,
+                61
               ]
             ],
             "related_coverage_subitems": [
@@ -517,8 +534,8 @@
             "label": "要求范围与可改变部分",
             "source_line_spans": [
               [
-                49,
-                73
+                51,
+                75
               ]
             ],
             "related_coverage_subitems": [
@@ -538,16 +555,16 @@
             "label": "落实与证据边界",
             "source_line_spans": [
               [
-                35,
-                37
+                37,
+                39
               ],
               [
-                55,
-                55
+                57,
+                57
               ],
               [
-                77,
-                85
+                79,
+                87
               ]
             ],
             "related_coverage_subitems": [
@@ -569,8 +586,8 @@
       "title": "读者主动对照后查看原文后续",
       "source_line_spans": [
         [
-          31,
-          85
+          33,
+          87
         ]
       ],
       "instructions": [
@@ -630,5 +647,8 @@
       "stage": "coverage"
     },
     "filled_by": "当前AI依据本轮真实回答，仅在当前对话填写，不上传。"
-  }
+  },
+  "formal_source_revision_applied": "zh-v1.0.1",
+  "original_manuscript_modified_by_teaching_layer": false,
+  "response_feedback_policy": "response-feedback.json"
 }

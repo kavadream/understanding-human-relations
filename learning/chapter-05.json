@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.5.0",
+  "version": "teaching-orchestration-0.7.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-05",
   "display_order": 5,
   "title": "关系、身份与文化怎样改变期待",
   "newly_authored": true,
   "derived": true,
-  "original_manuscript_modified": false,
+  "original_manuscript_modified": true,
   "scope": "all_17_chapters",
   "source": {
     "repository": "https://github.com/kavadream/understanding-human-relations",
-    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-05.md",
-    "sha256": "d602b92c13a0408f48bc378069c7aa6b67983a4126f641b19a10da06c2e234a6",
-    "edition": "zh-v1.0.0 revision 2"
+    "sha256": "849480f54c10d3e87baa69dc0d5399b8aa9300da9f40ba8961da965df005db1c",
+    "edition": "zh-v1.0.1 revision 1"
   },
   "stage_order_is_optional": true,
   "privacy": {
@@ -44,7 +44,7 @@
       "facts": [
         {
           "id": "agreement",
-          "text": "阿敏邀请邻居雅南检查旧物交换日的双语指示牌。雅南答应活动前看一次译文，十点已把修改文件发给阿敏。",
+          "text": "阿敏邀请邻居雅南检查旧物交换日的双语指示牌。雅南答应活动前看一次译文，活动当天已在现场完成检查，十点把修改文件发给阿敏。",
           "source_line_spans": [
             [
               13,
@@ -100,7 +100,7 @@
         "聚会具体私人内容未给出，也不把它当作需要查验的事实。"
       ],
       "learner_prompt": "面对眼前的缺人和原先的约定，你会怎样权衡雅南此刻的参与选择？",
-      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。 收到实质回答后先指出有依据的判断及其理由，重要推断跳跃及时纠正；只在能增加理解时再追问，不必每轮问。理解充分即可小结并让读者选择应用、回顾或结束。",
       "newly_authored": true,
       "readable_source": {
         "book_title": "理解人性：关系、边界与合作",
@@ -125,6 +125,8 @@
         ]
       ],
       "instructions": [
+        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
+        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
         "先准确回应读者实际提出的判断和理由；没有收到观点时不得假装读者已犯错、同意或改进。",
         "如果读者重视紧急互助，先回应活动确实需要人的理由，再讨论这份需要与已经答应的工作如何关联；不把重视关系直接判为施压。",
         "如果读者强调原约定，先回应其依据，再讨论怎样理解另一方仍可能失望；不要假定读者冷漠，也不把解释失望当作额外工作已经成立。",
@@ -141,7 +143,8 @@
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "本章论述（按读者理由选择讨论）"
       },
-      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。",
+      "response_feedback_policy": "response-feedback-1"
     },
     "assumptions": {
       "title": "哪些变化会改变这次责任",
@@ -756,5 +759,8 @@
       "stage": "coverage"
     },
     "filled_by": "当前AI依据本轮真实回答，仅在当前对话填写，不上传。"
-  }
+  },
+  "formal_source_revision_applied": "zh-v1.0.1",
+  "original_manuscript_modified_by_teaching_layer": false,
+  "response_feedback_policy": "response-feedback.json"
 }

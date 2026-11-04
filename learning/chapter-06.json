@@ -1,20 +1,20 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.5.0",
+  "version": "teaching-orchestration-0.7.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-06",
   "display_order": 6,
   "title": "利益、资源与规则怎样影响选择",
   "newly_authored": true,
   "derived": true,
-  "original_manuscript_modified": false,
+  "original_manuscript_modified": true,
   "scope": "all_17_chapters",
   "source": {
     "repository": "https://github.com/kavadream/understanding-human-relations",
-    "commit": "e2af1b10e0e7eb426756ae93395a491b0714c4b9",
+    "commit": "e99afdf5d40f551bdb2fa11331e59d652ad61783",
     "path": "manuscript/zh-CN/chapters/chapter-06.md",
-    "sha256": "f2d418e61cc08e6a8fe42b5704328ceaddcebcda77316dad9accfeb074cb3583",
-    "edition": "zh-v1.0.0 revision 2"
+    "sha256": "056089bae8064d1892eebc8cb1e4209f48d23fccdd99feeb2d7dcccb695cba3d",
+    "edition": "zh-v1.0.1 revision 1"
   },
   "readable_source": {
     "book_title": "理解人性：关系、边界与合作",
@@ -44,6 +44,16 @@
       ],
       "fiction_notice": "以下为原书原创虚构故事的派生事实卡，不是现实社区调查；停在新方案提出之前。",
       "facts": [
+        {
+          "id": "discussion_context",
+          "text": "许岚与邱林是在群里争论场地安排；陶叔承担钥匙保管与清理工作。",
+          "source_line_spans": [
+            [
+              25,
+              25
+            ]
+          ]
+        },
         {
           "id": "scarce_room",
           "text": "社区只有一间活动室，周六14:00—17:00最受欢迎；读书和舞蹈不能在同一间房同时进行。",
@@ -118,7 +128,7 @@
         "两组各自需要多高的使用频次，此截点未明确。"
       ],
       "learner_prompt": "如果由你提出下一轮安排，你会依据什么分配使用机会并说明各方承担的代价？",
-      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。",
+      "facilitator_action": "仅在读者选择训练后用本卡，不替代默认完整阅读。说明这是过去时点复盘，读者可能已读过作者结论和结局；可概述事实，再请其按自己的理由判断，一轮最多一个关键问题。原文可随时再读，允许暂停、跳过或结束；只不提前代答本次练习或新情境的参考回答。 收到实质回答后先指出有依据的判断及其理由，重要推断跳跃及时纠正；只在能增加理解时再追问，不必每轮问。理解充分即可小结并让读者选择应用、回顾或结束。",
       "newly_authored": true,
       "derived": true,
       "excerpt_only": true,
@@ -141,12 +151,15 @@
         ]
       ],
       "instructions": [
+        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
+        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
         "先回应读者实际采用的分配依据及其理由，不预设他支持平均、先到先得或按需。",
         "若理由只涉及抢到时段的双方，可选择一个关于实际执行者的关键追问；若已谈到执行劳动，就不为完成流程重复问。",
         "针对其方案，只选一个具体后果请其解释：申请机会、成员协调、收尾工作或执行成本；每轮最多一个关键问题，不同时列题单。",
         "允许读者维护先到先得、提出其他目标或暂不定案；比较目标及可行条件，而不是把原书轮换作为标准答案。"
       ],
-      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。"
+      "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。",
+      "response_feedback_policy": "response-feedback-1"
     },
     "assumptions": {
       "title": "哪些条件会改变资源安排",
@@ -692,5 +705,8 @@
       "stage": "coverage"
     },
     "filled_by": "当前AI依据本轮真实回答，仅在当前对话填写，不上传。"
-  }
+  },
+  "formal_source_revision_applied": "zh-v1.0.1",
+  "original_manuscript_modified_by_teaching_layer": false,
+  "response_feedback_policy": "response-feedback.json"
 }

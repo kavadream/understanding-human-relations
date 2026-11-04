@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.6.0",
+  "version": "teaching-orchestration-0.7.0",
   "book_id": "understanding-human-relations-zh",
   "newly_authored": true,
-  "original_manuscript_modified": false,
+  "original_manuscript_modified": true,
   "unit_count": 17,
   "units": [
     {
@@ -845,5 +845,8 @@
   "reading_routes": "reading.json",
   "practice_recap_rules": "mastery-recap.json",
   "preferred_reading_tool": "books_read_chapter",
-  "direct_reading": "direct-reading.json"
+  "direct_reading": "direct-reading.json",
+  "formal_edition": "zh-v1.0.1 revision 1",
+  "manuscript_revision_note": "Separate author-authorized context revision; unchanged prior editions and original exercise packages retained.",
+  "response_feedback_policy": "response-feedback.json"
 }

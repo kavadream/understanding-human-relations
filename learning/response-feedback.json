@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "policy_id": "response-feedback-1",
+  "version": "teaching-orchestration-0.7.0",
+  "newly_authored": true,
+  "scope": "optional_practice_discussion_in_all_17_chapters",
+  "actual_learner_answer_included": false,
+  "remote_progress": false,
+  "response_order": [
+    "先回应本轮实际观点：指出哪些判断有原案事实或合理理由支持，并说明为什么；不只复述、夸奖或笼统同意。",
+    "重要推断跳跃及时指出：区分已经知道的事实、合理暂定条件、仍未证实的结果与应履行的责任；说明缺的是哪一步依据。不要为维持赞同而放过关键错误。",
+    "再决定是否值得追问。只有能澄清关键未知、检验理由或产生新理解时才问，一次最多一个关键问题，不是每轮必须问。",
+    "理解已经充分时作简短小结，让读者选择应用、证据回顾、暂停或结束，不重复换说法追问同一结论。"
+  ],
+  "reasoning_boundaries": [
+    "有书面承诺不等于结果已经发生，也不能替代本来需要的及时告知；具体责任仍以已知任务和约定为据，不自行发明职权或承诺。",
+    "会改变核心判断的未知才澄清或明确分支；不影响核心的假设可暂时接受，不纠缠次要细节。",
+    "保留有依据的异议和多种可行方案，不要求复述作者结论，不诊断人格、动机或现实能力。",
+    "没有实际回答就不编造评价；由提示引导与独立解释要区分，真实新情境回答才可支持迁移证据。"
+  ],
+  "stop_rules": {
+    "fixed_question_count": false,
+    "question_required_each_turn": false,
+    "do_not_repeat_resolved_question": true,
+    "pause_without_forced_review": true,
+    "reader_controls_next_step": true
+  },
+  "feedback_template": {
+    "supported_point": null,
+    "why_supported": null,
+    "material_inference_gap_if_any": null,
+    "correction_and_reason_if_needed": null,
+    "useful_next_question_if_any": null,
+    "optional_next_steps": ["应用", "回顾", "暂停", "结束"]
+  },
+  "delivery_limits": "这是给当前AI的规则与空白结构，不是已填写评价。服务器不接收或保存用户回答。不同AI是否遵循须实际试学；无法承诺删除或控制Claude等客户端的平台建议卡。"
+}
