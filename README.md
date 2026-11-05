@@ -20,6 +20,10 @@ EPUB适合电子阅读器和手机，PDF适合固定版面阅读。最新可下�
 | 中文修订版 v1.0.1 | [完整Markdown](manuscript/zh-CN/book.md) · [EPUB](dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.epub) · [PDF](dist/zh-v1.0.1/理解人性_关系边界与合作_读者版.pdf) | [修订说明](RELEASE-NOTES-zh-v1.0.1.md)，故事背景最小补充；原版保留 |
 | English v0.1.0 translation preview | [EPUB](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.epub) · [PDF](https://github.com/kavadream/understanding-human-relations/releases/download/en-v0.1.0-preview/English_Understanding_Human_Nature_preview.pdf) | [English preview](https://github.com/kavadream/understanding-human-relations/releases/tag/en-v0.1.0-preview) · [完整英文初译](translations/en/book.md) |
 
+## 复制一段话，用网页开始学习
+
+打开[公开学习入口](learning/START.md)，复制网站中的启动文字，发给具备网页访问能力的AI。AI按需读取本书目录、完整正式原文和公开新编练习；网页学习不要求安装MCP或配置账号。无法读取入口或完整正文时应明确说明并停下，不以记忆或搜索摘要冒充原文。[网站复制入口](https://insights.kenovainvestment.com/books/)。
+
 ## 可选 AI 交互学习补充
 
 使用自己的 AI 学习时，先读[阅读与训练指南](learning/README.md)，按[完整阅读路由](learning/reading.json)获取所选章完整正式原文，保留作者分析、结论和来源说明；长文用[章节直达短块](learning/direct-reading.json)真实逐段获取、按序接续；正式正文不为语音改写或补对白。后台不能保证实时音频逐字，口述需另行验收。原文已提供不代表用户确认读完或理解。之后由读者选择讨论或[17章可选训练](learning/index.json)，训练可概述原文，不能把切片冒称完整章节。本版新编教学补充为 `teaching-orchestration-0.7.0`；中文正文和新下载文件仅按[背景修订说明](RELEASE-NOTES-zh-v1.0.1.md)更新，旧版本与原私有练习保留，未保存用户试学聊天或进度。 有意义练习后可依[证据回顾规则](learning/mastery-recap.json)作简短回顾；接口只给空白模板，实际证据与提示轨迹由当前AI留在对话中，不评分或推定现实能力。
