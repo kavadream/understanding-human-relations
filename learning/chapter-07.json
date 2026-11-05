@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-07",
   "display_order": 9,
@@ -135,8 +135,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者实际要维护的目标和其理由，不把支持业务要求解释为只要服从，也不把指出困难解释为反对采用。",
         "针对其理由选择一个关键追问：其判断眼下缺的是理解、方案理由、资源条件还是具体履责证据；不要一次列出所有角度变成题单。",
         "若其选择已回应当前条件，可以继续谈决定范围或责任，不要求重复作者句子。",
@@ -146,11 +146,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "方向、条件和报告渠道的分支",
@@ -213,9 +215,12 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "练习新增条件：财务刚书面回复旧表至少还需并行一周。这不是原书已给的回复，只有读者愿意采用才进入这一分支。"
+        "text": "练习新增条件：财务刚书面回复旧表至少还需并行一周。这不是原书已给的回复，只有读者愿意采用才进入这一分支。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
-      "start": "读者先用自己的方式开口；AI按当前角色事实回应一个主要问题，不替读者先写完整管理话术。"
+      "start": "读者先用自己的方式开口；AI按当前角色事实回应一个主要问题，不替读者先写完整管理话术。",
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "换决定权和现实约束后判断",
@@ -258,7 +263,8 @@
           "prompt": "你会怎样判断并说明今晚可以重排的部分？"
         }
       },
-      "feedback_rule": "比较决定权、资源与事实责任的改变，允许不采用新工具或提出条件；不以更响亮的保证或角色服从当成功。"
+      "feedback_rule": "比较决定权、资源与事实责任的改变，允许不采用新工具或提出条件；不以更响亮的保证或角色服从当成功。",
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章覆盖：理解、异议、执行和权力",

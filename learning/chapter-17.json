@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-17",
   "display_order": 8,
@@ -115,8 +115,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者认为应先处理的事项及理由，不预设其一定先公开道歉、私下沟通或感谢。",
         "若其建议仍是笼统赞美或责备，只追问这会让对方知道哪一件具体事；若已具体，就沿事实责任或传播范围选一个关键点继续。",
         "读者提出先核对版本时可以推进，不必重复诱导其承认作者判断。",
@@ -126,11 +126,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "责任与表达场合的条件",
@@ -197,9 +199,12 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "练习新增条件：陆凝表示不愿被公开郑重表扬，只愿公开消息聚焦材料版本。是否采用由读者选择，这不是原书已经说过的偏好。"
+        "text": "练习新增条件：陆凝表示不愿被公开郑重表扬，只愿公开消息聚焦材料版本。是否采用由读者选择，这不是原书已经说过的偏好。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
-      "start": "确认角色后读者先开口；AI按核对到的信息回应，不先给完整修正话术。"
+      "start": "确认角色后读者先开口；AI按核对到的信息回应，不先给完整修正话术。",
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "表达认可时，改变任务与关系",
@@ -246,7 +251,8 @@
           "prompt": "你会选择怎样表达这次感谢？"
         }
       },
-      "feedback_rule": "看读者是否按已确定责任、真实表达目的和对方偏好提出理由；不硬塞公开道歉、泛夸或新请求，也不要求同等回报。"
+      "feedback_rule": "看读者是否按已确定责任、真实表达目的和对方偏好提出理由；不硬塞公开道歉、泛夸或新请求，也不要求同等回报。",
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章覆盖：具体认可、事实反馈与未来同意",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-06",
   "display_order": 6,
@@ -155,8 +155,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先回应读者实际采用的分配依据及其理由，不预设他支持平均、先到先得或按需。",
         "若理由只涉及抢到时段的双方，可选择一个关于实际执行者的关键追问；若已谈到执行劳动，就不为完成流程重复问。",
         "针对其方案，只选一个具体后果请其解释：申请机会、成员协调、收尾工作或执行成本；每轮最多一个关键问题，不同时列题单。",
@@ -166,11 +166,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "哪些条件会改变资源安排",
@@ -237,9 +239,12 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "练习新增条件：一位居民提出可捐一笔有限清理费，但还没有愿意接清理的人。是否引入这个分支由读者决定，不能说成原社区已有预算。"
+        "text": "练习新增条件：一位居民提出可捐一笔有限清理费，但还没有愿意接清理的人。是否引入这个分支由读者决定，不能说成原社区已有预算。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
-      "start": "先确认所选角色和是否接受新增条件，由读者提出一个议程或方案；不要先演示完整协商答案。"
+      "start": "先确认所选角色和是否接受新增条件，由读者提出一个议程或方案；不要先演示完整协商答案。",
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "换资源、权力和责任后再分配",
@@ -286,7 +291,8 @@
           "prompt": "在提出表决选项前，你认为需要说明哪项取舍？"
         }
       },
-      "feedback_rule": "按读者具体理由检查目标、可行性和代价；不要求照搬轮换，也不把理解需求说成资源已经增加。"
+      "feedback_rule": "按读者具体理由检查目标、可行性和代价；不要求照搬轮换，也不把理解需求说成资源已经增加。",
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章覆盖：原则、机会、劳动与检验",

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-08",
   "display_order": 10,
@@ -119,8 +119,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者实际强调的是通勤、既有工作安排、经营压力、被冒犯感还是其他依据，不能把所有反对都改写成面子问题。",
         "初始故事中两人的看法只说明其当时理解；若读者把它当作对方真实动机的证据，先回应其依据，再区分已知行为与动机解释。",
         "若读者认为已经无偿加班，先区分原文已知与其推测；若其理由已清楚，不强迫再回答一串澄清题。",
@@ -140,11 +140,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "哪些条件会真正改变这次分歧",
@@ -221,7 +223,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选新增条件：后续调查确认晚取询问集中在每周四，其他天暂未发现。这是练习新增事实，采用后另起这一分支，不改原故事。"
+        "text": "可选新增条件：后续调查确认晚取询问集中在每周四，其他天暂未发现。这是练习新增事实，采用后另起这一分支，不改原故事。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "读者先选择是否练习，再由其发起异议；角色按其具体内容回应，不先给示范说法。",
       "source_context": {
@@ -231,7 +235,8 @@
         "section_label": "可选角色练习：员工与店主的具体分歧",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "迁移：共同决定与代表身份",
@@ -286,7 +291,8 @@
         "section_label": "迁移：共同决定与代表身份",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖子项：空白讨论清单",

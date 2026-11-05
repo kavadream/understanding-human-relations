@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-05",
   "display_order": 5,
@@ -129,8 +129,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者实际提出的判断和理由；没有收到观点时不得假装读者已犯错、同意或改进。",
         "如果读者重视紧急互助，先回应活动确实需要人的理由，再讨论这份需要与已经答应的工作如何关联；不把重视关系直接判为施压。",
         "如果读者强调原约定，先回应其依据，再讨论怎样理解另一方仍可能失望；不要假定读者冷漠，也不把解释失望当作额外工作已经成立。",
@@ -151,11 +151,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "哪些变化会改变这次责任",
@@ -234,7 +236,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选新增：一位远程翻译愿意在线协助，但需要组织者决定是否动用活动预算。这不是原故事已经有的资源，不把联系或出资责任偷偷交给雅南。"
+        "text": "可选新增：一位远程翻译愿意在线协助，但需要组织者决定是否动用活动预算。这不是原故事已经有的资源，不把联系或出资责任偷偷交给雅南。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "确认角色及可选新条件后让读者先回应；AI不先给边界表达范文或默认读者会拒绝。",
       "newly_authored": true,
@@ -244,7 +248,8 @@
         "chapter_title": "关系、身份与文化怎样改变期待",
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "基于原章截点的新编可选角色练习"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "不同关系和承诺下怎样判断期待",
@@ -299,7 +304,8 @@
         "chapter_title": "关系、身份与文化怎样改变期待",
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "新编独立虚构迁移情境"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "第五章材料可用性与具体讨论项（空白模板）",

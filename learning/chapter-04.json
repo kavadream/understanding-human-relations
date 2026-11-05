@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-04",
   "display_order": 4,
@@ -125,8 +125,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者实际提出的判断和理由；没有收到观点时不得假装读者已犯错、同意或改进。",
         "如果读者建议继续请求，回应其看重完成布置的理由，再就该尝试能否改变相应限制追问；不把坚持直接判为不尊重。",
         "如果读者主张马上放弃，核对其选择依赖的时间与替代资源，而不是先给出一个标准借用办法。",
@@ -147,11 +147,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "工具、时间与承诺条件",
@@ -229,7 +231,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选新增：组织者现在说明公共工具箱在另一栋楼，但取回会占用一段时间。这不是原章已经存在的替代方案；先由读者决定是否加入。"
+        "text": "可选新增：组织者现在说明公共工具箱在另一栋楼，但取回会占用一段时间。这不是原章已经存在的替代方案；先由读者决定是否加入。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "确认哪一位摊主及是否采用新增资源后，让读者先请求；不先展示分别处理的示范解法。",
       "newly_authored": true,
@@ -239,7 +243,8 @@
         "chapter_title": "同一个行为为什么有不同原因",
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "基于原章截点的新编可选角色练习"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "请求与已有责任受到不同限制时",
@@ -295,7 +300,8 @@
         "chapter_title": "同一个行为为什么有不同原因",
         "material_identity": "新编教学编排；依据原章指定行段",
         "section_label": "新编独立虚构迁移情境"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "第四章材料可用性与具体讨论项（空白模板）",

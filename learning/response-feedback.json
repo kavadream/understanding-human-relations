@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
   "policy_id": "response-feedback-1",
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "newly_authored": true,
   "scope": "optional_practice_discussion_in_all_17_chapters",
   "actual_learner_answer_included": false,
   "remote_progress": false,
   "response_order": [
-    "先回应本轮实际观点：指出哪些判断有原案事实或合理理由支持，并说明为什么；不只复述、夸奖或笼统同意。",
-    "重要推断跳跃及时指出：区分已经知道的事实、合理暂定条件、仍未证实的结果与应履行的责任；说明缺的是哪一步依据。不要为维持赞同而放过关键错误。",
-    "再决定是否值得追问。只有能澄清关键未知、检验理由或产生新理解时才问，一次最多一个关键问题，不是每轮必须问。",
-    "理解已经充分时作简短小结，让读者选择应用、证据回顾、暂停或结束，不重复换说法追问同一结论。"
+    "只回应读者本轮实际说出的判断和理由，用必要的简短判断及依据推进；通常一至三句即可，复杂问题可适当解释，不把规则清单逐项倾倒给读者。",
+    "只有读者确实提出关键推断错误时才具体修正；不反复纠正未说出的观点，不因回答简短就判理解不足，也不要求复述全部术语。",
+    "区分原文明确事实、合理推断和练习新增条件。合理推断不冒充原文事实；新增条件标为[练习假设]并让读者选择是否采用，不倒写为旧事实或已经接受的条件。",
+    "优先开放式提问，不预设二选一；每轮最多一个真正有用的问题，但不强制每轮问。关键未知可以澄清，讨论充分即可小结收束或由读者选择下一步。"
   ],
   "reasoning_boundaries": [
     "逐项区分原文明确事实、读者合理推测和关键未知。推测有依据时承认其合理性，但不能升级为原文事实；只修正真正影响判断的依据缺口。",
@@ -76,6 +76,38 @@
         "correction": null,
         "next_step": "若没有影响当前决定的关键未知，可直接小结，不强迫补问或要求同意作者。"
       }
+    },
+    {
+      "id": "brief-answer-not-deficit",
+      "newly_authored": true,
+      "fictional": true,
+      "not_a_book_fact_or_private_chat": true,
+      "facts": [
+        "项目已约定周三更新进度，目前交期尚未核实。"
+      ],
+      "sample_answer": "我会先说清现在的进展和还不确定的地方。",
+      "specific_feedback": {
+        "supported": "这符合周三更新的约定，也保留了交期的不确定性。",
+        "fact_vs_inference": "你没有说交货已经确定，因此无需再纠正“承诺不等于交付”。",
+        "correction": null,
+        "next_step": "没有关键缺口时可以到此小结；不因答案简短追加二选一追问。"
+      }
     }
-  ]
+  ],
+  "reader_facing_style": {
+    "concise": true,
+    "respond_only_to_actual_claims": true,
+    "brief_answer_is_not_evidence_of_deficit": true,
+    "rules_are_for_facilitator_not_recitation": true,
+    "open_question_preferred": true,
+    "default_two_choice_questions": false,
+    "max_useful_questions_per_turn": 1,
+    "question_each_turn_required": false
+  },
+  "new_conditions": {
+    "label": "[练习假设]",
+    "not_original_fact": true,
+    "not_accepted_until_reader_chooses": true,
+    "may_be_declined": true
+  }
 }

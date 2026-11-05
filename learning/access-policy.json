@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy_id": "phase-access-1",
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "newly_authored": true,
   "contains_learner_data": false,
   "remote_progress": false,
@@ -30,7 +30,7 @@
   },
   "modes": {
     "web": {
-      "when_complete_chapter_received": "按原顺序、自然段分段呈现，不必再请求短块或MCP续读；分段标签放正文外。",
+      "when_complete_chapter_received": "已取得网页全文时，按已获得的自然段、原顺序连续展示，不因获取完成就跳到总结或练习，不必重复抓取或改走MCP；记录实际展示到哪里。",
       "when_only_partial_text_received": "说清已取得范围；仅沿原资料中真实next_url顺序获取，不能补写缺段。",
       "mcp_required": false,
       "tool_cursor_required_for_full_web_chapter": false
@@ -101,5 +101,37 @@
     "after_one_allowed_retry_fails": "报告准确失败位置及已读范围，停止该资源读取；不无限重试。"
   },
   "privacy": "私人回答、回顾与进度仅留当前对话，不上传网站、书源或接口。",
-  "verification_limit": "规则/路径测试不等于AI遵循、跨平台访问、真实口述或学习效果验证。"
+  "verification_limit": "规则/路径测试不等于AI遵循、跨平台访问、真实口述或学习效果验证。",
+  "direct_public_reading": {
+    "already_authorized": "具备相应工具时直接打开读者指定的公开URL，不重复询问已经授权的公开读取；这不授权登录、私有资料或外部写入。",
+    "search_result_is_not_opened_url": true,
+    "states": {
+      "not_attempted": "尚未对指定URL实际调用读取工具；不得说已经访问或编造HTTP错误。",
+      "no_web_tool": "当前没有能打开网页的工具；说明能力限制和未尝试，不伪装成网站拒绝。",
+      "attempt_failed": "确实针对指定URL调用工具并返回失败；只报告该真实结果和准确URL/错误，不扩大为整个站点或全部平台不可用。",
+      "partial": "直接读取工具只返回片段或明确截断；说清范围，不称完整原文。搜索命中仅是发现线索，不能算此状态下已打开原链接。",
+      "complete": "指定章节全文已由实际工具返回且未见截断，才报告已完整获取；哈希/字节核验只有实际做过才称通过。"
+    },
+    "error_claim_requires_real_tool_result": true,
+    "default_search_instead_of_open": false,
+    "security_refusal": "保持既有拒绝与重试边界，不换身份、工具通道或URL绕过。"
+  },
+  "dialogue_tracking": {
+    "template_only": true,
+    "server_accepts_or_saves_progress": false,
+    "material_acquired": {
+      "version": null,
+      "chapter": null,
+      "source_identity": null,
+      "actual_returned_range": null,
+      "completeness": "not_attempted"
+    },
+    "shown_to_reader": {
+      "last_presented_paragraph_or_part": null,
+      "next_position": null,
+      "display_complete": false
+    },
+    "reader_practice_choice": "not_observed",
+    "rule": "只在当前对话依据实际发生的事分别记录。获取完成不等于已展示，展示完成不等于读者读完/掌握；练习须读者主动选择，允许跳过正文或暂停。"
+  }
 }

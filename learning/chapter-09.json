@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-09",
   "display_order": 11,
@@ -120,8 +120,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者对“尽量”的理解及其依据，不把自己的解释说成读者已经认同的结论。",
         "若读者认为从未答应因而没有任何影响，可只追问一句其判断如何考虑对方安排；若读者认为已保证十五页，先核对其依赖的是原话还是新增记录。",
         "每轮最多一个关键问题；无须反复追问下班后的私人活动，不能用哪个人更忙来替代责任与容量判断。",
@@ -140,11 +140,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "核承诺、容量与权力，枝节可暂定",
@@ -229,7 +231,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选新增条件：周岚另找人接手整份文件，只剩一个已经标明位置的数字希望乔宁核对，双方已确认这一小项不超过五分钟。是否愿意及能否承担仍由读者判断；这不是原故事已发生的缩小请求。"
+        "text": "可选新增条件：周岚另找人接手整份文件，只剩一个已经标明位置的数字希望乔宁核对，双方已确认这一小项不超过五分钟。是否愿意及能否承担仍由读者判断；这不是原故事已发生的缩小请求。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "先让读者选择是否进入练习，再由其发一条消息，AI针对实际内容回应，不先给标准拒绝句。",
       "source_context": {
@@ -239,7 +243,8 @@
         "section_label": "可选练习：让同一条消息的承担范围可辨认",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "迁移：共同义务与已承诺的服务",
@@ -294,7 +299,8 @@
         "section_label": "迁移：共同义务与已承诺的服务",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖子项：空白讨论清单",

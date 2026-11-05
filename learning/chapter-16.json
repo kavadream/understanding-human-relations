@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-16",
   "display_order": 7,
@@ -114,8 +114,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确接住读者实际选择要回应的内容，不因他主张建议就直接判成不关心。",
         "若理由重在表明支持，可只追问其支持具体指向什么；若重在查通知，可只讨论查证与当下交流怎样衔接。根据实际回答择一，不逐项考问。",
         "若读者已指出请求未明，可接受这一判断继续，不强迫再说出固定的倾听句式。",
@@ -125,11 +125,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "帮助方式的关键条件与未知",
@@ -192,9 +194,12 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "练习新增条件：陈栩明确说自己想先停十分钟，再决定是否继续谈。此为可选分支，不是原书已经说过的话。"
+        "text": "练习新增条件：陈栩明确说自己想先停十分钟，再决定是否继续谈。此为可选分支，不是原书已经说过的话。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
-      "start": "确认读者愿意练习后，让其先回应事实卡；AI只按已知信息作一个相关反应，不先输出示范话术。"
+      "start": "确认读者愿意练习后，让其先回应事实卡；AI只按已知信息作一个相关反应，不先输出示范话术。",
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "新的任务时点与帮助责任",
@@ -241,7 +246,8 @@
           "prompt": "你会怎样安排此刻的回应与共同任务？"
         }
       },
-      "feedback_rule": "比较新请求、时点、可提供资源及既有责任，不机械套用一直听或立刻给办法，也不把对方开心当成功。"
+      "feedback_rule": "比较新请求、时点、可提供资源及既有责任，不机械套用一直听或立刻给办法，也不把对方开心当成功。",
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章覆盖：帮助请求、理解与行动边界",

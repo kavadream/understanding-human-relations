@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-01",
   "newly_authored": true,
@@ -123,8 +123,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先用一两句准确回应读者刚才的判断与理由，不把没有说过的动机、承诺或结论放进复述。",
         "从其理由中只选择一个最有影响的分歧或未明条件追问；若观点已充分说明，可邀请读者选择下一步，不为凑题数继续问。",
         "追问须随实际观点变化：关注后果时询问其判断依赖的当时信息；关注责任时核对谁有相应责任或决定权；关注困难时区分信息、能力、渠道和代价。每轮只取其中一项，不把这些角度当固定题单。",
@@ -134,11 +134,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "处理假设而不纠缠枝节",
@@ -208,9 +210,12 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "若读者同意增加难度：练习新增条件——安装人员需要在今天17点前确认能否改时。这不是原书已知事实或徐亦过去的承诺。"
+        "text": "若读者同意增加难度：练习新增条件——安装人员需要在今天17点前确认能否改时。这不是原书已知事实或徐亦过去的承诺。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
-      "start": "先让读者决定是否开始及是否采用新增条件，再由读者发起一条消息；不要先给示范回答。"
+      "start": "先让读者决定是否开始及是否采用新增条件，再由读者发起一条消息；不要先给示范回答。",
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "可选迁移：改变条件再判断",
@@ -276,7 +281,8 @@
           "prompt": "你认为此时还有哪些行动值得做，为什么？"
         }
       },
-      "feedback_rule": "比较其理由与改变的条件；不将原故事的某一句话当所有情境的唯一答案。"
+      "feedback_rule": "比较其理由与改变的条件；不将原故事的某一句话当所有情境的唯一答案。",
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "第一章覆盖清单模板",

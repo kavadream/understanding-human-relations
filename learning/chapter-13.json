@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-13",
   "display_order": 15,
@@ -130,8 +130,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者对两人期待的理解，不把接受更正、原谅或亲近的含义替读者预填。",
         "若读者用“重新开始”，一次只请其说明当前所指的一项安排；若读者直接主张不再合作，围绕其理由与适用范围谈，不要求证明持续愤怒。",
         "读者若从旁观者立场看聚会或合作便利，回应其便利理由，再选一个由谁承担未来风险的问题深入。",
@@ -150,11 +150,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "关系变化与现实条件的分支",
@@ -229,7 +231,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "若读者选择变式：新编条件——社区提出一项一次性、小范围的资料核对任务，双方都可拒绝。这不是原故事已经给出的新承诺。"
+        "text": "若读者选择变式：新编条件——社区提出一项一次性、小范围的资料核对任务，双方都可拒绝。这不是原故事已经给出的新承诺。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "确认角色与变式选择后，读者先说当前愿意讨论哪一项安排；不代写和解表态。",
       "newly_authored": true,
@@ -240,7 +244,8 @@
         "section_label": "可选角色：讨论是否接新作品",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "新情境：退出交接与资格决定",
@@ -298,7 +303,8 @@
         "section_label": "新情境：退出交接与资格决定",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖清单（空白模板）",

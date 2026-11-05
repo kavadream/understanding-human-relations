@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-15",
   "display_order": 17,
@@ -130,8 +130,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确复述读者希望保留的目标和给出的依据，不预设其已选择缩短或延期。",
         "若读者援引别处经验，只选择一项会改变本案做法的相同或不同条件比较，不能要求把全书术语全说完。",
         "若提出寻找新资源，区分已落实与准备核实；若提出缩小目标，讨论现有承诺和公告状态，不直接把一个方案当唯一答案。",
@@ -150,11 +150,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "原承诺、现实资源和未知条件",
@@ -233,7 +235,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选新编条件：在公告前收到一位访客询问十一点能否来，但尚未得到确认。这只是新增请求，不是原故事已有预约。"
+        "text": "可选新编条件：在公告前收到一位访客询问十一点能否来，但尚未得到确认。这只是新增请求，不是原故事已有预约。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "确认角色和是否采用新增条件后，让读者先提出一项安排或一个核实问题，不先公布原文结局。",
       "newly_authored": true,
@@ -244,7 +248,8 @@
         "section_label": "可选角色：协调花园本次开放",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "新情境：外部变化与已确认对外承诺",
@@ -302,7 +307,8 @@
         "section_label": "新情境：外部变化与已确认对外承诺",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖清单（空白模板）",

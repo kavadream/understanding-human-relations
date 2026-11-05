@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-11",
   "display_order": 13,
@@ -129,8 +129,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先准确回应读者实际信任或不信任何川的理由：已做好的事、既往记录、明示承诺或当前容量；不能假称其已经选择原书分工。",
         "如果读者依赖热心，围绕该任务需要的条件只问一个关键问题；如果读者把一次任务扩大为全人格结论，先请其说明这个结论的证据范围。",
         "讨论容量时尊重原有试做基准，不靠鼓励提高速度或新增时间；缺少资料时先说明分支，不假造一个恰能成功的计划。",
@@ -149,11 +149,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "条件会改变安排，不必先查清全部动机",
@@ -239,7 +241,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选另起分支：其中两段录音的说话人标注必须由同一人连续核对，拆分会新增半小时交接校验。这是本轮新增流程条件，不是原故事已知事实；采用后重新判断安排。"
+        "text": "可选另起分支：其中两段录音的说话人标注必须由同一人连续核对，拆分会新增半小时交接校验。这是本轮新增流程条件，不是原故事已知事实；采用后重新判断安排。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "由读者决定是否练习，再提出自己的一条询问或安排；AI不先把完整分工写给读者。",
       "source_context": {
@@ -249,7 +253,8 @@
         "section_label": "可选练习：查询进度并面对交接",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "迁移：能力领域与不可控资源变化",
@@ -304,7 +309,8 @@
         "section_label": "迁移：能力领域与不可控资源变化",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖子项：空白讨论清单",

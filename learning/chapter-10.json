@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-10",
   "display_order": 12,
@@ -125,8 +125,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先回应读者实际在意的课程目标、机会、赠品、人情或时间，而不是假定其已经被操纵或已经想报名。",
         "若读者认为所有赠品都恶意，围绕本案证据只追问一个关键条件；若其愿意冒缺席风险，认真比较其目标与代价，不强迫必须等到所有信息确定。",
         "每轮最多一个关键问题，不连问一套“如何识别话术”的明显题。",
@@ -146,11 +146,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "分开关键条款、偏好与未经核实的线索",
@@ -236,7 +238,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "可选另起分支：真实采购方改要求今天17:15前确认人数，而排班仍到明天中午才知。新条件只用于比较等待的代价，不倒写成原故事的截止时间，也不假造自动保留名额。"
+        "text": "可选另起分支：真实采购方改要求今天17:15前确认人数，而排班仍到明天中午才知。新条件只用于比较等待的代价，不倒写成原故事的截止时间，也不假造自动保留名额。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "先由读者决定是否练习与是否采用新增截止分支，再提出自己的询问或选择；教师不先列完整最佳问法。",
       "source_context": {
@@ -246,7 +250,8 @@
         "section_label": "可选练习：询问与邀请都要有真实范围",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "迁移：熟人推荐和流畅工具建议",
@@ -301,7 +306,8 @@
         "section_label": "迁移：熟人推荐和流畅工具建议",
         "section_label_is_abbreviated": true,
         "material_identity": "新编教学编排；依据公开正文，非完整原文"
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖子项：空白讨论清单",

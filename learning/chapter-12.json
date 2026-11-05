@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.8.0",
+  "version": "teaching-orchestration-0.9.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-12",
   "display_order": 14,
@@ -120,8 +120,8 @@
         ]
       ],
       "instructions": [
-        "先具体说明本轮回答哪些有依据、为什么；发现关键推断跳跃就指出缺失依据及修正理由，不能只复述后追问。",
-        "追问须带来新理解；每轮最多一问不代表每轮必问。理由已充分时小结转向可选应用/回顾/结束，不重复索要同一结论。",
+        "仅回应读者本轮实际说出的判断和理由，简短给必要判断及依据；不纠正未提出的观点，不把简短回答直接判为理解不足，不逐项念规则。",
+        "优先开放式提问，不预设两个答案；每轮最多一个有用问题，不强制追问。关键未知可澄清，讨论充分即可小结收束。",
         "先复述读者实际认为应优先处理的事及其理由，不预设读者已同意归责或任何方案。",
         "若理由围绕谁造成错误，核对确认稿、发出副本和控制范围；若理由围绕先等客户，讨论当前哪些选择需要客户决定、哪些信息可由顾航核实。每轮只取一个真实分歧。",
         "读者若关注顾航好意或自责，先承认其理由，再围绕具体行为与整体自我评价的关系追问；不要求他先贬低自己才算负责。",
@@ -140,11 +140,13 @@
       "response_feedback_policy": "response-feedback-1",
       "evidence_categories": [
         "原文明确事实",
-        "读者合理推测",
+        "读者合理推断",
+        "练习新增条件（明确假设）",
         "关键未知",
-        "需修正的推断"
+        "需修正的实际推断"
       ],
-      "feedback_examples_reference": "response-feedback.json#examples"
+      "feedback_examples_reference": "response-feedback.json#examples",
+      "conditional_guidance_not_checklist": true
     },
     "assumptions": {
       "title": "哪些新条件会改变海报处理",
@@ -219,7 +221,9 @@
         "new_condition": true,
         "not_original_story": true,
         "reader_can_decline": true,
-        "text": "仅经读者选择后另加练习条件：印厂回复可在周六上午十一点重印完成；客户尚未确认这一时间能否满足活动安排。这不是原截点已知事实。"
+        "text": "仅经读者选择后另加练习条件：印厂回复可在周六上午十一点重印完成；客户尚未确认这一时间能否满足活动安排。这不是原截点已知事实。",
+        "label": "[练习假设]",
+        "reader_acceptance": "not_observed_until_explicit_choice"
       },
       "start": "先确认读者是否愿意练习及是否采用新增条件，再由读者发起说明；不提供示范道歉稿。",
       "newly_authored": true,
@@ -230,7 +234,8 @@
         "section_label": "可选角色：顾航向客户说明目前情况",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_condition_rule": "新增条件先明确标[练习假设]，由读者选择是否采用；未接受不写成原故事事实或旧承诺。"
     },
     "transfer": {
       "title": "新情境：权力与不可恢复的机会",
@@ -288,7 +293,8 @@
         "section_label": "新情境：权力与不可恢复的机会",
         "identity": "据公开正文新编的教学材料（newly_authored）；完整原文为默认阅读，本项仅为可选训练材料",
         "section_label_is_teaching_label": true
-      }
+      },
+      "new_scenario_label": "[练习假设] 新情境，不是原故事已知事实；由读者选择是否进入。"
     },
     "coverage": {
       "title": "本章具体覆盖清单（空白模板）",
