@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "policy_id": "phase-access-1",
+  "version": "teaching-orchestration-0.8.0",
+  "newly_authored": true,
+  "contains_learner_data": false,
+  "remote_progress": false,
+  "initial": {
+    "required_reads": [
+      "entry",
+      "selected_chapter_original"
+    ],
+    "default_chapter_if_unspecified": 1,
+    "forbidden_prerequisites": [
+      "whole_book",
+      "whole_catalog",
+      "all_exercises",
+      "feedback_rules",
+      "detailed_practice_guide"
+    ],
+    "practice_requires_reader_choice": true
+  },
+  "practice": {
+    "required_reads": [
+      "selected_chapter_teaching",
+      "feedback_rules"
+    ],
+    "scope": "selected_chapter_only",
+    "guide_and_recap": "按当前阶段需要再取，不预先抓全套"
+  },
+  "modes": {
+    "web": {
+      "when_complete_chapter_received": "按原顺序、自然段分段呈现，不必再请求短块或MCP续读；分段标签放正文外。",
+      "when_only_partial_text_received": "说清已取得范围；仅沿原资料中真实next_url顺序获取，不能补写缺段。",
+      "mcp_required": false,
+      "tool_cursor_required_for_full_web_chapter": false
+    },
+    "tool": {
+      "continuation": "只遵循实际工具返回的next_request/cursor或part；不得伪造续读标记、跳块、重复末块或混用版本。",
+      "complete_chapter_call": "完整章已取得时原顺序呈现一次；不得因字段中重复原文而重复朗读。"
+    }
+  },
+  "completion_states": [
+    "fetched",
+    "written",
+    "spoken_unverified",
+    "spoken_verified"
+  ],
+  "completion_rule": "文字显示不等于语音朗读完毕或读者理解/掌握；无实际口述证据保持spoken_unverified。",
+  "failure": {
+    "report_fields": [
+      "exact_url_or_tool_call",
+      "stage",
+      "error_type",
+      "http_status_or_platform_code",
+      "actual_read_scope",
+      "retry_count"
+    ],
+    "max_retry_per_resource": 1,
+    "retry_scope": "仅相同资源、相同合法访问方式；不是每轮或每次换工具再获得一次。",
+    "retry_eligible": [
+      "network_timeout",
+      "temporary_dns_failure",
+      "HTTP_502",
+      "HTTP_503",
+      "HTTP_504"
+    ],
+    "retry_conditions": [
+      "已知是只读读取",
+      "允许重试且不违反平台限制",
+      "不是安全/策略拒绝",
+      "没有通过改身份、URL或通道规避"
+    ],
+    "never_retry_or_bypass": [
+      "HTTP_401",
+      "HTTP_403",
+      "CLOUDFLARE_1010",
+      "LIVE_CRAWL_POLICY_BLOCKED",
+      "ROBOTS_DENIED",
+      "SAFETY_REFUSAL",
+      "RATE_LIMIT_RESTRICTED"
+    ],
+    "non_temporary_missing": [
+      "HTTP_404",
+      "HTTP_410",
+      "invalid_url",
+      "unknown_error"
+    ],
+    "forbidden_workarounds": [
+      "伪装User-Agent",
+      "修改认证或权限",
+      "改URL或跳镜像绕过拒绝",
+      "换工具/客户端通道规避同一限制",
+      "关闭防护"
+    ],
+    "phase_isolation": {
+      "entry_or_original_failure": "只停止依赖缺失资料的步骤；不以记忆、搜索摘要或编造内容补正文。",
+      "practice_or_feedback_failure": "只暂停对应练习/正式反馈步骤；已合法取得且版本一致的正文仍可阅读或讨论。",
+      "available_original_can_continue": true
+    },
+    "after_one_allowed_retry_fails": "报告准确失败位置及已读范围，停止该资源读取；不无限重试。"
+  },
+  "privacy": "私人回答、回顾与进度仅留当前对话，不上传网站、书源或接口。",
+  "verification_limit": "规则/路径测试不等于AI遵循、跨平台访问、真实口述或学习效果验证。"
+}

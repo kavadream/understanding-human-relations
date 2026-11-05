@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.5.0",
+  "version": "teaching-orchestration-0.8.0",
   "newly_authored": true,
   "template_only": true,
   "actual_learner_evidence_included": false,

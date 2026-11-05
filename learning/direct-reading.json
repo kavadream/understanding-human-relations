@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.7.0",
+  "version": "teaching-orchestration-0.8.0",
   "reading_contract_version": "direct-reading-1",
   "book_id": "understanding-human-relations-zh",
   "book_title": "理解人性：关系、边界与合作",
@@ -9,11 +9,13 @@
   "preferred_boundary": "sentence_or_paragraph_when_possible; exact substrings, no rewriting",
   "source_text_is_not_modified": true,
   "rules": [
+    "本文件是可选短块/工具续读元数据，不是普通网页全文阅读的必需前置；网页已取得完整章时按自然段原顺序呈现。",
     "直接按用户指定展示章号读取，只有未指定才默认第一章；无需先取第一章、全书索引或原练习。",
     "逐字呈现本块原文，不摘要、不添对白、不为好听改写；标签放在原文外。",
     "短块返回完整不等于整章已呈现或实际口述完成；继续用next_request，不能跳块或重放末块后称全文完成。",
     "只在客户端支持且读者继续阅读范围内预取；服务端不自行预取，不声称控制音频或客户端流式。",
-    "版本、章节或源SHA改变时，废弃旧缓存/续读状态；只缓存原文与通用规则，私人回答仅留当前对话。"
+    "版本、章节或源SHA改变时，废弃旧缓存/续读状态；只缓存原文与通用规则，私人回答仅留当前对话。",
+    "临时资料故障仅按access-policy.json允许的同资源单次重试；安全拒绝不得换身份或通道绕过，练习失败不阻止已取得的正文。"
   ],
   "client_limits": {
     "server_streaming": false,
@@ -2033,5 +2035,6 @@
         }
       ]
     }
-  ]
+  ],
+  "stage_access_policy": "access-policy.json"
 }

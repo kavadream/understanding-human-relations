@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "policy_id": "response-feedback-1",
-  "version": "teaching-orchestration-0.7.0",
+  "version": "teaching-orchestration-0.8.0",
   "newly_authored": true,
   "scope": "optional_practice_discussion_in_all_17_chapters",
   "actual_learner_answer_included": false,
@@ -13,6 +13,7 @@
     "理解已经充分时作简短小结，让读者选择应用、证据回顾、暂停或结束，不重复换说法追问同一结论。"
   ],
   "reasoning_boundaries": [
+    "逐项区分原文明确事实、读者合理推测和关键未知。推测有依据时承认其合理性，但不能升级为原文事实；只修正真正影响判断的依据缺口。",
     "有书面承诺不等于结果已经发生，也不能替代本来需要的及时告知；具体责任仍以已知任务和约定为据，不自行发明职权或承诺。",
     "会改变核心判断的未知才澄清或明确分支；不影响核心的假设可暂时接受，不纠缠次要细节。",
     "保留有依据的异议和多种可行方案，不要求复述作者结论，不诊断人格、动机或现实能力。",
@@ -31,7 +32,50 @@
     "material_inference_gap_if_any": null,
     "correction_and_reason_if_needed": null,
     "useful_next_question_if_any": null,
-    "optional_next_steps": ["应用", "回顾", "暂停", "结束"]
+    "optional_next_steps": [
+      "应用",
+      "回顾",
+      "暂停",
+      "结束"
+    ],
+    "original_fact_basis": null,
+    "reasonable_reader_inference": null
   },
-  "delivery_limits": "这是给当前AI的规则与空白结构，不是已填写评价。服务器不接收或保存用户回答。不同AI是否遵循须实际试学；无法承诺删除或控制Claude等客户端的平台建议卡。"
+  "delivery_limits": "这是给当前AI的规则与空白结构，不是已填写评价。服务器不接收或保存用户回答。不同AI是否遵循须实际试学；无法承诺删除或控制Claude等客户端的平台建议卡。",
+  "examples": [
+    {
+      "id": "commitment-and-notification",
+      "newly_authored": true,
+      "fictional": true,
+      "not_a_book_fact_or_private_chat": true,
+      "facts": [
+        "项目约定周三向协作者更新进度。",
+        "供应商周二书面承诺周四交货；是否能兑现还未知。"
+      ],
+      "sample_answer": "有书面承诺，按时完成的可能性提高，所以可以等到周四再通知。",
+      "specific_feedback": {
+        "supported": "书面承诺确实提供了预期交期的依据，因此提高对按时完成的预期是合理推测。",
+        "fact_vs_inference": "原文事实是对方作了承诺，不是货已交付，也不是交期已得到验证。",
+        "correction": "等到周四通知的结论不成立：已明确的周三更新约定仍须履行，可在周三告知承诺与尚未核实的风险。",
+        "next_step": "读者理解后即可小结、应用或结束，不必再追问同一结论。"
+      }
+    },
+    {
+      "id": "reasonable-hypothesis",
+      "newly_authored": true,
+      "fictional": true,
+      "not_a_book_fact_or_private_chat": true,
+      "facts": [
+        "朋友最近回复简短。",
+        "朋友提到工作很忙，未说明是否生气。"
+      ],
+      "sample_answer": "可能是工作忙，也可能有些生气，我还不能确定。",
+      "specific_feedback": {
+        "supported": "你保留了两种解释并说明不确定，没有把猜测直接当事实。工作忙有明确文本依据。",
+        "fact_vs_inference": "生气是尚待核实的可能解释，不是原文明确事实；也不能仅因原文未确认就判这个假设错误。",
+        "correction": null,
+        "next_step": "若没有影响当前决定的关键未知，可直接小结，不强迫补问或要求同意作者。"
+      }
+    }
+  ]
 }

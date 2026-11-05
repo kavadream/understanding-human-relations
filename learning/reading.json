@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.7.0",
+  "version": "teaching-orchestration-0.8.0",
   "book_id": "understanding-human-relations-zh",
   "book_title": "理解人性：关系、边界与合作",
   "default_mode": "read_original",
@@ -17,7 +17,8 @@
     "full_text_returned_by_existing_tool": true,
     "part_labels_outside_original_text": true,
     "all_parts_delivered_does_not_imply_reader_read_or_understood": true,
-    "reader_may_pause_skip_or_choose_training": true
+    "reader_may_pause_skip_or_choose_training": true,
+    "web_full_chapter": "普通网页已取得完整章时，按自然段原顺序分段呈现，不要求MCP或再次抓短块。"
   },
   "units": [
     {
@@ -1131,5 +1132,6 @@
         }
       }
     }
-  ]
+  ],
+  "stage_access_policy": "access-policy.json"
 }

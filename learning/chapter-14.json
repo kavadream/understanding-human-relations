@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "version": "teaching-orchestration-0.7.0",
+  "version": "teaching-orchestration-0.8.0",
   "book_id": "understanding-human-relations-zh",
   "unit_id": "chapter-14",
   "display_order": 16,
@@ -137,7 +137,14 @@
         "section_label_is_teaching_label": true
       },
       "reading_context": "读者可能已完整阅读原文及作者结论，允许引用或反驳；不能要求假装未知。防提前代答只针对本次新练习的参考回答，不限制原文内容。",
-      "response_feedback_policy": "response-feedback-1"
+      "response_feedback_policy": "response-feedback-1",
+      "evidence_categories": [
+        "原文明确事实",
+        "读者合理推测",
+        "关键未知",
+        "需修正的推断"
+      ],
+      "feedback_examples_reference": "response-feedback.json#examples"
     },
     "assumptions": {
       "title": "提醒、动作、资源与例外的分支",
@@ -702,5 +709,6 @@
   },
   "formal_source_revision_applied": "zh-v1.0.1",
   "original_manuscript_modified_by_teaching_layer": false,
-  "response_feedback_policy": "response-feedback.json"
+  "response_feedback_policy": "response-feedback.json",
+  "stage_access_policy": "access-policy.json"
 }
